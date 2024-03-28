@@ -1,5 +1,5 @@
+# Characters
 
-# Character creation
 
 1. Always start with a **Name** and a **Concept**.
 2. Roll for **Attributes**.
@@ -39,13 +39,10 @@ You have two measures of survival: **HP** (hit points) and **Ego**.
 
 The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an addition **HP**. **Ego** does not recover with rest or care, but by taking a **Consequence**. When you take a **Consequence** your **Ego** recovers to its maximum.
 
-# Character development
-
 ## Advancements
 
 Every time PCs accumulate 8 XP, they gain an **Advancement**. Alongside an **Advancement**, a PC also gains +1 maximum **HP** and +1 maximum **Ego**.
 
-### General advancements
 
 - **Extra Attribute**: Gain +1 in one chosen **Attribute**. Limit is 2 in the first 10 advancements Limit is 3 thereafter.
 
@@ -145,7 +142,8 @@ _This work is based on [Trophy](https://trophyrpg.com/), product of Jesse Ross a
 
 _Trophy™ is a trademark of Hedgemaze Press. The trademark and “Rooted in Trophy” Logo are © Hedgemaze Press, and are used with permission._
 
-![](https://i.imgur.com/Dc8H3RU.png)
+![](https://trophyrpg.com/system/logos/Rooted-in-Trophy-Black.svg)
+
 
 *This work also draws inspiration on the [Best Left Buried Zine Edition](https://soulmuppet-store.co.uk/products/best-left-buried-zini-edition) (as well as any games that inspired it).*
 
