@@ -1,17 +1,13 @@
 # System Reference Document
+(`terra-v0.1.1`)
 
-This reference document is focused on playing a short adventure on the **Degenesis: Rebirth** setting on a homebrew system currently called **Terra**. This document is mostly self-contained. The "Degenesis: Rebirth" books (Primal Punk & KatharSys) add flavour to the setting (see appendices for reference links).
-
-**Terra** (`terra-v0.1.1`) is a rules light system focused on narrative, player agency and consequences. Only 6-sided dice are used, in two tones: **Light Dice** and **Dark Dice**.
+**Terra** is a rules light system focused on narrative, player agency and consequences. Only 6-sided dice are used, in two tones: **Light Dice** and **Dark Dice**.
 ## Taxonomy
 
 - "You" and "Your" are used interchangeably to refer to players and their characters. For disambiguation "The Player" is used when referring to the player outside the context of their character.
 - "Challenge" is used to represent anything that is antagonistic to you, be that an NPC, the environment, etc.
 - Meta game names, stats and currencies are marked in **bold**.
 - Book references are marked in *italic*, they might be accompanied by page ranges.
-# Context
-
-[Chroniclers](https://youtu.be/8aZRkjvtaow?t=1070&si=oKga2q224Bxts8A-) are one of the cults in Degenesis. You are a member of this clan and, during a trade with a [Scavenger](https://youtu.be/8aZRkjvtaow?t=1505&si=rbZX7a_4gqETiMJq) in east [Borca](https://youtu.be/8aZRkjvtaow?t=385&si=6nA1LdZBrvom6fY9), you were captured. You wake up in a dark and humid room. See *DEGPP* for general details on the setting, and *DEGPP 160-173* for Chroniclers.
 # Character creation
 
 1. Always start with a **Name** and a **Concept**.
@@ -20,14 +16,10 @@ This reference document is focused on playing a short adventure on the **Degenes
 4. Choose one **Advancement**.
 ## Concepts
 
-![](https://i.imgur.com/llst2Fo.png)
-
-![](https://i.imgur.com/2FLU2dX.png)
-
-![](https://i.imgur.com/m3VdTDL.png)
+`TBD`
 ## Attributes
 
- **Attributes** are grouped in **Body** or **Mind** and **Power** or **Finesse**.
+**Attributes** are grouped in **Body** or **Mind** and **Power** or **Finesse**.
 
 - **Body/Power**: represents physical strength, endurance and might.
 - **Body/Finesse**: represents dexterity, precision and physical sagacity.
@@ -60,25 +52,11 @@ Every time PCs accumulate 8 XP, they gain an **Advancement**. Alongside an **Adv
 ### General advancements
 
 - **Extra Attribute**: Gain +1 in one chosen **Attribute**. Limit is 2 in the first 10 advancements Limit is 3 thereafter.
-### Cult-specific advancements
 
-Chroniclers (*DEGKS 53*)
-
-![](https://i.imgur.com/5PiOTYa.png)
-
-- **Tesla** : Spend 1 to 3 **Ego** and an action to make a **Mind/Power** based Attack. **+2d** for each **Ego** spent.
-- **Nova**: For 1 **Ego** and an action in combat, you fog a number of creatures up your **Mind/Power**. The next roll against these creatures are **+1d**.
-- **Dead End**: **+2d** when attacking an enemy who is unaware.
-- **Fractal Memory**: **+1d** on memory related actions.
-- **Download**: **+1d** when questioning a prisoner NPC.
-- **Upload**: **+1d** when trying to incept an idea on an NPC
+`TBD`
 ## Consequences
 
-When you take a **Consequence**, recover your **Ego** back to its maximum. Roll 1d200 on *MMR 146-127* and work the narrative towards gaining the rolled **Consequence**, with the support of the GM.
-
-![](https://i.imgur.com/pIznl0D.png)
-
-![](https://i.imgur.com/5iTqcjB.png)
+`TBD`
 
 # Rules
 
@@ -139,7 +117,7 @@ Mind harm **Retributions** impacts your **Ego**. If the **Retribution Die** is e
 
 **Challenge** fork **Retributions** are spawn from within an ongoing Challenge. They might be an encounter, an unexpected detour or some unlucky event. Consult the **Challenge** fork table.
 
-| Retribution Roll   |    1    |    2-3    |   4-5   |     6      |
+| Retribution Roll   |   1-3   |    4-5    |  7-11   |    13+     |
 | ------------------ | :-----: | :-------: | :-----: | :--------: |
 | **Challenge** fork | Trivial | Dangerous | Serious | Formidable |
 
@@ -162,12 +140,6 @@ Some challenges might be multifaceted. A bulky rival might be a Dangerous **Chal
 
 ## Book references
 
-The following books are referenced in this directory.
-
-- *DEG*: Degenesis Rebirth (link to [download](https://degenesis.com/downloads/books/degenesis-rebirth-edition))
-	- *DEGPP* Primal Punk 
-	- *DEGKS* KatharSys 
-- *MMR* Metamorphica Revised (link to [view-only pdf](https://drive.google.com/open?id=1cCtMvrb1oJ2mssGv37M21AKMuPdntalV&usp=drive_fs) and [purchase](https://preview.drivethrurpg.com/en/product/198038/The-Metamorphica-Revised))
 
 ## Copyright
 
