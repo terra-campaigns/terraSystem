@@ -145,7 +145,8 @@ _This work is based on [Trophy](https://trophyrpg.com/), product of Jesse Ross a
 
 _Trophy™ is a trademark of Hedgemaze Press. The trademark and “Rooted in Trophy” Logo are © Hedgemaze Press, and are used with permission._
 
-![](https://i.imgur.com/Dc8H3RU.png)
+![](https://trophyrpg.com/system/logos/Rooted-in-Trophy-Black.svg)
+
 
 *This work also draws inspiration on the [Best Left Buried Zine Edition](https://soulmuppet-store.co.uk/products/best-left-buried-zini-edition) (as well as any games that inspired it).*
 
