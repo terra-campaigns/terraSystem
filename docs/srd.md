@@ -1,22 +1,15 @@
-# System Reference Document
-(`terra-v0.1.1`)
 
-**Terra** is a rules light system focused on narrative, player agency and consequences. Only 6-sided dice are used, in two tones: **Light Dice** and **Dark Dice**.
-## Taxonomy
-
-- "You" and "Your" are used interchangeably to refer to players and their characters. For disambiguation "The Player" is used when referring to the player outside the context of their character.
-- "Challenge" is used to represent anything that is antagonistic to you, be that an NPC, the environment, etc.
-- Meta game names, stats and currencies are marked in **bold**.
-- Book references are marked in *italic*, they might be accompanied by page ranges.
 # Character creation
 
 1. Always start with a **Name** and a **Concept**.
 2. Roll for **Attributes**.
 3. Calculate **HP** (hit points) and **Ego**.
 4. Choose one **Advancement**.
+
 ## Concepts
 
 `TBD`
+
 ## Attributes
 
 **Attributes** are grouped in **Body** or **Mind** and **Power** or **Finesse**.
@@ -54,6 +47,7 @@ Every time PCs accumulate 8 XP, they gain an **Advancement**. Alongside an **Adv
 - **Extra Attribute**: Gain +1 in one chosen **Attribute**. Limit is 2 in the first 10 advancements Limit is 3 thereafter.
 
 `TBD`
+
 ## Consequences
 
 `TBD`
@@ -136,6 +130,7 @@ Mind harm **Retributions** impacts your **Ego**. If the **Retribution Die** is e
 If multiple challenges gang up against you, increase the **Challenge Level** in one for each two additional challenges after the first.
 
 Some challenges might be multifaceted. A bulky rival might be a Dangerous **Challenge** to fight against, but a Trivial **Challenge** to be convinced to ignore you.
+
 # Appendices
 
 ## Book references
