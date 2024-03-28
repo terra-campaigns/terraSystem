@@ -28,6 +28,7 @@ To determine **Attribute** values, roll 1d for each, and consult the table below
 Your **Attributes** define the initial size of your **Dice Pool** when you are doing something that you are capable of, and have appropriate the equipment.
 
 In certain conditions, you might lose **Attributes**. **Attribute** loss is permanent and when any attribute goes below 0 you are lost somehow.
+
 ## HP and Ego
 
 You have two measures of survival: **HP** (hit points) and **Ego**.
@@ -37,11 +38,13 @@ You have two measures of survival: **HP** (hit points) and **Ego**.
 **Ego** combines willpower, sanity and humanity. It is spent to increase dice pools and used to fuel some character **Advancements**. **Ego** is depleted when facing stressful situations or infectious environments. To determine your character's starting maximum **Ego**, sum your **Mind Attributes** and add 3.
 
 The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an addition **HP**. **Ego** does not recover with rest or care, but by taking a **Consequence**. When you take a **Consequence** your **Ego** recovers to its maximum.
+
 # Character development
 
 ## Advancements
 
 Every time PCs accumulate 8 XP, they gain an **Advancement**. Alongside an **Advancement**, a PC also gains +1 maximum **HP** and +1 maximum **Ego**.
+
 ### General advancements
 
 - **Extra Attribute**: Gain +1 in one chosen **Attribute**. Limit is 2 in the first 10 advancements Limit is 3 thereafter.
