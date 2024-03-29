@@ -1,5 +1,5 @@
 ---
-title: "Terra SRD"
+title: "Terran Engine"
 author: "efsalvarenga"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -7,14 +7,15 @@ documentclass: book
 output:
   bookdown::gitbook: default
 github-repo: efsalvarenga/terraSystem
-description: "Terra v0.2.0"
+description: "Terran Engine v0.3.1"
 ---
 
 # System Reference Document {-}
+***Version 0.3.1***
 
-(`terra-v0.3.0`)
+**Terran Engine** is a rules light tabletop roleplaying system focused on narrative, player agency and consequences. Only 6-sided dice are used, in two tones: **Light Dice** and **Dark Dice**.
 
-**Terra** is a rules light system focused on narrative, player agency and consequences. Only 6-sided dice are used, in two tones: **Light Dice** and **Dark Dice**.
+![](https://i.imgur.com/0PMhk3V.png)
 
 ## Taxonomy {-}
 
@@ -22,6 +23,3 @@ description: "Terra v0.2.0"
 - "Challenge" is used to represent anything that is antagonistic to you, be that an NPC, the environment, etc.
 - Meta game names, stats and currencies are marked in **bold**.
 - Book references are marked in *italic*, they might be accompanied by page ranges.
-
-
-<!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->

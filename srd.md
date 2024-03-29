@@ -1,14 +1,17 @@
 # Characters
 
 
-1. Always start with a **Name** and a **Concept**.
+1. Always start with a **Name** and an **Archetype**.
 2. Roll for **Attributes**.
 3. Calculate **HP** (hit points) and **Ego**.
 4. Choose one **Advancement**.
 
-## Concepts
+## Archetypes
 
-`TBD`
+You are defined by an **Archetype**, which encapsulates your background, concept and role within the narrative. Each **Archetype** should offer an immediate grasp your identity and behaviours. It is expected you will evolve beyond these initial **Archetypes** towards unique narratives.
+
+The specific scenario you play might have a list of **Archetypes**.
+
 
 ## Attributes
 
@@ -56,7 +59,7 @@ Every time PCs accumulate 8 XP, they gain an **Advancement**. Alongside an **Adv
 
 ## Rolling the dice
 
-Every time you try to overcome a **Challenge**, you will roll your **Dice Pool**. The baseline number of **Light Dice** in your **Dice Pool** is your appropriate **Attribute** for the intended action. With the GM, determine which **Attribute** it is.
+Every time you try to overcome a **Challenge**, you roll your **Dice Pool**. The initial number of **Light Dice** in your **Dice Pool** is your appropriate **Attribute** for the intended action. With the GM, determine which **Attribute** it is.
 
 Your **Dice Pool** can be modified in a number of ways:
 
@@ -64,11 +67,11 @@ Your **Dice Pool** can be modified in a number of ways:
 - If you are in an disadvantageous position, roll **-1d (Light)**. A major disadvantageous position might give you **-2d (Light)**.
 - Roll **+1d (Light)** for each **Ego** you expend in the action.
 
-Your **Dice Pool** can never have more than 4 **Light Dice**. If after adding and removing dice your **Dice Pool** is zero or lower, add **+1d (Dark)** to your **Dice Pool**.
+Your **Dice Pool** can never have more than 4 **Light Dice**. If after adding and removing dice your **Dice Pool** is zero or lower, roll one **Light** and one **Dark Dice** as your **Dice Pool**.
 
 The GM determines the **Challenge**, and add an appropriate number of **Dark Dice** to your **Dice Pool**.
 
-After you roll, choose one **Light Die** to be your **Success Die** and one **Light Die** to be your **Effect Die**. If you only have one **Light Die** in your pool, this is your **Success Die**.
+After you roll, choose one **Light Die** as your **Success Die** and one **Light Die** and your **Effect Die**. If you have only one **Light Die** in your pool, this is your **Success Die**.
 
 If your **Success Die** is:
 
@@ -84,7 +87,7 @@ The highest **Dark Die** is the **Challenge Retribution**.
 
 ## Effects
 
-If you are in combat, different weapons modify the Effect Die in different ways. A few examples are:
+If you are in combat, different weapons modify the **Effect Die** in different ways. A few examples are:
 
 | Weapon type   | Effect Die | Details                                                                                                      |
 | ------------- | :--------: | ------------------------------------------------------------------------------------------------------------ |
@@ -132,8 +135,6 @@ If multiple challenges gang up against you, increase the **Challenge Level** in 
 Some challenges might be multifaceted. A bulky rival might be a Dangerous **Challenge** to fight against, but a Trivial **Challenge** to be convinced to ignore you.
 
 # Appendices
-
-## Book references
 
 
 ## Copyright
