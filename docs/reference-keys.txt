@@ -10,5 +10,4 @@ effects
 retributions
 challenges
 appendices
-book-references
 copyright

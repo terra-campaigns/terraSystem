@@ -6,7 +6,7 @@
 3. Calculate **HP** (hit points) and **Ego**.
 4. Choose one **Advancement**.
 
-## Concepts
+## Archetypes
 
 You are defined by an **Archetype**, which encapsulates your background, concept and role within the narrative. Each **Archetype** should offer an immediate grasp your identity and behaviours. It is expected you will evolve beyond these initial **Archetypes** towards unique narratives.
 
