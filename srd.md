@@ -15,22 +15,28 @@ The specific scenario you play might have a list of **Archetypes**.
 
 ## Attributes
 
-**Attributes** are grouped in **Body** or **Mind** and **Power** or **Finesse**.
+You have four **Attributes**.
 
-- **Body/Power**: represents physical strength, endurance and might.
-- **Body/Finesse**: represents dexterity, precision and physical sagacity.
-- **Mind/Power**: represents mental force, willpower and personality heft.
-- **Mind/Finesse**: represents reasoning, understanding and mental sagacity. 
+- **Strength**: physical power, endurance and might.
+- **Dexterity**: agility, precision and physical sagacity.
+- **Insight**: reasoning, understanding and empathy. 
+- **Resolve**: command, determination and personality heft.
 
-To determine **Attribute** values, roll 1d for each, and consult the table below. After rolling, you may swap two values.
+To determine **Attribute** values, roll **2d** for each, take the highest, and consult the table below. After rolling, you may swap two values.
 
-| Attribute Roll |  1  | 2-3 | 4-5 |  6  |
-| -------------- | :-: | :-: | :-: | :-: |
-| **Stat Value** |  0  |  1  |  2  |  3  |
+| Highest Die    | 1-3 | 4-5 |  6  |
+| -------------- | :-: | :-: | :-: |
+| **Stat Value** |  0  |  1  |  2  |
 
-Your **Attributes** define the initial size of your **Dice Pool** when you are doing something that you are capable of, and have appropriate the equipment.
+Your **Attributes** determine the size of your **Dice Pools** when you are doing something that you are capable of, and have appropriate the equipment.
 
-In certain conditions, you might lose **Attributes**. **Attribute** loss is permanent and when any attribute goes below 0 you are lost somehow.
+In certain conditions, you might lose **Attributes**. **Attribute** loss is permanent and when any attribute goes below 0 you die.
+
+### Skills
+
+The specific scenario you play might have a list of **Skills**. These skills might be hierarchically related to **Attributes**. **Skills** are added to **Attribute Dice Pools**.
+
+**Skill**-based scenarios are generally more complex for the Players.
 
 ## HP and Ego
 
