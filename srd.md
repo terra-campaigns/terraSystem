@@ -81,7 +81,7 @@ When you attempt a **Risky Action**, say what you intend to do. With the GM dete
 
 Roll the dice and look for the outcome of the highest value.
 
-|         | Outcome                                                                                                                                                    |
+|  Value  | Outcome                                                                                                                                                    |
 | :-----: | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1-3** | You fail, and things get worse. With the GM describe how it goes wrong. The GM may also allow you to succeed, but things will get worse in some other way. |
 | **4-5** | You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.                                             |
