@@ -59,11 +59,11 @@ When your **Ego** reaches 0 you are lost somehow. With the GM determine how your
 Every time PCs accumulate 8 XP, they gain an **Advancement**. Alongside an **Advancement**, a PC also gains +1 maximum **HP** and +1 maximum **Ego**.
 
 
-- **Extra Attribute**: Gain +1 in one chosen **Attribute**. Limit is 2 in the first 10 advancements Limit is 3 thereafter.
+- **Extra Attribute**: Gain +1 in one chosen **Attribute**. **Attribute** maximum is 2 in the first 10 advancements and 3 thereafter.
 
 `TBD`
 
-## Consequences
+## Conditions
 
 `TBD`
 
