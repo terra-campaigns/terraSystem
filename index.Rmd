@@ -13,7 +13,7 @@ description: "Terran Engine v0.3.1"
 # System Reference Document {-}
 ***Version 0.4.0***
 
-**Terran Engine** is a rules light tabletop roleplaying system focused on narrative, player agency and consequences. Only 6-sided dice are used, in two tones: **Light Dice** and **Dark Dice**.
+[**Terran Engine**](https://efsalvarenga.github.io/terraSystem/index.html) is a rules light tabletop roleplaying system focused on narrative, player agency and consequences. Only 6-sided dice are used, in two tones: **Light Dice** and **Dark Dice**.
 
 ![](https://i.imgur.com/0PMhk3V.png)
 
