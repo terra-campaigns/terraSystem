@@ -73,18 +73,19 @@ Every time PCs accumulate 8 XP, they gain an **Advancement**. Alongside an **Adv
 
 When you attempt a **Risky Action**, say what you intend to do. With the GM determine your appropriate **Attribute**. Then gather 6-sided dice.
 
-| Colour         | Dice Pool                                                                                                                                                                                                                              |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Light Dice** | Take your appropriate **Attribute** (modified by **Skills**, if applicable) **Dice Pool**. If you don’t have any relevant **Attribute Dice Pool**, then you cannot take **Light Dice**. You can never take more than 4 **Light Dice**. |
-| **Dark Dice**  | Add as many **Dark Dice** as you wish to risk **Ego** for a desperate success.                                                                                                                                                         |
+|                                          | Dice Pool                                                                                                                                                                                                                              |
+| :--------------------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![\|20](https://i.imgur.com/Xo6X0za.png) | Take your appropriate **Attribute** (modified by **Skills**, if applicable) **Dice Pool**. If you don’t have any relevant **Attribute Dice Pool**, then you cannot take **Light Dice**. You can never take more than 4 **Light Dice**. |
+| ![\|20](https://i.imgur.com/MBw81Mp.png) | Take as many **Dark Dice** as you wish to risk **Ego** for a desperate success.                                                                                                                                                        |
 
-Roll the dice.
 
-| Highest Die | Outcome                                                                                                                                                    |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-3         | You fail, and things get worse. With the GM describe how it goes wrong. The GM may also allow you to succeed, but things will get worse in some other way. |
-| 4-5         | You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.                                             |
-| 6           | You succeed. With the GM describe what happens.                                                                                                            |
+Roll the dice and look for the outcome of the highest value.
+
+|         | Outcome                                                                                                                                                    |
+| :-----: | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1-3** | You fail, and things get worse. With the GM describe how it goes wrong. The GM may also allow you to succeed, but things will get worse in some other way. |
+| **4-5** | You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.                                             |
+|  **6**  | You succeed. With the GM describe what happens.                                                                                                            |
 
 For each **Dark Dice** that is equal or higher than your current Ego, decrease your **Ego** in one.
 
