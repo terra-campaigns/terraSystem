@@ -15,136 +15,138 @@ The specific scenario you play might have a list of **Archetypes**.
 
 ## Attributes
 
-**Attributes** are grouped in **Body** or **Mind** and **Power** or **Finesse**.
+You have four **Attributes**.
 
-- **Body/Power**: represents physical strength, endurance and might.
-- **Body/Finesse**: represents dexterity, precision and physical sagacity.
-- **Mind/Power**: represents mental force, willpower and personality heft.
-- **Mind/Finesse**: represents reasoning, understanding and mental sagacity. 
+- **Strength**: physical power, endurance and might.
+- **Dexterity**: agility, precision and physical sagacity.
+- **Insight**: reasoning, understanding and empathy. 
+- **Resolve**: command, determination and personality heft.
 
-To determine **Attribute** values, roll 1d for each, and consult the table below. After rolling, you may swap two values.
+To determine **Attribute** values, roll **2d** for each, take the highest, and consult the table below. After rolling, you may swap two values.
 
-| Attribute Roll |  1  | 2-3 | 4-5 |  6  |
-| -------------- | :-: | :-: | :-: | :-: |
-| **Stat Value** |  0  |  1  |  2  |  3  |
+| Highest Die    | 1-3 | 4-5 |  6  |
+| -------------- | :-: | :-: | :-: |
+| **Stat Value** |  0  |  1  |  2  |
 
-Your **Attributes** define the initial size of your **Dice Pool** when you are doing something that you are capable of, and have appropriate the equipment.
+Your **Attributes** determine the size of your **Dice Pools** when you are doing something that you are capable of, and have appropriate the equipment.
 
-In certain conditions, you might lose **Attributes**. **Attribute** loss is permanent and when any attribute goes below 0 you are lost somehow.
+In certain conditions, you might lose **Attributes**. **Attribute** loss is permanent and when any attribute goes below 0 you die.
+
+### Skills
+
+The specific scenario you play might have a list of **Skills**. These skills might be hierarchically related to **Attributes**. **Skills** are added to **Attribute Dice Pools**.
+
+**Skill**-based scenarios are generally more complex for the Players.
 
 ## HP and Ego
 
 You have two measures of survival: **HP** (hit points) and **Ego**.
 
-**HP** (hit points) represent your health, disposition and fighting spirit. You lose **HP** when you are physically harmed. To determine your starting maximum **HP**, sum your **Body Attributes** and add 3.
+**HP** (hit points) represent your health, physical disposition and endurance. You lose **HP** when you are physically harmed. To define your starting maximum **HP**, sum your **Strength** and **Dexterity**, and add 6. **HP** increase as you develop.
 
-**Ego** combines willpower, sanity and humanity. It is spent to increase dice pools and used to fuel some character **Advancements**. **Ego** is depleted when facing stressful situations or infectious environments. To determine your character's starting maximum **Ego**, sum your **Mind Attributes** and add 3.
+The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an addition **HP**.
 
-The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an addition **HP**. **Ego** does not recover with rest or care, but by taking a **Consequence**. When you take a **Consequence** your **Ego** recovers to its maximum.
+When your **HP** reaches 0 you lose one **Attribute** of your choice. You are unconscious and wake up with 1 **HP** after the scene ends. **Attribute** loss is permanent and when any attribute goes below 0 you die.
+
+**Ego** combines willpower, sanity and humanity. It might be spent when you push yourself in a risky situation or use some character **Advancements**. To determine your character's starting maximum **Ego**, sum your **Insight** and **Resolve**, and add 3. **Ego** can never be higher than 6.
+
+ **Ego** does not recover with rest or care, but by taking a **Condition**. When you take a **Condition** your **Ego** recovers to its maximum.
+
+When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.
 
 ## Advancements
 
 Every time PCs accumulate 8 XP, they gain an **Advancement**. Alongside an **Advancement**, a PC also gains +1 maximum **HP** and +1 maximum **Ego**.
 
 
-- **Extra Attribute**: Gain +1 in one chosen **Attribute**. Limit is 2 in the first 10 advancements Limit is 3 thereafter.
+- **Extra Attribute**: Gain +1 in one chosen **Attribute**. **Attribute** maximum is 2 in the first 10 advancements and 3 thereafter.
 
 `TBD`
 
-## Consequences
+## Conditions
 
 `TBD`
 
 # Rules
 
-## Rolling the dice
+## Risky Actions
 
-Every time you try to overcome a **Challenge**, you roll your **Dice Pool**. The initial number of **Light Dice** in your **Dice Pool** is your appropriate **Attribute** for the intended action. With the GM, determine which **Attribute** it is.
+When you attempt a **Risky Action**, say what you intend to do. With the GM determine your appropriate **Attribute**. Then gather 6-sided dice.
 
-Your **Dice Pool** can be modified in a number of ways:
+| Colour         | Dice Pool                                                                                                                                                                                                                              |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Light Dice** | Take your appropriate **Attribute** (modified by **Skills**, if applicable) **Dice Pool**. If you don’t have any relevant **Attribute Dice Pool**, then you cannot take **Light Dice**. You can never take more than 4 **Light Dice**. |
+| **Dark Dice**  | Add as many **Dark Dice** as you wish to risk **Ego** for a desperate success.                                                                                                                                                         |
 
-- If you are in an advantageous position, roll **+1d (Light)**. A major advantageous position might give you **+2d (Light)**.
-- If you are in an disadvantageous position, roll **-1d (Light)**. A major disadvantageous position might give you **-2d (Light)**.
-- Roll **+1d (Light)** for each **Ego** you expend in the action.
+Roll the dice.
 
-Your **Dice Pool** can never have more than 4 **Light Dice**. If after adding and removing dice your **Dice Pool** is zero or lower, roll one **Light** and one **Dark Dice** as your **Dice Pool**.
+| Highest Die | Outcome                                                                                                                                                    |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3         | You fail, and things get worse. With the GM describe how it goes wrong. The GM may also allow you to succeed, but things will get worse in some other way. |
+| 4-5         | You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.                                             |
+| 6           | You succeed. With the GM describe what happens.                                                                                                            |
 
-The GM determines the **Challenge**, and add an appropriate number of **Dark Dice** to your **Dice Pool**.
+For each **Dark Dice** that is equal or higher than your current Ego, decrease your **Ego** in one.
 
-After you roll, choose one **Light Die** as your **Success Die** and one **Light Die** and your **Effect Die**. If you have only one **Light Die** in your pool, this is your **Success Die**.
-
-If your **Success Die** is:
-
-- 1-3 you have failed, with complications: You fail and the challenge might **Retribute**.
-- 4-5 you have succeeded, with complications: You accomplish your goal and apply your effect, but the challenge might **Retribute**.
-- 6 you have completely succeeded: You accomplish your goal without **Retribution**.
-
-Your **Effect Die** determines the effect of your action (damage, progress in a task, etc.). If you only have a **Success Die** (i.e. you rolled one single **Light Die**) your effect result is a "1".
-
-The highest **Dark Die** is the **Challenge Retribution**.
-
-**Effect** and **Retribution** are exploding dice. Every time the result is a natural 6, re-roll and accumulate the result. Equipment and conditions may modify **Effect** and **Retribution** results. The modified result does not affect dice explosion - which is only when a natural 6 occur.
-
-## Effects
-
-If you are in combat, different weapons modify the **Effect Die** in different ways. A few examples are:
-
-| Weapon type   | Effect Die | Details                                                                                                      |
-| ------------- | :--------: | ------------------------------------------------------------------------------------------------------------ |
-| Light melee   |   **d3**   | Apply **Effects** before **Retributions**                                                                    |
-| Medium melee  | Unmodified | Effect die is read as **d6+1** when held with both hands                                                     |
-| Heavy melee   | Unmodified | Advantageous (**+1d**)<br>Apply **Retributions** before **Effects**<br>Two handed                            |
-| Light ranged  | Unmodified |                                                                                                              |
-| Medium ranged | Unmodified | Advantageous (**+1d**)<br>Expend all ammo when **Effect Die** explodes (one action to reload).<br>Two handed |
-| Heavy ranged  | Unmodified | Major advantageous (**+2d**)<br>Require one action to ready before every shot<br>Two handed                  |
-| Improvised    |   **d3**   | Disadvantageous (**-1d**)                                                                                    |
-## Retributions
-
-**Retributions** can be of three types: body harm, mind harm or **Challenge** fork.
-
-Body harm **Retributions** impacts your **HP**. The armour you wear might modify the **Retribution Die**. Subtract the modified **Retribution** from your **HP**. If your **HP** reaches 0 you lose one to a random **Attribute**. You are unconscious and wake up with 1 **HP** after the scene ends. **Attribute** loss is permanent and when any attribute goes below 0 you die.
-
-| Armour type | Retribution modifier | Details                                                      |
-| ----------- | :------------------: | ------------------------------------------------------------ |
-| Light       |          -1          |                                                              |
-| Heavy       |          -2          | Disadvantageous (**-1d**) to run, observe, sneak, swim, etc. |
-| Shield      |          -1          | Can be sacrificed to completely avoid the **Retribution**.   |
-
-Mind harm **Retributions** impacts your **Ego**. If the **Retribution Die** is equal or higher than your current **Ego**, subtract one from your current **Ego**. If your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.
-
-**Challenge** fork **Retributions** are spawn from within an ongoing Challenge. They might be an encounter, an unexpected detour or some unlucky event. Consult the **Challenge** fork table.
-
-| Retribution Roll   |   1-3   |    4-5    |  7-11   |    13+     |
-| ------------------ | :-----: | :-------: | :-----: | :--------: |
-| **Challenge** fork | Trivial | Dangerous | Serious | Formidable |
+If the **Risky Action** is part of a longer **Challenge**, roll **Effects** as appropriate.
 
 ## Challenges
 
-**Challenges** can be a fighting enemy, a rhetoric duel, an environment, etc. **Challenges** don't have **HP** or **Ego**. A generic measure of **Disposition** is used to determine how much **Effort** it takes to overcome a **Challenge**. Armours do not modify **Effects** applied to a **Challenge's Disposition**. Depending on the **Challenge**, more **Dark Dice** might be added to the **Dice Pool**.
+Sometimes, multiple actions are required to overcome **Challenges**. Examples of **Challenges** are
 
-| Challenge Level | Disposition | Retribution Dice | Examples                                                              |
-| --------------- | ----------- | ---------------- | --------------------------------------------------------------------- |
-| Trivial         | 1           | **d3**           | Unskilled adversaries, low height climb, known journey                |
-| Dangerous       | 5           | **1d**           | Skilled adversaries, small explosions, troublesome journey            |
-| Serious         | 10          | **2d**           | Expert adversareis, predator, close contact with fire or acid         |
-| Formidable      | 15          | **3d**           | Human prime, apex predator, immersion in acid, large explosions       |
-| Extreme         | 20          | **4d**           | Transhuman, often fatal environments, most difficult journey possible |
+- a fighting enemy,
+- a rhetoric duel,
+- an environment to be negotiated with,
+- a location crawl,
+- a journey.
+
+**Challenges** have **Disposition**, which measures how much **Effect** they takes to be overcame. **Armours** do not modify **Effects** applied to a **Challenge's Disposition**, like they do for your **HP**. **Challenges** may also have their own **Effect Dice**, that are applied to you as consequences of your **Risky Actions**.
+
+| Challenge Level | Disposition | Effect Dice | Examples                                                              |
+| --------------- | ----------- | ----------- | --------------------------------------------------------------------- |
+| Trivial         | 1           | **d3**      | Unskilled adversaries, low height climb, known journey                |
+| Dangerous       | 5           | **1d**      | Skilled adversaries, small explosions, troublesome journey            |
+| Serious         | 10          | **2d**      | Expert adversareis, predator, close contact with fire or acid         |
+| Formidable      | 15          | **3d**      | Human prime, apex predator, immersion in acid, large explosions       |
+| Extreme         | 20          | **4d**      | Transhuman, often fatal environments, most difficult journey possible |
 
 If multiple challenges gang up against you, increase the **Challenge Level** in one for each two additional challenges after the first.
 
 Some challenges might be multifaceted. A bulky rival might be a Dangerous **Challenge** to fight against, but a Trivial **Challenge** to be convinced to ignore you.
 
-# Appendices
+Note that Trivial Challenges are nothing more than a single **Risky Action**.
 
+## Effects
 
-## Copyright
+**Effects** determines the quantitative result of your **Risky Actions** towards overcoming a longer **Challenge**. Examples of Effects are
 
-_This work is based on [Trophy](https://trophyrpg.com/), product of Jesse Ross and Hedgemaze Press, and licensed for our use under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). Trophy is adapted from Cthulhu Dark with permission of Graham Walmsley. Trophy is also based on [Blades in the Dark](http://www.bladesinthedark.com/), product of One Seven Design, developed and authored by John Harper, and licensed for our use under the [Creative Commons Attribution 3.0 Unported license](http://creativecommons.org/licenses/by/3.0/)._
+- Damage given,
+- Convincing done,
+- Distance covered.
 
-_Trophy™ is a trademark of Hedgemaze Press. The trademark and “Rooted in Trophy” Logo are © Hedgemaze Press, and are used with permission._
+When you roll **Effect Dice**, only the highest result is relevant. This highest die is exploding (every time the result is a natural 6, re-roll and accumulate the result).
 
-![](https://trophyrpg.com/system/logos/Rooted-in-Trophy-Black.svg)
+Different tools may modify the **Effect Dice** rolled. Examples for weapons are
 
+| Weapon type   | Effect Die | Details                                                                           |
+| ------------- | :--------: | --------------------------------------------------------------------------------- |
+| Light melee   |  **1d3**   | Apply **Effect** before your rival                                                |
+| Medium melee  |  **1d6**   | **Effect Die** is read as **1d6+1** when held with both hands                     |
+| Heavy melee   |  **2d6**   | Apply **Effect** after your rival<br>Two handed                                   |
+| Light ranged  |  **1d6**   |                                                                                   |
+| Medium ranged | **1d6+2**  | Effect Die is **2d6** when expend all ammo (needs reloading).<br>Two handed       |
+| Heavy ranged  |   **2d**   | One action to ready before every shot gives **Light Dice Pool +1d**<br>Two handed |
+| Improvised    |  **1d3**   | **Light Dice Pool -1d** (not appropriate tool)                                    |
 
-*This work also draws inspiration on the [Best Left Buried Zine Edition](https://soulmuppet-store.co.uk/products/best-left-buried-zini-edition) (as well as any games that inspired it).*
+Physical harm **Effects** applied to you impacts your **HP**. The armour you wear modifies the **Effect**. Subtract the modified **Effect** from your **HP**. 
 
+| Armour type | Retribution modifier | Details                                                      |
+| ----------- | :------------------: | ------------------------------------------------------------ |
+| Light       |          -1          |                                                              |
+| Heavy       |          -2          | Disadvantageous (**-1d**) to run, observe, sneak, swim, etc. |
+| Shield      |          -1          | Can be sacrificed to completely avoid the **Effect**.        |
+Sometimes **Challenge Effects** forks into new **Challenges**. These might be an encounter, an unexpected detour or some unlucky event. Consult the **Challenge** fork table.
+
+| Effect Roll        |   1-3   |    4-5    |  7-11   |    13+     |
+| ------------------ | :-----: | :-------: | :-----: | :--------: |
+| **Challenge** fork | Trivial | Dangerous | Serious | Formidable |
