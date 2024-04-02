@@ -23,7 +23,7 @@
 <meta name="author" content="efsalvarenga" />
 
 
-<meta name="date" content="2024-04-01" />
+<meta name="date" content="2024-04-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -89,9 +89,14 @@
 </ul></li>
 <li class="chapter" data-level="2" data-path="rules.html"><a href="rules.html"><i class="fa fa-check"></i><b>2</b> Rules</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="rules.html"><a href="rules.html#risky-actions"><i class="fa fa-check"></i><b>2.1</b> Risky Actions</a></li>
+<li class="chapter" data-level="2.1" data-path="rules.html"><a href="rules.html#chances"><i class="fa fa-check"></i><b>2.1</b> Chances</a></li>
 <li class="chapter" data-level="2.2" data-path="rules.html"><a href="rules.html#challenges"><i class="fa fa-check"></i><b>2.2</b> Challenges</a></li>
 <li class="chapter" data-level="2.3" data-path="rules.html"><a href="rules.html#effects"><i class="fa fa-check"></i><b>2.3</b> Effects</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="appendices.html"><a href="appendices.html"><i class="fa fa-check"></i><b>3</b> Appendices</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="appendices.html"><a href="appendices.html#copyright"><i class="fa fa-check"></i><b>3.1</b> Copyright</a></li>
+<li class="chapter" data-level="3.2" data-path="appendices.html"><a href="appendices.html#credit-due"><i class="fa fa-check"></i><b>3.2</b> Credit Due</a></li>
 </ul></li>
 </ul>
 
@@ -132,7 +137,7 @@
 <li><strong>Insight</strong>: reasoning, understanding and empathy.</li>
 <li><strong>Resolve</strong>: command, determination and personality heft.</li>
 </ul>
-<p>To determine <strong>Attribute</strong> values, roll <strong>2d</strong> for each, take the highest, and consult the table below. After rolling, you may swap two values.</p>
+<p>To determine <strong>Attribute</strong> values, roll <span class="math inline">\(\mathbf{1d}\)</span> for each, take the highest, and consult the table below. After rolling, choose one attribute and apply <span class="math inline">\(\mathbf{+1}\)</span>.</p>
 <table>
 <thead>
 <tr class="header">
@@ -162,10 +167,10 @@
 <div id="hp-and-ego" class="section level2 hasAnchor" number="1.3">
 <h2><span class="header-section-number">1.3</span> HP and Ego<a href="characters.html#hp-and-ego" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>You have two measures of survival: <strong>HP</strong> (hit points) and <strong>Ego</strong>.</p>
-<p><strong>HP</strong> (hit points) represent your health, physical disposition and endurance. You lose <strong>HP</strong> when you are physically harmed. To define your starting maximum <strong>HP</strong>, sum your <strong>Strength</strong> and <strong>Dexterity</strong>, and add 6. <strong>HP</strong> increase as you develop.</p>
+<p><strong>HP</strong> (hit points) represent your health, physical disposition and endurance. You lose <strong>HP</strong> when you are physically harmed. To define your starting maximum <strong>HP</strong>, sum your <strong>Strength</strong> and <strong>Dexterity</strong>, and apply <span class="math inline">\(\mathbf{+5}\)</span>. <strong>HP</strong> increase as you become more seasoned.</p>
 <p>The base rate of recovery is 1 <strong>HP</strong> per day. If you are being attended by someone, recover an addition <strong>HP</strong>.</p>
 <p>When your <strong>HP</strong> reaches 0 you lose one <strong>Attribute</strong> of your choice. You are unconscious and wake up with 1 <strong>HP</strong> after the scene ends. <strong>Attribute</strong> loss is permanent and when any attribute goes below 0 you die.</p>
-<p><strong>Ego</strong> combines willpower, sanity and humanity. It might be spent when you push yourself in a risky situation or use some character <strong>Advancements</strong>. To determine your character’s starting maximum <strong>Ego</strong>, sum your <strong>Insight</strong> and <strong>Resolve</strong>, and add 3. <strong>Ego</strong> can never be higher than 6.</p>
+<p><strong>Ego</strong> combines willpower, sanity and humanity. It might be spent when you push yourself in a risky situation or use some character <strong>Advancements</strong>. To determine your character’s starting maximum <strong>Ego</strong>, sum your <strong>Insight</strong> and <strong>Resolve</strong>, and apply <span class="math inline">\(\mathbf{+2}\)</span>. <strong>Ego</strong> can never be higher than 6.</p>
 <p><strong>Ego</strong> does not recover with rest or care, but by taking a <strong>Condition</strong>. When you take a <strong>Condition</strong> your <strong>Ego</strong> recovers to its maximum.</p>
 <p>When your <strong>Ego</strong> reaches 0 you are lost somehow. With the GM determine how your last scene goes.</p>
 </div>
@@ -242,6 +247,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
