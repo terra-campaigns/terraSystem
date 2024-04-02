@@ -7,3 +7,4 @@ delete_merged_file: true
 rmd_files:
 - index.Rmd
 - srd.md
+- srdAppendices.md
