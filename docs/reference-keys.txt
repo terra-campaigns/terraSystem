@@ -6,6 +6,9 @@ hp-and-ego
 advancements
 conditions
 rules
-risky-actions
+chances
 challenges
 effects
+appendices
+copyright
+credit-due
