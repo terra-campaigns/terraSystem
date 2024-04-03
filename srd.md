@@ -167,3 +167,7 @@ Sometimes **Challenge Effects** forks into new **Challenges**. These might be an
 | Effect Roll        |   1-3   |    4-5    |  7-11   |    13+     |
 | ------------------ | :-----: | :-------: | :-----: | :--------: |
 | **Challenge** fork | Trivial | Dangerous | Serious | Formidable |
+
+# Making a Game
+
+To make it thematically specific to the target scenario, adapt the Characters' section by changing the Archetypes used, fine tuning the Attributes and skill lists, reskinning the explanation for Ego and developing coherent Advancements and Conditions. The Rules' section can be used as is.
