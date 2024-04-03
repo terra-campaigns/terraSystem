@@ -9,5 +9,6 @@ rules
 chances
 challenges
 effects
+making-a-game
 copyright
 credit-due

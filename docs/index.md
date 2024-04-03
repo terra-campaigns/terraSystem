@@ -1,23 +1,24 @@
 ---
 title: "Terran Engine"
-author: "efsalvarenga"
-date: "2024-04-02"
+author: "Estevao Alvarenga"
+date: "2024-04-03"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
-# url: https://efsalvarenga.github.io/terraSystem/
-# cover-image: https://i.imgur.com/PZEJwOW.png
+# bibliography: [book.bib]
 description: |
   This is a minimal TTRPG engine.
 link-citations: yes
 github-repo: efsalvarenga/terraSystem
+url: https://efsalvarenga.github.io/terraSystem/
+favicon: imgs/favicon.ico
+cover-image: imgs/TerranEngineCover.png
 ---
 
 # System Reference Document {-}
 
 [**Terran Engine**](https://efsalvarenga.github.io/terraSystem/) is a rules light tabletop roleplaying system focused on narrative, player agency and consequences. Only 6-sided dice are used, in two tones: **Light Dice** and **Dark Dice**.
 
-![](https://i.imgur.com/PZEJwOW.png)
+![](imgs/TerranEngineCover.png)
 
 ## Taxonomy {-}
 

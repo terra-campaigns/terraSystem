@@ -10,7 +10,7 @@
 
   <meta property="og:title" content="A Copyright | Terran Engine" />
   <meta property="og:type" content="book" />
-  
+  <meta property="og:image" content="https://efsalvarenga.github.io/terraSystem/imgs/TerranEngineCover.png" />
   <meta property="og:description" content="This is a minimal TTRPG engine." />
   <meta name="github-repo" content="efsalvarenga/terraSystem" />
 
@@ -18,19 +18,19 @@
   <meta name="twitter:title" content="A Copyright | Terran Engine" />
   
   <meta name="twitter:description" content="This is a minimal TTRPG engine." />
-  
+  <meta name="twitter:image" content="https://efsalvarenga.github.io/terraSystem/imgs/TerranEngineCover.png" />
 
-<meta name="author" content="efsalvarenga" />
+<meta name="author" content="Estevao Alvarenga" />
 
 
-<meta name="date" content="2024-04-02" />
+<meta name="date" content="2024-04-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
-  
-<link rel="prev" href="rules.html"/>
+  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+<link rel="prev" href="making-a-game.html"/>
 <link rel="next" href="credit-due.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -73,7 +73,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Terran Engine v0.4.1</a></li>
+<li><a href="./">Terran Engine v0.4.2</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>System Reference Document</a>
@@ -97,6 +97,7 @@
 <li class="chapter" data-level="2.2" data-path="rules.html"><a href="rules.html#challenges"><i class="fa fa-check"></i><b>2.2</b> Challenges</a></li>
 <li class="chapter" data-level="2.3" data-path="rules.html"><a href="rules.html#effects"><i class="fa fa-check"></i><b>2.3</b> Effects</a></li>
 </ul></li>
+<li class="chapter" data-level="3" data-path="making-a-game.html"><a href="making-a-game.html"><i class="fa fa-check"></i><b>3</b> Making a Game</a></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
 <li class="chapter" data-level="A" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i><b>A</b> Copyright</a></li>
 <li class="chapter" data-level="B" data-path="credit-due.html"><a href="credit-due.html"><i class="fa fa-check"></i><b>B</b> Credit Due</a></li>
@@ -120,7 +121,7 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="copyright" class="section level1 hasAnchor" number="3">
+<div id="copyright" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">A</span> Copyright<a href="copyright.html#copyright" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p><em>This work is based on <a href="https://trophyrpg.com/">Trophy</a>, product of Jesse Ross and Hedgemaze Press, and licensed for our use under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>. Trophy is adapted from Cthulhu Dark with permission of Graham Walmsley. Trophy is also based on <a href="http://www.bladesinthedark.com/">Blades in the Dark</a>, product of One Seven Design, developed and authored by John Harper, and licensed for our use under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported license</a>.</em></p>
 <p><em>Trophy™ is a trademark of Hedgemaze Press. The trademark and “Rooted in Trophy” Logo are © Hedgemaze Press, and are used with permission.</em></p>
@@ -131,7 +132,7 @@
           </div>
         </div>
       </div>
-<a href="rules.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="making-a-game.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="credit-due.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
@@ -147,15 +148,15 @@
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
+"github": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
 "whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+"all": false
 },
 "fontsettings": {
 "theme": "white",
@@ -163,8 +164,8 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/srdAppendices.md",
-"text": "Edit"
+"link": "https://github.com/efsalvarenga/terraSystem/edit/main/srdAppendices.md",
+"text": "Suggest an edit"
 },
 "history": {
 "link": null,
@@ -174,7 +175,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["terranEngine.pdf", "terranEngine.epub"],
+"download": null,
 "search": {
 "engine": "fuse",
 "options": null

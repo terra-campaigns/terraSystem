@@ -8,7 +8,7 @@
 
 ## Archetypes
 
-You are defined by an **Archetype**, which encapsulates your background, concept and role within the narrative. Each **Archetype** should offer an immediate grasp your identity and behaviours. It is expected you will evolve beyond these initial **Archetypes** towards unique narratives. The list below is based on [the 12 Jungian Archetypes](https://conorneill.com/2018/04/21/understanding-personality-the-12-jungian-archetypes/).
+You are defined by an **Archetype**, which encapsulates your background, concept and role within the narrative. Each **Archetype** should offer an immediate grasp your identity and behaviours. It is expected you will evolve beyond these initial **Archetypes** towards unique narratives.
 
 - **Hero**: Embodies courage and strength, often the protagonist fighting against the odds.
 - **Mentor**: Provides guidance and wisdom, helping the hero on their journey.
@@ -52,12 +52,12 @@ The specific scenario you play might have a list of **Skills**. These skills mig
 
 You have two measures of survival: **HP** (hit points) and **Ego**. These measures increase as you become more seasoned.
 
-| HP                                                                                                                                                                                                                     | Ego                                                                                                                                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **HP** represent your health, physical disposition and endurance. You lose **HP** when you are physically harmed.                                                                                                      | **Ego** combines willpower, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.        |
-| $$\text{HP}=\text{Strength}+\text{Dexterity}+5$$                                                                                                                                                                       | $$\text{Ego}=\text{Insight}+\text{Resolve}+3$$                                                                                                           |
-| The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an addition **HP**.                                                                                                       | **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum. |
-| When your **HP** reaches 0 you lose one **Attribute** of your choice. You are unconscious and wake up with 1 **HP** after the scene ends. **Attribute** loss is permanent and when any attribute goes below 0 you die. | When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.                                                        |
+| HP                                                                                                                                                    | Ego                                                                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **HP** represent your health, physical disposition and endurance. You lose **HP** when you are physically harmed.                                     | **Ego** combines willpower, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.        |
+| $$\text{HP}=\text{Strength}+\text{Dexterity}+5$$                                                                                                      | $$\text{Ego}=\text{Insight}+\text{Resolve}+3$$                                                                                                           |
+| The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an addition **HP**.                                      | **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum. |
+| When your **HP** reaches 0 you permanently lose one **Attribute** of your choice. You are unconscious and wake up with 1 **HP** after the scene ends. | When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.                                                        |
 
 ## Advancements
 
