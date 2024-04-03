@@ -1,0 +1,16 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Terran Engine v0.4.2</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit: 
+      link: https://github.com/efsalvarenga/terraSystem/edit/main/%s
+      text: "Suggest an edit"
+    sharing:
+      github: yes
+      facebook: no
+      twitter: yes
+      all: no

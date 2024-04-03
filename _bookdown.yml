@@ -1,8 +1,10 @@
-book_filename: "terraSystem"
+book_filename: 'terranEngine'
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name:  'Section '
 delete_merged_file: true
+output_dir: docs
+new_session: true
 
 rmd_files:
 - index.Rmd

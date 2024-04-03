@@ -1,7 +1,7 @@
 ---
 title: "Terran Engine"
 author: "Estevao Alvarenga"
-date: "`r Sys.Date()`"
+date: "2024-04-03"
 site: bookdown::bookdown_site
 documentclass: book
 # bibliography: [book.bib]
