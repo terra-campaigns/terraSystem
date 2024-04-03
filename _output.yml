@@ -1,9 +1,9 @@
 bookdown::gitbook:
-  css: style.css
+  css: assets/style.css
   config:
     toc:
       before: |
-        <li><a href="./">Terran Engine v0.4.2</a></li>
+        <li class="toc-logo"><a href="./"><img src="imgs/TerranEngineCover-noBg.png"></a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: 
@@ -14,3 +14,5 @@ bookdown::gitbook:
       facebook: no
       twitter: yes
       all: no
+    fontsettings:
+      theme: sepia
