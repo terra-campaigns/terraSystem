@@ -91,13 +91,12 @@ At any moment in the game you can recover your **Ego** back to its maximum by ta
 
 ## Chances
 
-When you attempt a risky action, say what you intend to do. With the GM determine your appropriate **Attribute**. Then gather 6-sided dice.
+When you are trying your chances at a risky action, say what you intend to do. With the GM determine your appropriate **Attribute**. Then gather 6-sided dice.
 
 |                                          | Dice Pool                                                                                                                                                                                                                              |
 | :--------------------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![\|20](https://i.imgur.com/Xo6X0za.png) | Take your appropriate **Attribute** (modified by **Skills**, if applicable) **Dice Pool**. If you don’t have any relevant **Attribute Dice Pool**, then you cannot take **Light Dice**. You can never take more than 4 **Light Dice**. |
 | ![\|20](https://i.imgur.com/MBw81Mp.png) | Take as many **Dark Dice** as you wish to risk **Ego** for a desperate success.                                                                                                                                                        |
-
 
 Roll the dice and look for the outcome of the highest value.
 
@@ -107,7 +106,7 @@ Roll the dice and look for the outcome of the highest value.
 | **4-5** | You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.                                             |
 |  **6**  | You succeed. With the GM describe what happens.                                                                                                            |
 
-For each **Dark Dice** that is equal or higher than your current Ego, decrease your **Ego** in one.
+For each **Dark Dice** that is equal or lower than your current Ego, decrease your **Ego** in one.
 
 If the **Risky Action** is part of a longer **Challenge**, roll **Effects** as appropriate.
 
