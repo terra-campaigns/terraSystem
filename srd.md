@@ -8,10 +8,20 @@
 
 ## Archetypes
 
-You are defined by an **Archetype**, which encapsulates your background, concept and role within the narrative. Each **Archetype** should offer an immediate grasp your identity and behaviours. It is expected you will evolve beyond these initial **Archetypes** towards unique narratives.
+You are defined by an **Archetype**, which encapsulates your background, concept and role within the narrative. Each **Archetype** should offer an immediate grasp your identity and behaviours. It is expected you will evolve beyond these initial **Archetypes** towards unique narratives. The list below is based on [the 12 Jungian Archetypes](https://conorneill.com/2018/04/21/understanding-personality-the-12-jungian-archetypes/).
 
-The specific scenario you play might have a list of **Archetypes**.
-
+- **Hero**: Embodies courage and strength, often the protagonist fighting against the odds.
+- **Mentor**: Provides guidance and wisdom, helping the hero on their journey.
+- **Everyman**: Represents the common man, relatability and realism.
+- **Innocent**: Embodies purity, optimism, and faith.
+- **Ruler**: Exudes control, responsibility, and sovereignty.
+- **Sage**: Seeks truth, knowledge, and wisdom.
+- **Explorer**: Loves discovering new worlds, autonomy, and the freedom to find out who they are through exploration.
+- **Outlaw**: Represents rebellion, breaking the rules, and fighting against the status quo.
+- **Magician**: Transforms reality, embodies vision and imagination.
+- **Lover**: Pursues connection, romance, and passion.
+- **Jester**: Values joy, humor, and light-heartedness.
+- **Caregiver**: Provides nurture, generosity, and compassion.
 
 ## Attributes
 
