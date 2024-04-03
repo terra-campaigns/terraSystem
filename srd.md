@@ -75,7 +75,17 @@ Every time PCs accumulate 8 XP, they gain an **Advancement**. Alongside an **Adv
 
 ## Conditions
 
-`TBD`
+At any moment in the game you can recover your **Ego** back to its maximum by taking a **Condition**. The recovery of your inner strength often comes through confronting, enduring, and adapting to hardship. These trials teach you to integrate the traumas that permanently transform your self, strengthening your resilience. With the GM, determine the new **Condition** you have, and how to introduce it into the narrative.
+
+**Conditions** are detrimental mechanically, but not necessarily negative in the narrative. The list below can be used as a starting point. With the GM you can adapt these or create new ones.
+
+- **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $\mathbf{-1d}$.
+- **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $\mathbf{+1d}$ in one skill and $\mathbf{-1d}$ in three other skills.
+- **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $\mathbf{-1d}$.
+- **Compulsive Honesty**: You vow to always speak the truth.
+- **Kleptomaniac**: You are unable to resist urges to steal items that you generally don't really need.
+- **Battle-Scarred**: After some injury, you develop a scar. You might have lost part of a member, an eye, or something else that impacts you physically.
+- **Protective Instinct**: You are genuinely concerned with your team's welfare, and become a reluctant leader. When an ally is in danger, you have $\mathbf{-1d}$.
 
 # Rules
 
