@@ -32,10 +32,10 @@ You have four **Attributes**.
 - **Insight**: reasoning, understanding and empathy. 
 - **Resolve**: command, determination and personality heft.
 
-To determine **Attribute** values, roll $\mathbf{1d}$ for each, take the highest, and consult the table below. After rolling, choose one attribute and apply $\mathbf{+1}$.
+To determine **Attribute** values, roll $\mathbf{2d}$ for each, take the highest, and consult the table below. After rolling, choose one attribute and apply $\mathbf{+1}$.
 
-| Highest Die    | 1-3 | 4-5 |  6  |
-| -------------- | :-: | :-: | :-: |
+|  Highest Die   | 1-3 | 4-5 |  6  |
+| :------------: | :-: | :-: | :-: |
 | **Stat Value** |  0  |  1  |  2  |
 
 Your **Attributes** determine the size of your **Dice Pools** when you are doing something that you are capable of, and have appropriate the equipment.
