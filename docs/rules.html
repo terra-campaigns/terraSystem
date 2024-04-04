@@ -74,7 +74,7 @@
 <li class="toc-logo"><a href="./"><img src="imgs/TerranEngineCover-noBg.png"></a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Terran Engine SRD v0.4.2</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Terran Engine SRD v0.4.3</a>
 <ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#taxonomy"><i class="fa fa-check"></i>Taxonomy</a></li>
 </ul></li>
@@ -97,8 +97,11 @@
 </ul></li>
 <li class="chapter" data-level="3" data-path="making-a-game.html"><a href="making-a-game.html"><i class="fa fa-check"></i><b>3</b> Making a Game</a></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i><b>A</b> Copyright</a></li>
-<li class="chapter" data-level="B" data-path="credit-due.html"><a href="credit-due.html"><i class="fa fa-check"></i><b>B</b> Credit Due</a></li>
+<li class="chapter" data-level="A" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i><b>A</b> Copyright</a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="copyright.html"><a href="copyright.html#credit-due"><i class="fa fa-check"></i><b>A.1</b> Credit Due</a></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="changelog.html"><a href="changelog.html"><i class="fa fa-check"></i><b>B</b> Changelog</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -123,11 +126,12 @@
 <h1><span class="header-section-number">Section 2</span> Rules<a href="rules.html#rules" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="chances" class="section level2 hasAnchor" number="2.1">
 <h2><span class="header-section-number">2.1</span> Chances<a href="rules.html#chances" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>When you are trying your chances at a risky action, say what you intend to do. With the GM determine your appropriate <strong>Attribute</strong>. Then gather 6-sided dice.</p>
+<p>When you are trying your chances at a risky action, say what you intend to do. With the GM determine your appropriate <strong>Attribute</strong> and <strong>Skill</strong>, if applicable. Then gather 6-sided dice.</p>
+<p>Everytime your action leverages one of the things you are good at, you get ….</p>
 <table>
 <colgroup>
-<col width="14%" />
-<col width="85%" />
+<col width="23%" />
+<col width="76%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -138,42 +142,42 @@
 <tbody>
 <tr class="odd">
 <td align="center"><img src="https://i.imgur.com/Xo6X0za.png" alt="|20" /></td>
-<td>Take your appropriate <strong>Attribute</strong> (modified by <strong>Skills</strong>, if applicable) <strong>Dice Pool</strong>. If you don’t have any relevant <strong>Attribute Dice Pool</strong>, then you cannot take <strong>Light Dice</strong>. You can never take more than 4 <strong>Light Dice</strong>.</td>
+<td>Take a number of <strong>Light Dice</strong> equal to your <strong>Attribute</strong> and <strong>Skill</strong>, if applicable. You can have <span class="math inline">\(\mathbf{0:4}\)</span> <strong>Light Dice</strong>.</td>
 </tr>
 <tr class="even">
 <td align="center"><img src="https://i.imgur.com/MBw81Mp.png" alt="|20" /></td>
-<td>Take as many <strong>Dark Dice</strong> as you wish to risk <strong>Ego</strong> for a desperate success.</td>
+<td>Take as many <strong>Dark Dice</strong> as you wish to risk <strong>Ego</strong> for pushing yourself for a success.</td>
 </tr>
 </tbody>
 </table>
 <p>Roll the dice and look for the outcome of the highest value.</p>
 <table>
 <colgroup>
-<col width="4%" />
-<col width="95%" />
+<col width="8%" />
+<col width="91%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="center">Value</th>
+<th align="center"></th>
 <th>Outcome</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center"><strong>1-3</strong></td>
+<td align="center"><span class="math inline">\(\mathbf{1:3}\)</span></td>
 <td>You fail, and things get worse. With the GM describe how it goes wrong. The GM may also allow you to succeed, but things will get worse in some other way.</td>
 </tr>
 <tr class="even">
-<td align="center"><strong>4-5</strong></td>
+<td align="center"><span class="math inline">\(\mathbf{4:5}\)</span></td>
 <td>You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.</td>
 </tr>
 <tr class="odd">
-<td align="center"><strong>6</strong></td>
+<td align="center"><span class="math inline">\(\mathbf{6}\)</span></td>
 <td>You succeed. With the GM describe what happens.</td>
 </tr>
 </tbody>
 </table>
-<p>For each <strong>Dark Dice</strong> that is equal or lower than your current Ego, decrease your <strong>Ego</strong> in one.</p>
+<p>For each <strong>Dark Dice</strong> that is equal or lower than your current <strong>Ego</strong>, decrease your <strong>Ego</strong> in one.</p>
 <p>If the <strong>Risky Action</strong> is part of a longer <strong>Challenge</strong>, roll <strong>Effects</strong> as appropriate.</p>
 </div>
 <div id="challenges" class="section level2 hasAnchor" number="2.2">
@@ -186,51 +190,51 @@
 <li>crawling a location,</li>
 <li>journeying.</li>
 </ul>
-<p><strong>Challenges</strong> have <strong>Disposition</strong>, which measures how much <strong>Effect</strong> they take to be overcame. <strong>Armours</strong> do not modify <strong>Effects</strong> applied to a <strong>Challenge’s Disposition</strong>, like they do for your <strong>HP</strong>. <strong>Challenges</strong> may also have their own <strong>Effect Dice</strong>, that are applied to you as consequences of your <strong>Risky Actions</strong>.</p>
+<p><strong>Challenges</strong> have <strong>Disposition</strong>, which measures how much <strong>Effect</strong> they take to be overcame. <strong>Challenges</strong> may also have their own <strong>Effect Dice</strong>, that are applied to you as consequences of your <strong>Risky Actions</strong>.</p>
 <table>
 <colgroup>
-<col width="14%" />
-<col width="10%" />
-<col width="16%" />
-<col width="59%" />
+<col width="11%" />
+<col width="9%" />
+<col width="12%" />
+<col width="65%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Challenge Level</th>
-<th>Disposition</th>
-<th>Effect Dice</th>
+<th align="center">Disposition</th>
+<th align="center">Effect</th>
 <th>Examples</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Trivial</td>
-<td>1</td>
-<td><span class="math inline">\(\mathbf{1d / 2}\)</span></td>
+<td><strong>Trivial</strong></td>
+<td align="center"><span class="math inline">\(\mathbf{1}\)</span></td>
+<td align="center"><span class="math inline">\(\mathbf{1d / 2}\)</span></td>
 <td>Unskilled adversaries, low height climb, known journey</td>
 </tr>
 <tr class="even">
-<td>Dangerous</td>
-<td>5</td>
-<td><span class="math inline">\(\mathbf{1d}\)</span></td>
-<td>Skilled adversaries, small explosions, troublesome journey</td>
+<td><strong>Dangerous</strong></td>
+<td align="center"><span class="math inline">\(\mathbf{5}\)</span></td>
+<td align="center"><span class="math inline">\(\mathbf{1d}\)</span></td>
+<td>Skilled adversaries, small explosions, small predator, large prey, troublesome journey</td>
 </tr>
 <tr class="odd">
-<td>Serious</td>
-<td>10</td>
-<td><span class="math inline">\(\mathbf{2d}\)</span></td>
-<td>Expert adversareis, predator, close contact with fire or acid</td>
+<td><strong>Serious</strong></td>
+<td align="center"><span class="math inline">\(\mathbf{10}\)</span></td>
+<td align="center"><span class="math inline">\(\mathbf{2d}\)</span></td>
+<td>Expert adversaries, large predator, close contact with fire or acid</td>
 </tr>
 <tr class="even">
-<td>Formidable</td>
-<td>15</td>
-<td><span class="math inline">\(\mathbf{3d}\)</span></td>
+<td><strong>Formidable</strong></td>
+<td align="center"><span class="math inline">\(\mathbf{15}\)</span></td>
+<td align="center"><span class="math inline">\(\mathbf{3d}\)</span></td>
 <td>Human prime, apex predator, immersion in acid, large explosions</td>
 </tr>
 <tr class="odd">
-<td>Extreme</td>
-<td>20</td>
-<td><span class="math inline">\(\mathbf{4d}\)</span></td>
+<td><strong>Extreme</strong></td>
+<td align="center"><span class="math inline">\(\mathbf{20}\)</span></td>
+<td align="center"><span class="math inline">\(\mathbf{4d}\)</span></td>
 <td>Transhuman, often fatal environments, most difficult journeys</td>
 </tr>
 </tbody>
@@ -251,10 +255,10 @@
 <p>Different tools may modify the <strong>Effect Dice</strong> rolled. Examples for weapons are</p>
 <table>
 <colgroup>
-<col width="6%" />
-<col width="18%" />
-<col width="23%" />
-<col width="51%" />
+<col width="4%" />
+<col width="13%" />
+<col width="46%" />
+<col width="35%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -268,29 +272,30 @@
 <tr class="odd">
 <td>Small</td>
 <td align="center"><span class="math inline">\(\mathbf{1d / 2}\)</span></td>
-<td>Knife, small revolver</td>
+<td>Knife, staff, small revolver</td>
 <td>Improvised weapons: <strong>Chances</strong> <span class="math inline">\(\mathbf{-1d}\)</span></td>
 </tr>
 <tr class="even">
 <td>Medium</td>
 <td align="center"><span class="math inline">\(\mathbf{1d}\)</span></td>
-<td>Large pistol, SMG</td>
+<td>Sword, large pistol, SMG</td>
 <td><strong>Effect</strong> <span class="math inline">\(\mathbf{1d+1}\)</span> if held two handed.</td>
 </tr>
 <tr class="odd">
 <td>Heavy</td>
 <td align="center"><span class="math inline">\(\mathbf{2d}\)</span></td>
-<td>Shotgun, Sniper rifle</td>
+<td>Large axe, bastard sword, shotgun, sniper rifle, machine gun</td>
 <td>Requires two hands.</td>
 </tr>
 </tbody>
 </table>
 <p>Physical harm <strong>Effects</strong> applied to you impacts your <strong>HP</strong>. The armour you wear modifies the <strong>Effect</strong>. Subtract the modified <strong>Effect</strong> from your <strong>HP</strong>.</p>
+<p><strong>Armours</strong> do not modify <strong>Effects</strong> applied to a <strong>Challenge’s Disposition</strong>, like they do for your <strong>HP</strong>.</p>
 <table>
 <colgroup>
-<col width="8%" />
-<col width="10%" />
-<col width="81%" />
+<col width="7%" />
+<col width="16%" />
+<col width="76%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -302,17 +307,17 @@
 <tbody>
 <tr class="odd">
 <td>Light</td>
-<td align="center">-1</td>
+<td align="center"><span class="math inline">\(\mathbf{-1}\)</span></td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Heavy</td>
-<td align="center">-2</td>
+<td align="center"><span class="math inline">\(\mathbf{-2}\)</span></td>
 <td><strong>Chances</strong> <span class="math inline">\(\mathbf{-1d}\)</span> to run, observe, sneak, swim, etc.</td>
 </tr>
 <tr class="odd">
 <td>Shield</td>
-<td align="center">-1</td>
+<td align="center"><span class="math inline">\(\mathbf{-1}\)</span></td>
 <td>Can be sacrificed to completely avoid an <strong>Effect</strong>.</td>
 </tr>
 </tbody>

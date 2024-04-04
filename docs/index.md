@@ -1,12 +1,11 @@
 ---
 title: "Terran Engine"
 # author: "Estevao Alvarenga"
-# date: "2024-04-03"
+# date: "2024-04-04"
 site: bookdown::bookdown_site
 documentclass: book
 # bibliography: [book.bib]
-description: |
-  This is a minimal TTRPG engine.
+description: "This is a minimal TTRPG engine."
 link-citations: yes
 github-repo: efsalvarenga/terraSystem
 url: https://efsalvarenga.github.io/terraSystem/
@@ -14,7 +13,7 @@ favicon: imgs/favicon.ico
 cover-image: imgs/TerranEngineCover.png
 ---
 
-# Terran Engine SRD v0.4.2 {-}
+# Terran Engine SRD v0.4.3 {-}
 
 ![](imgs/TerranEngineCover.png)
 
