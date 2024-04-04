@@ -74,15 +74,15 @@ You have two measures of survival: **HP** (hit points) and **Ego**. These measur
 
 ## Advancements
 
-Every time PCs accumulate 8 XP, they gain an **Advancement**. Alongside an **Advancement**, a PC also gains +1 maximum **HP** and +1 maximum **Ego**.
+Once every $\mathbf{2}$ to $\mathbf{5}$ sessions, when the GM deems appropriate, you gain an **Advancement**, $\mathbf{+1} \textbf{ HP}_{max}$ and $\mathbf{+1} \textbf{ Ego}_{max}$. The list of **Advancements** below may be adapted or expanded, if necessary.
 
-- **Extra Attribute**: Gain +1 in one chosen **Attribute**. **Attribute** maximum is 2 in the first 10 advancements and 3 thereafter.
+- **Extra Attribute**: Increase a chosen **Attribute** in $\mathbf{1}$.
 - **Protected**: Roll **Dark Dice**. Their sum can be reduced from damage you received. Lose one **Ego** for each of them that is lower than your current **Ego**.
 - **Sensory acuity**: You have $\mathbf{+1d}$ on actions related to a chosen sense.
 - **Sneak attack**: You have $\mathbf{+1d}$ to attack and damage to unaware rivals.
 - **Sniper**: When you spend a turn aiming you have $\mathbf{+1d}$ to attack and damage to a rival.
 - **Rally**: When you rally your allies, a number equal to the number of **Dark Dice** rolled get $\mathbf{+1d}$ until the end of the scene.
-- **Multi-attack**: In melee, you deal one additional instance of **Damage** for each **Dark Dice** that shows a 6.
+- **Multi-attack**: In melee, you deal one additional instance of **Damage** for each **Dark Dice** that shows a $\mathbf{6}$.
 - **Tough**: Gain one additional **HP** per **Advancement**.
 - **Curse**: You bring a curse to your rivals. A number equal to the number of **Dark Dice** rolled get $\mathbf{-1d}$ until the end of the scene.
 
