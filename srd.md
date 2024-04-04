@@ -8,7 +8,7 @@
 
 ## Archetypes
 
-You are defined by an **Archetype**, which encapsulates your background, concept and role within the narrative. Each **Archetype** should offer an immediate grasp your identity and behaviours. It is expected you will evolve beyond these initial **Archetypes** towards unique narratives.
+You are defined by an **Archetype**, which encapsulates your background, concept and role within the narrative. Each **Archetype** should offer an immediate grasp of your identity and behaviours. It is expected you will evolve beyond these initial **Archetypes** towards unique narratives.
 
 - **Hero**: Embodies courage and strength, often the protagonist fighting against the odds.
 - **Mentor**: Provides guidance and wisdom, helping the hero on their journey.
@@ -56,12 +56,21 @@ Alternatively, the game might ignore **Skills** and focus on **Attributes** only
 
 You have two measures of survival: **HP** (hit points) and **Ego**. These measures increase as you become more seasoned.
 
-| HP                                                                                                                                                    | Ego                                                                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **HP** represent your health, physical disposition and endurance. You lose **HP** when you are physically harmed.                                     | **Ego** combines willpower, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.        |
-| $$\text{HP}=\text{Strength}+\text{Dexterity}+5$$                                                                                                      | $$\text{Ego}=\text{Insight}+\text{Resolve}+3$$                                                                                                           |
-| The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an addition **HP**.                                      | **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum. |
-| When your **HP** reaches 0 you permanently lose one **Attribute** of your choice. You are unconscious and wake up with 1 **HP** after the scene ends. | When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.                                                        |
+| HP (hit points)                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **HP** represent your health, physical disposition and endurance. You lose **HP** when you are physically harmed.                                     |
+| $\mathbf{\textbf{HP}_{max}=\textbf{Strength}+ \textbf{Dexterity}+5}$                                                                                  |
+| The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an addition **HP**.                                      |
+| When your **HP** reaches 0 you permanently lose one **Attribute** of your choice. You are unconscious and wake up with 1 **HP** after the scene ends. |
+
+| Ego                                                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ego** combines willpower, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.        |
+| $\mathbf{\textbf{Ego}_{max}=\textbf{Insight}+\textbf{Resolve}+3}$                                                                                        |
+| **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum. |
+| When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.                                                        |
+| **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum. |
+| When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.                                                        |
 
 ## Advancements
 
@@ -104,13 +113,15 @@ When you are trying your chances at a risky action, say what you intend to do. W
 
 Roll the dice and look for the outcome of the highest value.
 
-|  Value  | Outcome                                                                                                                                                    |
-| :-----: | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1-3** | You fail, and things get worse. With the GM describe how it goes wrong. The GM may also allow you to succeed, but things will get worse in some other way. |
-| **4-5** | You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.                                             |
-|  **6**  | You succeed. With the GM describe what happens.                                                                                                            |
+Roll the dice and look for the outcome of the highest value. 
 
-For each **Dark Dice** that is equal or lower than your current Ego, decrease your **Ego** in one.
+|                | Outcome                                                                                                                                                    |
+| :------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $\mathbf{1:3}$ | You fail, and things get worse. With the GM describe how it goes wrong. The GM may also allow you to succeed, but things will get worse in some other way. |
+| $\mathbf{4:5}$ | You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.                                             |
+|  $\mathbf{6}$  | You succeed. With the GM describe what happens.                                                                                                            |
+
+For each **Dark Dice** that is equal or lower than your current **Ego**, decrease your **Ego** in one.
 
 If the **Risky Action** is part of a longer **Challenge**, roll **Effects** as appropriate.
 
@@ -160,11 +171,13 @@ Different tools may modify the **Effect Dice** rolled. Examples for weapons are
 
 Physical harm **Effects** applied to you impacts your **HP**. The armour you wear modifies the **Effect**. Subtract the modified **Effect** from your **HP**. 
 
-| Armour | Modifier | Details                                                       |
-| ------ | :------: | ------------------------------------------------------------- |
-| Light  |    -1    |                                                               |
-| Heavy  |    -2    | **Chances** $\mathbf{-1d}$ to run, observe, sneak, swim, etc. |
-| Shield |    -1    | Can be sacrificed to completely avoid an **Effect**.          |
+**Armours** do not modify **Effects** applied to a **Challenge's Disposition**, like they do for your **HP**.
+
+| Armour |   Modifier    | Details                                                       |
+| ------ | :-----------: | ------------------------------------------------------------- |
+| Light  | $\mathbf{-1}$ |                                                               |
+| Heavy  | $\mathbf{-2}$ | **Chances** $\mathbf{-1d}$ to run, observe, sneak, swim, etc. |
+| Shield | $\mathbf{-1}$ | Can be sacrificed to completely avoid an **Effect**.          |
 Sometimes **Challenge Effects** forks into new **Challenges**. These might be an encounter, an unexpected detour or some unlucky event. Consult the **Challenge** fork table.
 
 | Effect Roll        |   1-3   |    4-5    |  7-11   |    13+     |
