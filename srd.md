@@ -32,21 +32,25 @@ You have four **Attributes**.
 - **Insight**: reasoning, understanding and empathy. 
 - **Resolve**: command, determination and personality heft.
 
-To determine **Attribute** values, roll $\mathbf{2d}$ for each, take the highest, and consult the table below. After rolling, choose one attribute and apply $\mathbf{+1}$.
+To determine **Attribute** values, roll $\mathbf{2d}$ for each, take the highest, and consult the table below.
 
-|  Highest Die   | 1-3 | 4-5 |  6  |
-| :------------: | :-: | :-: | :-: |
-| **Stat Value** |  0  |  1  |  2  |
-
-Your **Attributes** determine the size of your **Dice Pools** when you are doing something that you are capable of, and have appropriate the equipment.
+|               |  $\mathbf{1:3}$   |   $\mathbf{4:5}$    |     $\mathbf{6}$      |
+| :-----------: | :---------------: | :-----------------: | :-------------------: |
+| **Attribute** | $\circ\circ\circ$ | $\bullet\circ\circ$ | $\bullet\bullet\circ$ |
 
 In certain conditions, you might lose **Attributes**. **Attribute** loss is permanent and when any attribute goes below 0 you die.
 
 ### Skills
 
-The specific scenario you play might have a list of **Skills**. These skills might be hierarchically related to **Attributes**. **Skills** are added to **Attribute Dice Pools**.
+Everyone is better at some things. Choose four specific **Skills** you are good at. These may be based on your **Archetype**. With the GM you can adapt or expand the generic list of **Skills** provided.
 
-**Skill**-based scenarios are generally more complex for the Players.
+- **Violence**: brawl, shoot, melee, exert;
+- **Exploration**: notice, sneak, pilot, navigate;
+- **Social**: connect, lead, perform, talk;
+- **Survival**: forage, craft, heal, tame;
+- **Vocational**: admin, program, know, trade
+
+Alternatively, the game might ignore **Skills** and focus on **Attributes** only. If that is the case, choose one **Attribute** and increase it in $\mathbf{1}$.
 
 ## HP and Ego
 
