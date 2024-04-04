@@ -8,6 +8,6 @@ _Trophy™ is a trademark of Hedgemaze Press. The trademark and “Rooted in Tro
 
 ![](https://trophyrpg.com/system/logos/Rooted-in-Trophy-Black.svg)
 
-# Credit Due 
+## Credit Due 
 
 This work is inspired by [*World of Dungeons*](https://johnharper.itch.io/world-of-dungeons) by John Harper, and [*Best Left Buried Zine Edition*](https://soulmuppet-store.co.uk/products/best-left-buried-zini-edition) by Zachary Cox and Nicholas Spence. It also owes inspiration to all the games that preceded the ones mentioned here.

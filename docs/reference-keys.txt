@@ -12,3 +12,4 @@ effects
 making-a-game
 copyright
 credit-due
+changelog
