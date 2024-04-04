@@ -5,8 +5,7 @@ title: "Terran Engine"
 site: bookdown::bookdown_site
 documentclass: book
 # bibliography: [book.bib]
-description: |
-  This is a minimal TTRPG engine.
+description: "This is a minimal TTRPG engine."
 link-citations: yes
 github-repo: efsalvarenga/terraSystem
 url: https://efsalvarenga.github.io/terraSystem/

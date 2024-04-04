@@ -10,3 +10,4 @@ rmd_files:
 - index.Rmd
 - srd.md
 - srdAppendices.md
+- changelog.md
