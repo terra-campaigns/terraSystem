@@ -104,14 +104,14 @@ At any moment in the game you can recover your **Ego** back to its maximum by ta
 
 ## Chances
 
-When you are trying your chances at a risky action, say what you intend to do. With the GM determine your appropriate **Attribute**. Then gather 6-sided dice.
+When you are trying your chances at a risky action, say what you intend to do. With the GM determine your appropriate **Attribute** and **Skill**, if applicable. Then gather 6-sided dice.
 
-|                                          | Dice Pool                                                                                                                                                                                                                              |
-| :--------------------------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![\|20](https://i.imgur.com/Xo6X0za.png) | Take your appropriate **Attribute** (modified by **Skills**, if applicable) **Dice Pool**. If you don’t have any relevant **Attribute Dice Pool**, then you cannot take **Light Dice**. You can never take more than 4 **Light Dice**. |
-| ![\|20](https://i.imgur.com/MBw81Mp.png) | Take as many **Dark Dice** as you wish to risk **Ego** for a desperate success.                                                                                                                                                        |
+Everytime your action leverages one of the things you are good at, you get ....
 
-Roll the dice and look for the outcome of the highest value.
+|                                          | Dice Pool                                                                                                                             |
+| :--------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------- |
+| ![\|20](https://i.imgur.com/Xo6X0za.png) | Take a number of **Light Dice** equal to your **Attribute** and **Skill**, if applicable. You can have $\mathbf{0:4}$ **Light Dice**. |
+| ![\|20](https://i.imgur.com/MBw81Mp.png) | Take as many **Dark Dice** as you wish to risk **Ego** for pushing yourself for a success.                                            |
 
 Roll the dice and look for the outcome of the highest value. 
 
@@ -186,4 +186,4 @@ Sometimes **Challenge Effects** forks into new **Challenges**. These might be an
 
 # Making a Game
 
-To make it thematically specific to the target scenario, adapt the Characters' section by changing the Archetypes used, fine tuning the Attributes and skill lists, reskinning the explanation for Ego and developing coherent Advancements and Conditions. The Rules' section can be used as is.
+To make **Terran Engine** thematically specific to the target scenario, adapt the Characters' section by changing the **Archetypes** used, fine tuning the **Attributes** and **Skill** lists, reskinning the explanation for **Ego** and developing coherent **Advancements** and **Conditions**. The Rules' section can be used as is.
