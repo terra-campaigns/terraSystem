@@ -135,15 +135,15 @@ Sometimes, multiple actions are required to overcome **Challenges**. Examples of
 - crawling a location,
 - journeying.
 
-**Challenges** have **Disposition**, which measures how much **Effect** they take to be overcame. **Armours** do not modify **Effects** applied to a **Challenge's Disposition**, like they do for your **HP**. **Challenges** may also have their own **Effect Dice**, that are applied to you as consequences of your **Risky Actions**.
+**Challenges** have **Disposition**, which measures how much **Effect** they take to be overcame. **Challenges** may also have their own **Effect Dice**, that are applied to you as consequences of your **Risky Actions**.
 
-| Challenge Level | Disposition | Effect Dice       | Examples                                                        |
-| --------------- | ----------- | ----------------- | --------------------------------------------------------------- |
-| Trivial         | 1           | $\mathbf{1d / 2}$ | Unskilled adversaries, low height climb, known journey          |
-| Dangerous       | 5           | $\mathbf{1d}$     | Skilled adversaries, small explosions, troublesome journey      |
-| Serious         | 10          | $\mathbf{2d}$     | Expert adversareis, predator, close contact with fire or acid   |
-| Formidable      | 15          | $\mathbf{3d}$     | Human prime, apex predator, immersion in acid, large explosions |
-| Extreme         | 20          | $\mathbf{4d}$     | Transhuman, often fatal environments, most difficult journeys   |
+| Challenge Level |  Disposition  |      Effect       | Examples                                                                               |
+| --------------- | :-----------: | :---------------: | -------------------------------------------------------------------------------------- |
+| **Trivial**     | $\mathbf{1}$  | $\mathbf{1d / 2}$ | Unskilled adversaries, low height climb, known journey                                 |
+| **Dangerous**   | $\mathbf{5}$  |   $\mathbf{1d}$   | Skilled adversaries, small explosions, small predator, large prey, troublesome journey |
+| **Serious**     | $\mathbf{10}$ |   $\mathbf{2d}$   | Expert adversaries, large predator, close contact with fire or acid                    |
+| **Formidable**  | $\mathbf{15}$ |   $\mathbf{3d}$   | Human prime, apex predator, immersion in acid, large explosions                        |
+| **Extreme**     | $\mathbf{20}$ |   $\mathbf{4d}$   | Transhuman, often fatal environments, most difficult journeys                          |
 
 If multiple challenges gang up against you, increase the **Challenge Level** in one for each two additional challenges after the first.
 
@@ -163,11 +163,11 @@ When you roll **Effect Dice**, only the highest result is relevant. This highest
 
 Different tools may modify the **Effect Dice** rolled. Examples for weapons are
 
-| Weapon |      Effect       | Examples              | Details                                        |
-| ------ | :---------------: | --------------------- | ---------------------------------------------- |
-| Small  | $\mathbf{1d / 2}$ | Knife, small revolver | Improvised weapons: **Chances** $\mathbf{-1d}$ |
-| Medium |   $\mathbf{1d}$   | Large pistol, SMG     | **Effect** $\mathbf{1d+1}$ if held two handed. |
-| Heavy  |   $\mathbf{2d}$   | Shotgun, Sniper rifle | Requires two hands.                            |
+| Weapon |      Effect       | Examples                                                     | Details                                        |
+| ------ | :---------------: | ------------------------------------------------------------ | ---------------------------------------------- |
+| Small  | $\mathbf{1d / 2}$ | Knife, staff, small revolver                                 | Improvised weapons: **Chances** $\mathbf{-1d}$ |
+| Medium |   $\mathbf{1d}$   | Sword, large pistol, SMG                                     | **Effect** $\mathbf{1d+1}$ if held two handed. |
+| Heavy  |   $\mathbf{2d}$   | Large axe, bastard sword, shotgun, sniper rifle, machine gun | Requires two hands.                            |
 
 Physical harm **Effects** applied to you impacts your **HP**. The armour you wear modifies the **Effect**. Subtract the modified **Effect** from your **HP**. 
 
