@@ -28,9 +28,9 @@ You are defined by an **Archetype**, which encapsulates your background, concept
 You have four **Attributes**.
 
 - **Strength**: physical power, endurance and might.
-- **Dexterity**: agility, precision and physical sagacity.
-- **Insight**: reasoning, understanding and empathy. 
-- **Resolve**: command, determination and personality heft.
+- **Agility**: dexterity, precision and physical sagacity.
+- **Insight**: perception, understanding and reasoning. 
+- **Charisma**: empathy, command and personality heft.
 
 To determine **Attribute** values, roll $\mathbf{2d}$ for each, take the highest, and consult the table below.
 
