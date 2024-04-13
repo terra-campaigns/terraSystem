@@ -186,6 +186,15 @@ Sometimes **Challenge Effects** forks into new **Challenges** or complications o
 | ---------------- | :----------: | :------------: | :------------: | :------------: |
 | **Challenge**    |   Trivial    |   Dangerous    |    Serious     |   Formidable   |
 | **Complication** | $\mathbf{-}$ | $\mathbf{-1d}$ | $\mathbf{-2d}$ | $\mathbf{-3d}$ |
+### Montage
+
+You and the GM might prefer to resolve a **Challenge** in one single roll. That is possible by rolling the **Challenge Effect** prior to gathering your **Dice Pool**. Apply the Complication modifier to your **Dice Pool** and roll your **Risky Action**. You risk $\mathbf{2}$ **Ego** for each **Dark Die** you use. Your companions can also pool their **Ego** to help you. This single roll determine the outcome of the entire **Challenge**.
+
+It is not recommended to use **Montages** if the consequence of failure would be the death of someone. On those cases, playing the Challenge as a longer one gives more manoeuvre space.
+
+## Fortune die
+
+When the GM wants to leave some decision to the dice, define the chances and roll $\mathbf{1d}$.
 
 # Making a Game
 
