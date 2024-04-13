@@ -108,16 +108,15 @@ At any moment in the game you can recover your **Ego** back to its maximum by ta
 
 # Rules
 
-## Chances
+## Risky Actions
 
-When you are trying your chances at a risky action, say what you intend to do. With the GM determine your appropriate **Attribute** and **Skill**, if applicable. Then gather 6-sided dice.
+When you are trying your chances at a **Risky Action**, say what you intend to do. With the GM determine your appropriate **Attribute** (and **Skill**, if applicable). Then gather 6-sided dice.
 
-Everytime your action leverages one of the things you are good at, you get ....
+|                                | Dice Pool                                                                                                                                                                                                                                                           |
+| :----------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](imgs/dice-light-6-sml.png) | Take a number of **Light Dice** equal to your **Attribute** (and **Skill**, if applicable). If you are in an advantageous or precarious position, the GM may give you $\mathbf{\pm 1d}$. You must always have between $\mathbf{0}$ and $\mathbf{4}$ **Light Dice**. |
+| ![](imgs/dice-dark-6-sml.png)  | Take as many **Dark Dice** as you wish to risk **Ego** for pushing yourself for a success. For each **Dark Dice** that rolls equal or lower than your current **Ego**, decrease your **Ego** in one.                                                                |
 
-|                                          | Dice Pool                                                                                                                             |
-| :--------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------- |
-| ![\|20](https://i.imgur.com/Xo6X0za.png) | Take a number of **Light Dice** equal to your **Attribute** and **Skill**, if applicable. You can have $\mathbf{0:4}$ **Light Dice**. |
-| ![\|20](https://i.imgur.com/MBw81Mp.png) | Take as many **Dark Dice** as you wish to risk **Ego** for pushing yourself for a success.                                            |
 
 Roll the dice and look for the outcome of the highest value. 
 
@@ -126,9 +125,6 @@ Roll the dice and look for the outcome of the highest value.
 | $\mathbf{1:3}$ | You fail, and things get worse. With the GM describe how it goes wrong. The GM may also allow you to succeed, but things will get worse in some other way. |
 | $\mathbf{4:5}$ | You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.                                             |
 |  $\mathbf{6}$  | You succeed. With the GM describe what happens.                                                                                                            |
-
-For each **Dark Dice** that is equal or lower than your current **Ego**, decrease your **Ego** in one.
-
 If the **Risky Action** is part of a longer **Challenge**, roll **Effects** as appropriate.
 
 ## Challenges
