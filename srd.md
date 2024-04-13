@@ -152,7 +152,7 @@ If multiple challenges gang up against you, increase the **Challenge Level** in 
 
 Some challenges might be multifaceted. A bulky rival might be a Dangerous **Challenge** to fight against, but a Trivial **Challenge** to be convinced to ignore you.
 
-## Effects
+### Effects
 
 **Effects** determines the quantitative result of your **Risky Actions** towards overcoming a longer **Challenge**. Examples of Effects are
 
@@ -162,28 +162,30 @@ Some challenges might be multifaceted. A bulky rival might be a Dangerous **Chal
 
 When you roll **Effect Dice**, only the highest result is relevant. This highest die is exploding (every time the result is a natural 6, re-roll and accumulate the result).
 
-Different tools may modify the **Effect Dice** rolled. Examples for weapons are
+Different tools may modify the **Effect Dice** rolled.
 
-| Weapon |      Effect       | Examples                                                     | Details                                        |
-| ------ | :---------------: | ------------------------------------------------------------ | ---------------------------------------------- |
-| Small  | $\mathbf{1d / 2}$ | Knife, staff, small revolver                                 | Improvised weapons: **Chances** $\mathbf{-1d}$ |
-| Medium |   $\mathbf{1d}$   | Sword, large pistol, SMG                                     | **Effect** $\mathbf{1d+1}$ if held two handed. |
-| Heavy  |   $\mathbf{2d}$   | Large axe, bastard sword, shotgun, sniper rifle, machine gun | Requires two hands.                            |
+| Equipment                         |      Effect      | Examples                                                                            | Details                                           |
+| --------------------------------- | :--------------: | ----------------------------------------------------------------------------------- | ------------------------------------------------- |
+| **Lesser tool;<br>Small weapon**  | $\mathbf{d / 2}$ | Primitive tool;<br>Knife, staff, small revolver                                     | Improvised tools: **Risky Action** $\mathbf{-1d}$ |
+| **Normal tool;<br>Medium weapon** |  $\mathbf{1d}$   | Fit for purpose tool;<br>Sword, large pistol, SMG                                   | **Effect** $\mathbf{1d+1}$ if held two handed.    |
+| **Greater tool;<br>Large weapon** |  $\mathbf{2d}$   | Expert grade tool;<br>Large axe, bastard sword, shotgun, sniper rifle, machine gun; | Requires two hands.                               |
 
-Physical harm **Effects** applied to you impacts your **HP**. The armour you wear modifies the **Effect**. Subtract the modified **Effect** from your **HP**. 
+Physical harm **Effects** applied to you impacts your **HP**, and **Attributes** when you reach $\mathbf{0}$ **HP**. The armour you wear modifies the **Effect**. Subtract the modified **Effect** from your **HP** or **Attributes**.
 
-**Armours** do not modify **Effects** applied to a **Challenge's Disposition**, like they do for your **HP**.
+**Armours** do not modify **Effects** applied to a **Challenge's Disposition**, like they do for you.
 
-| Armour |   Modifier    | Details                                                       |
-| ------ | :-----------: | ------------------------------------------------------------- |
-| Light  | $\mathbf{-1}$ |                                                               |
-| Heavy  | $\mathbf{-2}$ | **Chances** $\mathbf{-1d}$ to run, observe, sneak, swim, etc. |
-| Shield | $\mathbf{-1}$ | Can be sacrificed to completely avoid an **Effect**.          |
-Sometimes **Challenge Effects** forks into new **Challenges**. These might be an encounter, an unexpected detour or some unlucky event. Consult the **Challenge** fork table.
+| Armour     |   Modifier    | Details                                                       |
+| ---------- | :-----------: | ------------------------------------------------------------- |
+| **Light**  | $\mathbf{-1}$ |                                                               |
+| **Heavy**  | $\mathbf{-2}$ | **Chances** $\mathbf{-1d}$ to run, observe, sneak, swim, etc. |
+| **Shield** | $\mathbf{-1}$ | Can be sacrificed to completely avoid an **Effect**.          |
 
-| Effect Roll        |   1-3   |    4-5    |  7-11   |    13+     |
-| ------------------ | :-----: | :-------: | :-----: | :--------: |
-| **Challenge** fork | Trivial | Dangerous | Serious | Formidable |
+Sometimes **Challenge Effects** forks into new **Challenges** or complications on the current **Challenge**. Extra **Challenges** might be an encounter, an unexpected detour, a hidden threat or some unlucky event. Complications, on the other hand, pose some additional difficulty on the next **Risky Action** roll related to the **Challenge**.
+
+| Effect Roll      |     1-3      |      4-5       |      7-11      |      13+       |
+| ---------------- | :----------: | :------------: | :------------: | :------------: |
+| **Challenge**    |   Trivial    |   Dangerous    |    Serious     |   Formidable   |
+| **Complication** | $\mathbf{-}$ | $\mathbf{-1d}$ | $\mathbf{-2d}$ | $\mathbf{-3d}$ |
 
 # Making a Game
 
