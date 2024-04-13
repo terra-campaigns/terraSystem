@@ -2,9 +2,9 @@
 
 
 1. Always start with a **Name** and an **Archetype**.
-2. Roll for **Attributes**.
+2. Roll for **Attributes** and choose **Skills**.
 3. Calculate **HP** (hit points) and **Ego**.
-4. Choose one **Advancement**.
+4. `Optional` Choose one **Advancement** and increase your $\textbf{HP}_{max}$ in $\mathbf{1}$.
 
 ## Archetypes
 
