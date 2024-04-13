@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>C Simulations | Terran Engine</title>
+  <meta name="description" content="This is a minimal TTRPG engine." />
+  <meta name="generator" content="bookdown 0.38 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="C Simulations | Terran Engine" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="https://efsalvarenga.github.io/terraSystem/imgs/TerranEngineCover.png" />
+  <meta property="og:description" content="This is a minimal TTRPG engine." />
+  <meta name="github-repo" content="efsalvarenga/terraSystem" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="C Simulations | Terran Engine" />
+  
+  <meta name="twitter:description" content="This is a minimal TTRPG engine." />
+  <meta name="twitter:image" content="https://efsalvarenga.github.io/terraSystem/imgs/TerranEngineCover.png" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+<link rel="prev" href="changelog.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="assets/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="toc-logo"><a href="./"><img src="imgs/TerranEngineCover-noBg.png"></a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Terran Engine SRD v0.4.4</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#taxonomy"><i class="fa fa-check"></i>Taxonomy</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="characters.html"><a href="characters.html"><i class="fa fa-check"></i><b>1</b> Characters</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="characters.html"><a href="characters.html#archetypes"><i class="fa fa-check"></i><b>1.1</b> Archetypes</a></li>
+<li class="chapter" data-level="1.2" data-path="characters.html"><a href="characters.html#attributes"><i class="fa fa-check"></i><b>1.2</b> Attributes</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="characters.html"><a href="characters.html#skills"><i class="fa fa-check"></i><b>1.2.1</b> Skills</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="characters.html"><a href="characters.html#hp-and-ego"><i class="fa fa-check"></i><b>1.3</b> HP and Ego</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="characters.html"><a href="characters.html#hp-hit-points"><i class="fa fa-check"></i><b>1.3.1</b> HP (hit points)</a></li>
+<li class="chapter" data-level="1.3.2" data-path="characters.html"><a href="characters.html#ego"><i class="fa fa-check"></i><b>1.3.2</b> Ego</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="characters.html"><a href="characters.html#advancements"><i class="fa fa-check"></i><b>1.4</b> Advancements</a></li>
+<li class="chapter" data-level="1.5" data-path="characters.html"><a href="characters.html#conditions"><i class="fa fa-check"></i><b>1.5</b> Conditions</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="rules.html"><a href="rules.html"><i class="fa fa-check"></i><b>2</b> Rules</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="rules.html"><a href="rules.html#risky-actions"><i class="fa fa-check"></i><b>2.1</b> Risky Actions</a></li>
+<li class="chapter" data-level="2.2" data-path="rules.html"><a href="rules.html#challenges"><i class="fa fa-check"></i><b>2.2</b> Challenges</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="rules.html"><a href="rules.html#effects"><i class="fa fa-check"></i><b>2.2.1</b> Effects</a></li>
+<li class="chapter" data-level="2.2.2" data-path="rules.html"><a href="rules.html#montage"><i class="fa fa-check"></i><b>2.2.2</b> Montage</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="rules.html"><a href="rules.html#fortune-die"><i class="fa fa-check"></i><b>2.3</b> Fortune die</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="making-a-game.html"><a href="making-a-game.html"><i class="fa fa-check"></i><b>3</b> Making a Game</a></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i><b>A</b> Copyright</a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="copyright.html"><a href="copyright.html#credit-due"><i class="fa fa-check"></i><b>A.1</b> Credit Due</a></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="changelog.html"><a href="changelog.html"><i class="fa fa-check"></i><b>B</b> Changelog</a></li>
+<li class="chapter" data-level="C" data-path="simulations.html"><a href="simulations.html"><i class="fa fa-check"></i><b>C</b> Simulations</a>
+<ul>
+<li class="chapter" data-level="C.1" data-path="simulations.html"><a href="simulations.html#chances"><i class="fa fa-check"></i><b>C.1</b> Chances</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Terran Engine</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="simulations" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">C</span> Simulations<a href="simulations.html#simulations" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This section details some simulation results from the game mechanics.
+It is not a required read, but should support understanding the design choices and their stochastic impacts.</p>
+<div id="chances" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">C.1</span> Chances<a href="simulations.html#chances" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Chances are rolled with a number of 6-sided dice (a dice pool).
+Because of the <strong>Dark Dice</strong> the dice pool size starts at <span class="math inline">\(\mathbf{1}\)</span> and has no upper limit.</p>
+<p>The function below simulates the roll of a dice pool.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="simulations.html#cb1-1" tabindex="-1"></a><span class="co"># Vectorized version of roll_highest</span></span>
+<span id="cb1-2"><a href="simulations.html#cb1-2" tabindex="-1"></a>roll_highest_vec <span class="ot">&lt;-</span> <span class="cf">function</span>(num_dice_vector) {</span>
+<span id="cb1-3"><a href="simulations.html#cb1-3" tabindex="-1"></a>  <span class="co"># Use sapply to apply the rolling logic to each element of num_dice_vector</span></span>
+<span id="cb1-4"><a href="simulations.html#cb1-4" tabindex="-1"></a>  <span class="fu">sapply</span>(num_dice_vector, <span class="cf">function</span>(num_dice) {</span>
+<span id="cb1-5"><a href="simulations.html#cb1-5" tabindex="-1"></a>    <span class="fu">max</span>(<span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, num_dice, <span class="at">replace =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb1-6"><a href="simulations.html#cb1-6" tabindex="-1"></a>  })</span>
+<span id="cb1-7"><a href="simulations.html#cb1-7" tabindex="-1"></a>}</span></code></pre></div>
+<p>I apply the function to a data frame in a Monte Carlo fashion, with dice pool sizes from 1 to 8.
+The plot show the distribution of results for different dice pool sizes.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="simulations.html#cb2-1" tabindex="-1"></a><span class="co"># Create a sample dataframe</span></span>
+<span id="cb2-2"><a href="simulations.html#cb2-2" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">pool =</span> <span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, runs, <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb2-3"><a href="simulations.html#cb2-3" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">result =</span> <span class="fu">roll_highest_vec</span>(pool))</span>
+<span id="cb2-4"><a href="simulations.html#cb2-4" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="simulations.html#cb2-5" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> result)) <span class="sc">+</span></span>
+<span id="cb2-6"><a href="simulations.html#cb2-6" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">1</span>, <span class="fu">aes</span>(<span class="at">fill =</span> <span class="fu">as.factor</span>(result))) <span class="sc">+</span></span>
+<span id="cb2-7"><a href="simulations.html#cb2-7" tabindex="-1"></a>  <span class="fu">scale_fill_grey</span>(<span class="at">start =</span> <span class="fl">0.8</span>, <span class="at">end =</span> <span class="fl">0.2</span>) <span class="sc">+</span> <span class="co"># Use grey scale for the fill</span></span>
+<span id="cb2-8"><a href="simulations.html#cb2-8" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>pool, <span class="at">scales =</span> <span class="st">&quot;free_x&quot;</span>) <span class="sc">+</span> <span class="co"># Facet by pool, allowing each facet to scale x independently</span></span>
+<span id="cb2-9"><a href="simulations.html#cb2-9" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> <span class="co"># Use a minimalist theme</span></span>
+<span id="cb2-10"><a href="simulations.html#cb2-10" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb2-11"><a href="simulations.html#cb2-11" tabindex="-1"></a>    <span class="at">strip.background =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb2-12"><a href="simulations.html#cb2-12" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">&#39;none&#39;</span>,</span>
+<span id="cb2-13"><a href="simulations.html#cb2-13" tabindex="-1"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">colour =</span> <span class="st">&quot;black&quot;</span>),</span>
+<span id="cb2-14"><a href="simulations.html#cb2-14" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb2-15"><a href="simulations.html#cb2-15" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb2-16"><a href="simulations.html#cb2-16" tabindex="-1"></a>    <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">&quot;black&quot;</span>),</span>
+<span id="cb2-17"><a href="simulations.html#cb2-17" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">&quot;black&quot;</span>)</span>
+<span id="cb2-18"><a href="simulations.html#cb2-18" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb2-19"><a href="simulations.html#cb2-19" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Highest Roll&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Frequency&quot;</span>) <span class="co"># Label axes</span></span></code></pre></div>
+<p><img src="sims_files/figure-html/chances_df1-1.png" width="672" /></p>
+<p>Now I apply the result grouping (1:3, 4:5 or 6) and qualify them into full success (1), success and complications (0) and only complications (-1).</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="simulations.html#cb3-1" tabindex="-1"></a><span class="co"># Qualify results</span></span>
+<span id="cb3-2"><a href="simulations.html#cb3-2" tabindex="-1"></a>df <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
+<span id="cb3-3"><a href="simulations.html#cb3-3" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">success =</span> <span class="fu">ifelse</span>(result <span class="sc">&lt;=</span> <span class="dv">3</span>, <span class="sc">-</span><span class="dv">1</span>, <span class="fu">ifelse</span>(result <span class="sc">&lt;=</span> <span class="dv">5</span>, <span class="dv">0</span>, <span class="dv">1</span>)))</span>
+<span id="cb3-4"><a href="simulations.html#cb3-4" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="simulations.html#cb3-5" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> success)) <span class="sc">+</span></span>
+<span id="cb3-6"><a href="simulations.html#cb3-6" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">1</span>, <span class="fu">aes</span>(<span class="at">fill =</span> <span class="fu">as.factor</span>(success))) <span class="sc">+</span></span>
+<span id="cb3-7"><a href="simulations.html#cb3-7" tabindex="-1"></a>  <span class="fu">scale_fill_grey</span>(<span class="at">start =</span> <span class="fl">0.8</span>, <span class="at">end =</span> <span class="fl">0.2</span>) <span class="sc">+</span> <span class="co"># Use grey scale for the fill</span></span>
+<span id="cb3-8"><a href="simulations.html#cb3-8" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>pool, <span class="at">scales =</span> <span class="st">&quot;free_x&quot;</span>) <span class="sc">+</span> <span class="co"># Facet by pool, allowing each facet to scale x independently</span></span>
+<span id="cb3-9"><a href="simulations.html#cb3-9" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> <span class="co"># Use a minimalist theme</span></span>
+<span id="cb3-10"><a href="simulations.html#cb3-10" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb3-11"><a href="simulations.html#cb3-11" tabindex="-1"></a>    <span class="at">strip.background =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb3-12"><a href="simulations.html#cb3-12" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">&#39;none&#39;</span>,</span>
+<span id="cb3-13"><a href="simulations.html#cb3-13" tabindex="-1"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">colour =</span> <span class="st">&quot;black&quot;</span>),</span>
+<span id="cb3-14"><a href="simulations.html#cb3-14" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb3-15"><a href="simulations.html#cb3-15" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb3-16"><a href="simulations.html#cb3-16" tabindex="-1"></a>    <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">&quot;black&quot;</span>),</span>
+<span id="cb3-17"><a href="simulations.html#cb3-17" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">&quot;black&quot;</span>)</span>
+<span id="cb3-18"><a href="simulations.html#cb3-18" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb3-19"><a href="simulations.html#cb3-19" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Highest Roll&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Frequency&quot;</span>) <span class="co"># Label axes</span></span></code></pre></div>
+<p><img src="sims_files/figure-html/chances_df2-1.png" width="672" /></p>
+<p>Now define the <strong>Effect</strong> roll function, that takes in consideration exploding dice.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="simulations.html#cb4-1" tabindex="-1"></a><span class="co"># Exploding die</span></span>
+<span id="cb4-2"><a href="simulations.html#cb4-2" tabindex="-1"></a>explode_die <span class="ot">&lt;-</span> <span class="cf">function</span>() {</span>
+<span id="cb4-3"><a href="simulations.html#cb4-3" tabindex="-1"></a>  total <span class="ot">=</span> <span class="dv">0</span></span>
+<span id="cb4-4"><a href="simulations.html#cb4-4" tabindex="-1"></a>  <span class="cf">repeat</span> {</span>
+<span id="cb4-5"><a href="simulations.html#cb4-5" tabindex="-1"></a>    <span class="co"># Roll the die</span></span>
+<span id="cb4-6"><a href="simulations.html#cb4-6" tabindex="-1"></a>    roll <span class="ot">=</span> <span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, <span class="dv">1</span>, <span class="at">replace =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-7"><a href="simulations.html#cb4-7" tabindex="-1"></a>    <span class="co"># Add the roll to the total</span></span>
+<span id="cb4-8"><a href="simulations.html#cb4-8" tabindex="-1"></a>    total <span class="ot">=</span> total <span class="sc">+</span> roll</span>
+<span id="cb4-9"><a href="simulations.html#cb4-9" tabindex="-1"></a>    <span class="co"># Break the loop if the roll is not six</span></span>
+<span id="cb4-10"><a href="simulations.html#cb4-10" tabindex="-1"></a>    <span class="cf">if</span> (roll <span class="sc">!=</span> <span class="dv">6</span>) {</span>
+<span id="cb4-11"><a href="simulations.html#cb4-11" tabindex="-1"></a>      <span class="cf">break</span></span>
+<span id="cb4-12"><a href="simulations.html#cb4-12" tabindex="-1"></a>    }</span>
+<span id="cb4-13"><a href="simulations.html#cb4-13" tabindex="-1"></a>  }</span>
+<span id="cb4-14"><a href="simulations.html#cb4-14" tabindex="-1"></a>  <span class="co"># Return the accumulated total</span></span>
+<span id="cb4-15"><a href="simulations.html#cb4-15" tabindex="-1"></a>  <span class="fu">return</span>(total)</span>
+<span id="cb4-16"><a href="simulations.html#cb4-16" tabindex="-1"></a>}</span>
+<span id="cb4-17"><a href="simulations.html#cb4-17" tabindex="-1"></a></span>
+<span id="cb4-18"><a href="simulations.html#cb4-18" tabindex="-1"></a><span class="co"># Effect roll, considering exploding die</span></span>
+<span id="cb4-19"><a href="simulations.html#cb4-19" tabindex="-1"></a>effect_roll <span class="ot">&lt;-</span> <span class="cf">function</span>(num_dice_vector) {</span>
+<span id="cb4-20"><a href="simulations.html#cb4-20" tabindex="-1"></a>  <span class="co"># Use sapply to apply the rolling logic to each element of num_dice_vector</span></span>
+<span id="cb4-21"><a href="simulations.html#cb4-21" tabindex="-1"></a>  <span class="fu">sapply</span>(num_dice_vector, <span class="cf">function</span>(num_dice) {</span>
+<span id="cb4-22"><a href="simulations.html#cb4-22" tabindex="-1"></a>    highest_die <span class="ot">&lt;-</span> <span class="fu">max</span>(<span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, num_dice, <span class="at">replace =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb4-23"><a href="simulations.html#cb4-23" tabindex="-1"></a>    <span class="cf">if</span> (highest_die <span class="sc">==</span> <span class="dv">6</span>) {</span>
+<span id="cb4-24"><a href="simulations.html#cb4-24" tabindex="-1"></a>      effect <span class="ot">&lt;-</span> highest_die <span class="sc">+</span> <span class="fu">explode_die</span>()</span>
+<span id="cb4-25"><a href="simulations.html#cb4-25" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb4-26"><a href="simulations.html#cb4-26" tabindex="-1"></a>      effect <span class="ot">&lt;-</span> highest_die</span>
+<span id="cb4-27"><a href="simulations.html#cb4-27" tabindex="-1"></a>    }</span>
+<span id="cb4-28"><a href="simulations.html#cb4-28" tabindex="-1"></a>  })</span>
+<span id="cb4-29"><a href="simulations.html#cb4-29" tabindex="-1"></a>}</span></code></pre></div>
+<p>Now plot the difference in Effect, by different Effect dice pools.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="simulations.html#cb5-1" tabindex="-1"></a><span class="co"># Create a sample dataframe</span></span>
+<span id="cb5-2"><a href="simulations.html#cb5-2" tabindex="-1"></a>eff <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">pool =</span> <span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, runs, <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-3"><a href="simulations.html#cb5-3" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">effect =</span> <span class="fu">effect_roll</span>(pool))</span>
+<span id="cb5-4"><a href="simulations.html#cb5-4" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="simulations.html#cb5-5" tabindex="-1"></a><span class="fu">ggplot</span>(eff, <span class="fu">aes</span>(<span class="at">x =</span> effect)) <span class="sc">+</span></span>
+<span id="cb5-6"><a href="simulations.html#cb5-6" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">1</span>, <span class="fu">aes</span>(<span class="at">fill =</span> <span class="fu">as.factor</span>(effect))) <span class="sc">+</span></span>
+<span id="cb5-7"><a href="simulations.html#cb5-7" tabindex="-1"></a>  <span class="fu">scale_fill_grey</span>(<span class="at">start =</span> <span class="fl">0.8</span>, <span class="at">end =</span> <span class="fl">0.2</span>) <span class="sc">+</span> <span class="co"># Use grey scale for the fill</span></span>
+<span id="cb5-8"><a href="simulations.html#cb5-8" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>pool, <span class="at">scales =</span> <span class="st">&quot;free_x&quot;</span>) <span class="sc">+</span> <span class="co"># Facet by pool, allowing each facet to scale x independently</span></span>
+<span id="cb5-9"><a href="simulations.html#cb5-9" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> <span class="co"># Use a minimalist theme</span></span>
+<span id="cb5-10"><a href="simulations.html#cb5-10" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb5-11"><a href="simulations.html#cb5-11" tabindex="-1"></a>    <span class="at">strip.background =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb5-12"><a href="simulations.html#cb5-12" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">&#39;none&#39;</span>,</span>
+<span id="cb5-13"><a href="simulations.html#cb5-13" tabindex="-1"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">colour =</span> <span class="st">&quot;black&quot;</span>),</span>
+<span id="cb5-14"><a href="simulations.html#cb5-14" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb5-15"><a href="simulations.html#cb5-15" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb5-16"><a href="simulations.html#cb5-16" tabindex="-1"></a>    <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">&quot;black&quot;</span>),</span>
+<span id="cb5-17"><a href="simulations.html#cb5-17" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">&quot;black&quot;</span>)</span>
+<span id="cb5-18"><a href="simulations.html#cb5-18" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb5-19"><a href="simulations.html#cb5-19" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Effect&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Frequency&quot;</span>) <span class="co"># Label axes</span></span></code></pre></div>
+<p><img src="sims_files/figure-html/effect_df1-1.png" width="672" /></p>
+<p>Now I add the <strong>Effects</strong> of both sides.
+Player <strong>Effects</strong> are added as <span class="math inline">\(\mathbf{1d}\)</span>, while <strong>Challenge Effects</strong> are added randomly between <span class="math inline">\(\mathbf{1d}\)</span> and <span class="math inline">\(\mathbf{4d}\)</span>.</p>
+<p>The plot shows the average net effect between player and challenge, for different combination of dice pools.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="simulations.html#cb6-1" tabindex="-1"></a><span class="co"># Augment the df</span></span>
+<span id="cb6-2"><a href="simulations.html#cb6-2" tabindex="-1"></a>df <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
+<span id="cb6-3"><a href="simulations.html#cb6-3" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">challenge =</span> <span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, runs, <span class="cn">TRUE</span>),</span>
+<span id="cb6-4"><a href="simulations.html#cb6-4" tabindex="-1"></a>         <span class="at">pcEff =</span> <span class="fu">ifelse</span>(success <span class="sc">&gt;=</span> <span class="dv">0</span>, <span class="fu">effect_roll</span>(<span class="fu">rep</span>(<span class="dv">1</span>, runs)), <span class="dv">0</span>),</span>
+<span id="cb6-5"><a href="simulations.html#cb6-5" tabindex="-1"></a>         <span class="at">chEff =</span> <span class="fu">ifelse</span>(success <span class="sc">&lt;=</span> <span class="dv">0</span>, <span class="fu">effect_roll</span>(challenge), <span class="dv">0</span>),</span>
+<span id="cb6-6"><a href="simulations.html#cb6-6" tabindex="-1"></a>         <span class="at">ntEff =</span> pcEff <span class="sc">-</span> chEff)</span>
+<span id="cb6-7"><a href="simulations.html#cb6-7" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="simulations.html#cb6-8" tabindex="-1"></a>df <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(pool, challenge) <span class="sc">%&gt;%</span></span>
+<span id="cb6-9"><a href="simulations.html#cb6-9" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">ntEffU =</span> <span class="fu">round</span>(<span class="fu">mean</span>(ntEff))) <span class="sc">%&gt;%</span></span>
+<span id="cb6-10"><a href="simulations.html#cb6-10" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb6-11"><a href="simulations.html#cb6-11" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> challenge, <span class="at">y =</span> <span class="fu">as.factor</span>(pool), <span class="at">fill =</span> ntEffU)) <span class="sc">+</span></span>
+<span id="cb6-12"><a href="simulations.html#cb6-12" tabindex="-1"></a>  <span class="fu">geom_tile</span>(<span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span> <span class="co"># Add tiles with white borders</span></span>
+<span id="cb6-13"><a href="simulations.html#cb6-13" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> ntEffU), <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span> <span class="co"># Add ntEffU values as text</span></span>
+<span id="cb6-14"><a href="simulations.html#cb6-14" tabindex="-1"></a>  <span class="fu">scale_fill_gradient2</span>(<span class="at">low =</span> <span class="st">&quot;black&quot;</span>, <span class="at">high =</span> <span class="st">&quot;lightgray&quot;</span>, <span class="at">mid =</span> <span class="st">&quot;gray&quot;</span>, <span class="at">midpoint =</span> <span class="fu">median</span>(df<span class="sc">$</span>ntEff)) <span class="sc">+</span></span>
+<span id="cb6-15"><a href="simulations.html#cb6-15" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> <span class="co"># Use a minimalist theme</span></span>
+<span id="cb6-16"><a href="simulations.html#cb6-16" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb6-17"><a href="simulations.html#cb6-17" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">&quot;none&quot;</span> <span class="co"># Hide the legend</span></span>
+<span id="cb6-18"><a href="simulations.html#cb6-18" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb6-19"><a href="simulations.html#cb6-19" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Challenge&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Pool&quot;</span>) <span class="co"># Label axes</span></span></code></pre></div>
+<pre><code>## `summarise()` has grouped output by &#39;pool&#39;. You can override using the
+## `.groups` argument.</code></pre>
+<p><img src="sims_files/figure-html/effect_df2-1.png" width="672" /></p>
+<p>Now I convert a challenge to a single Chance Roll, by making an effect roll before and applying the result of that as a modifier to player chance dice pool.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="simulations.html#cb8-1" tabindex="-1"></a><span class="co"># Augment the df</span></span>
+<span id="cb8-2"><a href="simulations.html#cb8-2" tabindex="-1"></a>df <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
+<span id="cb8-3"><a href="simulations.html#cb8-3" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">chEff1st =</span> <span class="fu">effect_roll</span>(challenge),</span>
+<span id="cb8-4"><a href="simulations.html#cb8-4" tabindex="-1"></a>         <span class="at">complication =</span> <span class="fu">case_when</span>(chEff1st <span class="sc">&lt;=</span> <span class="dv">3</span> <span class="sc">~</span> <span class="dv">0</span>,</span>
+<span id="cb8-5"><a href="simulations.html#cb8-5" tabindex="-1"></a>                                  chEff1st <span class="sc">&lt;=</span> <span class="dv">5</span> <span class="sc">~</span> <span class="dv">1</span>,</span>
+<span id="cb8-6"><a href="simulations.html#cb8-6" tabindex="-1"></a>                                  chEff1st <span class="sc">&lt;=</span> <span class="dv">11</span> <span class="sc">~</span> <span class="dv">2</span>,</span>
+<span id="cb8-7"><a href="simulations.html#cb8-7" tabindex="-1"></a>                                  chEff1st <span class="sc">&lt;=</span> <span class="dv">17</span> <span class="sc">~</span> <span class="dv">3</span>,</span>
+<span id="cb8-8"><a href="simulations.html#cb8-8" tabindex="-1"></a>                                  <span class="cn">TRUE</span> <span class="sc">~</span> <span class="dv">4</span>),</span>
+<span id="cb8-9"><a href="simulations.html#cb8-9" tabindex="-1"></a>         <span class="at">newPool =</span> <span class="fu">pmax</span>(<span class="dv">1</span>, pool <span class="sc">-</span> complication),</span>
+<span id="cb8-10"><a href="simulations.html#cb8-10" tabindex="-1"></a>         <span class="at">result1st =</span> <span class="fu">roll_highest_vec</span>(newPool),</span>
+<span id="cb8-11"><a href="simulations.html#cb8-11" tabindex="-1"></a>         <span class="at">success1st =</span> <span class="fu">ifelse</span>(pool <span class="sc">-</span> complication <span class="sc">&lt;=</span> <span class="dv">0</span>, <span class="sc">-</span><span class="dv">1</span>,</span>
+<span id="cb8-12"><a href="simulations.html#cb8-12" tabindex="-1"></a>                             <span class="fu">ifelse</span>(result1st <span class="sc">&lt;=</span> <span class="dv">3</span>, <span class="sc">-</span><span class="dv">1</span>,</span>
+<span id="cb8-13"><a href="simulations.html#cb8-13" tabindex="-1"></a>                                    <span class="fu">ifelse</span>(result1st <span class="sc">&lt;=</span> <span class="dv">5</span>, <span class="dv">0</span>, <span class="dv">1</span>))))</span>
+<span id="cb8-14"><a href="simulations.html#cb8-14" tabindex="-1"></a></span>
+<span id="cb8-15"><a href="simulations.html#cb8-15" tabindex="-1"></a>df <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(pool, challenge) <span class="sc">%&gt;%</span></span>
+<span id="cb8-16"><a href="simulations.html#cb8-16" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">simplCh =</span> <span class="fu">sum</span>(success1st),</span>
+<span id="cb8-17"><a href="simulations.html#cb8-17" tabindex="-1"></a>            <span class="at">succPerc =</span> <span class="fu">round</span>(simplCh <span class="sc">/</span> <span class="fu">n</span>(), <span class="dv">1</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb8-18"><a href="simulations.html#cb8-18" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb8-19"><a href="simulations.html#cb8-19" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> challenge, <span class="at">y =</span> <span class="fu">as.factor</span>(pool), <span class="at">fill =</span> succPerc)) <span class="sc">+</span></span>
+<span id="cb8-20"><a href="simulations.html#cb8-20" tabindex="-1"></a>  <span class="fu">geom_tile</span>(<span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span> <span class="co"># Add tiles with white borders</span></span>
+<span id="cb8-21"><a href="simulations.html#cb8-21" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> succPerc), <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span> <span class="co"># Add ntEffU values as text</span></span>
+<span id="cb8-22"><a href="simulations.html#cb8-22" tabindex="-1"></a>  <span class="fu">scale_fill_gradient2</span>(<span class="at">low =</span> <span class="st">&quot;black&quot;</span>, <span class="at">high =</span> <span class="st">&quot;lightgray&quot;</span>, <span class="at">mid =</span> <span class="st">&quot;gray&quot;</span>, <span class="at">midpoint =</span> <span class="fu">median</span>(df<span class="sc">$</span>ntEff)) <span class="sc">+</span></span>
+<span id="cb8-23"><a href="simulations.html#cb8-23" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> <span class="co"># Use a minimalist theme</span></span>
+<span id="cb8-24"><a href="simulations.html#cb8-24" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb8-25"><a href="simulations.html#cb8-25" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">&quot;none&quot;</span> <span class="co"># Hide the legend</span></span>
+<span id="cb8-26"><a href="simulations.html#cb8-26" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb8-27"><a href="simulations.html#cb8-27" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Challenge&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Pool&quot;</span>) <span class="co"># Label axes</span></span></code></pre></div>
+<pre><code>## `summarise()` has grouped output by &#39;pool&#39;. You can override using the
+## `.groups` argument.</code></pre>
+<p><img src="sims_files/figure-html/singlRoll_df1-1.png" width="672" /></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="changelog.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "sepia",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/efsalvarenga/terraSystem/edit/main/sims.Rmd",
+"text": "Suggest an edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
