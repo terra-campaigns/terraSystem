@@ -54,23 +54,20 @@ Everyone is better at some things. You have $\mathbf{4}$ points to assign to **S
 
 ## HP and Ego
 
-You have two measures of survival: **HP** (hit points) and **Ego**. These measures increase as you become more seasoned.
+You have two measures of survival: **HP** (hit points) and **Ego**.
 
-| HP (hit points)                                                                                                                                       |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **HP** represent your health, physical disposition and endurance. You lose **HP** when you are physically harmed.                                     |
-| $\mathbf{\textbf{HP}_{max}=\textbf{Strength}+ \textbf{Dexterity}+5}$                                                                                  |
-| The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an addition **HP**.                                      |
-| When your **HP** reaches 0 you permanently lose one **Attribute** of your choice. You are unconscious and wake up with 1 **HP** after the scene ends. |
+### HP (hit points)
 
-| Ego                                                                                                                                                      |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Ego** combines willpower, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.        |
-| $\mathbf{\textbf{Ego}_{max}=\textbf{Insight}+\textbf{Resolve}+3}$                                                                                        |
-| **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum. |
-| When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.                                                        |
-| **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum. |
-| When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.                                                        |
+- **HP** represents your health, physical disposition and endurance. You lose **HP** when you are physically harmed.
+- $\mathbf{\textbf{HP}_{max}}$ is calculated by adding your physical **Attributes** (**Strength** and **Agility**) with $\mathbf{2}$. You gain $\mathbf{+1}\textbf{ HP}_{max}$ for each **Advancement** you have.
+- The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an additional **HP**.
+- When your **HP** reaches 0 you start loosing **Attributes** (you choose which). If any **Attribute** becomes negative you are unconscious and lose $\mathbf{1}$ in that **Attribute** permanently. You wake up with $\mathbf{1}\textbf{ HP}$ after the scene ends. If any **Attribute** becomes permanently negative, you die.
+
+### Ego
+
+- **Ego** represents your resolve, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.
+- $\mathbf{\textbf{Ego}_{max}}$ is calculated by adding your mental **Attributes** (**Insight** and **Empathy**) with $\mathbf{2}$.
+- **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum.
 
 ## Advancements
 
