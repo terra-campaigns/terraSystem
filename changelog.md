@@ -1,5 +1,9 @@
 # Changelog
 
+**v0.5.0**
+
+- 
+
 **v0.4.3**
 
 - Redefined Attributes and Skills values (kept statistics)
