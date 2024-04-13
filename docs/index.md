@@ -1,7 +1,7 @@
 ---
 title: "Terran Engine"
 # author: "Estevao Alvarenga"
-# date: "2024-04-04"
+# date: "2024-04-13"
 site: bookdown::bookdown_site
 documentclass: book
 # bibliography: [book.bib]
@@ -13,7 +13,7 @@ favicon: imgs/favicon.ico
 cover-image: imgs/TerranEngineCover.png
 ---
 
-# Terran Engine SRD v0.4.3 {-}
+# Terran Engine SRD v0.4.4 {-}
 
 ![](imgs/TerranEngineCover.png)
 
@@ -22,7 +22,7 @@ cover-image: imgs/TerranEngineCover.png
 
 ## Taxonomy {-}
 
-- "You" and "Your" are used interchangeably to refer to players and their characters. For disambiguation the "Player(s)" is used when referring to the player outside the context of their character.
+- "You" and "Your" are used interchangeably to refer to players and their characters. For disambiguation "Player(s)" is used when referring to the player outside the context of their character.
 - "Challenge" is used to represent anything that is antagonistic to you, be that an NPC, the environment, etc.
 - Meta game names, stats and currencies are marked in **bold**.
 - Book references are marked in *italic*, they might be accompanied by page ranges.

@@ -1,5 +1,22 @@
 # Changelog
 
+**v0.4.4**
+
+- Added simulations to validate expected game mechanics statistics
+- Aligned Challenges Disposition based on simulation
+- Aligned HP and Ego based on simulation, and target compatibility with BLB
+- Changed how HP and Attribute loss works
+- Changed Attribute names
+- Renamed Chance rolls to Risky Actions rolls
+- New mechanic for gaining levels and improving skills
+- New mechanic for Challenge Montages
+- Added fortune die section
+- Moved images to local references
+- Text improvements:
+	- Character creation summary
+	- Attribute loss and skills
+	- Effects, including complications
+
 **v0.4.3**
 
 - Redefined Attributes and Skills values (kept statistics)
