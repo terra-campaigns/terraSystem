@@ -135,21 +135,20 @@ Sometimes, multiple actions are required to overcome **Challenges**. Examples of
 - crawling a location,
 - journeying.
 
-**Challenges** have **Disposition**, which measures how much **Effect** they take to be overcame. **Challenges** may also have their own **Effect Dice**, that are applied to you as consequences of your **Risky Actions**.
+**Challenges** have **Disposition**, which measures how much **Effect** they take to be overcame. **Challenges** also have **Effect Dice** that are applied to you as consequences of your **Risky Actions**.
 
-| Challenge Level |  Disposition  |      Effect       | Examples                                                                               |
-| --------------- | :-----------: | :---------------: | -------------------------------------------------------------------------------------- |
-| **Trivial**     | $\mathbf{1}$  | $\mathbf{1d / 2}$ | Unskilled adversaries, low height climb, known journey                                 |
-| **Dangerous**   | $\mathbf{5}$  |   $\mathbf{1d}$   | Skilled adversaries, small explosions, small predator, large prey, troublesome journey |
-| **Serious**     | $\mathbf{10}$ |   $\mathbf{2d}$   | Expert adversaries, large predator, close contact with fire or acid                    |
-| **Formidable**  | $\mathbf{15}$ |   $\mathbf{3d}$   | Human prime, apex predator, immersion in acid, large explosions                        |
-| **Extreme**     | $\mathbf{20}$ |   $\mathbf{4d}$   | Transhuman, often fatal environments, most difficult journeys                          |
+| Challenge Level |  Disposition   |     Effect     | Examples                                                                               |
+| --------------- | :------------: | :------------: | -------------------------------------------------------------------------------------- |
+| **Trivial**     |  $\mathbf{5}$  | $\mathbf{d/2}$ | Unskilled adversaries, low height climb, known journey                                 |
+| **Dangerous**   | $\mathbf{10}$  | $\mathbf{1d}$  | Skilled adversaries, small explosions, small predator, large prey, troublesome journey |
+| **Serious**     | $\mathbf{20}$  | $\mathbf{2d}$  | Expert adversaries, large predator, close contact with fire or acid                    |
+| **Formidable**  | $\mathbf{30}$  | $\mathbf{3d}$  | Human prime, apex predator, immersion in acid, large explosions                        |
+| **Extreme**     | $\mathbf{40}$  | $\mathbf{4d}$  | Transhuman, often fatal environments, most difficult journeys                          |
+| **Fantastical** | $\mathbf{10n}$ | $\mathbf{nd}$  | Anything...                                                                            |
 
 If multiple challenges gang up against you, increase the **Challenge Level** in one for each two additional challenges after the first.
 
 Some challenges might be multifaceted. A bulky rival might be a Dangerous **Challenge** to fight against, but a Trivial **Challenge** to be convinced to ignore you.
-
-Note that Trivial Challenges are nothing more than a single **Risky Action**.
 
 ## Effects
 
