@@ -68,10 +68,18 @@ You have two measures of survival: **HP** (hit points) and **Ego**.
 - **Ego** represents your resolve, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.
 - $\mathbf{\textbf{Ego}_{max}}$ is calculated by adding your mental **Attributes** (**Insight** and **Empathy**) with $\mathbf{2}$.
 - **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum.
+- When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.
 
 ## Advancements
 
-Once every $\mathbf{2}$ to $\mathbf{5}$ sessions, when the GM deems appropriate, you gain an **Advancement**, $\mathbf{+1} \textbf{ HP}_{max}$ and $\mathbf{+1} \textbf{ Ego}_{max}$. The list of **Advancements** below may be adapted or expanded, if necessary.
+At the end of each session take one die for each **Ego** you have lost. Distribute this dice pool in any way you see fit for progressing your capabilities.
+
+|                       | Roll                                                                                                                                                                                                             |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Advancement**       | If the sum of your dice is higher than the sum of your $\textbf{Ego}_{max}$ and $\textbf{HP}_{max}$ you gain an **Advancement** and $\mathbf{+1} \textbf{ HP}_{max}$                                             |
+| **Skill Development** | If the sum of your dice is higher than the sum of the **Attribute** and **Skill** you chose, the **Skill** increases in $\textbf{+1}$. You can only try to increase **Skills** you have used during the session. |
+
+The list of **Advancements** below may be adapted or expanded, if necessary.
 
 - **Extra Attribute**: Increase a chosen **Attribute** in $\mathbf{1}$.
 - **Protected**: Roll **Dark Dice**. Their sum can be reduced from damage you received. Lose one **Ego** for each of them that is lower than your current **Ego**.
@@ -96,6 +104,7 @@ At any moment in the game you can recover your **Ego** back to its maximum by ta
 - **Kleptomaniac**: You are unable to resist urges to steal items that you generally don't really need.
 - **Battle-Scarred**: After some injury, you develop a scar. You might have lost part of a member, an eye, or something else that impacts you physically.
 - **Protective Instinct**: You are genuinely concerned with your team's welfare, and become a reluctant leader. When an ally is in danger, you have $\mathbf{-1d}$.
+- **Estranged**: You lose the bond with someone you love or cherish, $\textbf{Ego}_{max} - 1$.
 
 # Rules
 
