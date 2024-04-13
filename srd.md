@@ -38,11 +38,11 @@ To determine **Attribute** values, roll $\mathbf{2d}$ for each, take the highest
 | :-----------: | :---------------: | :-----------------: | :-------------------: |
 | **Attribute** | $\circ\circ\circ$ | $\bullet\circ\circ$ | $\bullet\bullet\circ$ |
 
-In certain conditions, you might lose **Attributes**. **Attribute** loss is permanent and when any attribute goes below 0 you die.
+In certain conditions, you might lose **Attributes**. Lost **Attributes** are recovered at the rate of $\mathbf{1}$ per week, if you receive appropriate care. Permanent **Attribute** loss is never recovered.
 
 ### Skills
 
-Everyone is better at some things. Choose four specific **Skills** you are good at. These may be based on your **Archetype**. With the GM you can adapt or expand the generic list of **Skills** provided.
+Everyone is better at some things. You have $\mathbf{4}$ points to assign to **Skills** you are good at. These may be based on your **Archetype**. With the GM you can adapt or expand the generic list of **Skills** provided.
 
 - **Violence**: brawl, shoot, melee, exert;
 - **Exploration**: notice, sneak, pilot, navigate;
@@ -50,7 +50,7 @@ Everyone is better at some things. Choose four specific **Skills** you are good 
 - **Survival**: forage, craft, heal, tame;
 - **Vocational**: admin, program, know, trade
 
-Alternatively, the game might ignore **Skills** and focus on **Attributes** only. If that is the case, choose one **Attribute** and increase it in $\mathbf{1}$.
+`Optional` The game might ignore **Skills** and focus on **Attributes** only. If that is the case, choose one **Attribute** and increase it in $\mathbf{1}$.
 
 ## HP and Ego
 
