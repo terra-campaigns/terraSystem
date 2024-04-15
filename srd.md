@@ -38,7 +38,7 @@ To determine **Attribute** values, roll $\mathbf{2d}$ for each, take the highest
 | :-----------: | :---------------: | :-----------------: | :-------------------: |
 | **Attribute** | $\circ\circ\circ$ | $\bullet\circ\circ$ | $\bullet\bullet\circ$ |
 
-In certain conditions, you might lose **Attributes**. Lost **Attributes** are recovered at the rate of $\mathbf{1}$ per week, if you receive appropriate care. Permanent **Attribute** loss is never recovered.
+In certain conditions, you might lose **Attributes**. Permanent **Attribute** loss is never recovered.
 
 ### Skills
 
@@ -58,17 +58,21 @@ You have two measures of survival: **HP** (hit points) and **Ego**.
 
 ### HP (hit points)
 
-- **HP** represents your health, physical disposition and endurance. You lose **HP** when you are physically harmed.
-- $\mathbf{\textbf{HP}_{max}}$ is calculated by adding your physical **Attributes** (**Strength** and **Agility**) with $\mathbf{2}$. You gain $\mathbf{+1}\textbf{ HP}_{max}$ for each **Advancement** you have.
-- The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an additional **HP**.
-- When your **HP** reaches 0 you start loosing **Attributes** (you choose which). If any **Attribute** becomes negative you are unconscious and lose $\mathbf{1}$ in that **Attribute** permanently. You wake up with $\mathbf{1}\textbf{ HP}$ after the scene ends. If any **Attribute** becomes permanently negative, you die.
+**HP** represents your physical disposition and stamina. You lose **HP** when you are physically harmed.
+
+$\mathbf{\textbf{HP}_{max}}$ is calculated by adding your physical **Attributes** (**Strength** and **Agility**) with $\mathbf{2}$. You gain $\mathbf{+1}\textbf{ HP}_{max}$ for each **Advancement** you have.
+
+When your **HP** reaches $\mathbf{0}$ you become **Critically Wounded** and have $\mathbf{-1d}$ every time you are building your **Light Dice Pool**. If you take any further damage you become **Mortally Wounded**, lose $\mathbf{1}$ permanently in an **Attribute** of your choice, and have $\mathbf{-2d}$ every time you are building your **Light Dice Poo**l. While **Mortally Wounded** you are unconscious or inactive is most cases, and will die immediately if any further damage is taken.
+
+A **Mortal Wound** becomes a **Critical Wound** through appropriate care and a week of rest. The lost **Attribute** does not recover. A **Critical Wound** recovers in a week, also given appropriate care. If you have no **Wounds**, **HP** recovers to its maximum after a well rested night.
 
 ### Ego
 
-- **Ego** represents your resolve, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.
-- $\mathbf{\textbf{Ego}_{max}}$ is calculated by adding your mental **Attributes** (**Insight** and **Empathy**) with $\mathbf{2}$.
-- **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum.
-- When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.
+**Ego** represents your resolve, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.
+
+$\mathbf{\textbf{Ego}_{max}}$ is calculated by adding your mental **Attributes** (**Insight** and **Empathy**) with $\mathbf{2}$.
+
+If your **Ego** reaches $\mathbf{0}$ you are lost somehow. With the GM determine how your last scene goes. At any moment you may choose to take a permanent **Condition** to recover your **Ego** to its maximum.
 
 ## Advancements
 
