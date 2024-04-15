@@ -76,12 +76,12 @@ If your **Ego** reaches $\mathbf{0}$ you are lost somehow. With the GM determine
 
 ## Advancements
 
-At the end of each session take one die for each **Ego** you have lost. Distribute this dice pool in any way you see fit for progressing your capabilities.
+At the end of each session you get one **Experience** for each **Ego** you have lost. You can use your **Experience** to gain an **Advancement** or to develop **Skills**. Either way, decide with the GM how to carry this development out in the narrative.
 
-|                       | Roll                                                                                                                                                                                                             |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Advancement**       | If the sum of your dice is higher than the sum of your $\textbf{Ego}_{max}$ and $\textbf{HP}_{max}$ you gain an **Advancement** and $\mathbf{+1} \textbf{ HP}_{max}$                                             |
-| **Skill Development** | If the sum of your dice is higher than the sum of the **Attribute** and **Skill** you chose, the **Skill** increases in $\textbf{+1}$. You can only try to increase **Skills** you have used during the session. |
+|                       | Roll                                                                                                                                                                                                                                       |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Advancement**       | Roll one die for each **Experience** you are willing to use. If the sum of your dice is equal or higher than the sum of your $\textbf{Ego}_{max}$ and $\textbf{HP}_{max}$ you gain an **Advancement** and $\mathbf{+1} \textbf{ HP}_{max}$ |
+| **Skill Development** | Roll one die for each **Experience** you are willing to use. If the sum of your dice is equal of higher than $\textbf{3x}$ your current **Skill** rating, the **Skill** improves in $\textbf{1}$.                                          |
 
 The list of **Advancements** below may be adapted or expanded, if necessary.
 
