@@ -124,11 +124,11 @@ When you are trying your chances at a **Risky Action**, say what you intend to d
 
 Roll the dice and look for the outcome of the highest value. 
 
-|                | Outcome                                                                                                                                                    |
-| :------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $\mathbf{1:3}$ | You fail, and things get worse. With the GM describe how it goes wrong. The GM may also allow you to succeed, but things will get worse in some other way. |
-| $\mathbf{4:5}$ | You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.                                             |
-|  $\mathbf{6}$  | You succeed. With the GM describe what happens.                                                                                                            |
+|                | Outcome                                                                                                                                                   |
+| :------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $\mathbf{1:3}$ | You fail, and things get worse. With the GM describe the consequences. The GM may also allow you to succeed, but things will get worse in some other way. |
+| $\mathbf{4:5}$ | You succeed, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
+|  $\mathbf{6}$  | You succeed. With the GM describe what happens.                                                                                                           |
 If the **Risky Action** is part of a longer **Challenge**, roll **Effects** as appropriate.
 
 ## Challenges
