@@ -1,5 +1,13 @@
 # Changelog
 
+**v0.4.5**
+
+- Re-worked the HP/Wounds sub-system
+- Made Skill list more specific
+- Added Advancements and Conditions
+- Simplified the level-up sub-system
+- Text improvements
+
 **v0.4.4**
 
 - Added simulations to validate expected game mechanics statistics
