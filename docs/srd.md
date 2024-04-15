@@ -38,17 +38,17 @@ To determine **Attribute** values, roll $\mathbf{2d}$ for each, take the highest
 | :-----------: | :---------------: | :-----------------: | :-------------------: |
 | **Attribute** | $\circ\circ\circ$ | $\bullet\circ\circ$ | $\bullet\bullet\circ$ |
 
-In certain conditions, you might lose **Attributes**. Lost **Attributes** are recovered at the rate of $\mathbf{1}$ per week, if you receive appropriate care. Permanent **Attribute** loss is never recovered.
+In certain conditions, you might lose **Attributes**. Permanent **Attribute** loss is never recovered.
 
 ### Skills
 
 Everyone is better at some things. You have $\mathbf{4}$ points to assign to **Skills** you are good at. These may be based on your **Archetype**. With the GM you can adapt or expand the generic list of **Skills** provided.
 
-- **Violence**: brawl, shoot, melee, exert;
-- **Exploration**: notice, sneak, pilot, navigate;
-- **Social**: connect, lead, perform, talk;
-- **Survival**: forage, craft, heal, tame;
-- **Vocational**: admin, program, know, trade
+- **Violence**: brawl, firearms, melee weapons, bow, etc.
+- **Exploration**: perception, stealth, lockpick, pilot, navigate, etc.
+- **Social**: connect, leadership, musical instruments, rhetoric, etc.
+- **Survival**: forage, craft, first aid, tame, etc.
+- **Vocational**: bureaucracy, computers, history, geology, trade, athletics, etc.
 
 `Optional` The game might ignore **Skills** and focus on **Attributes** only. If that is the case, choose one **Attribute** and increase it in $\mathbf{1}$.
 
@@ -58,31 +58,35 @@ You have two measures of survival: **HP** (hit points) and **Ego**.
 
 ### HP (hit points)
 
-- **HP** represents your health, physical disposition and endurance. You lose **HP** when you are physically harmed.
-- $\mathbf{\textbf{HP}_{max}}$ is calculated by adding your physical **Attributes** (**Strength** and **Agility**) with $\mathbf{2}$. You gain $\mathbf{+1}\textbf{ HP}_{max}$ for each **Advancement** you have.
-- The base rate of recovery is 1 **HP** per day. If you are being attended by someone, recover an additional **HP**.
-- When your **HP** reaches 0 you start loosing **Attributes** (you choose which). If any **Attribute** becomes negative you are unconscious and lose $\mathbf{1}$ in that **Attribute** permanently. You wake up with $\mathbf{1}\textbf{ HP}$ after the scene ends. If any **Attribute** becomes permanently negative, you die.
+**HP** represents your physical disposition and stamina. You lose **HP** when you are physically harmed.
+
+$\mathbf{\textbf{HP}_{max}}$ is calculated by adding your physical **Attributes** (**Strength** and **Agility**) with $\mathbf{2}$. You gain $\mathbf{+1}\textbf{ HP}_{max}$ for each **Advancement** you have.
+
+When your **HP** reaches $\mathbf{0}$ you become **Critically Wounded** and have $\mathbf{-1d}$ every time you are building your **Light Dice Pool**. If you take any further damage you become **Mortally Wounded**, lose $\mathbf{1}$ permanently in an **Attribute** of your choice, and have $\mathbf{-2d}$ every time you are building your **Light Dice Poo**l. While **Mortally Wounded** you are unconscious or inactive is most cases, and will die immediately if any further damage is taken.
+
+A **Mortal Wound** becomes a **Critical Wound** through appropriate care and a week of rest. The lost **Attribute** does not recover. A **Critical Wound** recovers in a week, also given appropriate care. If you have no **Wounds**, **HP** recovers to its maximum after a well rested night.
 
 ### Ego
 
-- **Ego** represents your resolve, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.
-- $\mathbf{\textbf{Ego}_{max}}$ is calculated by adding your mental **Attributes** (**Insight** and **Empathy**) with $\mathbf{2}$.
-- **Ego** does not recover with rest or care, but by taking a permanent **Condition**. When you take a **Condition** your **Ego** recovers to its maximum.
-- When your **Ego** reaches 0 you are lost somehow. With the GM determine how your last scene goes.
+**Ego** represents your resolve, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.
+
+$\mathbf{\textbf{Ego}_{max}}$ is calculated by adding your mental **Attributes** (**Insight** and **Empathy**) with $\mathbf{2}$.
+
+If your **Ego** reaches $\mathbf{0}$ you are lost somehow. With the GM determine how your last scene goes. At any moment you may choose to take a permanent **Condition** to recover your **Ego** to its maximum.
 
 ## Advancements
 
-At the end of each session take one die for each **Ego** you have lost. Distribute this dice pool in any way you see fit for progressing your capabilities.
+At the end of each session you get one **Experience** for each **Ego** you have lost. You can use your **Experience** to gain an **Advancement** or to develop **Skills**. Either way, decide with the GM how to carry this development out in the narrative.
 
-|                       | Roll                                                                                                                                                                                                             |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Advancement**       | If the sum of your dice is higher than the sum of your $\textbf{Ego}_{max}$ and $\textbf{HP}_{max}$ you gain an **Advancement** and $\mathbf{+1} \textbf{ HP}_{max}$                                             |
-| **Skill Development** | If the sum of your dice is higher than the sum of the **Attribute** and **Skill** you chose, the **Skill** increases in $\textbf{+1}$. You can only try to increase **Skills** you have used during the session. |
+|                       | Roll                                                                                                                                                                                                                                       |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Advancement**       | Roll one die for each **Experience** you are willing to use. If the sum of your dice is equal or higher than the sum of your $\textbf{Ego}_{max}$ and $\textbf{HP}_{max}$ you gain an **Advancement** and $\mathbf{+1} \textbf{ HP}_{max}$ |
+| **Skill Development** | Roll one die for each **Experience** you are willing to use. If the sum of your dice is equal of higher than $\textbf{3x}$ your current **Skill** rating, the **Skill** improves in $\textbf{1}$.                                          |
 
 The list of **Advancements** below may be adapted or expanded, if necessary.
 
 - **Extra Attribute**: Increase a chosen **Attribute** in $\mathbf{1}$.
-- **Protected**: Roll **Dark Dice**. Their sum can be reduced from damage you received. Lose one **Ego** for each of them that is lower than your current **Ego**.
+- **Protected**: When you are hit, roll **Dark Dice**. Their sum can be reduced from damage you received.
 - **Sensory acuity**: You have $\mathbf{+1d}$ on actions related to a chosen sense.
 - **Sneak attack**: You have $\mathbf{+1d}$ to attack and damage to unaware rivals.
 - **Sniper**: When you spend a turn aiming you have $\mathbf{+1d}$ to attack and damage to a rival.
@@ -90,6 +94,8 @@ The list of **Advancements** below may be adapted or expanded, if necessary.
 - **Multi-attack**: In melee, you deal one additional instance of **Damage** for each **Dark Dice** that shows a $\mathbf{6}$.
 - **Tough**: Gain one additional **HP** per **Advancement**.
 - **Curse**: You bring a curse to your rivals. A number equal to the number of **Dark Dice** rolled get $\mathbf{-1d}$ until the end of the scene.
+- **Retire**: With the GM decide how your story ends. Create a new character with half (rounded up) the number of **Advancements** you have now, including this one.
+- **Fast**: Your effects are always applied to the **Challenge** **Disposition** before their **Consequences** are applied to you.
 
 ## Conditions
 
@@ -105,6 +111,7 @@ At any moment in the game you can recover your **Ego** back to its maximum by ta
 - **Battle-Scarred**: After some injury, you develop a scar. You might have lost part of a member, an eye, or something else that impacts you physically.
 - **Protective Instinct**: You are genuinely concerned with your team's welfare, and become a reluctant leader. When an ally is in danger, you have $\mathbf{-1d}$.
 - **Estranged**: You lose the bond with someone you love or cherish, $\textbf{Ego}_{max} - 1$.
+- **Slow**: Your effects are always applied to the **Challenge** **Disposition** after their **Consequences** are applied to you.
 
 # Rules
 
@@ -120,11 +127,11 @@ When you are trying your chances at a **Risky Action**, say what you intend to d
 
 Roll the dice and look for the outcome of the highest value. 
 
-|                | Outcome                                                                                                                                                    |
-| :------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $\mathbf{1:3}$ | You fail, and things get worse. With the GM describe how it goes wrong. The GM may also allow you to succeed, but things will get worse in some other way. |
-| $\mathbf{4:5}$ | You succeed, but there’s some kind of complication. With the GM describe the complication and how you succeed.                                             |
-|  $\mathbf{6}$  | You succeed. With the GM describe what happens.                                                                                                            |
+|                | Outcome                                                                                                                                                   |
+| :------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $\mathbf{1:3}$ | You fail, and things get worse. With the GM describe the consequences. The GM may also allow you to succeed, but things will get worse in some other way. |
+| $\mathbf{4:5}$ | You succeed, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
+|  $\mathbf{6}$  | You succeed. With the GM describe what happens.                                                                                                           |
 If the **Risky Action** is part of a longer **Challenge**, roll **Effects** as appropriate.
 
 ## Challenges

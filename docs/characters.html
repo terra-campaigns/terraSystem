@@ -138,7 +138,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="toc-logo"><a href="./"><img src="imgs/TerranEngineCover-noBg.png"></a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Terran Engine SRD v0.4.4</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Terran Engine SRD v0.4.5</a>
 <ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#taxonomy"><i class="fa fa-check"></i>Taxonomy</a></li>
 </ul></li>
@@ -258,16 +258,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </tr>
 </tbody>
 </table>
-<p>In certain conditions, you might lose <strong>Attributes</strong>. Lost <strong>Attributes</strong> are recovered at the rate of <span class="math inline">\(\mathbf{1}\)</span> per week, if you receive appropriate care. Permanent <strong>Attribute</strong> loss is never recovered.</p>
+<p>In certain conditions, you might lose <strong>Attributes</strong>. Permanent <strong>Attribute</strong> loss is never recovered.</p>
 <div id="skills" class="section level3 hasAnchor" number="1.2.1">
 <h3><span class="header-section-number">1.2.1</span> Skills<a href="characters.html#skills" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Everyone is better at some things. You have <span class="math inline">\(\mathbf{4}\)</span> points to assign to <strong>Skills</strong> you are good at. These may be based on your <strong>Archetype</strong>. With the GM you can adapt or expand the generic list of <strong>Skills</strong> provided.</p>
 <ul>
-<li><strong>Violence</strong>: brawl, shoot, melee, exert;</li>
-<li><strong>Exploration</strong>: notice, sneak, pilot, navigate;</li>
-<li><strong>Social</strong>: connect, lead, perform, talk;</li>
-<li><strong>Survival</strong>: forage, craft, heal, tame;</li>
-<li><strong>Vocational</strong>: admin, program, know, trade</li>
+<li><strong>Violence</strong>: brawl, firearms, melee weapons, bow, etc.</li>
+<li><strong>Exploration</strong>: perception, stealth, lockpick, pilot, navigate, etc.</li>
+<li><strong>Social</strong>: connect, leadership, musical instruments, rhetoric, etc.</li>
+<li><strong>Survival</strong>: forage, craft, first aid, tame, etc.</li>
+<li><strong>Vocational</strong>: bureaucracy, computers, history, geology, trade, athletics, etc.</li>
 </ul>
 <p><code>Optional</code> The game might ignore <strong>Skills</strong> and focus on <strong>Attributes</strong> only. If that is the case, choose one <strong>Attribute</strong> and increase it in <span class="math inline">\(\mathbf{1}\)</span>.</p>
 </div>
@@ -277,30 +277,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>You have two measures of survival: <strong>HP</strong> (hit points) and <strong>Ego</strong>.</p>
 <div id="hp-hit-points" class="section level3 hasAnchor" number="1.3.1">
 <h3><span class="header-section-number">1.3.1</span> HP (hit points)<a href="characters.html#hp-hit-points" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ul>
-<li><strong>HP</strong> represents your health, physical disposition and endurance. You lose <strong>HP</strong> when you are physically harmed.</li>
-<li><span class="math inline">\(\mathbf{\textbf{HP}_{max}}\)</span> is calculated by adding your physical <strong>Attributes</strong> (<strong>Strength</strong> and <strong>Agility</strong>) with <span class="math inline">\(\mathbf{2}\)</span>. You gain <span class="math inline">\(\mathbf{+1}\textbf{ HP}_{max}\)</span> for each <strong>Advancement</strong> you have.</li>
-<li>The base rate of recovery is 1 <strong>HP</strong> per day. If you are being attended by someone, recover an additional <strong>HP</strong>.</li>
-<li>When your <strong>HP</strong> reaches 0 you start loosing <strong>Attributes</strong> (you choose which). If any <strong>Attribute</strong> becomes negative you are unconscious and lose <span class="math inline">\(\mathbf{1}\)</span> in that <strong>Attribute</strong> permanently. You wake up with <span class="math inline">\(\mathbf{1}\textbf{ HP}\)</span> after the scene ends. If any <strong>Attribute</strong> becomes permanently negative, you die.</li>
-</ul>
+<p><strong>HP</strong> represents your physical disposition and stamina. You lose <strong>HP</strong> when you are physically harmed.</p>
+<p><span class="math inline">\(\mathbf{\textbf{HP}_{max}}\)</span> is calculated by adding your physical <strong>Attributes</strong> (<strong>Strength</strong> and <strong>Agility</strong>) with <span class="math inline">\(\mathbf{2}\)</span>. You gain <span class="math inline">\(\mathbf{+1}\textbf{ HP}_{max}\)</span> for each <strong>Advancement</strong> you have.</p>
+<p>When your <strong>HP</strong> reaches <span class="math inline">\(\mathbf{0}\)</span> you become <strong>Critically Wounded</strong> and have <span class="math inline">\(\mathbf{-1d}\)</span> every time you are building your <strong>Light Dice Pool</strong>. If you take any further damage you become <strong>Mortally Wounded</strong>, lose <span class="math inline">\(\mathbf{1}\)</span> permanently in an <strong>Attribute</strong> of your choice, and have <span class="math inline">\(\mathbf{-2d}\)</span> every time you are building your <strong>Light Dice Poo</strong>l. While <strong>Mortally Wounded</strong> you are unconscious or inactive is most cases, and will die immediately if any further damage is taken.</p>
+<p>A <strong>Mortal Wound</strong> becomes a <strong>Critical Wound</strong> through appropriate care and a week of rest. The lost <strong>Attribute</strong> does not recover. A <strong>Critical Wound</strong> recovers in a week, also given appropriate care. If you have no <strong>Wounds</strong>, <strong>HP</strong> recovers to its maximum after a well rested night.</p>
 </div>
 <div id="ego" class="section level3 hasAnchor" number="1.3.2">
 <h3><span class="header-section-number">1.3.2</span> Ego<a href="characters.html#ego" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ul>
-<li><strong>Ego</strong> represents your resolve, sanity and humanity. You spend it when you push yourself in a risky situation or use some character <strong>Advancements</strong>.</li>
-<li><span class="math inline">\(\mathbf{\textbf{Ego}_{max}}\)</span> is calculated by adding your mental <strong>Attributes</strong> (<strong>Insight</strong> and <strong>Empathy</strong>) with <span class="math inline">\(\mathbf{2}\)</span>.</li>
-<li><strong>Ego</strong> does not recover with rest or care, but by taking a permanent <strong>Condition</strong>. When you take a <strong>Condition</strong> your <strong>Ego</strong> recovers to its maximum.</li>
-<li>When your <strong>Ego</strong> reaches 0 you are lost somehow. With the GM determine how your last scene goes.</li>
-</ul>
+<p><strong>Ego</strong> represents your resolve, sanity and humanity. You spend it when you push yourself in a risky situation or use some character <strong>Advancements</strong>.</p>
+<p><span class="math inline">\(\mathbf{\textbf{Ego}_{max}}\)</span> is calculated by adding your mental <strong>Attributes</strong> (<strong>Insight</strong> and <strong>Empathy</strong>) with <span class="math inline">\(\mathbf{2}\)</span>.</p>
+<p>If your <strong>Ego</strong> reaches <span class="math inline">\(\mathbf{0}\)</span> you are lost somehow. With the GM determine how your last scene goes. At any moment you may choose to take a permanent <strong>Condition</strong> to recover your <strong>Ego</strong> to its maximum.</p>
 </div>
 </div>
 <div id="advancements" class="section level2 hasAnchor" number="1.4">
 <h2><span class="header-section-number">1.4</span> Advancements<a href="characters.html#advancements" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>At the end of each session take one die for each <strong>Ego</strong> you have lost. Distribute this dice pool in any way you see fit for progressing your capabilities.</p>
+<p>At the end of each session you get one <strong>Experience</strong> for each <strong>Ego</strong> you have lost. You can use your <strong>Experience</strong> to gain an <strong>Advancement</strong> or to develop <strong>Skills</strong>. Either way, decide with the GM how to carry this development out in the narrative.</p>
 <table>
 <colgroup>
-<col width="9%" />
-<col width="90%" />
+<col width="8%" />
+<col width="91%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -311,18 +306,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <tbody>
 <tr class="odd">
 <td><strong>Advancement</strong></td>
-<td>If the sum of your dice is higher than the sum of your <span class="math inline">\(\textbf{Ego}_{max}\)</span> and <span class="math inline">\(\textbf{HP}_{max}\)</span> you gain an <strong>Advancement</strong> and <span class="math inline">\(\mathbf{+1} \textbf{ HP}_{max}\)</span></td>
+<td>Roll one die for each <strong>Experience</strong> you are willing to use. If the sum of your dice is equal or higher than the sum of your <span class="math inline">\(\textbf{Ego}_{max}\)</span> and <span class="math inline">\(\textbf{HP}_{max}\)</span> you gain an <strong>Advancement</strong> and <span class="math inline">\(\mathbf{+1} \textbf{ HP}_{max}\)</span></td>
 </tr>
 <tr class="even">
 <td><strong>Skill Development</strong></td>
-<td>If the sum of your dice is higher than the sum of the <strong>Attribute</strong> and <strong>Skill</strong> you chose, the <strong>Skill</strong> increases in <span class="math inline">\(\textbf{+1}\)</span>. You can only try to increase <strong>Skills</strong> you have used during the session.</td>
+<td>Roll one die for each <strong>Experience</strong> you are willing to use. If the sum of your dice is equal of higher than <span class="math inline">\(\textbf{3x}\)</span> your current <strong>Skill</strong> rating, the <strong>Skill</strong> improves in <span class="math inline">\(\textbf{1}\)</span>.</td>
 </tr>
 </tbody>
 </table>
 <p>The list of <strong>Advancements</strong> below may be adapted or expanded, if necessary.</p>
 <ul>
 <li><strong>Extra Attribute</strong>: Increase a chosen <strong>Attribute</strong> in <span class="math inline">\(\mathbf{1}\)</span>.</li>
-<li><strong>Protected</strong>: Roll <strong>Dark Dice</strong>. Their sum can be reduced from damage you received. Lose one <strong>Ego</strong> for each of them that is lower than your current <strong>Ego</strong>.</li>
+<li><strong>Protected</strong>: When you are hit, roll <strong>Dark Dice</strong>. Their sum can be reduced from damage you received.</li>
 <li><strong>Sensory acuity</strong>: You have <span class="math inline">\(\mathbf{+1d}\)</span> on actions related to a chosen sense.</li>
 <li><strong>Sneak attack</strong>: You have <span class="math inline">\(\mathbf{+1d}\)</span> to attack and damage to unaware rivals.</li>
 <li><strong>Sniper</strong>: When you spend a turn aiming you have <span class="math inline">\(\mathbf{+1d}\)</span> to attack and damage to a rival.</li>
@@ -330,6 +325,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><strong>Multi-attack</strong>: In melee, you deal one additional instance of <strong>Damage</strong> for each <strong>Dark Dice</strong> that shows a <span class="math inline">\(\mathbf{6}\)</span>.</li>
 <li><strong>Tough</strong>: Gain one additional <strong>HP</strong> per <strong>Advancement</strong>.</li>
 <li><strong>Curse</strong>: You bring a curse to your rivals. A number equal to the number of <strong>Dark Dice</strong> rolled get <span class="math inline">\(\mathbf{-1d}\)</span> until the end of the scene.</li>
+<li><strong>Retire</strong>: With the GM decide how your story ends. Create a new character with half (rounded up) the number of <strong>Advancements</strong> you have now, including this one.</li>
+<li><strong>Fast</strong>: Your effects are always applied to the <strong>Challenge</strong> <strong>Disposition</strong> before their <strong>Consequences</strong> are applied to you.</li>
 </ul>
 </div>
 <div id="conditions" class="section level2 hasAnchor" number="1.5">
@@ -345,6 +342,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><strong>Battle-Scarred</strong>: After some injury, you develop a scar. You might have lost part of a member, an eye, or something else that impacts you physically.</li>
 <li><strong>Protective Instinct</strong>: You are genuinely concerned with your team’s welfare, and become a reluctant leader. When an ally is in danger, you have <span class="math inline">\(\mathbf{-1d}\)</span>.</li>
 <li><strong>Estranged</strong>: You lose the bond with someone you love or cherish, <span class="math inline">\(\textbf{Ego}_{max} - 1\)</span>.</li>
+<li><strong>Slow</strong>: Your effects are always applied to the <strong>Challenge</strong> <strong>Disposition</strong> after their <strong>Consequences</strong> are applied to you.</li>
 </ul>
 </div>
 </div>
