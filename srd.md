@@ -86,7 +86,7 @@ At the end of each session you get one **Experience** for each **Ego** you have 
 The list of **Advancements** below may be adapted or expanded, if necessary.
 
 - **Extra Attribute**: Increase a chosen **Attribute** in $\mathbf{1}$.
-- **Protected**: Roll **Dark Dice**. Their sum can be reduced from damage you received. Lose one **Ego** for each of them that is lower than your current **Ego**.
+- **Protected**: When you are hit, roll **Dark Dice**. Their sum can be reduced from damage you received.
 - **Sensory acuity**: You have $\mathbf{+1d}$ on actions related to a chosen sense.
 - **Sneak attack**: You have $\mathbf{+1d}$ to attack and damage to unaware rivals.
 - **Sniper**: When you spend a turn aiming you have $\mathbf{+1d}$ to attack and damage to a rival.
@@ -94,6 +94,8 @@ The list of **Advancements** below may be adapted or expanded, if necessary.
 - **Multi-attack**: In melee, you deal one additional instance of **Damage** for each **Dark Dice** that shows a $\mathbf{6}$.
 - **Tough**: Gain one additional **HP** per **Advancement**.
 - **Curse**: You bring a curse to your rivals. A number equal to the number of **Dark Dice** rolled get $\mathbf{-1d}$ until the end of the scene.
+- **Retire**: With the GM decide how your story ends. Create a new character with half (rounded up) the number of **Advancements** you have now, including this one.
+- **Fast**: Your effects are always applied to the **Challenge** **Disposition** before their **Consequences** are applied to you.
 
 ## Conditions
 
@@ -109,6 +111,7 @@ At any moment in the game you can recover your **Ego** back to its maximum by ta
 - **Battle-Scarred**: After some injury, you develop a scar. You might have lost part of a member, an eye, or something else that impacts you physically.
 - **Protective Instinct**: You are genuinely concerned with your team's welfare, and become a reluctant leader. When an ally is in danger, you have $\mathbf{-1d}$.
 - **Estranged**: You lose the bond with someone you love or cherish, $\textbf{Ego}_{max} - 1$.
+- **Slow**: Your effects are always applied to the **Challenge** **Disposition** after their **Consequences** are applied to you.
 
 # Rules
 
