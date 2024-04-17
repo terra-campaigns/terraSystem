@@ -68,9 +68,9 @@ A **Mortal Wound** becomes a **Critical Wound** through appropriate care and a w
 
 ### Ego
 
-**Ego** represents your resolve, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.
+**Ego** represents your resolve, sanity and humanity. You spend it when you push yourself in a **Risky Actions** or use some character **Advancements**.
 
-$\mathbf{\textbf{Ego}_{max}}$ is calculated by adding your mental **Attributes** (**Insight** and **Empathy**) with $\mathbf{2}$.
+$\mathbf{\textbf{Ego}_{max}}$ is calculated by adding your mental **Attributes** (**Insight** and **Charisma**) with $\mathbf{2}$.
 
 If your **Ego** reaches $\mathbf{0}$ you are lost somehow. With the GM determine how your last scene goes. At any moment you may choose to take a permanent **Condition** to recover your **Ego** to its maximum.
 
@@ -124,7 +124,6 @@ When you are trying your chances at a **Risky Action**, say what you intend to d
 | ![](imgs/dice-light-6-sml.png) | Take a number of **Light Dice** equal to your **Attribute** (and **Skill**, if applicable). If you are in an advantageous or precarious position, the GM may give you $\mathbf{\pm 1d}$. You must always have between $\mathbf{0}$ and $\mathbf{4}$ **Light Dice**. |
 | ![](imgs/dice-dark-6-sml.png)  | Take as many **Dark Dice** as you wish to risk **Ego** for pushing yourself for a success. For each **Dark Dice** that rolls equal or lower than your current **Ego**, decrease your **Ego** in one.                                                                |
 
-
 Roll the dice and look for the outcome of the highest value. 
 
 |                | Outcome                                                                                                                                                   |
@@ -146,14 +145,14 @@ Sometimes, multiple actions are required to overcome **Challenges**. Examples of
 
 **Challenges** have **Disposition**, which measures how much **Effect** they take to be overcame. **Challenges** also have **Effect Dice** that are applied to you as consequences of your **Risky Actions**.
 
-| Challenge Level |  Disposition   |     Effect     | Examples                                                                               |
-| --------------- | :------------: | :------------: | -------------------------------------------------------------------------------------- |
-| **Trivial**     |  $\mathbf{5}$  | $\mathbf{d/2}$ | Unskilled adversaries, low height climb, known journey                                 |
-| **Dangerous**   | $\mathbf{10}$  | $\mathbf{1d}$  | Skilled adversaries, small explosions, small predator, large prey, troublesome journey |
-| **Serious**     | $\mathbf{20}$  | $\mathbf{2d}$  | Expert adversaries, large predator, close contact with fire or acid                    |
-| **Formidable**  | $\mathbf{30}$  | $\mathbf{3d}$  | Human prime, apex predator, immersion in acid, large explosions                        |
-| **Extreme**     | $\mathbf{40}$  | $\mathbf{4d}$  | Transhuman, often fatal environments, most difficult journeys                          |
-| **Fantastical** | $\mathbf{10n}$ | $\mathbf{nd}$  | Anything...                                                                            |
+| Challenge Level |      Disposition      |        Effect        | Examples                                                                               |
+| --------------- | :-------------------: | :------------------: | -------------------------------------------------------------------------------------- |
+| **Trivial**     |     $\mathbf{5}$      |    $\mathbf{d/2}$    | Unskilled adversaries, low height climb, known journey                                 |
+| **Dangerous**   |     $\mathbf{10}$     |    $\mathbf{1d}$     | Skilled adversaries, small explosions, small predator, large prey, troublesome journey |
+| **Serious**     |     $\mathbf{20}$     |    $\mathbf{2d}$     | Expert adversaries, large predator, close contact with fire or acid                    |
+| **Formidable**  |     $\mathbf{30}$     |    $\mathbf{3d}$     | Human prime, apex predator, immersion in acid, large explosions                        |
+| **Extreme**     |     $\mathbf{40}$     |    $\mathbf{4d}$     | Transhuman, often fatal environments, most difficult journeys                          |
+| **Fantastical** | $\mathbf{10 \cdot n}$ | $\mathbf{n \cdot d}$ | Anything...                                                                            |
 
 If multiple challenges gang up against you, increase the **Challenge Level** in one for each two additional challenges after the first.
 
@@ -195,13 +194,13 @@ Sometimes **Challenge Effects** forks into new **Challenges** or complications o
 | **Complication** | $\mathbf{-}$ | $\mathbf{-1d}$ | $\mathbf{-2d}$ | $\mathbf{-3d}$ |
 ### Montage
 
-You and the GM might prefer to resolve a **Challenge** in one single roll. That is possible by rolling the **Challenge Effect** prior to gathering your **Dice Pool**. Apply the Complication modifier to your **Dice Pool** and roll your **Risky Action**. You risk $\mathbf{2}$ **Ego** for each **Dark Die** you use. Your companions can also pool their **Ego** to help you. This single roll determine the outcome of the entire **Challenge**.
+You and the GM might prefer to resolve a **Challenge** in one single roll. That is possible by rolling the **Challenge Effect** prior to gathering your **Dice Pool**. Apply the **Complication** modifier to your **Dice Pool** and roll your **Risky Action**. You risk $\mathbf{2}$ **Ego** for each **Dark Die** you use. Your companions can also pool their **Ego** to help you. This single roll determine the outcome of the entire **Challenge**.
 
 It is not recommended to use **Montages** if the consequence of failure would be the death of someone. On those cases, playing the Challenge as a longer one gives more manoeuvre space.
 
 ## Fortune die
 
-When the GM wants to leave some decision to the dice, define the chances and roll $\mathbf{1d}$.
+When the GM wants to leave some decision to the dice, determine the chances and roll $\mathbf{1d}$.
 
 # Making a Game
 
