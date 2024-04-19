@@ -44,11 +44,11 @@ In certain conditions, you might lose **Attributes**. Permanent **Attribute** lo
 
 Everyone is better at some things. You have $\mathbf{4}$ points to assign to **Skills** you are good at. These may be based on your **Archetype**. With the GM you can adapt or expand the generic list of **Skills** provided.
 
-- **Violence**: brawl, firearms, melee weapons, bow, etc.
-- **Exploration**: perception, stealth, lockpick, pilot, navigate, etc.
-- **Social**: connect, leadership, musical instruments, rhetoric, etc.
-- **Survival**: forage, craft, first aid, tame, etc.
-- **Vocational**: bureaucracy, computers, history, geology, trade, athletics, etc.
+- **Violence**: brawl, firearms, melee, bow, protection, destruction, intimidation, tactics, etc.
+- **Exploration**: vigilance, lockpick, pilot, drive, ride, exertion, navigation, etc.
+- **Social**: connect, leadership, musical instruments, dance, deception, rhetoric, etc.
+- **Survival**: forage, bushcraft, medicine, tame, vigilance, stealth, etc.
+- **Vocational**: bureaucracy, computers, engineering, craft, history, geology, myths, religion, trade, forensics, acrobatics, etc.
 
 `Optional` The game might ignore **Skills** and focus on **Attributes** only. If that is the case, choose one **Attribute** and increase it in $\mathbf{1}$.
 
