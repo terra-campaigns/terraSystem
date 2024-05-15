@@ -57,20 +57,29 @@ For each `Attribute` (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and c
 
 In certain conditions, you might permanently lose `Attribute` points.
 
+## Grit & Ego
 
-## HP and Ego
+> *"It's about how hard you can get hit and keep moving forward"*
+> (Rocky Balboa)
 
-You have two measures of survival: **HP** (hit points) and **Ego**.
+While `Grit` represents your physical disposition, `Ego` represents your resilience.
 
-### HP (hit points)
+Roll $1d$ to determine your initial `Grit` maximum and initial `Ego`.
+Advancements and conditions may change these numbers.
 
-**HP** represents your physical disposition and stamina. You lose **HP** when you are physically harmed.
+After a well fed and rested night, your `Grit` recovers to its maximum.
+At any moment, you may choose to take a `Condition` and roll $1d$ to reset your `Ego`.
 
-$\mathbf{\textbf{HP}_{max}}$ is calculated by adding your physical **Attributes** (**Strength** and **Agility**) with $\mathbf{2}$. You gain $\mathbf{+1}\textbf{ HP}_{max}$ for each **Advancement** you have.
+You lose `Grit` when you are physically harmed. 
+When your `Grit` reaches $0$ you become wounded.
+You have $3$ `Wound` tracks.
+You choose what they mean narratively.
+Beyond those, you are mortally wounded and will die if harmed.
 
-When your **HP** reaches $\mathbf{0}$ you become **Critically Wounded** and have $\mathbf{-1d}$ every time you are building your **Light Dice Pool**. If you take any further damage you become **Mortally Wounded**, lose $\mathbf{1}$ permanently in an **Attribute** of your choice, and have $\mathbf{-2d}$ every time you are building your **Light Dice Poo**l. While **Mortally Wounded** you are unconscious or inactive is most cases, and will die immediately if any further damage is taken.
+You spend `Ego` when you push beyond yourself in `Risky Actions` or use some character `Advancements`.
+When your `Ego` reaches $0$ you are lost somehow.
+With the GM determine how your last scene goes.
 
-A **Mortal Wound** becomes a **Critical Wound** through appropriate care and a week of rest. The lost **Attribute** does not recover. A **Critical Wound** recovers in a week, also given appropriate care. If you have no **Wounds**, **HP** recovers to its maximum after a well rested night.
 
 ### Ego
 
