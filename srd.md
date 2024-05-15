@@ -23,34 +23,40 @@ You are defined by an **Archetype**, which encapsulates your background, concept
 - **Jester**: Values joy, humor, and light-heartedness.
 - **Caregiver**: Provides nurture, generosity, and compassion.
 
-## Attributes
+## Skills & Attributes
 
-You have four **Attributes**.
+There are 12 `Skills` that you can use to overcome obstacles.
 
-- **Strength**: physical power, endurance and might.
-- **Agility**: dexterity, precision and physical sagacity.
-- **Insight**: perception, understanding and reasoning. 
-- **Charisma**: empathy, command and personality heft.
+- **Marksmanship**: projectiles, shooting, aiming.
+- **Finesse**: dextrous manipulation, fine precision.
+- **Skirmish**: entangle a target in close combat.
+- **Exertion**: apply physical force and power.
+- **Survival**: track targets, forage, primal focus.
+- **Stealth** : traverse quietly, subtle misdirection.
+- **Intuition**: observe situations or people, anticipate outcomes.
+- **Craftsmanship**: engineer and fix objects.
+- **Attunement**: get in the flow and tune the arcane or tech.
+- **Command**: compel swift obedience.
+- **Expression**: influence with guile, charm, or argument
+- **Cognition**: apply mental capacity, intelectual focus.
 
-To determine **Attribute** values, roll $\mathbf{2d}$ for each, take the highest, and consult the table below.
+Each `Skill` has a rating (from $0$ to $4$) that determine how many dice to roll when performing `Risky Actions`.
 
-|               |  $\mathbf{1:3}$   |   $\mathbf{4:5}$    |     $\mathbf{6}$      |
-| :-----------: | :---------------: | :-----------------: | :-------------------: |
-| **Attribute** | $\circ\circ\circ$ | $\bullet\circ\circ$ | $\bullet\bullet\circ$ |
+`Attributes` are groupings of four `Skills` each.
+Attributes also have ratings (from $0$ to $4$) that determine how many dice to roll when resisting risks.
 
-In certain conditions, you might lose **Attributes**. Permanent **Attribute** loss is never recovered.
+- **Prowess** `Skills`: Marksmanship, Finesse, Skirmish, Exertion
+- **Sagacity** `Skills`: Survival, Stealth, Intuition, Craftsmanship 
+- **Resolve** `Skills`: Attunement, Command, Expression, Cognition 
 
-### Skills
+For each `Attribute` (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many points you have to distribute to their `Skills`.
 
-Everyone is better at some things. You have $\mathbf{4}$ points to assign to **Skills** you are good at. These may be based on your **Archetype**. With the GM you can adapt or expand the generic list of **Skills** provided.
+|            |                $1:3$                |                $4:5$                |                 $6$                 |
+| :--------- | :---------------------------------: | :---------------------------------: | :---------------------------------: |
+| **Points** | &#x25CF; &#x25CF; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CF; |
 
-- **Violence**: brawl, firearms, melee, bow, protection, destruction, intimidation, tactics, etc.
-- **Exploration**: vigilance, lockpick, pilot, drive, ride, exertion, navigation, etc.
-- **Social**: connect, leadership, musical instruments, dance, deception, rhetoric, etc.
-- **Survival**: forage, bushcraft, medicine, tame, vigilance, stealth, etc.
-- **Vocational**: bureaucracy, computers, engineering, craft, history, geology, myths, religion, trade, forensics, acrobatics, etc.
+In certain conditions, you might permanently lose `Attribute` points.
 
-`Optional` The game might ignore **Skills** and focus on **Attributes** only. If that is the case, choose one **Attribute** and increase it in $\mathbf{1}$.
 
 ## HP and Ego
 
