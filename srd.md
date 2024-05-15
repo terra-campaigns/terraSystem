@@ -156,6 +156,25 @@ Roll the dice and look for the outcome of the highest value.
 | $\mathbf{4:5}$ | You succeed, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
 |  $\mathbf{6}$  | You succeed. With the GM describe what happens.                                                                                                           |
 If the **Risky Action** is part of a longer **Challenge**, roll **Effects** as appropriate.
+When you roll your `Risky Actions`, choose one die to be your `Effect` (generally the second highest, if the highest was used as `Precision`).
+The `Effect` die is an exploding die (i.e. if the result is a $6$, keep rolling and accumulating the result).
+The `Effect` you apply is never lower than the `Effect` level of your approach, regardless of the die outcome.
+Consult the table below.
+
+| Effect     | Level | Examples                                                                          |
+| ---------- | :---: | --------------------------------------------------------------------------------- |
+| Improvised | $1e$  | Makeshift tool;<br>Rock, pipe, punch.                                             |
+| Weak       | $2e$  | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
+| Standard   | $3e$  | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
+| Strong     | $4e$  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
+| Extreme    | $5e$  | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and sword          |
+`Challenge` `Effects` (damage) applied to you reduces your `Grit`.
+Subtract the armour rating from the `Effect`, and then reduce the remainder from your `Grit`.
+Your `Effects` are subtracted directly from `Challenges` Disposition (i.e. Challenges do not have armour).
+
+Sometimes `Challenge` `Effects` fork into new `Challenges` or consequences.
+Extra `Challenges` might be an encounter, an unexpected detour, a hidden threat or some unlucky event.
+Consequences, on the other hand, pose some additional difficulty on the next `Risky Action` roll related to the `Challenge`.
 
 ## Challenges
 
