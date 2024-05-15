@@ -1,14 +1,15 @@
 # Characters
 
-
-1. Always start with a **Name** and an **Archetype**.
-2. Roll for **Attributes** and choose **Skills**.
-3. Calculate **HP** (hit points) and **Ego**.
-4. `Optional` Choose one **Advancement** and increase your $\textbf{HP}_{max}$ in $\mathbf{1}$.
+1. Always start with a Name and an `Archetype`.
+2. Roll for `Attributes` and assign `Skills`
+3. Roll for `Grit` and `Ego`.
+4. **Optional:** Choose one `Advancement`.
 
 ## Archetypes
 
-You are defined by an **Archetype**, which encapsulates your background, concept and role within the narrative. Each **Archetype** should offer an immediate grasp of your identity and behaviours. It is expected you will evolve beyond these initial **Archetypes** towards unique narratives.
+You are defined by an `Archetype`, which encapsulates your background, concept and role within the narrative.
+Each `Archetype` should offer an immediate grasp of your identity and behaviours.
+It is expected you will evolve beyond these initial `Archetypes` towards unique narratives.
 
 - **Hero**: Embodies courage and strength, often the protagonist fighting against the odds.
 - **Mentor**: Provides guidance and wisdom, helping the hero on their journey.
@@ -23,120 +24,182 @@ You are defined by an **Archetype**, which encapsulates your background, concept
 - **Jester**: Values joy, humor, and light-heartedness.
 - **Caregiver**: Provides nurture, generosity, and compassion.
 
-## Attributes
+## Skills & Attributes
 
-You have four **Attributes**.
+There are 12 `Skills` that you can use to overcome obstacles.
 
-- **Strength**: physical power, endurance and might.
-- **Agility**: dexterity, precision and physical sagacity.
-- **Insight**: perception, understanding and reasoning. 
-- **Charisma**: empathy, command and personality heft.
+- **Marksmanship**: projectiles, shooting, aiming.
+- **Finesse**: dextrous manipulation, fine precision.
+- **Skirmish**: entangle a target in close combat.
+- **Exertion**: apply physical force and power.
+- **Survival**: track targets, forage, primal focus.
+- **Stealth** : traverse quietly, subtle misdirection.
+- **Intuition**: observe situations or people, anticipate outcomes.
+- **Craftsmanship**: engineer and fix objects.
+- **Attunement**: get in the flow and tune the arcane or tech.
+- **Command**: compel swift obedience.
+- **Expression**: influence with guile, charm, or argument
+- **Cognition**: apply mental capacity, intelectual focus.
 
-To determine **Attribute** values, roll $\mathbf{2d}$ for each, take the highest, and consult the table below.
+Each `Skill` has a rating (from $0$ to $4$) that determine how many dice to roll when performing `Risky Actions`.
 
-|               |  $\mathbf{1:3}$   |   $\mathbf{4:5}$    |     $\mathbf{6}$      |
-| :-----------: | :---------------: | :-----------------: | :-------------------: |
-| **Attribute** | $\circ\circ\circ$ | $\bullet\circ\circ$ | $\bullet\bullet\circ$ |
+`Attributes` are groupings of four `Skills` each.
+Attributes also have ratings (from $0$ to $4$) that determine how many dice to roll when resisting risks.
 
-In certain conditions, you might lose **Attributes**. Permanent **Attribute** loss is never recovered.
+- **Prowess** `Skills`: Marksmanship, Finesse, Skirmish, Exertion
+- **Sagacity** `Skills`: Survival, Stealth, Intuition, Craftsmanship 
+- **Resolve** `Skills`: Attunement, Command, Expression, Cognition 
 
-### Skills
+For each `Attribute` (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many points you have to distribute to their `Skills`.
 
-Everyone is better at some things. You have $\mathbf{4}$ points to assign to **Skills** you are good at. These may be based on your **Archetype**. With the GM you can adapt or expand the generic list of **Skills** provided.
+|            |                $1:3$                |                $4:5$                |                 $6$                 |
+| :--------- | :---------------------------------: | :---------------------------------: | :---------------------------------: |
+| **Points** | &#x25CF; &#x25CF; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CF; |
 
-- **Violence**: brawl, firearms, melee weapons, bow, etc.
-- **Exploration**: perception, stealth, lockpick, pilot, navigate, etc.
-- **Social**: connect, leadership, musical instruments, rhetoric, etc.
-- **Survival**: forage, craft, first aid, tame, etc.
-- **Vocational**: bureaucracy, computers, history, geology, trade, athletics, etc.
+In certain conditions, you might permanently lose `Attribute` points.
 
-`Optional` The game might ignore **Skills** and focus on **Attributes** only. If that is the case, choose one **Attribute** and increase it in $\mathbf{1}$.
+## Grit & Ego
 
-## HP and Ego
+> *"It's about how hard you can get hit and keep moving forward"*
+> (Rocky Balboa)
 
-You have two measures of survival: **HP** (hit points) and **Ego**.
+While `Grit` represents your physical disposition, `Ego` represents your resilience.
 
-### HP (hit points)
+Roll $1d$ to determine your initial `Grit` maximum and initial `Ego`.
+Advancements and conditions may change these numbers.
 
-**HP** represents your physical disposition and stamina. You lose **HP** when you are physically harmed.
+After a well fed and rested night, your `Grit` recovers to its maximum.
+At any moment, you may choose to take a `Condition` and roll $1d$ to reset your `Ego`.
 
-$\mathbf{\textbf{HP}_{max}}$ is calculated by adding your physical **Attributes** (**Strength** and **Agility**) with $\mathbf{2}$. You gain $\mathbf{+1}\textbf{ HP}_{max}$ for each **Advancement** you have.
+You lose `Grit` when you are physically harmed. 
+When your `Grit` reaches $0$ you become wounded.
+You have $3$ `Wound` tracks.
+You choose what they mean narratively.
+Beyond those, you are mortally wounded and will die if harmed.
 
-When your **HP** reaches $\mathbf{0}$ you become **Critically Wounded** and have $\mathbf{-1d}$ every time you are building your **Light Dice Pool**. If you take any further damage you become **Mortally Wounded**, lose $\mathbf{1}$ permanently in an **Attribute** of your choice, and have $\mathbf{-2d}$ every time you are building your **Light Dice Poo**l. While **Mortally Wounded** you are unconscious or inactive is most cases, and will die immediately if any further damage is taken.
-
-A **Mortal Wound** becomes a **Critical Wound** through appropriate care and a week of rest. The lost **Attribute** does not recover. A **Critical Wound** recovers in a week, also given appropriate care. If you have no **Wounds**, **HP** recovers to its maximum after a well rested night.
-
-### Ego
-
-**Ego** represents your resolve, sanity and humanity. You spend it when you push yourself in a risky situation or use some character **Advancements**.
-
-$\mathbf{\textbf{Ego}_{max}}$ is calculated by adding your mental **Attributes** (**Insight** and **Empathy**) with $\mathbf{2}$.
-
-If your **Ego** reaches $\mathbf{0}$ you are lost somehow. With the GM determine how your last scene goes. At any moment you may choose to take a permanent **Condition** to recover your **Ego** to its maximum.
+You spend `Ego` when you push beyond yourself in `Risky Actions` or use some character `Advancements`.
+When your `Ego` reaches $0$ you are lost somehow.
+With the GM determine how your last scene goes.
 
 ## Advancements
 
-At the end of each session you get one **Experience** for each **Ego** you have lost. You can use your **Experience** to gain an **Advancement** or to develop **Skills**. Either way, decide with the GM how to carry this development out in the narrative.
+`Advancements` can have any narrative reasoning you want.
+The list below are examples of a simple framework for their in-game mechanics:
 
-|                       | Roll                                                                                                                                                                                                                                       |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Advancement**       | Roll one die for each **Experience** you are willing to use. If the sum of your dice is equal or higher than the sum of your $\textbf{Ego}_{max}$ and $\textbf{HP}_{max}$ you gain an **Advancement** and $\mathbf{+1} \textbf{ HP}_{max}$ |
-| **Skill Development** | Roll one die for each **Experience** you are willing to use. If the sum of your dice is equal of higher than $\textbf{3x}$ your current **Skill** rating, the **Skill** improves in $\textbf{1}$.                                          |
-
-The list of **Advancements** below may be adapted or expanded, if necessary.
-
-- **Extra Attribute**: Increase a chosen **Attribute** in $\mathbf{1}$.
-- **Protected**: When you are hit, roll **Dark Dice**. Their sum can be reduced from damage you received.
-- **Sensory acuity**: You have $\mathbf{+1d}$ on actions related to a chosen sense.
-- **Sneak attack**: You have $\mathbf{+1d}$ to attack and damage to unaware rivals.
-- **Sniper**: When you spend a turn aiming you have $\mathbf{+1d}$ to attack and damage to a rival.
-- **Rally**: When you rally your allies, a number equal to the number of **Dark Dice** rolled get $\mathbf{+1d}$ until the end of the scene.
-- **Multi-attack**: In melee, you deal one additional instance of **Damage** for each **Dark Dice** that shows a $\mathbf{6}$.
-- **Tough**: Gain one additional **HP** per **Advancement**.
-- **Curse**: You bring a curse to your rivals. A number equal to the number of **Dark Dice** rolled get $\mathbf{-1d}$ until the end of the scene.
-- **Retire**: With the GM decide how your story ends. Create a new character with half (rounded up) the number of **Advancements** you have now, including this one.
-- **Fast**: Your effects are always applied to the **Challenge** **Disposition** before their **Consequences** are applied to you.
+- **Eager**: When you reset your `Ego`, roll $+1d$ and keep the highest.
+- **Die Hard**: Roll your `Grit` maximum with $+1d$. You can choose to keep this new maximum if it is higher than your current maximum.
+- **Buff** or **Debuff:** Roll a **Resolve** `Skill` and `Dark Dice`. Apply your `Effect` as a **Buff** or **Debuff** consequence. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Buff** and **Debuff** with different **Resolve** `Skills`.
+- **Heal** or **Hurt**: Roll an **Insight** `Skill` and `Dark Dice`. Multiply your `Effect` by the number of `Ego` spent and use the result to **Heal** or **Hurt**. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Heal** or **Hurt** with different **Insight** `Skills`.
+- **Tough**: Your base **Armour** is $1$
+- **Bodyguard**: You can choose to take damage instead of one of your allies.
+- **Sensory acuity**: You have $+1d$ on noticing things through a chosen sense.
+- **Whirlwind**: In combat, roll a **Prowess** `Skill` and `Dark Dice`. If you are successful, deal one additional instance of `Effect` to a `Challenge` at range.
+- **Retire**: With the GM decide how your story ends. Create a new character with half (rounded up) the number of `Advancements` you have now, including this one.
+- **Fast**: When you roll, your `Effect` is always applied first.
 
 ## Conditions
 
-At any moment in the game you can recover your **Ego** back to its maximum by taking a **Condition**. The recovery of your inner strength often comes through confronting, enduring, and adapting to hardship. These trials teach you to integrate the traumas that permanently transform your self, strengthening your resilience. With the GM, determine the new **Condition** you have, and how to introduce it into the narrative.
+At any moment in the game you can re-roll your `Ego` by taking a `Condition`.
+The recovery of your inner strength often comes through confronting, enduring, and adapting to hardship.
+These trials teach you to integrate the traumas that permanently transform your self, strengthening your resilience.
+With the GM, determine the new `Condition` you have, and how to introduce it into the narrative.
 
-**Conditions** are detrimental mechanically, but not necessarily negative in the narrative. The list below can be used as a starting point. With the GM you can adapt these or create new ones.
+`Conditions` are detrimental mechanically, but not necessarily negative in the narrative.
+The list below can be used as a starting point.
+With the GM you can adapt these or create new ones.
 
-- **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $\mathbf{-1d}$.
-- **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $\mathbf{+1d}$ in one skill and $\mathbf{-1d}$ in three other skills.
-- **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $\mathbf{-1d}$.
+- **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $-1d$
+- **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $+1$ Point in one `Skill` and $-1$ Point in two other `Skills`.
+- **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $-1d$.
 - **Compulsive Honesty**: You vow to always speak the truth.
 - **Kleptomaniac**: You are unable to resist urges to steal items that you generally don't really need.
-- **Battle-Scarred**: After some injury, you develop a scar. You might have lost part of a member, an eye, or something else that impacts you physically.
-- **Protective Instinct**: You are genuinely concerned with your team's welfare, and become a reluctant leader. When an ally is in danger, you have $\mathbf{-1d}$.
-- **Estranged**: You lose the bond with someone you love or cherish, $\textbf{Ego}_{max} - 1$.
-- **Slow**: Your effects are always applied to the **Challenge** **Disposition** after their **Consequences** are applied to you.
+- **Battle-Scarred**: After some injury, you develop a scar. You might have lost part of a member, an eye, or something else that impacts you physically, intellectually or socially.
+- **Protective Instinct**: You are genuinely concerned with your team's welfare, and become a reluctant leader. When an ally is in danger, you have $-1d$.
+- **Estranged**: You lose the bond with someone you love or cherish. With the GM, agree the mechanical impact.
+- **Slow**: When you roll, your `Effect` is always applied last.
+
+## Equipment 
+
+With the GM define which tags, ranges and `Effect` are appropriate for your weapons.
+Weapons used outside their expected ranges roll with $-1d$.
+
+The following short list of tags may be expanded with the GM.
+
+- **Versatile**: $+1e$ when held two-handed.
+- **Nimble**: `Effect` is applied first
+- **Slaughter**: `Effect` die explode on $5+$
+
+Armours act as buffers when you take damage from `Challenges`.
+Subtract the armour modifier from the `Effect` before reducing your `Grit`
+
+| Armour     | Modifier | Details                                            |
+| ---------- | :------: | -------------------------------------------------- |
+| **Light**  |   $-1$   |                                                    |
+| **Heavy**  |   $-2$   | $-1d$ to run, observe, sneak, swim, etc.           |
+| **Shield** |   $-1$   | Can be sacrificed to completely avoid an `Effect`. |
 
 # Rules
 
 ## Risky Actions
 
-When you are trying your chances at a **Risky Action**, say what you intend to do. With the GM determine your appropriate **Attribute** (and **Skill**, if applicable). Then gather 6-sided dice.
+When you are trying your chances at a `Risky Action`, say what you intend to do.
+With the GM determine your appropriate `Attribute` or `Skill`.
+Then gather 6-sided dice.
 
-|                                | Dice Pool                                                                                                                                                                                                                                                           |
-| :----------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](imgs/dice-light-6-sml.png) | Take a number of **Light Dice** equal to your **Attribute** (and **Skill**, if applicable). If you are in an advantageous or precarious position, the GM may give you $\mathbf{\pm 1d}$. You must always have between $\mathbf{0}$ and $\mathbf{4}$ **Light Dice**. |
-| ![](imgs/dice-dark-6-sml.png)  | Take as many **Dark Dice** as you wish to risk **Ego** for pushing yourself for a success. For each **Dark Dice** that rolls equal or lower than your current **Ego**, decrease your **Ego** in one.                                                                |
+|                                | Dice Pool                                                                                                                                                                                                                 |
+| :----------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](imgs/dice-light-6-sml.png) | Take a number of `Light Dice` equal to your applicable `Attribute` or `Skill`. If you are in an advantageous or precarious position, the GM may give you $\pm 1d$. You must always have between $0$ and $4$ `Light Dice`. |
+| ![](imgs/dice-dark-6-sml.png)  | Take as many `Dark Dice` as you wish to risk `Ego` for pushing yourself for a success. For each `Dark Dice` that rolls equal or lower than your current `Ego`, decrease your `Ego` in one.                                |
 
+Roll the dice and choose one die to be your `Precision` (generally the highest, but you might choose differently if you wish) and consult the table.
 
-Roll the dice and look for the outcome of the highest value. 
+|       | Outcome                                                                                                                                                   |
+| :---: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $1:3$ | You fail, and things get worse. With the GM describe the consequences. The GM may also allow you to succeed, but things will get worse in some other way. |
+| $4:5$ | You succeed, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
+|  $6$  | You succeed. With the GM describe what happens.                                                                                                           |
 
-|                | Outcome                                                                                                                                                   |
-| :------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $\mathbf{1:3}$ | You fail, and things get worse. With the GM describe the consequences. The GM may also allow you to succeed, but things will get worse in some other way. |
-| $\mathbf{4:5}$ | You succeed, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
-|  $\mathbf{6}$  | You succeed. With the GM describe what happens.                                                                                                           |
-If the **Risky Action** is part of a longer **Challenge**, roll **Effects** as appropriate.
+Evaluate `Effects` as appropriate, if the `Risky Action` is part of a `Challenge`,
+
+## Effects
+
+`Effects` determines the quantitative result of your `Risky Actions` towards overcoming `Challenges`.
+Examples of `Effects` are:
+
+- Damage given,
+- Convincing done,
+- Distance covered,
+- Weakness learned.
+
+When you roll your `Risky Actions`, choose one die to be your `Effect` (generally the second highest, if the highest was used as `Precision`).
+The `Effect` die is an exploding die (i.e. if the result is a $6$, keep rolling and accumulating the result).
+The `Effect` you apply is never lower than the `Effect` level of your approach, regardless of the die outcome.
+Consult the table below.
+
+| Effect     | Level | Examples                                                                          |
+| ---------- | :---: | --------------------------------------------------------------------------------- |
+| Improvised | $1e$  | Makeshift tool;<br>Rock, pipe, punch.                                             |
+| Weak       | $2e$  | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
+| Standard   | $3e$  | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
+| Strong     | $4e$  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
+| Extreme    | $5e$  | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and sword          |
+`Challenge` `Effects` (damage) applied to you reduces your `Grit`.
+Subtract the armour rating from the `Effect`, and then reduce the remainder from your `Grit`.
+Your `Effects` are subtracted directly from `Challenges` Disposition (i.e. Challenges do not have armour).
+
+Sometimes `Challenge` `Effects` fork into new `Challenges` or consequences.
+Extra `Challenges` might be an encounter, an unexpected detour, a hidden threat or some unlucky event.
+Consequences, on the other hand, pose some additional difficulty on the next `Risky Action` roll related to the `Challenge`.
+
+| Effect Roll     | $\mathbf{1:3}$ | $\mathbf{4:5}$ | $\mathbf{7:11}$ | $\mathbf{13:17}$ | $\mathbf{19+}$ |
+| --------------- | :------------: | :------------: | :-------------: | :--------------: | :------------: |
+| Extra Challenge |    Trivial     |   Dangerous    |     Serious     |    Formidable    |    Extreme     |
+| Consequence     |  $\mathbf{-}$  |      $1d$      |      $2d$       |       $3d$       |     $4d+$      |
 
 ## Challenges
 
-Sometimes, multiple actions are required to overcome **Challenges**. Examples of **Challenges** are
+Sometimes, multiple actions are required to overcome `Challenges`.
+Examples of `Challenges` are
 
 - fighting an enemy,
 - dueling rhetorically,
@@ -144,65 +207,85 @@ Sometimes, multiple actions are required to overcome **Challenges**. Examples of
 - crawling a location,
 - journeying.
 
-**Challenges** have **Disposition**, which measures how much **Effect** they take to be overcame. **Challenges** also have **Effect Dice** that are applied to you as consequences of your **Risky Actions**.
+`Challenges` have disposition, which measures how much `Effect` they take to be overcame.
+`Challenges` also have `Effect` dice that are applied to you as consequences of your `Risky Actions`.
 
-| Challenge Level |  Disposition   |     Effect     | Examples                                                                               |
-| --------------- | :------------: | :------------: | -------------------------------------------------------------------------------------- |
-| **Trivial**     |  $\mathbf{5}$  | $\mathbf{d/2}$ | Unskilled adversaries, low height climb, known journey                                 |
-| **Dangerous**   | $\mathbf{10}$  | $\mathbf{1d}$  | Skilled adversaries, small explosions, small predator, large prey, troublesome journey |
-| **Serious**     | $\mathbf{20}$  | $\mathbf{2d}$  | Expert adversaries, large predator, close contact with fire or acid                    |
-| **Formidable**  | $\mathbf{30}$  | $\mathbf{3d}$  | Human prime, apex predator, immersion in acid, large explosions                        |
-| **Extreme**     | $\mathbf{40}$  | $\mathbf{4d}$  | Transhuman, often fatal environments, most difficult journeys                          |
-| **Fantastical** | $\mathbf{10n}$ | $\mathbf{nd}$  | Anything...                                                                            |
+| Challenge      | Disposition | Effect | Examples                                                                               |
+| -------------- | :---------: | :----: | -------------------------------------------------------------------------------------- |
+| **Trivial**    |     $5$     | $d/2$  | Unskilled adversaries, low height climb, known journey                                 |
+| **Dangerous**  |    $10$     |  $1d$  | Skilled adversaries, small explosions, small predator, large prey, troublesome journey |
+| **Serious**    |    $20$     |  $2d$  | Expert adversaries, large predator, close contact with fire or acid                    |
+| **Formidable** |    $30$     |  $3d$  | Human prime, apex predator, immersion in acid, large explosions                        |
+| **Extreme**    |    $40+$    | $4d+$  | Transhuman, often fatal environments, most difficult journeys                          |
 
-If multiple challenges gang up against you, increase the **Challenge Level** in one for each two additional challenges after the first.
+If multiple challenges gang up against you, increase the `Challenge` in one for each two additional challenges after the first.
 
-Some challenges might be multifaceted. A bulky rival might be a Dangerous **Challenge** to fight against, but a Trivial **Challenge** to be convinced to ignore you.
+Some challenges might be multifaceted.
+A bulky rival might be a Dangerous `Challenge` to fight against, but a Trivial `Challenge` to be convinced to ignore you.
 
-### Effects
-
-**Effects** determines the quantitative result of your **Risky Actions** towards overcoming a longer **Challenge**. Examples of Effects are
-
-- Damage given,
-- Convincing done,
-- Distance covered.
-
-When you roll **Effect Dice**, only the highest result is relevant. This highest die is exploding (every time the result is a natural 6, re-roll and accumulate the result).
-
-Different tools may modify the **Effect Dice** rolled.
-
-| Equipment                         |      Effect      | Examples                                                                            | Details                                           |
-| --------------------------------- | :--------------: | ----------------------------------------------------------------------------------- | ------------------------------------------------- |
-| **Lesser tool;<br>Small weapon**  | $\mathbf{d / 2}$ | Primitive tool;<br>Knife, staff, small revolver                                     | Improvised tools: **Risky Action** $\mathbf{-1d}$ |
-| **Normal tool;<br>Medium weapon** |  $\mathbf{1d}$   | Fit for purpose tool;<br>Sword, large pistol, SMG                                   | **Effect** $\mathbf{1d+1}$ if held two handed.    |
-| **Greater tool;<br>Large weapon** |  $\mathbf{2d}$   | Expert grade tool;<br>Large axe, bastard sword, shotgun, sniper rifle, machine gun; | Requires two hands.                               |
-
-Physical harm **Effects** applied to you impacts your **HP**, and **Attributes** when you reach $\mathbf{0}$ **HP**. The armour you wear modifies the **Effect**. Subtract the modified **Effect** from your **HP** or **Attributes**.
-
-**Armours** do not modify **Effects** applied to a **Challenge's Disposition**, like they do for you.
-
-| Armour     |   Modifier    | Details                                                       |
-| ---------- | :-----------: | ------------------------------------------------------------- |
-| **Light**  | $\mathbf{-1}$ |                                                               |
-| **Heavy**  | $\mathbf{-2}$ | **Chances** $\mathbf{-1d}$ to run, observe, sneak, swim, etc. |
-| **Shield** | $\mathbf{-1}$ | Can be sacrificed to completely avoid an **Effect**.          |
-
-Sometimes **Challenge Effects** forks into new **Challenges** or complications on the current **Challenge**. Extra **Challenges** might be an encounter, an unexpected detour, a hidden threat or some unlucky event. Complications, on the other hand, pose some additional difficulty on the next **Risky Action** roll related to the **Challenge**.
-
-| Effect Roll      |     1-3      |      4-5       |      7-11      |      13+       |
-| ---------------- | :----------: | :------------: | :------------: | :------------: |
-| **Challenge**    |   Trivial    |   Dangerous    |    Serious     |   Formidable   |
-| **Complication** | $\mathbf{-}$ | $\mathbf{-1d}$ | $\mathbf{-2d}$ | $\mathbf{-3d}$ |
 ### Montage
 
-You and the GM might prefer to resolve a **Challenge** in one single roll. That is possible by rolling the **Challenge Effect** prior to gathering your **Dice Pool**. Apply the Complication modifier to your **Dice Pool** and roll your **Risky Action**. You risk $\mathbf{2}$ **Ego** for each **Dark Die** you use. Your companions can also pool their **Ego** to help you. This single roll determine the outcome of the entire **Challenge**.
+You and the GM might prefer to resolve a `Challenge` in one single roll.
+That is possible by rolling the `Challenge Effect` prior to gathering your dice.
+Apply the consequence modifier to your dice and roll your `Risky Action`.
+You risk $2$ `Ego` for each `Dark Die` you use.
+Your companions can also pool their `Ego` to help you.
+This single roll determine the outcome of the entire `Challenge`.
 
-It is not recommended to use **Montages** if the consequence of failure would be the death of someone. On those cases, playing the Challenge as a longer one gives more manoeuvre space.
+It is not recommended to use `Montages` if the consequence of failure would be the death of someone.
+On those cases, playing the `Challenge` as a longer one gives more manoeuvre space.
+
+## Wounds
+
+When your `Grit` reaches $0$ and you use all your `Wound` tracks you become mortally wounded, and will die if further harmed.
+While mortally wounded you cannot gather `Light Die` for your `Risky Actions`.
+You will die in minutes if not attended to.
+
+If you survive a mortal wound, you develop a permanent consequence.
+Roll $1d$ and consult the table below.
+With the GM, describe it narrativelly.
+
+|     | Consequence                                                            |
+| :-: | ---------------------------------------------------------------------- |
+| $1$ | No consequence this time                                               |
+| $2$ | $-1$ **Prowess**, you die if it becomes $0$                            |
+| $3$ | $-1$ **Sagacity**, you die if it becomes $0$                           |
+| $4$ | $-1$ **Resolve**, you die if it becomes $0$                            |
+| $5$ | When you re-roll your `Ego`, use $-1d$ from now on. Its minimum is $1$ |
+| $6$ | Re-roll your `Grit` with $-1d$ from now on. Its minimum is $1$.        |
+
+Each `Wound` track recovers through appropriate care and a week of rest.
+
+## Advancements
+
+You get one `Experience` for each `Ego` you risk.
+You can use your `Experience` to gain an `Advancement` or to develop `Skills`.
+Either way, decide with the GM how to carry this development out in the narrative.
+
+|                       | Roll                                                                                                                                                                                            |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Advancement**       | Roll one die for each `Experience` you are willing to use. If the sum of your dice is equal or higher than $5x$ the number of `Advancements` you will reach, you gain a new `Advancement`.      |
+| **Skill Development** | Roll one die for each `Experience` you are willing to use. If the sum of your dice is equal of higher than $10x$ your target `Skill` rating, the `Skill` improves in $1$ (to a maximum of $4$). |
 
 ## Fortune die
 
-When the GM wants to leave some decision to the dice, define the chances and roll $\mathbf{1d}$.
+When the GM wants to leave some decision to the dice, determine the chances and roll $1d$.
 
 # Making a Game
 
-To make **Terran Engine** thematically specific to the target scenario, adapt the Characters' section by changing the **Archetypes** used, fine tuning the **Attributes** and **Skill** lists, reskinning the explanation for **Ego** and developing coherent **Advancements** and **Conditions**. The Rules' section can be used as is.
+**Terran Engine** is focuses on the grimdark aesthetics, which might not be the thematic choice of every game.
+
+By adapting the `Archetypes` and `Advancements`, and reskinning `Ego` (and `Conditions`), other genres can easily be emulated. A few playtested examples are given. The Rules section can mostly be used as is.
+
+## Ego in Pulp Fantasy
+
+For the Pulp Fantasy genre, Ego can be used as a measure of how far the next climax is. Whenever relevant, the GM rolls one die. If the die is higher than the highest Ego of the Party, a climax event happens. After this climax, all Ego is restored to its original max.
+
+## Skills & Attributes
+
+|                   |            |                $1:3$                |                $4:5$                |                 $6$                 |
+| :---------------- | :--------- | :---------------------------------: | :---------------------------------: | :---------------------------------: |
+| **Standard**      | **Points** | &#x25CF; &#x25CF; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CF; |
+| **Simple/Gritty** | **Value**  | &#x25CB; &#x25CB; &#x25CB; &#x25CB; | &#x25CF; &#x25CB; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CB; &#x25CB; |
+| **Simple/Heroic** | **Value**  | &#x25CF; &#x25CB; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CB; |
+
