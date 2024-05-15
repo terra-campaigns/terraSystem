@@ -236,10 +236,16 @@ Sometimes **Challenge Effects** forks into new **Challenges** or complications o
 | **Challenge**    |   Trivial    |   Dangerous    |    Serious     |   Formidable   |
 | **Complication** | $\mathbf{-}$ | $\mathbf{-1d}$ | $\mathbf{-2d}$ | $\mathbf{-3d}$ |
 ### Montage
+## Advancements
 
-You and the GM might prefer to resolve a **Challenge** in one single roll. That is possible by rolling the **Challenge Effect** prior to gathering your **Dice Pool**. Apply the **Complication** modifier to your **Dice Pool** and roll your **Risky Action**. You risk $\mathbf{2}$ **Ego** for each **Dark Die** you use. Your companions can also pool their **Ego** to help you. This single roll determine the outcome of the entire **Challenge**.
+You get one `Experience` for each `Ego` you risk.
+You can use your `Experience` to gain an `Advancement` or to develop `Skills`.
+Either way, decide with the GM how to carry this development out in the narrative.
 
-It is not recommended to use **Montages** if the consequence of failure would be the death of someone. On those cases, playing the Challenge as a longer one gives more manoeuvre space.
+|                       | Roll                                                                                                                                                                                            |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Advancement**       | Roll one die for each `Experience` you are willing to use. If the sum of your dice is equal or higher than $5x$ the number of `Advancements` you will reach, you gain a new `Advancement`.      |
+| **Skill Development** | Roll one die for each `Experience` you are willing to use. If the sum of your dice is equal of higher than $10x$ your target `Skill` rating, the `Skill` improves in $1$ (to a maximum of $4$). |
 
 ## Fortune die
 
