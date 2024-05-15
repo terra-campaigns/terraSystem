@@ -117,36 +117,25 @@ With the GM you can adapt these or create new ones.
 - **Estranged**: You lose the bond with someone you love or cherish. With the GM, agree the mechanical impact.
 - **Slow**: When you roll, your `Effect` is always applied last.
 
+## Equipment 
 
-The list of **Advancements** below may be adapted or expanded, if necessary.
+With the GM define which tags, ranges and `Effect` are appropriate for your weapons.
+Weapons used outside their expected ranges roll with $-1d$.
 
-- **Extra Attribute**: Increase a chosen **Attribute** in $\mathbf{1}$.
-- **Protected**: When you are hit, roll **Dark Dice**. Their sum can be reduced from damage you received.
-- **Sensory acuity**: You have $\mathbf{+1d}$ on actions related to a chosen sense.
-- **Sneak attack**: You have $\mathbf{+1d}$ to attack and damage to unaware rivals.
-- **Sniper**: When you spend a turn aiming you have $\mathbf{+1d}$ to attack and damage to a rival.
-- **Rally**: When you rally your allies, a number equal to the number of **Dark Dice** rolled get $\mathbf{+1d}$ until the end of the scene.
-- **Multi-attack**: In melee, you deal one additional instance of **Damage** for each **Dark Dice** that shows a $\mathbf{6}$.
-- **Tough**: Gain one additional **HP** per **Advancement**.
-- **Curse**: You bring a curse to your rivals. A number equal to the number of **Dark Dice** rolled get $\mathbf{-1d}$ until the end of the scene.
-- **Retire**: With the GM decide how your story ends. Create a new character with half (rounded up) the number of **Advancements** you have now, including this one.
-- **Fast**: Your effects are always applied to the **Challenge** **Disposition** before their **Consequences** are applied to you.
+The following short list of tags may be expanded with the GM.
 
-## Conditions
+- **Versatile**: $+1e$ when held two-handed.
+- **Nimble**: `Effect` is applied first
+- **Slaughter**: `Effect` die explode on $5+$
 
-At any moment in the game you can recover your **Ego** back to its maximum by taking a **Condition**. The recovery of your inner strength often comes through confronting, enduring, and adapting to hardship. These trials teach you to integrate the traumas that permanently transform your self, strengthening your resilience. With the GM, determine the new **Condition** you have, and how to introduce it into the narrative.
+Armours act as buffers when you take damage from `Challenges`.
+Subtract the armour modifier from the `Effect` before reducing your `Grit`
 
-**Conditions** are detrimental mechanically, but not necessarily negative in the narrative. The list below can be used as a starting point. With the GM you can adapt these or create new ones.
-
-- **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $\mathbf{-1d}$.
-- **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $\mathbf{+1d}$ in one skill and $\mathbf{-1d}$ in three other skills.
-- **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $\mathbf{-1d}$.
-- **Compulsive Honesty**: You vow to always speak the truth.
-- **Kleptomaniac**: You are unable to resist urges to steal items that you generally don't really need.
-- **Battle-Scarred**: After some injury, you develop a scar. You might have lost part of a member, an eye, or something else that impacts you physically.
-- **Protective Instinct**: You are genuinely concerned with your team's welfare, and become a reluctant leader. When an ally is in danger, you have $\mathbf{-1d}$.
-- **Estranged**: You lose the bond with someone you love or cherish, $\textbf{Ego}_{max} - 1$.
-- **Slow**: Your effects are always applied to the **Challenge** **Disposition** after their **Consequences** are applied to you.
+| Armour     | Modifier | Details                                            |
+| ---------- | :------: | -------------------------------------------------- |
+| **Light**  |   $-1$   |                                                    |
+| **Heavy**  |   $-2$   | $-1d$ to run, observe, sneak, swim, etc.           |
+| **Shield** |   $-1$   | Can be sacrificed to completely avoid an `Effect`. |
 
 # Rules
 
