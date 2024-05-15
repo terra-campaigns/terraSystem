@@ -1,5 +1,27 @@
 # Changelog
 
+**v0.5.0**
+
+- Major revisions on system:
+	- Attribute and Skills approach is now leveraging the [Forged in The Dark SRD](https://bladesinthedark.com/actions-attributes)
+	- Grit (and Wounds) have been revised, while reorganised text for Ego, maintained statistics for both
+	- Re-wrote Advancements and Conditions to match changes of Attributes, Skills, Grit.
+	- Brought back the Precision and Effect trade-off in a single roll (from v0.3x), with an improved approach
+	- Reviewed Advancement statistics and approach
+- New:
+	- Character Sheet for download
+	- Short Equipment section
+	- Expanded the section for Making a Game
+	- Wounds section
+	- Copyright for FitD
+- Removed:
+	- Removed simulations from published book (for now)
+	- Copyright for Trophy
+- Text and aesthetics improvements:
+	- Changed text font to match Character Sheet
+	- Changed game concepts aesthetics to `code`.
+	- Several text improvements due to changes required by system revision
+
 **v0.4.5**
 
 - Re-worked the HP/Wounds sub-system

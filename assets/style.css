@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Noto+Sans:ital,wdth,wght@0,91,100..900;1,91,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Noto+Sans:ital,wdth,wght@0,91,100..900;1,91,100..900&family=Metamorphous&display=swap');
 
 p.caption {
   color: #777;
@@ -31,7 +31,7 @@ pre code {
  /*------------- Body and header text---------------- */
 
 .book.font-family-1 {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Metamorphous";
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
