@@ -80,23 +80,43 @@ You spend `Ego` when you push beyond yourself in `Risky Actions` or use some cha
 When your `Ego` reaches $0$ you are lost somehow.
 With the GM determine how your last scene goes.
 
-
-### Ego
-
-**Ego** represents your resolve, sanity and humanity. You spend it when you push yourself in a **Risky Actions** or use some character **Advancements**.
-
-$\mathbf{\textbf{Ego}_{max}}$ is calculated by adding your mental **Attributes** (**Insight** and **Charisma**) with $\mathbf{2}$.
-
-If your **Ego** reaches $\mathbf{0}$ you are lost somehow. With the GM determine how your last scene goes. At any moment you may choose to take a permanent **Condition** to recover your **Ego** to its maximum.
-
 ## Advancements
 
-At the end of each session you get one **Experience** for each **Ego** you have lost. You can use your **Experience** to gain an **Advancement** or to develop **Skills**. Either way, decide with the GM how to carry this development out in the narrative.
+`Advancements` can have any narrative reasoning you want.
+The list below are examples of a simple framework for their in-game mechanics:
 
-|                       | Roll                                                                                                                                                                                                                                       |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Advancement**       | Roll one die for each **Experience** you are willing to use. If the sum of your dice is equal or higher than the sum of your $\textbf{Ego}_{max}$ and $\textbf{HP}_{max}$ you gain an **Advancement** and $\mathbf{+1} \textbf{ HP}_{max}$ |
-| **Skill Development** | Roll one die for each **Experience** you are willing to use. If the sum of your dice is equal of higher than $\textbf{3x}$ your current **Skill** rating, the **Skill** improves in $\textbf{1}$.                                          |
+- **Eager**: When you reset your `Ego`, roll $+1d$ and keep the highest.
+- **Die Hard**: Roll your `Grit` maximum with $+1d$. You can choose to keep this new maximum if it is higher than your current maximum.
+- **Buff** or **Debuff:** Roll a **Resolve** `Skill` and `Dark Dice`. Apply your `Effect` as a **Buff** or **Debuff** consequence. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Buff** and **Debuff** with different **Resolve** `Skills`.
+- **Heal** or **Hurt**: Roll an **Insight** `Skill` and `Dark Dice`. Multiply your `Effect` by the number of `Ego` spent and use the result to **Heal** or **Hurt**. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Heal** or **Hurt** with different **Insight** `Skills`.
+- **Tough**: Your base **Armour** is $1$
+- **Bodyguard**: You can choose to take damage instead of one of your allies.
+- **Sensory acuity**: You have $+1d$ on noticing things through a chosen sense.
+- **Whirlwind**: In combat, roll a **Prowess** `Skill` and `Dark Dice`. If you are successful, deal one additional instance of `Effect` to a `Challenge` at range.
+- **Retire**: With the GM decide how your story ends. Create a new character with half (rounded up) the number of `Advancements` you have now, including this one.
+- **Fast**: When you roll, your `Effect` is always applied first.
+
+## Conditions
+
+At any moment in the game you can re-roll your `Ego` by taking a `Condition`.
+The recovery of your inner strength often comes through confronting, enduring, and adapting to hardship.
+These trials teach you to integrate the traumas that permanently transform your self, strengthening your resilience.
+With the GM, determine the new `Condition` you have, and how to introduce it into the narrative.
+
+`Conditions` are detrimental mechanically, but not necessarily negative in the narrative.
+The list below can be used as a starting point.
+With the GM you can adapt these or create new ones.
+
+- **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $-1d$
+- **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $+1$ Point in one `Skill` and $-1$ Point in two other `Skills`.
+- **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $-1d$.
+- **Compulsive Honesty**: You vow to always speak the truth.
+- **Kleptomaniac**: You are unable to resist urges to steal items that you generally don't really need.
+- **Battle-Scarred**: After some injury, you develop a scar. You might have lost part of a member, an eye, or something else that impacts you physically, intellectually or socially.
+- **Protective Instinct**: You are genuinely concerned with your team's welfare, and become a reluctant leader. When an ally is in danger, you have $-1d$.
+- **Estranged**: You lose the bond with someone you love or cherish. With the GM, agree the mechanical impact.
+- **Slow**: When you roll, your `Effect` is always applied last.
+
 
 The list of **Advancements** below may be adapted or expanded, if necessary.
 
