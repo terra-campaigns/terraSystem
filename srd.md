@@ -196,7 +196,7 @@ Consult the table below.
 | Weak       | $2e$  | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
 | Standard   | $3e$  | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
 | Strong     | $4e$  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
-| Extreme    | $5e$  | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and sword          |
+| Extreme    | $5e$  | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
 `Challenge` `Effects` (damage) applied to you reduces your `Grit`.
 Subtract the armour rating from the `Effect`, and then reduce the remainder from your `Grit`.
 Your `Effects` are subtracted directly from `Challenges` Disposition (i.e. Challenges do not have armour).
@@ -257,14 +257,14 @@ You will die in minutes if not attended to.
 
 If you survive a mortal wound, you develop a permanent consequence.
 Roll $1d$ and consult the table below.
-With the GM, describe it narrativelly.
+With the GM, describe it narratively.
 
 |     | Consequence                                                            |
 | :-: | ---------------------------------------------------------------------- |
-| $1$ | No consequence this time                                               |
-| $2$ | $-1$ **Prowess**, you die if it becomes $0$                            |
-| $3$ | $-1$ **Sagacity**, you die if it becomes $0$                           |
-| $4$ | $-1$ **Resolve**, you die if it becomes $0$                            |
+| $1$ | You take a Condition of your choice.                                   |
+| $2$ | $-1$ **Prowess**, you die if it goes below $0$                         |
+| $3$ | $-1$ **Sagacity**, you die if it goes below $0$                        |
+| $4$ | $-1$ **Resolve**, you die if it goes below $0$                         |
 | $5$ | When you re-roll your `Ego`, use $-1d$ from now on. Its minimum is $1$ |
 | $6$ | Re-roll your `Grit` with $-1d$ from now on. Its minimum is $1$.        |
 
