@@ -13,7 +13,7 @@ favicon: imgs/favicon.ico
 cover-image: imgs/TerranEngineCover.png
 ---
 
-# Terran Engine SRD v0.5.0 {-}
+# Terran Engine SRD v0.5.1 {-}
 
 ![](imgs/TerranEngineCover.png)
 
@@ -24,5 +24,5 @@ cover-image: imgs/TerranEngineCover.png
 
 - "You" and "Your" are used interchangeably to refer to players and their characters. For disambiguation "Player(s)" is used when referring to the player outside the context of their character.
 - "Challenge" is used to represent anything that is antagonistic to you, be that an NPC, the environment, etc.
-- Meta game concepts, stats and currencies are marked as `code`.
-- Book references are marked in *italic*, they might be accompanied by page ranges.
+- Meta game concepts, stats and currencies are marked as *italic*.
+- Book references are marked in `code`, they might be accompanied by page ranges.
