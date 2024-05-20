@@ -6,7 +6,7 @@
 4. Roll for *Grit* and *Ego.*
 5. **Optional:** Choose one *Advancement.*
 
-A character sheet is available [here](docs/assets/TerranSheet.pdf).
+A character sheet is available [here](assets/TerranSheet.pdf).
 
 ## Archetypes
 

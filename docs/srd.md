@@ -1,9 +1,12 @@
 # Characters
 
-1. Always start with a Name and an `Archetype`.
-2. Roll for `Attributes` and assign `Skills`
-3. Roll for `Grit` and `Ego`.
-4. **Optional:** Choose one `Advancement`.
+1. With the other players, define a cohesive group concept.
+2. Always start with a Name and an *Archetype*.
+3. Roll for *Attributes* and assign *Skills*
+4. Roll for *Grit* and *Ego.*
+5. **Optional:** Choose one *Advancement.*
+
+A character sheet is available [here](assets/TerranSheet.pdf).
 
 ## Archetypes
 
@@ -26,59 +29,67 @@ It is expected you will evolve beyond these initial `Archetypes` towards unique 
 
 ## Skills & Attributes
 
-There are 12 `Skills` that you can use to overcome obstacles.
+There are $6$ *Skills* that you can use to overcome obstacles.
 
-- **Marksmanship**: projectiles, shooting, aiming.
-- **Finesse**: dextrous manipulation, fine precision.
-- **Skirmish**: entangle a target in close combat.
-- **Exertion**: apply physical force and power.
-- **Survival**: track targets, forage, primal focus.
-- **Stealth** : traverse quietly, subtle misdirection.
-- **Intuition**: observe situations or people, anticipate outcomes.
-- **Craftsmanship**: engineer and fix objects.
-- **Attunement**: get in the flow and tune the arcane or tech.
-- **Command**: compel swift obedience.
-- **Expression**: influence with guile, charm, or argument
-- **Cognition**: apply mental capacity, intelectual focus.
+- **Intuition**: track targets, understand creatures, care, survive.
+- **Reason**: concentrate, think abstractly, build knowledge.
+- **Finesse**: dextrous manipulation, precision, subtle misdirection.
+- **Exertion**: apply physical force and power, melee.
+- **Attunement**: get in the flow and tune the arcane or technology.
+- **Influence**: compel obedience, socialise, influence.
 
-Each `Skill` has a rating (from $0$ to $4$) that determine how many dice to roll when performing `Risky Actions`.
+Each *Skill* has a rating (from $0$ to $4$) that determine how many dice to roll when performing *Risky Actions.*
+There is a limit for *Skills* rated above $2$.
+This limit may be derived from your *Archetype*.
 
-`Attributes` are groupings of four `Skills` each.
-Attributes also have ratings (from $0$ to $4$) that determine how many dice to roll when resisting risks.
+$$
+\begin{split}
+Skill > 2 = \begin{cases}
+3 \text{ rated at } 3 \\
+1 \text{ rated at } 4 ; 1 \text{ rated at } 3
+\end{cases}
+\end{split}
+$$
 
-- **Prowess** `Skills`: Marksmanship, Finesse, Skirmish, Exertion
-- **Sagacity** `Skills`: Survival, Stealth, Intuition, Craftsmanship 
-- **Resolve** `Skills`: Attunement, Command, Expression, Cognition 
+*Attributes* are groupings of two *Skills* each.
+Attributes also have ratings (from $0$ to $2$) that determine how many dice to roll when facing a *Risky Action* passively (Save).
 
-For each `Attribute` (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many points you have to distribute to their `Skills`.
+- **Insight** *Skills*: Intuition, Reason
+	- Saves: Perception & Awareness
+- **Prowess** *Skills*: Finesse, Exertion
+	- Saves: Fortitude & Reflexes 
+- **Resolve** *Skills*: Attunement, Influence
+	- Saves: Sanity, Stress & Courage
 
-|            |                $1:3$                |                $4:5$                |                 $6$                 |
-| :--------- | :---------------------------------: | :---------------------------------: | :---------------------------------: |
-| **Points** | &#x25CF; &#x25CF; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CF; |
+For each *Attribute* (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many points you have to distribute to their *Skills.*
 
-In certain conditions, you might permanently lose `Attribute` points.
+|        | $1:3$ | $4:5$ | $6$ |
+| :----- | :---: | :---: | :-: |
+| Points |  $1$  |  $2$  | $3$ |
+
+In certain conditions, you might permanently lose *Attribute* points.
 
 ## Grit & Ego
 
 > *"It's about how hard you can get hit and keep moving forward"*
 > (Rocky Balboa)
 
-While `Grit` represents your physical disposition, `Ego` represents your resilience.
+While *Grit* represents your physical disposition, *Ego* represents your resilience.
 
-Roll $1d$ to determine your initial `Grit` maximum and initial `Ego`.
+Roll $1d$ to determine your initial *Grit* maximum and initial *Ego.*
 Advancements and conditions may change these numbers.
 
-After a well fed and rested night, your `Grit` recovers to its maximum.
-At any moment, you may choose to take a `Condition` and roll $1d$ to reset your `Ego`.
+After a well fed and rested night, you recover $1d$ of *Grit* lost.
+At any moment, you may choose to take a *Condition* and roll $1d$ to reset your *Ego.*
 
-You lose `Grit` when you are physically harmed. 
-When your `Grit` reaches $0$ you become wounded.
-You have $3$ `Wound` tracks.
+You lose *Grit* when you are physically harmed. 
+When your *Grit* reaches $0$ you become wounded.
+You have $3$ *Wound* tracks.
 You choose what they mean narratively.
 Beyond those, you are mortally wounded and will die if harmed.
 
-You spend `Ego` when you push beyond yourself in `Risky Actions` or use some character `Advancements`.
-When your `Ego` reaches $0$ you are lost somehow.
+You spend *Ego* when you push beyond yourself in *Risky Actions* or use some character *Advancements.*
+When your *Ego* reaches $0$ you are lost somehow.
 With the GM determine how your last scene goes.
 
 ## Advancements
@@ -88,9 +99,11 @@ The list below are examples of a simple framework for their in-game mechanics:
 
 - **Eager**: When you reset your `Ego`, roll $+1d$ and keep the highest.
 - **Die Hard**: Roll your `Grit` maximum with $+1d$. You can choose to keep this new maximum if it is higher than your current maximum.
+- **Skill**: Gain $1$ in a *Skill*.
+- **Specialist**: Choose a specific type of action. *Risky Actions* are done with $+1d$ with this specialisation. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
 - **Buff** or **Debuff:** Roll a **Resolve** `Skill` and `Dark Dice`. Apply your `Effect` as a **Buff** or **Debuff** consequence. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Buff** and **Debuff** with different **Resolve** `Skills`.
 - **Heal** or **Hurt**: Roll an **Insight** `Skill` and `Dark Dice`. Multiply your `Effect` by the number of `Ego` spent and use the result to **Heal** or **Hurt**. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Heal** or **Hurt** with different **Insight** `Skills`.
-- **Tough**: Your base **Armour** is $1$
+- **Tough**: When unarmoured your **Armour** is $1$.
 - **Bodyguard**: You can choose to take damage instead of one of your allies.
 - **Sensory acuity**: You have $+1d$ on noticing things through a chosen sense.
 - **Whirlwind**: In combat, roll a **Prowess** `Skill` and `Dark Dice`. If you are successful, deal one additional instance of `Effect` to a `Challenge` at range.
@@ -110,6 +123,7 @@ With the GM you can adapt these or create new ones.
 
 - **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $-1d$
 - **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $+1$ Point in one `Skill` and $-1$ Point in two other `Skills`.
+- **Inept**: For some reason you are always inept in a specific type of action. *Risky Actions* are done with $-1d$ with this specialisation. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list)
 - **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $-1d$.
 - **Compulsive Honesty**: You vow to always speak the truth.
 - **Kleptomaniac**: You are unable to resist urges to steal items that you generally don't really need.
@@ -182,7 +196,7 @@ Consult the table below.
 | Weak       | $2e$  | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
 | Standard   | $3e$  | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
 | Strong     | $4e$  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
-| Extreme    | $5e$  | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and sword          |
+| Extreme    | $5e$  | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
 `Challenge` `Effects` (damage) applied to you reduces your `Grit`.
 Subtract the armour rating from the `Effect`, and then reduce the remainder from your `Grit`.
 Your `Effects` are subtracted directly from `Challenges` Disposition (i.e. Challenges do not have armour).
@@ -243,29 +257,27 @@ You will die in minutes if not attended to.
 
 If you survive a mortal wound, you develop a permanent consequence.
 Roll $1d$ and consult the table below.
-With the GM, describe it narrativelly.
+With the GM, describe it narratively.
 
 |     | Consequence                                                            |
 | :-: | ---------------------------------------------------------------------- |
-| $1$ | No consequence this time                                               |
-| $2$ | $-1$ **Prowess**, you die if it becomes $0$                            |
-| $3$ | $-1$ **Sagacity**, you die if it becomes $0$                           |
-| $4$ | $-1$ **Resolve**, you die if it becomes $0$                            |
+| $1$ | You take a Condition of your choice.                                   |
+| $2$ | $-1$ **Prowess**, you die if it goes below $0$                         |
+| $3$ | $-1$ **Sagacity**, you die if it goes below $0$                        |
+| $4$ | $-1$ **Resolve**, you die if it goes below $0$                         |
 | $5$ | When you re-roll your `Ego`, use $-1d$ from now on. Its minimum is $1$ |
 | $6$ | Re-roll your `Grit` with $-1d$ from now on. Its minimum is $1$.        |
 
 Each `Wound` track recovers through appropriate care and a week of rest.
 
-## Advancements
+## Experience
 
-You get one `Experience` for each `Ego` you risk.
-You can use your `Experience` to gain an `Advancement` or to develop `Skills`.
-Either way, decide with the GM how to carry this development out in the narrative.
+You get $2$ *Experience* for each session you play.
+You gain $+1$ *Experience* per *Condition* you develop.
 
-|                       | Roll                                                                                                                                                                                            |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Advancement**       | Roll one die for each `Experience` you are willing to use. If the sum of your dice is equal or higher than $5x$ the number of `Advancements` you will reach, you gain a new `Advancement`.      |
-| **Skill Development** | Roll one die for each `Experience` you are willing to use. If the sum of your dice is equal of higher than $10x$ your target `Skill` rating, the `Skill` improves in $1$ (to a maximum of $4$). |
+Each new *Advancement* costs the current number of *Advancements* times $2$ in *Experience*.
+Decide with the GM how to carry this development out in the narrative.
+When you gain a new *Advancement* you also re-roll your *Grit* and keep the maximum between the current $+1$ or the new value.
 
 ## Fortune die
 
@@ -280,12 +292,4 @@ By adapting the `Archetypes` and `Advancements`, and reskinning `Ego` (and `Cond
 ## Ego in Pulp Fantasy
 
 For the Pulp Fantasy genre, Ego can be used as a measure of how far the next climax is. Whenever relevant, the GM rolls one die. If the die is higher than the highest Ego of the Party, a climax event happens. After this climax, all Ego is restored to its original max.
-
-## Skills & Attributes
-
-|                   |            |                $1:3$                |                $4:5$                |                 $6$                 |
-| :---------------- | :--------- | :---------------------------------: | :---------------------------------: | :---------------------------------: |
-| **Standard**      | **Points** | &#x25CF; &#x25CF; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CF; |
-| **Simple/Gritty** | **Value**  | &#x25CB; &#x25CB; &#x25CB; &#x25CB; | &#x25CF; &#x25CB; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CB; &#x25CB; |
-| **Simple/Heroic** | **Value**  | &#x25CF; &#x25CB; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CB; |
 
