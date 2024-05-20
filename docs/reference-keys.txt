@@ -11,11 +11,10 @@ effects
 challenges
 montage
 wounds
-advancements-1
+experience
 fortune-die
 making-a-game
 ego-in-pulp-fantasy
-skills-attributes-1
 copyright
 credit-due
 changelog

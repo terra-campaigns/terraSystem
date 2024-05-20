@@ -1,10 +1,24 @@
 # Changelog
 
+**v0.5.1**
+
+- Suggested that a cohesive group shall be created, before individual character creation.
+- Reduced number of Skills per Attribute to 2.
+- Implemented system for gathering experience.
+- Specialist and inept advancements are based on Cepheus skills.
+- Changed:
+	- Changing `code` references to *italic*.
+- Minor:
+	- Added link for new character sheet.
+	- Improved general texts
+- Removed:
+	- Since attributes are already simplified, removed the further simpler 3 attribute version.
+
 **v0.5.0**
 
 - Major revisions on system:
-	- Attribute and Skills approach is now leveraging the [Forged in The Dark SRD](https://bladesinthedark.com/actions-attributes)
-	- Grit (and Wounds) have been revised, while reorganised text for Ego, maintained statistics for both
+	- Attribute and Skills approach is now leveraging the [Forged in The Dark SRD](https://bladesinthedark.com/actions-attributes).
+	- Grit (and Wounds) have been revised, while reorganised text for Ego, maintained statistics for both.
 	- Re-wrote Advancements and Conditions to match changes of Attributes, Skills, Grit.
 	- Brought back the Precision and Effect trade-off in a single roll (from v0.3x), with an improved approach
 	- Reviewed Advancement statistics and approach

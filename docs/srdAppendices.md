@@ -13,5 +13,5 @@
 This work is also inspired in several other games for it's sub-systems. Namely:
 
 - The simplicity is inspired by [*World of Dungeons*](https://johnharper.itch.io/world-of-dungeons) by John Harper
-- `Ego` usage is inspired by [Trophy](https://trophyrpg.com/), product of Jesse Ross and Hedgemaze Press
-- `Advancements` and `Conditions` are inspired by [*Best Left Buried Zine Edition*](https://soulmuppet-store.co.uk/products/best-left-buried-zini-edition) by Zachary Cox and Nicholas Spence.
+- *Ego* usage is inspired by [Trophy](https://trophyrpg.com/), product of Jesse Ross and Hedgemaze Press
+- *Precision* and *Effect* of a *Risky Action* evaluated with one single roll is inspired by [*Best Left Buried Zine Edition*](https://soulmuppet-store.co.uk/products/best-left-buried-zini-edition) by Zachary Cox and Nicholas Spence.
