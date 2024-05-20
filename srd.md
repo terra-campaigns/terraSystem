@@ -64,22 +64,22 @@ In certain conditions, you might permanently lose `Attribute` points.
 > *"It's about how hard you can get hit and keep moving forward"*
 > (Rocky Balboa)
 
-While `Grit` represents your physical disposition, `Ego` represents your resilience.
+While *Grit* represents your physical disposition, *Ego* represents your resilience.
 
-Roll $1d$ to determine your initial `Grit` maximum and initial `Ego`.
+Roll $1d$ to determine your initial *Grit* maximum and initial *Ego.*
 Advancements and conditions may change these numbers.
 
-After a well fed and rested night, your `Grit` recovers to its maximum.
-At any moment, you may choose to take a `Condition` and roll $1d$ to reset your `Ego`.
+After a well fed and rested night, you recover $1d$ of *Grit* lost.
+At any moment, you may choose to take a *Condition* and roll $1d$ to reset your *Ego.*
 
-You lose `Grit` when you are physically harmed. 
-When your `Grit` reaches $0$ you become wounded.
-You have $3$ `Wound` tracks.
+You lose *Grit* when you are physically harmed. 
+When your *Grit* reaches $0$ you become wounded.
+You have $3$ *Wound* tracks.
 You choose what they mean narratively.
 Beyond those, you are mortally wounded and will die if harmed.
 
-You spend `Ego` when you push beyond yourself in `Risky Actions` or use some character `Advancements`.
-When your `Ego` reaches $0$ you are lost somehow.
+You spend *Ego* when you push beyond yourself in *Risky Actions* or use some character *Advancements.*
+When your *Ego* reaches $0$ you are lost somehow.
 With the GM determine how your last scene goes.
 
 ## Advancements
