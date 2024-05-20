@@ -270,16 +270,14 @@ With the GM, describe it narrativelly.
 
 Each `Wound` track recovers through appropriate care and a week of rest.
 
-## Advancements
+## Experience
 
-You get one `Experience` for each `Ego` you risk.
-You can use your `Experience` to gain an `Advancement` or to develop `Skills`.
-Either way, decide with the GM how to carry this development out in the narrative.
+You get $2$ *Experience* for each session you play.
+You gain $+1$ *Experience* per *Condition* you develop.
 
-|                       | Roll                                                                                                                                                                                            |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Advancement**       | Roll one die for each `Experience` you are willing to use. If the sum of your dice is equal or higher than $5x$ the number of `Advancements` you will reach, you gain a new `Advancement`.      |
-| **Skill Development** | Roll one die for each `Experience` you are willing to use. If the sum of your dice is equal of higher than $10x$ your target `Skill` rating, the `Skill` improves in $1$ (to a maximum of $4$). |
+Each new *Advancement* costs the current number of *Advancements* times $2$ in *Experience*.
+Decide with the GM how to carry this development out in the narrative.
+When you gain a new *Advancement* you also re-roll your *Grit* and keep the maximum between the current $+1$ or the new value.
 
 ## Fortune die
 
