@@ -6,6 +6,8 @@
 4. Roll for *Grit* and *Ego.*
 5. **Optional:** Choose one *Advancement.*
 
+A character sheet is available [here](docs/assets/TerranSheet.pdf).
+
 ## Archetypes
 
 You are defined by an `Archetype`, which encapsulates your background, concept and role within the narrative.
@@ -97,9 +99,11 @@ The list below are examples of a simple framework for their in-game mechanics:
 
 - **Eager**: When you reset your `Ego`, roll $+1d$ and keep the highest.
 - **Die Hard**: Roll your `Grit` maximum with $+1d$. You can choose to keep this new maximum if it is higher than your current maximum.
+- **Skill**: Gain $1$ in a *Skill*.
+- **Specialist**: Choose a specific type of action. *Risky Actions* are done with $+1d$ with this specialisation. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
 - **Buff** or **Debuff:** Roll a **Resolve** `Skill` and `Dark Dice`. Apply your `Effect` as a **Buff** or **Debuff** consequence. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Buff** and **Debuff** with different **Resolve** `Skills`.
 - **Heal** or **Hurt**: Roll an **Insight** `Skill` and `Dark Dice`. Multiply your `Effect` by the number of `Ego` spent and use the result to **Heal** or **Hurt**. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Heal** or **Hurt** with different **Insight** `Skills`.
-- **Tough**: Your base **Armour** is $1$
+- **Tough**: When unarmoured your **Armour** is $1$.
 - **Bodyguard**: You can choose to take damage instead of one of your allies.
 - **Sensory acuity**: You have $+1d$ on noticing things through a chosen sense.
 - **Whirlwind**: In combat, roll a **Prowess** `Skill` and `Dark Dice`. If you are successful, deal one additional instance of `Effect` to a `Challenge` at range.
@@ -119,6 +123,7 @@ With the GM you can adapt these or create new ones.
 
 - **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $-1d$
 - **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $+1$ Point in one `Skill` and $-1$ Point in two other `Skills`.
+- **Inept**: For some reason you are always inept in a specific type of action. *Risky Actions* are done with $-1d$ with this specialisation. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list)
 - **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $-1d$.
 - **Compulsive Honesty**: You vow to always speak the truth.
 - **Kleptomaniac**: You are unable to resist urges to steal items that you generally don't really need.
