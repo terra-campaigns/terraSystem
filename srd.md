@@ -27,37 +27,45 @@ It is expected you will evolve beyond these initial `Archetypes` towards unique 
 
 ## Skills & Attributes
 
-There are 12 `Skills` that you can use to overcome obstacles.
+There are $6$ *Skills* that you can use to overcome obstacles.
 
-- **Marksmanship**: projectiles, shooting, aiming.
-- **Finesse**: dextrous manipulation, fine precision.
-- **Skirmish**: entangle a target in close combat.
-- **Exertion**: apply physical force and power.
-- **Survival**: track targets, forage, primal focus.
-- **Stealth** : traverse quietly, subtle misdirection.
-- **Intuition**: observe situations or people, anticipate outcomes.
-- **Craftsmanship**: engineer and fix objects.
-- **Attunement**: get in the flow and tune the arcane or tech.
-- **Command**: compel swift obedience.
-- **Expression**: influence with guile, charm, or argument
-- **Cognition**: apply mental capacity, intelectual focus.
+- **Intuition**: track targets, understand creatures, care, survive.
+- **Reason**: concentrate, think abstractly, build knowledge.
+- **Finesse**: dextrous manipulation, precision, subtle misdirection.
+- **Exertion**: apply physical force and power, melee.
+- **Attunement**: get in the flow and tune the arcane or technology.
+- **Influence**: compel obedience, socialise, influence.
 
-Each `Skill` has a rating (from $0$ to $4$) that determine how many dice to roll when performing `Risky Actions`.
+Each *Skill* has a rating (from $0$ to $4$) that determine how many dice to roll when performing *Risky Actions.*
+There is a limit for *Skills* rated above $2$.
+This limit may be derived from your *Archetype*.
 
-`Attributes` are groupings of four `Skills` each.
-Attributes also have ratings (from $0$ to $4$) that determine how many dice to roll when resisting risks.
+$$
+\begin{split}
+Skill > 2 = \begin{cases}
+3 \text{ rated at } 3 \\
+1 \text{ rated at } 4 ; 1 \text{ rated at } 3
+\end{cases}
+\end{split}
+$$
 
-- **Prowess** `Skills`: Marksmanship, Finesse, Skirmish, Exertion
-- **Sagacity** `Skills`: Survival, Stealth, Intuition, Craftsmanship 
-- **Resolve** `Skills`: Attunement, Command, Expression, Cognition 
+*Attributes* are groupings of two *Skills* each.
+Attributes also have ratings (from $0$ to $2$) that determine how many dice to roll when facing a *Risky Action* passively (Save).
 
-For each `Attribute` (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many points you have to distribute to their `Skills`.
+- **Insight** *Skills*: Intuition, Reason
+	- Saves: Perception & Awareness
+- **Prowess** *Skills*: Finesse, Exertion
+	- Saves: Fortitude & Reflexes 
+- **Resolve** *Skills*: Attunement, Influence
+	- Saves: Sanity, Stress & Courage
 
-|            |                $1:3$                |                $4:5$                |                 $6$                 |
-| :--------- | :---------------------------------: | :---------------------------------: | :---------------------------------: |
-| **Points** | &#x25CF; &#x25CF; &#x25CB; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CB; | &#x25CF; &#x25CF; &#x25CF; &#x25CF; |
+For each *Attribute* (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many points you have to distribute to their *Skills.*
 
-In certain conditions, you might permanently lose `Attribute` points.
+|        | $1:3$ | $4:5$ | $6$ |
+| :----- | :---: | :---: | :-: |
+| Points |  $1$  |  $2$  | $3$ |
+
+In certain conditions, you might permanently lose *Attribute* points.
 
 ## Grit & Ego
 
