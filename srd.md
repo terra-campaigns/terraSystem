@@ -1,9 +1,10 @@
 # Characters
 
-1. Always start with a Name and an `Archetype`.
-2. Roll for `Attributes` and assign `Skills`
-3. Roll for `Grit` and `Ego`.
-4. **Optional:** Choose one `Advancement`.
+1. With the other players, define a cohesive group concept.
+2. Always start with a Name and an *Archetype*.
+3. Roll for *Attributes* and assign *Skills*
+4. Roll for *Grit* and *Ego.*
+5. **Optional:** Choose one *Advancement.*
 
 ## Archetypes
 
