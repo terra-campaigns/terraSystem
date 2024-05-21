@@ -251,24 +251,24 @@ On those cases, playing the `Challenge` as a longer one gives more manoeuvre spa
 
 ## Wounds
 
-When your `Grit` reaches $0$ and you use all your `Wound` tracks you become mortally wounded, and will die if further harmed.
-While mortally wounded you cannot gather `Light Die` for your `Risky Actions`.
+When your *Grit* reaches $0$ and you use all your *Wound* tracks you become mortally wounded, and will die if further harmed.
+While mortally wounded you cannot gather *Light Die* for your *Risky Actions*.
 You will die in minutes if not attended to.
 
-If you survive a mortal wound, you develop a permanent consequence.
+If you survive a mortal *Wound*, you develop a malaise.
 Roll $1d$ and consult the table below.
 With the GM, describe it narratively.
 
-|     | Consequence                                                            |
-| :-: | ---------------------------------------------------------------------- |
-| $1$ | You take a Condition of your choice.                                   |
-| $2$ | $-1$ **Prowess**, you die if it goes below $0$                         |
-| $3$ | $-1$ **Sagacity**, you die if it goes below $0$                        |
-| $4$ | $-1$ **Resolve**, you die if it goes below $0$                         |
-| $5$ | When you re-roll your `Ego`, use $-1d$ from now on. Its minimum is $1$ |
-| $6$ | Re-roll your `Grit` with $-1d$ from now on. Its minimum is $1$.        |
+|     | Malaises                                                                          |
+| :-: | --------------------------------------------------------------------------------- |
+| $1$ | You take a Condition of your choice.                                              |
+| $2$ | $-1d$ **Prowess**, you die if it goes below $0d$                                  |
+| $3$ | $-1d$ **Sagacity**, you die if it goes below $0d$                                 |
+| $4$ | $-1d$ **Resolve**, you die if it goes below $0d$                                  |
+| $5$ | When you re-roll your *Ego,* use $-1d$ from now on. You die if it goes below $0d$ |
+| $6$ | Re-roll your *Grit* with $-1d$ from now on. You die if it goes below $0d$.        |
 
-Each `Wound` track recovers through appropriate care and a week of rest.
+Each *Wound* track recovers through appropriate care and a week of rest.
 
 ## Experience
 
