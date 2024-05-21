@@ -100,7 +100,7 @@ The list below are examples of a simple framework for their in-game mechanics:
 - **Eager**: When you reset your `Ego`, roll $+1d$ and keep the highest.
 - **Die Hard**: Roll your `Grit` maximum with $+1d$. You can choose to keep this new maximum if it is higher than your current maximum.
 - **Skill**: Gain $1$ in a *Skill*.
-- **Specialist**: Choose a specific type of action. *Risky Actions* are done with $+1d$ with this specialisation. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
+- **Specialist**: Choose a specific type of action. When you *Fail* it in a *Risky Actions* you still succeed, with Reduced *Effect*. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
 - **Buff** or **Debuff:** Roll a **Resolve** `Skill` and `Dark Dice`. Apply your `Effect` as a **Buff** or **Debuff** consequence. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Buff** and **Debuff** with different **Resolve** `Skills`.
 - **Heal** or **Hurt**: Roll an **Insight** `Skill` and `Dark Dice`. Multiply your `Effect` by the number of `Ego` spent and use the result to **Heal** or **Hurt**. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Heal** or **Hurt** with different **Insight** `Skills`.
 - **Tough**: When unarmoured your **Armour** is $1$.
@@ -123,7 +123,7 @@ With the GM you can adapt these or create new ones.
 
 - **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $-1d$
 - **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $+1$ Point in one `Skill` and $-1$ Point in two other `Skills`.
-- **Inept**: For some reason you are always inept in a specific type of action. *Risky Actions* are done with $-1d$ with this specialisation. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list)
+- **Inept**: For some reason you become inept in a specific type of action. Every time you *Succeed* it in a *Risky Actions* you accomplish with Reduced *Effect*. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
 - **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $-1d$.
 - **Compulsive Honesty**: You vow to always speak the truth.
 - **Kleptomaniac**: You are unable to resist urges to steal items that you generally don't really need.
@@ -162,16 +162,16 @@ Then gather 6-sided dice.
 
 |                                | Dice Pool                                                                                                                                                                                                                 |
 | :----------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](imgs/dice-light-6-sml.png) | Take a number of `Light Dice` equal to your applicable `Attribute` or `Skill`. If you are in an advantageous or precarious position, the GM may give you $\pm 1d$. You must always have between $0$ and $4$ `Light Dice`. |
+| ![](imgs/dice-light-6-sml.png) | Take a number of `Light Dice` equal to your applicable `Attribute` or `Skill`. If you are in an advantageous or precarious position, the GM may give you $\pm 1d$. You must always roll between $0$ and $4$ `Light Dice`. |
 | ![](imgs/dice-dark-6-sml.png)  | Take as many `Dark Dice` as you wish to risk `Ego` for pushing yourself for a success. For each `Dark Dice` that rolls equal or lower than your current `Ego`, decrease your `Ego` in one.                                |
 
 Roll the dice and choose one die to be your `Precision` (generally the highest, but you might choose differently if you wish) and consult the table.
 
-|       | Outcome                                                                                                                                                   |
-| :---: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $1:3$ | You fail, and things get worse. With the GM describe the consequences. The GM may also allow you to succeed, but things will get worse in some other way. |
-| $4:5$ | You succeed, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
-|  $6$  | You succeed. With the GM describe what happens.                                                                                                           |
+|       | Outcome                                                                                                                                                     |
+| :---: | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $1:3$ | You *Fail*, and things get worse. With the GM describe the consequences. The GM may also allow you to succeed, but things will get worse in some other way. |
+| $4:5$ | You *Succeed*, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
+|  $6$  | You *Succeed*. With the GM describe what happens.                                                                                                           |
 
 Evaluate `Effects` as appropriate, if the `Risky Action` is part of a `Challenge`,
 
@@ -193,9 +193,9 @@ Consult the table below.
 | Effect     | Level | Examples                                                                          |
 | ---------- | :---: | --------------------------------------------------------------------------------- |
 | Improvised | $1e$  | Makeshift tool;<br>Rock, pipe, punch.                                             |
-| Weak       | $2e$  | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
+| Reduced    | $2e$  | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
 | Standard   | $3e$  | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
-| Strong     | $4e$  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
+| Increased  | $4e$  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
 | Extreme    | $5e$  | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
 `Challenge` `Effects` (damage) applied to you reduces your `Grit`.
 Subtract the armour rating from the `Effect`, and then reduce the remainder from your `Grit`.
