@@ -38,21 +38,21 @@ There are $6$ *Skills* that you can use to overcome obstacles.
 - **Attunement**: get in the flow and tune the arcane or technology.
 - **Influence**: compel obedience, socialise, influence.
 
-Each *Skill* has a rating (from $0$ to $4$) that determine how many dice to roll when performing *Risky Actions.*
-There is a limit for *Skills* rated above $2$.
+Each *Skill* has a rating (from $0d$ to $4d$) that determine how many dice to roll when performing *Risky Actions.*
+There is a limit for *Skills* rated above $2d$.
 This limit may be derived from your *Archetype*.
 
 $$
 \begin{split}
-Skill > 2 = \begin{cases}
-3 \text{ rated at } 3 \\
-1 \text{ rated at } 4 ; 1 \text{ rated at } 3
+Skill > 2d = \begin{cases}
+3 \text{ rated at } 3d \\
+1 \text{ rated at } 4d; 1 \text{ rated at } 3d
 \end{cases}
 \end{split}
 $$
 
 *Attributes* are groupings of two *Skills* each.
-Attributes also have ratings (from $0$ to $2$) that determine how many dice to roll when facing a *Risky Action* passively (Save).
+Attributes also have ratings (from $0d$ to $2d$) that determine how many dice to roll when facing a *Risky Action* passively (Save).
 
 - **Insight** *Skills*: Intuition, Reason
 	- Saves: Perception & Awareness
@@ -61,13 +61,13 @@ Attributes also have ratings (from $0$ to $2$) that determine how many dice to r
 - **Resolve** *Skills*: Attunement, Influence
 	- Saves: Sanity, Stress & Courage
 
-For each *Attribute* (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many points you have to distribute to their *Skills.*
+For each *Attribute* (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many *Attribute* dice you have to distribute to their *Skills.*
 
-|        | $1:3$ | $4:5$ | $6$ |
-| :----- | :---: | :---: | :-: |
-| Points |  $1$  |  $2$  | $3$ |
+|                  | $1:3$ | $4:5$ | $6$  |
+| :--------------- | :---: | :---: | :--: |
+| *Attribute* Dice | $1d$  | $2d$  | $3d$ |
 
-In certain conditions, you might permanently lose *Attribute* points.
+In certain conditions, you might permanently lose *Attribute* dice.
 
 ## Grit & Ego
 
