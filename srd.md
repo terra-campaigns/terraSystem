@@ -266,7 +266,7 @@ You gain $+1$ *Experience* per *Condition* you develop.
 
 Each new *Advancement* costs the current number of *Advancements* times $2$ in *Experience*.
 Decide with the GM how to carry this development out in the narrative.
-When you gain a new *Advancement* you also re-roll your *Grit* and keep the maximum between the current $+1$ or the new value.
+When you gain a new *Advancement* you also re-roll your *Grit* and keep the maximum between the current or the new value.
 
 ## Fortune die
 
