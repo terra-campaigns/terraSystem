@@ -10,9 +10,9 @@ A character sheet is available [here](assets/TerranSheet.pdf).
 
 ## Archetypes
 
-You are defined by an `Archetype`, which encapsulates your background, concept and role within the narrative.
-Each `Archetype` should offer an immediate grasp of your identity and behaviours.
-It is expected you will evolve beyond these initial `Archetypes` towards unique narratives.
+You are defined by an *Archetype*, which encapsulates your background, concept and role within the narrative.
+Each *Archetype* should offer an immediate grasp of your identity and behaviours.
+It is expected you will evolve beyond these initial *Archetypes* towards unique narratives.
 
 - **Hero**: Embodies courage and strength, often the protagonist fighting against the odds.
 - **Mentor**: Provides guidance and wisdom, helping the hero on their journey.
@@ -156,16 +156,16 @@ Subtract the armour modifier from the `Effect` before reducing your `Grit`
 
 ## Risky Actions
 
-When you are trying your chances at a `Risky Action`, say what you intend to do.
-With the GM determine your appropriate `Attribute` or `Skill`.
+When you are trying your chances at a *Risky Action*, say what you intend to do.
+With the GM determine your appropriate *Attribute* or *Skill.*
 Then gather 6-sided dice.
 
-|                                | Dice Pool                                                                                                                                                                                                                 |
-| :----------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](imgs/dice-light-6-sml.png) | Take a number of `Light Dice` equal to your applicable `Attribute` or `Skill`. If you are in an advantageous or precarious position, the GM may give you $\pm 1d$. You must always roll between $0$ and $4$ `Light Dice`. |
-| ![](imgs/dice-dark-6-sml.png)  | Take as many `Dark Dice` as you wish to risk `Ego` for pushing yourself for a success. For each `Dark Dice` that rolls equal or lower than your current `Ego`, decrease your `Ego` in one.                                |
+|                                | Dice Pool                                                                                                                                                                                                                   |
+| :----------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](imgs/dice-light-6-sml.png) | Take a number of *Light Dice* equal to your applicable *Attribute* or *Skill*. If you are in an advantageous or precarious position, the GM may give you $\pm 1d$. You must always roll between $0d$ and $4d$ *Light Dice*. |
+| ![](imgs/dice-dark-6-sml.png)  | Take as many *Dark Dice* as you wish to risk *Ego* for pushing yourself for a success. For each *Dark Die* that rolls equal or lower than your current *Ego*, decrease your *Ego* in one.                                   |
 
-Roll the dice and choose one die to be your `Precision` (generally the highest, but you might choose differently if you wish) and consult the table.
+Roll the dice and choose one die to be your *Precision* (generally the highest, but you might choose differently if you wish) and consult the table.
 
 |       | Outcome                                                                                                                                                     |
 | :---: | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -173,7 +173,7 @@ Roll the dice and choose one die to be your `Precision` (generally the highest, 
 | $4:5$ | You *Succeed*, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
 |  $6$  | You *Succeed*. With the GM describe what happens.                                                                                                           |
 
-Evaluate `Effects` as appropriate, if the `Risky Action` is part of a `Challenge`,
+Evaluate *Effects* as appropriate, if the *Risky Action* is part of a *Challenge*,
 
 ## Effects
 
@@ -276,7 +276,7 @@ When the GM wants to leave some decision to the dice, determine the chances and 
 
 **Terran Engine** is focuses on the grimdark aesthetics, which might not be the thematic choice of every game.
 
-By adapting the `Archetypes` and `Advancements`, and reskinning `Ego` (and `Conditions`), other genres can easily be emulated. A few playtested examples are given. The Rules section can mostly be used as is.
+By adapting the *Archetypes* and *Advancements*, and reskinning *Ego* (and *Conditions*), other genres can easily be emulated. A few playtested examples are given. The Rules section can mostly be used as is.
 
 ## Ego in Pulp Fantasy
 
