@@ -252,7 +252,7 @@ With the GM, describe it narratively.
 | :-: | --------------------------------------------------------------------------------- |
 | $1$ | You take a Condition of your choice.                                              |
 | $2$ | $-1d$ **Prowess**, you die if it goes below $0d$                                  |
-| $3$ | $-1d$ **Sagacity**, you die if it goes below $0d$                                 |
+| $3$ | $-1d$ **Insight**, you die if it goes below $0d$                                  |
 | $4$ | $-1d$ **Resolve**, you die if it goes below $0d$                                  |
 | $5$ | When you re-roll your *Ego,* use $-1d$ from now on. You die if it goes below $0d$ |
 | $6$ | Re-roll your *Grit* with $-1d$ from now on. You die if it goes below $0d$.        |
