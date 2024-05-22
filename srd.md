@@ -237,17 +237,6 @@ If multiple challenges gang up against you, increase the `Challenge` in one for 
 Some challenges might be multifaceted.
 A bulky rival might be a Dangerous `Challenge` to fight against, but a Trivial `Challenge` to be convinced to ignore you.
 
-### Montage
-
-You and the GM might prefer to resolve a `Challenge` in one single roll.
-That is possible by rolling the `Challenge Effect` prior to gathering your dice.
-Apply the consequence modifier to your dice and roll your `Risky Action`.
-You risk $2$ `Ego` for each `Dark Die` you use.
-Your companions can also pool their `Ego` to help you.
-This single roll determine the outcome of the entire `Challenge`.
-
-It is not recommended to use `Montages` if the consequence of failure would be the death of someone.
-On those cases, playing the `Challenge` as a longer one gives more manoeuvre space.
 
 ## Wounds
 
