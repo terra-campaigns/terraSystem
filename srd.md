@@ -39,17 +39,6 @@ There are $6$ *Skills* that you can use to overcome obstacles.
 - **Influence**: compel obedience, socialise, influence.
 
 Each *Skill* has a rating (from $0d$ to $4d$) that determine how many dice to roll when performing *Risky Actions.*
-There is a limit for *Skills* rated above $2d$.
-This limit may be derived from your *Archetype*.
-
-$$
-\begin{split}
-Skill > 2d = \begin{cases}
-3 \text{ rated at } 3d \\
-1 \text{ rated at } 4d; 1 \text{ rated at } 3d
-\end{cases}
-\end{split}
-$$
 
 *Attributes* are groupings of two *Skills* each.
 Attributes also have ratings (from $0d$ to $2d$) that determine how many dice to roll when facing a *Risky Action* passively (Save).
@@ -99,7 +88,7 @@ The list below are examples of a simple framework for their in-game mechanics:
 
 - **Eager**: When you reset your `Ego`, roll $+1d$ and keep the highest.
 - **Die Hard**: Roll your `Grit` maximum with $+1d$. You can choose to keep this new maximum if it is higher than your current maximum.
-- **Skill**: Gain $1d$ in a *Skill*. The maximum you can have in all *Skills* is $10d$.
+- **Skill**: Gain $1d$ in a *Skill*. The maximum you can have in all *Skills* together is $10d$.
 - **Specialist**: Choose a specific type of action. When you *Fail* it in a *Risky Actions* you still succeed, with Reduced *Effect*. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
 - **Buff** or **Debuff:** Roll a **Resolve** `Skill` and `Dark Dice`. Apply your `Effect` as a **Buff** or **Debuff** consequence. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Buff** and **Debuff** with different **Resolve** `Skills`.
 - **Heal** or **Hurt**: Roll an **Insight** `Skill` and `Dark Dice`. Multiply your `Effect` by the number of `Ego` spent and use the result to **Heal** or **Hurt**. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Heal** or **Hurt** with different **Insight** `Skills`.
