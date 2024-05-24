@@ -9,7 +9,6 @@ rules
 risky-actions
 effects
 challenges
-montage
 wounds
 experience
 fortune-die

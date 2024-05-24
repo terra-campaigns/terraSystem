@@ -1,7 +1,7 @@
 ---
 title: "Terran Engine"
 # author: "Estevao Alvarenga"
-# date: "2024-05-20"
+# date: "2024-05-23"
 site: bookdown::bookdown_site
 documentclass: book
 # bibliography: [book.bib]
@@ -13,11 +13,11 @@ favicon: imgs/favicon.ico
 cover-image: imgs/TerranEngineCover.png
 ---
 
-# Terran Engine SRD v0.5.1 {-}
+# Terran Engine SRD v0.5.2 {-}
 
 ![](imgs/TerranEngineCover.png)
 
-[**Terran Engine**](https://efsalvarenga.github.io/terraSystem/) is a rules light tabletop roleplaying system focused on narrative, player agency and consequences. Only 6-sided dice are used, in two tones: `Light Dice` and `Dark Dice`. A character sheet is available for [*download*](assets/TerranSheet.pdf), but any piece of paper is enough to play. You will also need some pencils and friends.
+[**Terran Engine**](https://efsalvarenga.github.io/terraSystem/) is a rules light tabletop roleplaying system focused on narrative, player agency and consequences. Only 6-sided dice are used, in two tones: **Light Dice** and **Dark Dice**. A character sheet is available for [**download**](assets/TerranSheet.pdf), but any piece of paper is enough to play. You will also need some pencils and friends.
 
 
 ## Taxonomy {-}
