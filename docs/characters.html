@@ -74,7 +74,7 @@
 <li class="toc-logo"><a href="./"><img src="imgs/TerranEngineCover-noBg.png"></a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Terran Engine SRD v0.5.1</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Terran Engine SRD v0.5.2</a>
 <ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#taxonomy"><i class="fa fa-check"></i>Taxonomy</a></li>
 </ul></li>
@@ -91,10 +91,7 @@
 <ul>
 <li class="chapter" data-level="2.1" data-path="rules.html"><a href="rules.html#risky-actions"><i class="fa fa-check"></i><b>2.1</b> Risky Actions</a></li>
 <li class="chapter" data-level="2.2" data-path="rules.html"><a href="rules.html#effects"><i class="fa fa-check"></i><b>2.2</b> Effects</a></li>
-<li class="chapter" data-level="2.3" data-path="rules.html"><a href="rules.html#challenges"><i class="fa fa-check"></i><b>2.3</b> Challenges</a>
-<ul>
-<li class="chapter" data-level="2.3.1" data-path="rules.html"><a href="rules.html#montage"><i class="fa fa-check"></i><b>2.3.1</b> Montage</a></li>
-</ul></li>
+<li class="chapter" data-level="2.3" data-path="rules.html"><a href="rules.html#challenges"><i class="fa fa-check"></i><b>2.3</b> Challenges</a></li>
 <li class="chapter" data-level="2.4" data-path="rules.html"><a href="rules.html#wounds"><i class="fa fa-check"></i><b>2.4</b> Wounds</a></li>
 <li class="chapter" data-level="2.5" data-path="rules.html"><a href="rules.html#experience"><i class="fa fa-check"></i><b>2.5</b> Experience</a></li>
 <li class="chapter" data-level="2.6" data-path="rules.html"><a href="rules.html#fortune-die"><i class="fa fa-check"></i><b>2.6</b> Fortune die</a></li>
@@ -138,12 +135,11 @@
 <li>Roll for <em>Grit</em> and <em>Ego.</em></li>
 <li><strong>Optional:</strong> Choose one <em>Advancement.</em></li>
 </ol>
-<p>A character sheet is available <a href="assets/TerranSheet.pdf">here</a>.</p>
 <div id="archetypes" class="section level2 hasAnchor" number="1.1">
 <h2><span class="header-section-number">1.1</span> Archetypes<a href="characters.html#archetypes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>You are defined by an <code>Archetype</code>, which encapsulates your background, concept and role within the narrative.
-Each <code>Archetype</code> should offer an immediate grasp of your identity and behaviours.
-It is expected you will evolve beyond these initial <code>Archetypes</code> towards unique narratives.</p>
+<p>You are defined by an <em>Archetype</em>, which encapsulates your background, concept and role within the narrative.
+Each <em>Archetype</em> should offer an immediate grasp of your identity and behaviours.
+It is expected you will evolve beyond these initial <em>Archetypes</em> towards unique narratives.</p>
 <ul>
 <li><strong>Hero</strong>: Embodies courage and strength, often the protagonist fighting against the odds.</li>
 <li><strong>Mentor</strong>: Provides guidance and wisdom, helping the hero on their journey.</li>
@@ -170,19 +166,9 @@ It is expected you will evolve beyond these initial <code>Archetypes</code> towa
 <li><strong>Attunement</strong>: get in the flow and tune the arcane or technology.</li>
 <li><strong>Influence</strong>: compel obedience, socialise, influence.</li>
 </ul>
-<p>Each <em>Skill</em> has a rating (from <span class="math inline">\(0\)</span> to <span class="math inline">\(4\)</span>) that determine how many dice to roll when performing <em>Risky Actions.</em>
-There is a limit for <em>Skills</em> rated above <span class="math inline">\(2\)</span>.
-This limit may be derived from your <em>Archetype</em>.</p>
-<p><span class="math display">\[
-\begin{split}
-Skill &gt; 2 = \begin{cases}
-3 \text{ rated at } 3 \\
-1 \text{ rated at } 4 ; 1 \text{ rated at } 3
-\end{cases}
-\end{split}
-\]</span></p>
+<p>Each <em>Skill</em> has a rating (from <span class="math inline">\(0d\)</span> to <span class="math inline">\(4d\)</span>) that determine how many dice to roll when performing <em>Risky Actions.</em></p>
 <p><em>Attributes</em> are groupings of two <em>Skills</em> each.
-Attributes also have ratings (from <span class="math inline">\(0\)</span> to <span class="math inline">\(2\)</span>) that determine how many dice to roll when facing a <em>Risky Action</em> passively (Save).</p>
+Attributes also have ratings (from <span class="math inline">\(0d\)</span> to <span class="math inline">\(2d\)</span>) that determine how many dice to roll when facing a <em>Risky Action</em> passively (Save).</p>
 <ul>
 <li><strong>Insight</strong> <em>Skills</em>: Intuition, Reason
 <ul>
@@ -197,7 +183,7 @@ Attributes also have ratings (from <span class="math inline">\(0\)</span> to <sp
 <li>Saves: Sanity, Stress &amp; Courage</li>
 </ul></li>
 </ul>
-<p>For each <em>Attribute</em> (<strong>Prowess</strong>, <strong>Sagacity</strong> and <strong>Resolve</strong>) roll <span class="math inline">\(1d\)</span> and consult the table below to determine how many points you have to distribute to their <em>Skills.</em></p>
+<p>For each <em>Attribute</em> (<strong>Prowess</strong>, <strong>Sagacity</strong> and <strong>Resolve</strong>) roll <span class="math inline">\(1d\)</span> and consult the table below to determine how many <em>Attribute</em> dice you have to distribute to their <em>Skills.</em></p>
 <table>
 <thead>
 <tr class="header">
@@ -209,14 +195,14 @@ Attributes also have ratings (from <span class="math inline">\(0\)</span> to <sp
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Points</td>
-<td align="center"><span class="math inline">\(1\)</span></td>
-<td align="center"><span class="math inline">\(2\)</span></td>
-<td align="center"><span class="math inline">\(3\)</span></td>
+<td align="left"><em>Attribute</em> Dice</td>
+<td align="center"><span class="math inline">\(1d\)</span></td>
+<td align="center"><span class="math inline">\(2d\)</span></td>
+<td align="center"><span class="math inline">\(3d\)</span></td>
 </tr>
 </tbody>
 </table>
-<p>In certain conditions, you might permanently lose <em>Attribute</em> points.</p>
+<p>In certain conditions, you might permanently lose <em>Attribute</em> dice.</p>
 </div>
 <div id="grit-ego" class="section level2 hasAnchor" number="1.3">
 <h2><span class="header-section-number">1.3</span> Grit &amp; Ego<a href="characters.html#grit-ego" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -245,8 +231,8 @@ The list below are examples of a simple framework for their in-game mechanics:</
 <ul>
 <li><strong>Eager</strong>: When you reset your <code>Ego</code>, roll <span class="math inline">\(+1d\)</span> and keep the highest.</li>
 <li><strong>Die Hard</strong>: Roll your <code>Grit</code> maximum with <span class="math inline">\(+1d\)</span>. You can choose to keep this new maximum if it is higher than your current maximum.</li>
-<li><strong>Skill</strong>: Gain <span class="math inline">\(1\)</span> in a <em>Skill</em>.</li>
-<li><strong>Specialist</strong>: Choose a specific type of action. <em>Risky Actions</em> are done with <span class="math inline">\(+1d\)</span> with this specialisation. For a list of specialisations, check <a href="https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list">Cepheus SRD’s skill list</a>.</li>
+<li><strong>Skill</strong>: Gain <span class="math inline">\(1d\)</span> in a <em>Skill</em>. The maximum you can have in all <em>Skills</em> together is <span class="math inline">\(10d\)</span>.</li>
+<li><strong>Specialist</strong>: Choose a specific type of action. When you <em>Fail</em> it in a <em>Risky Actions</em> you still succeed, with Reduced <em>Effect</em>. For a list of specialisations, check <a href="https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list">Cepheus SRD’s skill list</a>.</li>
 <li><strong>Buff</strong> or <strong>Debuff:</strong> Roll a <strong>Resolve</strong> <code>Skill</code> and <code>Dark Dice</code>. Apply your <code>Effect</code> as a <strong>Buff</strong> or <strong>Debuff</strong> consequence. You may divide the result in as many targets as you want. You can take this <code>Advancement</code> multiple times if you want to <strong>Buff</strong> and <strong>Debuff</strong> with different <strong>Resolve</strong> <code>Skills</code>.</li>
 <li><strong>Heal</strong> or <strong>Hurt</strong>: Roll an <strong>Insight</strong> <code>Skill</code> and <code>Dark Dice</code>. Multiply your <code>Effect</code> by the number of <code>Ego</code> spent and use the result to <strong>Heal</strong> or <strong>Hurt</strong>. You may divide the result in as many targets as you want. You can take this <code>Advancement</code> multiple times if you want to <strong>Heal</strong> or <strong>Hurt</strong> with different <strong>Insight</strong> <code>Skills</code>.</li>
 <li><strong>Tough</strong>: When unarmoured your <strong>Armour</strong> is <span class="math inline">\(1\)</span>.</li>
@@ -269,7 +255,7 @@ With the GM you can adapt these or create new ones.</p>
 <ul>
 <li><strong>Fear-Driven Vigilance</strong>: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have <span class="math inline">\(-1d\)</span></li>
 <li><strong>Obsessive Focus</strong>: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain <span class="math inline">\(+1\)</span> Point in one <code>Skill</code> and <span class="math inline">\(-1\)</span> Point in two other <code>Skills</code>.</li>
-<li><strong>Inept</strong>: For some reason you are always inept in a specific type of action. <em>Risky Actions</em> are done with <span class="math inline">\(-1d\)</span> with this specialisation. For a list of specialisations, check <a href="https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list">Cepheus SRD’s skill list</a></li>
+<li><strong>Inept</strong>: For some reason you become inept in a specific type of action. Every time you <em>Succeed</em> it in a <em>Risky Actions</em> you accomplish with Reduced <em>Effect</em>. For a list of specialisations, check <a href="https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list">Cepheus SRD’s skill list</a>.</li>
 <li><strong>Moral Reservations</strong>: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have <span class="math inline">\(-1d\)</span>.</li>
 <li><strong>Compulsive Honesty</strong>: You vow to always speak the truth.</li>
 <li><strong>Kleptomaniac</strong>: You are unable to resist urges to steal items that you generally don’t really need.</li>

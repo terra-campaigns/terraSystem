@@ -1,5 +1,22 @@
 # Changelog
 
+**v0.5.2**
+
+- New:
+	- Maximum in Skills is 10d.
+- Changed:
+	- Specialist and Inept are now based on WuDu's implementation for Skills.
+	- Malaises (from Wounds) are improved.
+	- Advancements do not increase Grit in 1, minimally.
+	- Renamed weak and strong Effects to Reduced and Increased.
+- Removed:
+	- Skill limits beyond 2d (only max Skill applies).
+	- Montages.
+- Text and aesthetics
+	- Skills points now refer to dice (beta)
+	- Corrected name of attributes where it was still wrong.
+	- Reference aesthetics in italic implemented for: Archetype, Risky Actions and Making a Game.
+
 **v0.5.1**
 
 - Suggested that a cohesive group shall be created, before individual character creation.
