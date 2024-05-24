@@ -10,9 +10,9 @@ A character sheet is available [here](assets/TerranSheet.pdf).
 
 ## Archetypes
 
-You are defined by an `Archetype`, which encapsulates your background, concept and role within the narrative.
-Each `Archetype` should offer an immediate grasp of your identity and behaviours.
-It is expected you will evolve beyond these initial `Archetypes` towards unique narratives.
+You are defined by an *Archetype*, which encapsulates your background, concept and role within the narrative.
+Each *Archetype* should offer an immediate grasp of your identity and behaviours.
+It is expected you will evolve beyond these initial *Archetypes* towards unique narratives.
 
 - **Hero**: Embodies courage and strength, often the protagonist fighting against the odds.
 - **Mentor**: Provides guidance and wisdom, helping the hero on their journey.
@@ -38,21 +38,10 @@ There are $6$ *Skills* that you can use to overcome obstacles.
 - **Attunement**: get in the flow and tune the arcane or technology.
 - **Influence**: compel obedience, socialise, influence.
 
-Each *Skill* has a rating (from $0$ to $4$) that determine how many dice to roll when performing *Risky Actions.*
-There is a limit for *Skills* rated above $2$.
-This limit may be derived from your *Archetype*.
-
-$$
-\begin{split}
-Skill > 2 = \begin{cases}
-3 \text{ rated at } 3 \\
-1 \text{ rated at } 4 ; 1 \text{ rated at } 3
-\end{cases}
-\end{split}
-$$
+Each *Skill* has a rating (from $0d$ to $4d$) that determine how many dice to roll when performing *Risky Actions.*
 
 *Attributes* are groupings of two *Skills* each.
-Attributes also have ratings (from $0$ to $2$) that determine how many dice to roll when facing a *Risky Action* passively (Save).
+Attributes also have ratings (from $0d$ to $2d$) that determine how many dice to roll when facing a *Risky Action* passively (Save).
 
 - **Insight** *Skills*: Intuition, Reason
 	- Saves: Perception & Awareness
@@ -61,13 +50,13 @@ Attributes also have ratings (from $0$ to $2$) that determine how many dice to r
 - **Resolve** *Skills*: Attunement, Influence
 	- Saves: Sanity, Stress & Courage
 
-For each *Attribute* (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many points you have to distribute to their *Skills.*
+For each *Attribute* (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many *Attribute* dice you have to distribute to their *Skills.*
 
-|        | $1:3$ | $4:5$ | $6$ |
-| :----- | :---: | :---: | :-: |
-| Points |  $1$  |  $2$  | $3$ |
+|                  | $1:3$ | $4:5$ | $6$  |
+| :--------------- | :---: | :---: | :--: |
+| *Attribute* Dice | $1d$  | $2d$  | $3d$ |
 
-In certain conditions, you might permanently lose *Attribute* points.
+In certain conditions, you might permanently lose *Attribute* dice.
 
 ## Grit & Ego
 
@@ -99,8 +88,8 @@ The list below are examples of a simple framework for their in-game mechanics:
 
 - **Eager**: When you reset your `Ego`, roll $+1d$ and keep the highest.
 - **Die Hard**: Roll your `Grit` maximum with $+1d$. You can choose to keep this new maximum if it is higher than your current maximum.
-- **Skill**: Gain $1$ in a *Skill*.
-- **Specialist**: Choose a specific type of action. *Risky Actions* are done with $+1d$ with this specialisation. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
+- **Skill**: Gain $1d$ in a *Skill*. The maximum you can have in all *Skills* together is $10d$.
+- **Specialist**: Choose a specific type of action. When you *Fail* it in a *Risky Actions* you still succeed, with Reduced *Effect*. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
 - **Buff** or **Debuff:** Roll a **Resolve** `Skill` and `Dark Dice`. Apply your `Effect` as a **Buff** or **Debuff** consequence. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Buff** and **Debuff** with different **Resolve** `Skills`.
 - **Heal** or **Hurt**: Roll an **Insight** `Skill` and `Dark Dice`. Multiply your `Effect` by the number of `Ego` spent and use the result to **Heal** or **Hurt**. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Heal** or **Hurt** with different **Insight** `Skills`.
 - **Tough**: When unarmoured your **Armour** is $1$.
@@ -123,7 +112,7 @@ With the GM you can adapt these or create new ones.
 
 - **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $-1d$
 - **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $+1$ Point in one `Skill` and $-1$ Point in two other `Skills`.
-- **Inept**: For some reason you are always inept in a specific type of action. *Risky Actions* are done with $-1d$ with this specialisation. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list)
+- **Inept**: For some reason you become inept in a specific type of action. Every time you *Succeed* it in a *Risky Actions* you accomplish with Reduced *Effect*. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
 - **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $-1d$.
 - **Compulsive Honesty**: You vow to always speak the truth.
 - **Kleptomaniac**: You are unable to resist urges to steal items that you generally don't really need.
@@ -156,24 +145,24 @@ Subtract the armour modifier from the `Effect` before reducing your `Grit`
 
 ## Risky Actions
 
-When you are trying your chances at a `Risky Action`, say what you intend to do.
-With the GM determine your appropriate `Attribute` or `Skill`.
+When you are trying your chances at a *Risky Action*, say what you intend to do.
+With the GM determine your appropriate *Attribute* or *Skill.*
 Then gather 6-sided dice.
 
-|                                | Dice Pool                                                                                                                                                                                                                 |
-| :----------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](imgs/dice-light-6-sml.png) | Take a number of `Light Dice` equal to your applicable `Attribute` or `Skill`. If you are in an advantageous or precarious position, the GM may give you $\pm 1d$. You must always have between $0$ and $4$ `Light Dice`. |
-| ![](imgs/dice-dark-6-sml.png)  | Take as many `Dark Dice` as you wish to risk `Ego` for pushing yourself for a success. For each `Dark Dice` that rolls equal or lower than your current `Ego`, decrease your `Ego` in one.                                |
+|                                | Dice Pool                                                                                                                                                                                                                   |
+| :----------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](imgs/dice-light-6-sml.png) | Take a number of *Light Dice* equal to your applicable *Attribute* or *Skill*. If you are in an advantageous or precarious position, the GM may give you $\pm 1d$. You must always roll between $0d$ and $4d$ *Light Dice*. |
+| ![](imgs/dice-dark-6-sml.png)  | Take as many *Dark Dice* as you wish to risk *Ego* for pushing yourself for a success. For each *Dark Die* that rolls equal or lower than your current *Ego*, decrease your *Ego* in one.                                   |
 
-Roll the dice and choose one die to be your `Precision` (generally the highest, but you might choose differently if you wish) and consult the table.
+Roll the dice and choose one die to be your *Precision* (generally the highest, but you might choose differently if you wish) and consult the table.
 
-|       | Outcome                                                                                                                                                   |
-| :---: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $1:3$ | You fail, and things get worse. With the GM describe the consequences. The GM may also allow you to succeed, but things will get worse in some other way. |
-| $4:5$ | You succeed, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
-|  $6$  | You succeed. With the GM describe what happens.                                                                                                           |
+|       | Outcome                                                                                                                                                     |
+| :---: | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $1:3$ | You *Fail*, and things get worse. With the GM describe the consequences. The GM may also allow you to succeed, but things will get worse in some other way. |
+| $4:5$ | You *Succeed*, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
+|  $6$  | You *Succeed*. With the GM describe what happens.                                                                                                           |
 
-Evaluate `Effects` as appropriate, if the `Risky Action` is part of a `Challenge`,
+Evaluate *Effects* as appropriate, if the *Risky Action* is part of a *Challenge*,
 
 ## Effects
 
@@ -193,9 +182,9 @@ Consult the table below.
 | Effect     | Level | Examples                                                                          |
 | ---------- | :---: | --------------------------------------------------------------------------------- |
 | Improvised | $1e$  | Makeshift tool;<br>Rock, pipe, punch.                                             |
-| Weak       | $2e$  | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
+| Reduced    | $2e$  | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
 | Standard   | $3e$  | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
-| Strong     | $4e$  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
+| Increased  | $4e$  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
 | Extreme    | $5e$  | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
 `Challenge` `Effects` (damage) applied to you reduces your `Grit`.
 Subtract the armour rating from the `Effect`, and then reduce the remainder from your `Grit`.
@@ -237,38 +226,27 @@ If multiple challenges gang up against you, increase the `Challenge` in one for 
 Some challenges might be multifaceted.
 A bulky rival might be a Dangerous `Challenge` to fight against, but a Trivial `Challenge` to be convinced to ignore you.
 
-### Montage
-
-You and the GM might prefer to resolve a `Challenge` in one single roll.
-That is possible by rolling the `Challenge Effect` prior to gathering your dice.
-Apply the consequence modifier to your dice and roll your `Risky Action`.
-You risk $2$ `Ego` for each `Dark Die` you use.
-Your companions can also pool their `Ego` to help you.
-This single roll determine the outcome of the entire `Challenge`.
-
-It is not recommended to use `Montages` if the consequence of failure would be the death of someone.
-On those cases, playing the `Challenge` as a longer one gives more manoeuvre space.
 
 ## Wounds
 
-When your `Grit` reaches $0$ and you use all your `Wound` tracks you become mortally wounded, and will die if further harmed.
-While mortally wounded you cannot gather `Light Die` for your `Risky Actions`.
+When your *Grit* reaches $0$ and you use all your *Wound* tracks you become mortally wounded, and will die if further harmed.
+While mortally wounded you cannot gather *Light Die* for your *Risky Actions*.
 You will die in minutes if not attended to.
 
-If you survive a mortal wound, you develop a permanent consequence.
+If you survive a mortal *Wound*, you develop a malaise.
 Roll $1d$ and consult the table below.
 With the GM, describe it narratively.
 
-|     | Consequence                                                            |
-| :-: | ---------------------------------------------------------------------- |
-| $1$ | You take a Condition of your choice.                                   |
-| $2$ | $-1$ **Prowess**, you die if it goes below $0$                         |
-| $3$ | $-1$ **Sagacity**, you die if it goes below $0$                        |
-| $4$ | $-1$ **Resolve**, you die if it goes below $0$                         |
-| $5$ | When you re-roll your `Ego`, use $-1d$ from now on. Its minimum is $1$ |
-| $6$ | Re-roll your `Grit` with $-1d$ from now on. Its minimum is $1$.        |
+|     | Malaises                                                                          |
+| :-: | --------------------------------------------------------------------------------- |
+| $1$ | You take a Condition of your choice.                                              |
+| $2$ | $-1d$ **Prowess**, you die if it goes below $0d$                                  |
+| $3$ | $-1d$ **Insight**, you die if it goes below $0d$                                  |
+| $4$ | $-1d$ **Resolve**, you die if it goes below $0d$                                  |
+| $5$ | When you re-roll your *Ego,* use $-1d$ from now on. You die if it goes below $0d$ |
+| $6$ | Re-roll your *Grit* with $-1d$ from now on. You die if it goes below $0d$.        |
 
-Each `Wound` track recovers through appropriate care and a week of rest.
+Each *Wound* track recovers through appropriate care and a week of rest.
 
 ## Experience
 
@@ -277,7 +255,7 @@ You gain $+1$ *Experience* per *Condition* you develop.
 
 Each new *Advancement* costs the current number of *Advancements* times $2$ in *Experience*.
 Decide with the GM how to carry this development out in the narrative.
-When you gain a new *Advancement* you also re-roll your *Grit* and keep the maximum between the current $+1$ or the new value.
+When you gain a new *Advancement* you also re-roll your *Grit* and keep the maximum between the current or the new value.
 
 ## Fortune die
 
@@ -287,7 +265,7 @@ When the GM wants to leave some decision to the dice, determine the chances and 
 
 **Terran Engine** is focuses on the grimdark aesthetics, which might not be the thematic choice of every game.
 
-By adapting the `Archetypes` and `Advancements`, and reskinning `Ego` (and `Conditions`), other genres can easily be emulated. A few playtested examples are given. The Rules section can mostly be used as is.
+By adapting the *Archetypes* and *Advancements*, and reskinning *Ego* (and *Conditions*), other genres can easily be emulated. A few playtested examples are given. The Rules section can mostly be used as is.
 
 ## Ego in Pulp Fantasy
 
