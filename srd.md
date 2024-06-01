@@ -204,16 +204,10 @@ Your *Effect* is subtracted from the *Challenge* *Disposition*.
 | $4e$ **Increased**  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
 | $5e$ **Extreme**    | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
 
+### Challenges
 
-| Effect Roll     | $\mathbf{1:3}$ | $\mathbf{4:5}$ | $\mathbf{7:11}$ | $\mathbf{13:17}$ | $\mathbf{19+}$ |
-| --------------- | :------------: | :------------: | :-------------: | :--------------: | :------------: |
-| Extra Challenge |    Trivial     |   Dangerous    |     Serious     |    Formidable    |    Extreme     |
-| Consequence     |  $\mathbf{-}$  |      $1d$      |      $2d$       |       $3d$       |     $4d+$      |
-
-## Challenges
-
-Sometimes, multiple actions are required to overcome `Challenges`.
-Examples of `Challenges` are
+Sometimes, multiple actions are required to overcome *Challenges*.
+Examples of *Challenges* are
 
 - fighting an enemy,
 - dueling rhetorically,
@@ -221,27 +215,43 @@ Examples of `Challenges` are
 - crawling a location,
 - journeying.
 
-`Challenges` have disposition, which measures how much `Effect` they take to be overcame.
-`Challenges` also have `Effect` dice that are applied to you as consequences of your `Risky Actions`.
+*Challenges* have disposition, which measures how much *Effect* they take to be overcame.
+*Challenges* also have *Effect* dice that are applied to you as consequences of your *Risky Actions*.
 
-| Challenge      | Disposition | Effect | Examples                                                                               |
-| -------------- | :---------: | :----: | -------------------------------------------------------------------------------------- |
-| **Trivial**    |     $5$     | $d/2$  | Unskilled adversaries, low height climb, known journey                                 |
-| **Dangerous**  |    $10$     |  $1d$  | Skilled adversaries, small explosions, small predator, large prey, troublesome journey |
-| **Serious**    |    $20$     |  $2d$  | Expert adversaries, large predator, close contact with fire or acid                    |
-| **Formidable** |    $30$     |  $3d$  | Human prime, apex predator, immersion in acid, large explosions                        |
-| **Extreme**    |    $40+$    | $4d+$  | Transhuman, often fatal environments, most difficult journeys                          |
-
-If multiple challenges gang up against you, increase the `Challenge` in one for each two additional challenges after the first.
+| *Challenge* Tier    | Disposition | Effect | Examples                                                             |
+| ------------------- | :---------: | :----: | -------------------------------------------------------------------- |
+| $0$ **Trivial**     |     $5$     | $d/2$  | Unskilled adversaries, low height climb, known journey               |
+| $1$ **Dangerous**   |    $10$     |  $1d$  | Skilled adversaries, small predator, large prey, troublesome journey |
+| $2$ **Serious**     |    $20$     |  $2d$  | Expert adversaries, large predator, traverse fire or acid            |
+| $3$ **Formidable**  |    $30$     |  $3d$  | Human prime, apex predator, climbing the Everest                     |
+| $4$ **Exceptional** |    $40+$    | $4d+$  | Transhuman, often fatal environments, heroic journeys                |
 
 Some challenges might be multifaceted.
-A bulky rival might be a Dangerous `Challenge` to fight against, but a Trivial `Challenge` to be convinced to ignore you.
+A bulky rival might be a Dangerous *Challenge* to fight against, but a Trivial *Challenge* to be convinced to ignore you.
 
+When Challenge Effects are applied to you narratively, use the table.
 
+|       | Consequence                    |
+| :---: | ------------------------------ |
+| $1:3$ | Something annoying happens.    |
+| $4:5$ | Something frustrating happens. |
+|  $6$  | Something devastating happens. |
 
+When *Challenge* *Effects* are applied to you as damage your *Grit* might be reduced.
+Subtract the armour rating from the *Effect*, and then reduce the remainder from your *Grit*.
+You may choose to mark a *Wound* track instead of receiving damage.
 
+### Magnitude
 
+Sometimes you and the GM might need to compare different dimensions of *Magnitudes*.
 
+| *Magnitude* Tier  | Area     | Party        | Duration | Range    | Harm Severity                                                                             |
+| ----------------- | -------- | ------------ | -------- | -------- | ----------------------------------------------------------------------------------------- |
+| $0$ **Poor**      | Closet   | $1$ person   | Moment   | Contact  | $d/2$ Minor injury. Sprains and bruising.                                                 |
+| $1$ **Good**      | Corner   | $3$ people   | Scene    | Reach    | $1d$  Bleeding cuts and broken bones. Small explosions.                                   |
+| $2$ **Excellent** | Room     | $10$ people  | Hour     | Nearby   | $2d$ Close contact with bodily destructive phenomena (such as fire, explosions, or acid). |
+| $3$ **Impecable** | Wing     | $30$ people  | Day      | Far away | $3d$ Large explosions. Immersive contact with fi re and acid.                             |
+| $4$ **Legendary** | Building | $100$ people | Week     | Remote   | $4d$ Usually fatal harm, often immediately.                                               |
 
 ## Experience
 
