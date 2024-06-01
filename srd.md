@@ -140,23 +140,23 @@ With the GM you can adapt these or create new ones.
 
 ## Equipment 
 
-With the GM define which tags, ranges and `Effect` are appropriate for your weapons.
+With the GM define which tags, ranges and *Effect* are appropriate for your weapons.
 Weapons used outside their expected ranges roll with $-1d$.
 
 The following short list of tags may be expanded with the GM.
 
 - **Versatile**: $+1e$ when held two-handed.
-- **Nimble**: `Effect` is applied first
-- **Slaughter**: `Effect` die explode on $5+$
+- **Nimble**: *Effect* is applied first
+- **Slaughter**: *Effect* die explode on $5+$
 
-Armours act as buffers when you take damage from `Challenges`.
-Subtract the armour modifier from the `Effect` before reducing your `Grit`
+Armours act as buffers when you take damage from *Challenges*.
+Subtract the armour modifier from the *Effect* before reducing your *Grit*
 
 | Armour     | Modifier | Details                                            |
 | ---------- | :------: | -------------------------------------------------- |
 | **Light**  |   $-1$   |                                                    |
 | **Heavy**  |   $-2$   | $-1d$ to run, observe, sneak, swim, etc.           |
-| **Shield** |   $-1$   | Can be sacrificed to completely avoid an `Effect`. |
+| **Shield** |   $-1$   | Can be sacrificed to completely avoid an *Effect*. |
 
 # Rules
 
