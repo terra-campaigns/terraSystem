@@ -41,16 +41,13 @@ There are $6$ *Skills* that you can use to overcome obstacles.
 Each *Skill* has a rating (from $0d$ to $4d$) that determine how many dice to roll when performing *Risky Actions.*
 
 *Attributes* are groupings of two *Skills* each.
-Attributes also have ratings (from $0d$ to $2d$) that determine how many dice to roll when facing a *Risky Action* passively (Save).
+Attributes also have ratings (from $0d$ to $2d$) that determine how many dice to roll when facing a *Risky Action* passively (*Saves*).
 
-- **Insight** *Skills*: Intuition, Reason
-	- Saves: Perception & Awareness
-- **Prowess** *Skills*: Finesse, Exertion
-	- Saves: Fortitude & Reflexes 
-- **Resolve** *Skills*: Attunement, Influence
-	- Saves: Sanity, Stress & Courage
+- **Insight** *Skills*: Intuition, Reason; *Save*: Reflexes
+- **Prowess** *Skills*: Finesse, Exertion; *Save*: Fortitude
+- **Resolve** *Skills*: Attunement, Influence; *Save*: Willpower
 
-For each *Attribute* (**Prowess**, **Sagacity** and **Resolve**) roll $1d$ and consult the table below to determine how many *Attribute* dice you have to distribute to their *Skills.*
+For each *Attribute* (**Insight**, **Prowess**, and **Resolve**) roll $1d$ and consult the table below to determine how many *Attribute* dice you have to distribute to their *Skills.*
 
 |                  | $1:3$ | $4:5$ | $6$  |
 | :--------------- | :---: | :---: | :--: |
