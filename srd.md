@@ -118,17 +118,17 @@ The list below are examples of a simple framework for their in-game mechanics:
 
 ## Conditions
 
-At any moment in the game you can re-roll your `Ego` by taking a `Condition`.
+At any moment in the game you can re-roll your *Ego* by taking a *Condition*.
 The recovery of your inner strength often comes through confronting, enduring, and adapting to hardship.
 These trials teach you to integrate the traumas that permanently transform your self, strengthening your resilience.
-With the GM, determine the new `Condition` you have, and how to introduce it into the narrative.
+With the GM, determine the new *Condition* you have, and how to introduce it into the narrative.
 
-`Conditions` are detrimental mechanically, but not necessarily negative in the narrative.
+*Conditions* are detrimental mechanically, but not necessarily negative in the narrative.
 The list below can be used as a starting point.
 With the GM you can adapt these or create new ones.
 
 - **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $-1d$
-- **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $+1$ Point in one `Skill` and $-1$ Point in two other `Skills`.
+- **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $+1$ Point in one *Skill* and $-1$ Point in two other *Skills*.
 - **Inept**: For some reason you become inept in a specific type of action. Every time you *Succeed* it in a *Risky Actions* you accomplish with Reduced *Effect*. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
 - **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $-1d$.
 - **Compulsive Honesty**: You vow to always speak the truth.
@@ -136,7 +136,7 @@ With the GM you can adapt these or create new ones.
 - **Battle-Scarred**: After some injury, you develop a scar. You might have lost part of a member, an eye, or something else that impacts you physically, intellectually or socially.
 - **Protective Instinct**: You are genuinely concerned with your team's welfare, and become a reluctant leader. When an ally is in danger, you have $-1d$.
 - **Estranged**: You lose the bond with someone you love or cherish. With the GM, agree the mechanical impact.
-- **Slow**: When you roll, your `Effect` is always applied last.
+- **Slow**: When you roll, your *Effect* is always applied last.
 
 ## Equipment 
 
