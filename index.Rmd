@@ -13,7 +13,7 @@ favicon: imgs/favicon.ico
 cover-image: imgs/TerranEngineCover.png
 ---
 
-# Terran Engine SRD v0.5.2 {-}
+# Terran Engine SRD v0.5.3 {-}
 
 ![](imgs/TerranEngineCover.png)
 
