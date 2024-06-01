@@ -102,21 +102,19 @@ With the GM determine how your last scene goes.
 
 ## Advancements
 
-`Advancements` can have any narrative reasoning you want.
+*Advancements* can have any narrative reasoning you want.
 The list below are examples of a simple framework for their in-game mechanics:
 
-- **Eager**: When you reset your `Ego`, roll $+1d$ and keep the highest.
-- **Die Hard**: Roll your `Grit` maximum with $+1d$. You can choose to keep this new maximum if it is higher than your current maximum.
+- **Eager**: When you reset your *Ego*, roll $+1d$ and keep the highest.
+- **Die Hard**: When you reset your *Grit* maximum, roll $+1d$ and sum all the dice you rolled.
 - **Skill**: Gain $1d$ in a *Skill*. The maximum you can have in all *Skills* together is $10d$.
 - **Specialist**: Choose a specific type of action. When you *Fail* it in a *Risky Actions* you still succeed, with Reduced *Effect*. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
-- **Buff** or **Debuff:** Roll a **Resolve** `Skill` and `Dark Dice`. Apply your `Effect` as a **Buff** or **Debuff** consequence. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Buff** and **Debuff** with different **Resolve** `Skills`.
-- **Heal** or **Hurt**: Roll an **Insight** `Skill` and `Dark Dice`. Multiply your `Effect` by the number of `Ego` spent and use the result to **Heal** or **Hurt**. You may divide the result in as many targets as you want. You can take this `Advancement` multiple times if you want to **Heal** or **Hurt** with different **Insight** `Skills`.
-- **Tough**: When unarmoured your **Armour** is $1$.
+- **Adept**: You have knowledge in one school of magic. `Spellcasting rules tbd`
+- **Tough**: When unarmored your **Armour** is $1$.
 - **Bodyguard**: You can choose to take damage instead of one of your allies.
 - **Sensory acuity**: You have $+1d$ on noticing things through a chosen sense.
-- **Whirlwind**: In combat, roll a **Prowess** `Skill` and `Dark Dice`. If you are successful, deal one additional instance of `Effect` to a `Challenge` at range.
-- **Retire**: With the GM decide how your story ends. Create a new character with half (rounded up) the number of `Advancements` you have now, including this one.
-- **Fast**: When you roll, your `Effect` is always applied first.
+- **Whirlwind**: In combat, roll a **Prowess** *Skill* and *Dark Dice*. If you are successful, deal one additional instance of *Effect* to a *Challenge* at range.
+- **Fast**: When you roll, your *Effect* is always applied first.
 
 ## Conditions
 
