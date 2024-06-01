@@ -181,35 +181,29 @@ Roll the dice and choose one die to be your *Precision* (generally the highest, 
 
 Evaluate *Effects* as appropriate, if the *Risky Action* is part of a *Challenge*,
 
-## Effects
+### Effects
 
-`Effects` determines the quantitative result of your `Risky Actions` towards overcoming `Challenges`.
-Examples of `Effects` are:
+*Effects* determines the quantitative result of your *Risky Actions* towards overcoming *Challenges*.
+Examples of *Effects* are:
 
 - Damage given,
 - Convincing done,
 - Distance covered,
 - Weakness learned.
 
-When you roll your `Risky Actions`, choose one die to be your `Effect` (generally the second highest, if the highest was used as `Precision`).
-The `Effect` die is an exploding die (i.e. if the result is a $6$, keep rolling and accumulating the result).
-The `Effect` you apply is never lower than the `Effect` level of your approach, regardless of the die outcome.
-Consult the table below.
+When you roll your *Risky Actions*, choose one die to be your *Effect* (generally the second highest, if the highest was used as *Precision*).
+The *Effect* die is an exploding die (i.e. if the result is a $6$, keep rolling and accumulating the result).
+The *Effect* you apply is never lower than the *Effect* *Tier* of your approach, regardless of the die outcome.
+Your *Effect* is subtracted from the *Challenge* *Disposition*.
 
-| Effect     | Level | Examples                                                                          |
-| ---------- | :---: | --------------------------------------------------------------------------------- |
-| Improvised | $1e$  | Makeshift tool;<br>Rock, pipe, punch.                                             |
-| Reduced    | $2e$  | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
-| Standard   | $3e$  | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
-| Increased  | $4e$  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
-| Extreme    | $5e$  | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
-`Challenge` `Effects` (damage) applied to you reduces your `Grit`.
-Subtract the armour rating from the `Effect`, and then reduce the remainder from your `Grit`.
-Your `Effects` are subtracted directly from `Challenges` Disposition (i.e. Challenges do not have armour).
+| *Effect* Tier       | Minimum Effect for                                                                |
+| :------------------ | --------------------------------------------------------------------------------- |
+| $1e$ **Improvised** | Makeshift tool;<br>Rock, pipe, punch.                                             |
+| $2e$ **Reduced**    | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
+| $3e$ **Standard**   | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
+| $4e$ **Increased**  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
+| $5e$ **Extreme**    | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
 
-Sometimes `Challenge` `Effects` fork into new `Challenges` or consequences.
-Extra `Challenges` might be an encounter, an unexpected detour, a hidden threat or some unlucky event.
-Consequences, on the other hand, pose some additional difficulty on the next `Risky Action` roll related to the `Challenge`.
 
 | Effect Roll     | $\mathbf{1:3}$ | $\mathbf{4:5}$ | $\mathbf{7:11}$ | $\mathbf{13:17}$ | $\mathbf{19+}$ |
 | --------------- | :------------: | :------------: | :-------------: | :--------------: | :------------: |
