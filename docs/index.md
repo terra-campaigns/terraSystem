@@ -1,7 +1,7 @@
 ---
 title: "Terran Engine"
 # author: "Estevao Alvarenga"
-# date: "2024-05-23"
+# date: "2024-06-01"
 site: bookdown::bookdown_site
 documentclass: book
 # bibliography: [book.bib]
@@ -13,7 +13,7 @@ favicon: imgs/favicon.ico
 cover-image: imgs/TerranEngineCover.png
 ---
 
-# Terran Engine SRD v0.5.2 {-}
+# Terran Engine SRD v0.5.3 {-}
 
 ![](imgs/TerranEngineCover.png)
 

@@ -196,13 +196,13 @@ The *Effect* die is an exploding die (i.e. if the result is a $6$, keep rolling 
 The *Effect* you apply is never lower than the *Effect* *Tier* of your approach, regardless of the die outcome.
 Your *Effect* is subtracted from the *Challenge* *Disposition*.
 
-| *Effect* Tier       | Minimum Effect for                                                                |
-| :------------------ | --------------------------------------------------------------------------------- |
-| $1e$ **Improvised** | Makeshift tool;<br>Rock, pipe, punch.                                             |
-| $2e$ **Reduced**    | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
-| $3e$ **Standard**   | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
-| $4e$ **Increased**  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
-| $5e$ **Extreme**    | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
+| Tier                   | Minimum Effect for                                                                |
+| :--------------------- | --------------------------------------------------------------------------------- |
+| $1e$<br>**Improvised** | Makeshift tool;<br>Rock, pipe, punch.                                             |
+| $2e$<br>**Reduced**    | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
+| $3e$<br>**Standard**   | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
+| $4e$<br>**Increased**  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
+| $5e$<br>**Extreme**    | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
 
 ### Challenges
 
@@ -218,13 +218,13 @@ Examples of *Challenges* are
 *Challenges* have disposition, which measures how much *Effect* they take to be overcame.
 *Challenges* also have *Effect* dice that are applied to you as consequences of your *Risky Actions*.
 
-| *Challenge* Tier    | Disposition | Effect | Examples                                                             |
-| ------------------- | :---------: | :----: | -------------------------------------------------------------------- |
-| $0$ **Trivial**     |     $5$     | $d/2$  | Unskilled adversaries, low height climb, known journey               |
-| $1$ **Dangerous**   |    $10$     |  $1d$  | Skilled adversaries, small predator, large prey, troublesome journey |
-| $2$ **Serious**     |    $20$     |  $2d$  | Expert adversaries, large predator, traverse fire or acid            |
-| $3$ **Formidable**  |    $30$     |  $3d$  | Human prime, apex predator, climbing the Everest                     |
-| $4$ **Exceptional** |    $40+$    | $4d+$  | Transhuman, often fatal environments, heroic journeys                |
+| Tier                   | Disposition | Effect | Examples                                                             |
+| ---------------------- | :---------: | :----: | -------------------------------------------------------------------- |
+| $0$<br>**Trivial**     |     $5$     | $d/2$  | Unskilled adversaries, low height climb, known journey               |
+| $1$<br>**Dangerous**   |    $10$     |  $1d$  | Skilled adversaries, small predator, large prey, troublesome journey |
+| $2$<br>**Serious**     |    $20$     |  $2d$  | Expert adversaries, large predator, traverse fire or acid            |
+| $3$<br>**Formidable**  |    $30$     |  $3d$  | Human prime, apex predator, climbing the Everest                     |
+| $4$<br>**Exceptional** |    $40+$    | $4d+$  | Transhuman, often fatal environments, heroic journeys                |
 
 Some challenges might be multifaceted.
 A bulky rival might be a Dangerous *Challenge* to fight against, but a Trivial *Challenge* to be convinced to ignore you.
@@ -245,13 +245,13 @@ You may choose to mark a *Wound* track instead of receiving damage.
 
 Sometimes you and the GM might need to compare different dimensions of *Magnitudes*.
 
-| *Magnitude* Tier  | Area     | Party        | Duration | Range    | Harm Severity                                                                             |
-| ----------------- | -------- | ------------ | -------- | -------- | ----------------------------------------------------------------------------------------- |
-| $0$ **Poor**      | Closet   | $1$ person   | Moment   | Contact  | $d/2$ Minor injury. Sprains and bruising.                                                 |
-| $1$ **Good**      | Corner   | $3$ people   | Scene    | Reach    | $1d$  Bleeding cuts and broken bones. Small explosions.                                   |
-| $2$ **Excellent** | Room     | $10$ people  | Hour     | Nearby   | $2d$ Close contact with bodily destructive phenomena (such as fire, explosions, or acid). |
-| $3$ **Impecable** | Wing     | $30$ people  | Day      | Far away | $3d$ Large explosions. Immersive contact with fi re and acid.                             |
-| $4$ **Legendary** | Building | $100$ people | Week     | Remote   | $4d$ Usually fatal harm, often immediately.                                               |
+| Tier                 | Area     | Party        | Duration | Range    | Harm Severity                                                                             |
+| -------------------- | -------- | ------------ | -------- | -------- | ----------------------------------------------------------------------------------------- |
+| $0$<br>**Poor**      | Closet   | $1$ person   | Moment   | Contact  | $d/2$ Minor injury. Sprains and bruising.                                                 |
+| $1$<br>**Good**      | Corner   | $3$ people   | Scene    | Reach    | $1d$  Bleeding cuts and broken bones. Small explosions.                                   |
+| $2$<br>**Excellent** | Room     | $10$ people  | Hour     | Nearby   | $2d$ Close contact with bodily destructive phenomena (such as fire, explosions, or acid). |
+| $3$<br>**Impecable** | Wing     | $30$ people  | Day      | Far away | $3d$ Large explosions. Immersive contact with fi re and acid.                             |
+| $4$<br>**Legendary** | Building | $100$ people | Week     | Remote   | $4d$ Usually fatal harm, often immediately.                                               |
 
 ## Experience
 

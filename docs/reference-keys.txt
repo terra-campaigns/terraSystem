@@ -2,6 +2,8 @@ characters
 archetypes
 skills-attributes
 grit-ego
+wounds
+pushing-yourself
 advancements
 conditions
 equipment
@@ -9,9 +11,10 @@ rules
 risky-actions
 effects
 challenges
-wounds
+magnitude
 experience
 fortune-die
+sayonara
 making-a-game
 ego-in-pulp-fantasy
 copyright
