@@ -166,10 +166,10 @@ When you are trying your chances at a *Risky Action*, say what you intend to do.
 With the GM determine your appropriate *Attribute* or *Skill.*
 Then gather 6-sided dice.
 
-|                                | Dice Pool                                                                                                                                                                                                                   |
-| :----------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](imgs/dice-light-6-sml.png) | Take a number of *Light Dice* equal to your applicable *Attribute* or *Skill*. If you are in an advantageous or precarious position, the GM may give you $\pm 1d$. You must always roll between $0d$ and $4d$ *Light Dice*. |
-| ![](imgs/dice-dark-6-sml.png)  | Take as many *Dark Dice* as you wish to risk *Ego* for pushing yourself for a success. For each *Dark Die* that rolls equal or lower than your current *Ego*, decrease your *Ego* in one.                                   |
+|                                | Dice Pool                                                                                                                                                                                                                       |
+| :----------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](imgs/dice-light-6-sml.png) | Take a number of **Light Dice** equal to your applicable *Attribute* or *Skill*. If you are in an advantageous or precarious position, the GM may give you $\pm 1d$. You must always roll between $0d$ and $4d$ **Light Dice**. |
+| ![](imgs/dice-dark-6-sml.png)  | Take as many **Dark Dice** as you wish to risk *Ego* for pushing yourself for a success. For each **Dark Die** that rolls equal or lower than your current *Ego*, decrease your *Ego* in one.                                   |
 
 Roll the dice and choose one die to be your *Precision* (generally the highest, but you might choose differently if you wish) and consult the table.
 
