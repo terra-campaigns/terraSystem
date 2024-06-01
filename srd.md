@@ -68,11 +68,33 @@ Advancements and conditions may change these numbers.
 After a well fed and rested night, you recover $1d$ of *Grit* lost.
 At any moment, you may choose to take a *Condition* and roll $1d$ to reset your *Ego.*
 
+### Wounds
+
 You lose *Grit* when you are physically harmed. 
-When your *Grit* reaches $0$ you become wounded.
-You have $3$ *Wound* tracks.
-You choose what they mean narratively.
-Beyond those, you are mortally wounded and will die if harmed.
+When your *Grit* reaches $0$ you become *Mortally Wounded* and will die if harmed.
+Anytime you are hurt, you can choose to gain a *Wound* instead of losing *Grit*.
+You have $3$ *Wound* tracks: Stressed ($-1d$ **Insight**), Broken ($-1d$ **Prowess**) and Weary ($-1d$ **Resolve**).
+
+While *Mortally Wounded* you cannot gather *Light Die* for your *Risky Actions*.
+You will die in minutes if not attended to.
+
+If you survive a *Mortal Wound*, you develop a *Malaise*.
+Roll $1d$ and consult the table below.
+With the GM, describe it narratively.
+
+|     | *Malaises*                                                                         |
+| :-: | ---------------------------------------------------------------------------------- |
+| $1$ | No *Malaise*.                                                                      |
+| $2$ | $-1d$ **Prowess**, you die if it goes below $0d$.                                  |
+| $3$ | $-1d$ **Insight**, you die if it goes below $0d$.                                  |
+| $4$ | $-1d$ **Resolve**, you die if it goes below $0d$.                                  |
+| $5$ | When you re-roll your *Ego,* use $-1d$ from now on. You die if it goes below $0d$. |
+| $6$ | Re-roll your *Grit* with $-1d$ from now on. You die if it goes below $0d$.         |
+
+Each *Wound* track recovers through appropriate care and a week of rest.
+A *Malaise* never recovers.
+
+### Pushing yourself
 
 You spend *Ego* when you push beyond yourself in *Risky Actions* or use some character *Advancements.*
 When your *Ego* reaches $0$ you are lost somehow.
@@ -224,26 +246,10 @@ Some challenges might be multifaceted.
 A bulky rival might be a Dangerous `Challenge` to fight against, but a Trivial `Challenge` to be convinced to ignore you.
 
 
-## Wounds
 
-When your *Grit* reaches $0$ and you use all your *Wound* tracks you become mortally wounded, and will die if further harmed.
-While mortally wounded you cannot gather *Light Die* for your *Risky Actions*.
-You will die in minutes if not attended to.
 
-If you survive a mortal *Wound*, you develop a malaise.
-Roll $1d$ and consult the table below.
-With the GM, describe it narratively.
 
-|     | Malaises                                                                           |
-| :-: | ---------------------------------------------------------------------------------- |
-| $1$ | No malaise.                                                                        |
-| $2$ | $-1d$ **Prowess**, you die if it goes below $0d$.                                  |
-| $3$ | $-1d$ **Insight**, you die if it goes below $0d$.                                  |
-| $4$ | $-1d$ **Resolve**, you die if it goes below $0d$.                                  |
-| $5$ | When you re-roll your *Ego,* use $-1d$ from now on. You die if it goes below $0d$. |
-| $6$ | Re-roll your *Grit* with $-1d$ from now on. You die if it goes below $0d$.         |
 
-Each *Wound* track recovers through appropriate care and a week of rest.
 
 ## Experience
 
