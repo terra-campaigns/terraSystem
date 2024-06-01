@@ -248,9 +248,9 @@ A bulky rival might be a Dangerous `Challenge` to fight against, but a Trivial `
 You get $2$ *Experience* for each session you play.
 You gain $+1$ *Experience* per *Condition* you develop.
 
-Each new *Advancement* costs the current number of *Advancements* times $2$ in *Experience*.
+Each new *Advancement* costs the current number of *Advancements* times $3$ in *Experience*.
 Decide with the GM how to carry this development out in the narrative.
-When you gain a new *Advancement* you also re-roll your *Grit* and keep the maximum between the current or the new value.
+When you gain a new *Advancement* you reset your *Grit* maximum. Roll your dice and keep the maximum between the current and the new value.
 
 ## Fortune die
 
