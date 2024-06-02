@@ -229,7 +229,7 @@ Examples of *Challenges* are
 Some challenges might be multifaceted.
 A bulky rival might be a Dangerous *Challenge* to fight against, but a Trivial *Challenge* to be convinced to ignore you.
 
-When Challenge Effects are applied to you narratively, use the table.
+When *Challenge Effects* are applied to you narratively, use the table.
 
 |       | Consequence                    |
 | :---: | ------------------------------ |

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Noto+Sans:ital,wdth,wght@0,91,100..900;1,91,100..900&family=Metamorphous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans:ital,wdth,wght@0,91,100..900;1,91,100..900&family=Metamorphous&display=swap');
 
 p.caption {
   color: #777;
@@ -31,29 +31,27 @@ pre code {
  /*------------- Body and header text---------------- */
 
 .book.font-family-1 {
-    font-family: "Metamorphous";
+    font-family: "Averia Serif Libre", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 91;
  }
  
  h1, h2, h3, h4 {
-  font-family: "Averia Serif Libre", serif;
+  font-family: "Metamorphous";
   font-weight: 700;
   font-style: normal;
 }
 
 .title {
-  font-family: "Averia Serif Libre", serif;
+  font-family: "Metamorphous";
   font-weight: 700;
   font-style: normal;
   font-size: 3em !important;
  }
 
 .subtitle {
-  font-family: "Averia Serif Libre", serif;
+  font-family: "Metamorphous";
   font-weight: 700;
   font-style: normal;
 }
