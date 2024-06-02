@@ -1,5 +1,27 @@
 # Changelog
 
+**v0.5.3a**
+
+- Fixed changelog sync and publish.
+- Swapped section titles and text fonts.
+
+**v0.5.3**
+
+- New:
+	- Sayonara mechanic.
+	- Magnitude table.
+- Changed:
+	- No Malaise on a roll of 1.
+	- Taking a wound avoids one instance of damage.
+	- Rate of advancement changed from x2 to x3.
+	- Challenge text reworked for clarity.
+- Removed:
+- Text and aesthetics:
+	- Improved text around Attributes and Saves.
+	- Reorganised Wounds and Malaises in the same place.
+	- Reference aesthetics in italic implemented for the remaining topics.
+	- Reorganised Effect and Challenge headers.
+
 **v0.5.2**
 
 - New:
