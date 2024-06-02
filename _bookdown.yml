@@ -9,5 +9,7 @@ new_session: true
 rmd_files:
 - index.Rmd
 - srd.md
-- srdAppendices.md
+- srd500MakingGames.md
+- srd501MakeDegenesis.md
+- srd900Appendices.md
 - changelog.md
