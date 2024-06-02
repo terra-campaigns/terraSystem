@@ -272,4 +272,4 @@ At any moment you can decide it is your last scene.
 When you do that, re-roll your *Ego* and *Grit*.
 For this scene, you only expend *Ego* if you roll a $1$.
 By the end of the scene, you have to figure out how you depart (death, madness, mission, etc.).
-You can create a new character with half (rounded up) the number of *Advances* the previous character had.
+You can create a new character with half (rounded up) the number of *Advancements* the previous character had.
