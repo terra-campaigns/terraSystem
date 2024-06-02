@@ -284,9 +284,3 @@ By adapting the *Archetypes* and *Advancements*, and reskinning *Ego* (and *Cond
 
 For the Pulp Fantasy genre, Ego can be used as a measure of how far the next climax is. Whenever relevant, the GM rolls one die. If the die is higher than the highest Ego of the Party, a climax event happens. After this climax, all Ego is restored to its original max.
 
-
-Test with imgur image, and auto publish.
-
-![](https://i.imgur.com/7eqeV5I.png)
-
-
