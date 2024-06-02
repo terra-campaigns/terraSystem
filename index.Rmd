@@ -13,7 +13,7 @@ favicon: imgs/favicon.ico
 cover-image: imgs/TerranEngineCover.png
 ---
 
-# Terran Engine SRD v0.5.3a {-}
+# Terran Engine SRD v0.5.4 {-}
 
 ![](imgs/TerranEngineCover.png)
 
@@ -26,3 +26,9 @@ cover-image: imgs/TerranEngineCover.png
 - "Challenge" is used to represent anything that is antagonistic to you, be that an NPC, the environment, etc.
 - Meta game concepts, stats and currencies are marked as *italic*.
 - Book references are marked in `code`, they might be accompanied by page ranges.
+
+## Making Games {-}
+
+**Terran Engine** is focused on the dark and grim aesthetics, which might not be the thematic choice of every game.
+
+By adapting the *Archetypes* and *Advancements*, and reskinning *Ego* and *Conditions*, other genres can be emulated. Playtested examples are given in the **Making Games** sections.
