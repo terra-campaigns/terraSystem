@@ -210,24 +210,24 @@ Sometimes, multiple actions are required to overcome *Challenges*.
 Examples of *Challenges* are
 
 - fighting an enemy,
-- dueling rhetorically,
+- duelling rhetorically,
 - negotiating an environment,
 - crawling a location,
 - journeying.
 
-*Challenges* have disposition, which measures how much *Effect* they take to be overcame.
-*Challenges* also have *Effect* dice that are applied to you as consequences of your *Risky Actions*.
+*Challenges* have a descriptive **Name**.
+*Challenges* are divided in **Tiers**, which define how much *Effect* they take to be overcame (**Disposition**), and how many *Effect* dice they use (**Severity**).
 
-| Tier                   | Disposition | Effect | Examples                                                             |
-| ---------------------- | :---------: | :----: | -------------------------------------------------------------------- |
-| $0$<br>**Trivial**     |     $5$     | $d/2$  | Unskilled adversaries, low height climb, known journey               |
-| $1$<br>**Dangerous**   |    $10$     |  $1d$  | Skilled adversaries, small predator, large prey, troublesome journey |
-| $2$<br>**Serious**     |    $20$     |  $2d$  | Expert adversaries, large predator, traverse fire or acid            |
-| $3$<br>**Formidable**  |    $30$     |  $3d$  | Human prime, apex predator, climbing the Everest                     |
-| $4$<br>**Exceptional** |    $40+$    | $4d+$  | Transhuman, often fatal environments, heroic journeys                |
+|                 | Tier           | Examples                                                             |
+| --------------- | :------------- | -------------------------------------------------------------------- |
+| **Trivial**     | $5$<br>$d/2$   | Unskilled adversaries, low height climb, known journey               |
+| **Dangerous**   | $10$<br>$1d$   | Skilled adversaries, small predator, large prey, troublesome journey |
+| **Serious**     | $20$<br>$2d$   | Expert adversaries, large predator, traverse fire or acid            |
+| **Formidable**  | $30$<br>$3d$   | Human prime, apex predator, climbing the Everest                     |
+| **Exceptional** | $40+$<br>$4d+$ | Transhuman, often fatal environments, heroic journeys                |
 
-Some challenges might be multifaceted.
-A bulky rival might be a Dangerous *Challenge* to fight against, but a Trivial *Challenge* to be convinced to ignore you.
+Some challenges are multifaceted.
+A bulky rival might be a **Dangerous** *Challenge* to fight against, but a **Trivial** *Challenge* to be convinced to ignore you.
 
 When *Challenge Effects* are applied to you narratively, use the table.
 
@@ -240,18 +240,6 @@ When *Challenge Effects* are applied to you narratively, use the table.
 When *Challenge* *Effects* are applied to you as damage your *Grit* might be reduced.
 Subtract the armour rating from the *Effect*, and then reduce the remainder from your *Grit*.
 You may choose to mark a *Wound* track instead of receiving damage.
-
-### Magnitude
-
-Sometimes you and the GM might need to compare different dimensions of *Magnitudes*.
-
-| Tier                 | Area     | Party        | Duration | Range    | Harm Severity                                                                             |
-| -------------------- | -------- | ------------ | -------- | -------- | ----------------------------------------------------------------------------------------- |
-| $0$<br>**Poor**      | Closet   | $1$ person   | Moment   | Contact  | $d/2$ Minor injury. Sprains and bruising.                                                 |
-| $1$<br>**Good**      | Corner   | $3$ people   | Scene    | Reach    | $1d$  Bleeding cuts and broken bones. Small explosions.                                   |
-| $2$<br>**Excellent** | Room     | $10$ people  | Hour     | Nearby   | $2d$ Close contact with bodily destructive phenomena (such as fire, explosions, or acid). |
-| $3$<br>**Impecable** | Wing     | $30$ people  | Day      | Far away | $3d$ Large explosions. Immersive contact with fi re and acid.                             |
-| $4$<br>**Legendary** | Building | $100$ people | Week     | Remote   | $4d$ Usually fatal harm, often immediately.                                               |
 
 ## Experience
 
@@ -273,14 +261,4 @@ When you do that, re-roll your *Ego* and *Grit*.
 For this scene, you only expend *Ego* if you roll a $1$.
 By the end of the scene, you have to figure out how you depart (death, madness, mission, etc.).
 You can create a new character with half (rounded up) the number of *Advances* the previous character had.
-
-# Making a Game
-
-**Terran Engine** is focuses on the grimdark aesthetics, which might not be the thematic choice of every game.
-
-By adapting the *Archetypes* and *Advancements*, and reskinning *Ego* (and *Conditions*), other genres can easily be emulated. A few playtested examples are given. The Rules section can mostly be used as is.
-
-## Ego in Pulp Fantasy
-
-For the Pulp Fantasy genre, Ego can be used as a measure of how far the next climax is. Whenever relevant, the GM rolls one die. If the die is higher than the highest Ego of the Party, a climax event happens. After this climax, all Ego is restored to its original max.
 
