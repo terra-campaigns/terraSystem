@@ -4,12 +4,10 @@ language:
     chapter_name:  'Section '
 delete_merged_file: true
 output_dir: docs
-new_session: true
 
 rmd_files:
 - index.Rmd
 - srd.md
-- trinity.md
 - make.md
 - srdAppendices.md
 - changelog.md
