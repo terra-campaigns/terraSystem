@@ -223,18 +223,18 @@ Subtract the armour modifier from the *Effect* before reducing your *Grit*
 | **Heavy**  |   $-2e$  | $-1d$ to run, observe, sneak, swim, etc.           |
 | **Shield** |   $-1e$  | Can be sacrificed to completely avoid an *Effect*. |
 
-# Rules
+## Rules
 
-## Risky Actions
+### Risky Actions
 
 When you are trying your chances at a *Risky Action*, say what you intend to do.
-With the GM determine your appropriate *Attribute* or *Skill.*
+With the GM determine your appropriate *Attribute* or *Save*.
 Then gather 6-sided dice.
 
-|                                | Dice Pool                                                                                                                                                                                                                       |
-| :----------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](imgs/dice-light-6-sml.png) | Take a number of **Light Dice** equal to your applicable *Attribute* or *Skill*. If you are in an advantageous or precarious position, the GM may give you $\pm 1d$. You must always roll between $0d$ and $4d$ **Light Dice**. |
-| ![](imgs/dice-dark-6-sml.png)  | Take as many **Dark Dice** as you wish to risk *Ego* for pushing yourself for a success. For each **Dark Die** that rolls equal or lower than your current *Ego*, decrease your *Ego* in one.                                   |
+|                                | Dice Pool                                                                                                                                                                                                                     |
+| :----------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](imgs/dice-light-6-sml.png) | Take a number of **Light Dice** equal to your applicable *Attribute* or *Save*. If you are in an advantageous or precarious position, the GM may give you $\pm d$. You must always roll between $0d$ and $4d$ **Light Dice**. |
+| ![](imgs/dice-dark-6-sml.png)  | Take as many **Dark Dice** as you wish to risk *Ego* for pushing yourself for a success. For each **Dark Die** that rolls equal or lower than your current *Ego*, decrease your *Ego* in one.                                 |
 
 Roll the dice and choose one die to be your *Precision* (generally the highest, but you might choose differently if you wish) and consult the table.
 
@@ -244,9 +244,9 @@ Roll the dice and choose one die to be your *Precision* (generally the highest, 
 | $4:5$ | You *Succeed*, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
 |  $6$  | You *Succeed*. With the GM describe what happens.                                                                                                           |
 
-Evaluate *Effects* as appropriate, if the *Risky Action* is part of a *Challenge*,
+Evaluate *Effects* as appropriate, if the *Risky Action* is part of a *Challenge*.
 
-### Effects
+#### Effects {-}
 
 *Effects* determines the quantitative result of your *Risky Actions* towards overcoming *Challenges*.
 Examples of *Effects* are:
@@ -261,15 +261,15 @@ The *Effect* die is an exploding die (i.e. if the result is a $6$, keep rolling 
 The *Effect* you apply is never lower than the *Effect* *Tier* of your approach, regardless of the die outcome.
 Your *Effect* is subtracted from the *Challenge* *Disposition*.
 
-| Tier                   | Minimum Effect for                                                                |
-| :--------------------- | --------------------------------------------------------------------------------- |
-| $1e$<br>**Improvised** | Makeshift tool;<br>Rock, pipe, punch.                                             |
-| $2e$<br>**Reduced**    | Primitive tool;<br>Weak argument<br>Knife, staff                                  |
-| $3e$<br>**Standard**   | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword            |
-| $4e$<br>**Increased**  | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
-| $5e$<br>**Extreme**    | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
+|                         |                                                                                   |
+|:----------------------- | --------------------------------------------------------------------------------- |
+| $-1e$<br>**Bad**        | Improvised tool;<br>Rock, pipe, punch.                                            |
+| $\pm0e$<br>**Mediocre** | Primitive tool;<br>Weak argument;<br>Knife, staff.                                |
+| $+1e$<br>**Good**       | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword.           |
+| $+2e$<br>**Better**     | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
+| $+3e$<br>**Best**       | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
 
-### Challenges
+#### Challenges {-}
 
 Sometimes, multiple actions are required to overcome *Challenges*.
 Examples of *Challenges* are
@@ -291,20 +291,19 @@ Examples of *Challenges* are
 | **Formidable**  | $30$<br>$3d$   | Human prime, apex predator, climbing the Everest                     |
 | **Exceptional** | $40+$<br>$4d+$ | Transhuman, often fatal environments, heroic journeys                |
 
-Some challenges are multifaceted.
-A bulky rival might be a **Dangerous** *Challenge* to fight against, but a **Trivial** *Challenge* to be convinced to ignore you.
+Some challenges might be multifaceted.
+A bulky rival might be a Dangerous *Challenge* to fight against, but a Trivial *Challenge* to be convinced to ignore you.
 
 When *Challenge Effects* are applied to you narratively, use the table.
 
 |       | Consequence                    |
 | :---: | ------------------------------ |
 | $1:3$ | Something annoying happens.    |
-| $4:5$ | Something frustrating happens. |
+| $4:5$ | Something troublesome happens. |
 |  $6$  | Something devastating happens. |
 
 When *Challenge* *Effects* are applied to you as damage your *Grit* might be reduced.
 Subtract the armour rating from the *Effect*, and then reduce the remainder from your *Grit*.
-You may choose to mark a *Wound* track instead of receiving damage.
 
 ## Experience
 
