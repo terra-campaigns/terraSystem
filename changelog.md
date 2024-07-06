@@ -1,5 +1,23 @@
 # Changelog
 
+**v0.6.0**
+
+- New:
+	- Design principles are made explicit in the appendix
+	- Some examples are added
+- Changed:
+	- Skills are renamed to Attributes
+	- Attributes are renamed to Saves
+	- New approach to wounds (more gritty)
+	- New approach to Ego and Grit recovery
+	- Improved list of Advancements
+	- Expanded and improved Equipment
+	- Modified approach to Effect (modifier of roll, instead of minimum)
+- Removed:
+	- Simulations details
+- Text and aesthetics:
+	- New level of headings to align with game forks
+
 **v0.5.3a**
 
 - Fixed changelog sync and publish.
@@ -15,7 +33,6 @@
 	- Taking a wound avoids one instance of damage.
 	- Rate of advancement changed from x2 to x3.
 	- Challenge text reworked for clarity.
-- Removed:
 - Text and aesthetics:
 	- Improved text around Attributes and Saves.
 	- Reorganised Wounds and Malaises in the same place.
