@@ -205,14 +205,14 @@ The following short list of tags may be expanded with the GM.
 - **Improvised**: $-1d$, $-1e$.
 - **Unhandy**: $-1d$ if used at **Contact** or **Reach** ranges.
 
-| Weapon        | Effect   | Ranges      | Tags      | Notes |
-| ------------- | -------- | ----------- | --------- | ----- |
-| Knife         | $\pm 0e$ | Contact     | Nimble    |       |
-| Staff         | $\pm 0e$ | Contact     | -         |       |
-| Primitive bow | $+1e$    | Short       | Unhandy   |       |
-| Short sword   | $+1e$    | Contact     | Versatile |       |
-| Long sword    | $+2e$    | Contact     | Versatile |       |
-| Hunting rifle | $+3e$    | Short; Long | -         |       |
+| Weapon        | Effect   | Ranges      | Tags      |
+| ------------- | -------- | ----------- | --------- |
+| Knife         | $\pm 0e$ | Contact     | Nimble    |
+| Staff         | $\pm 0e$ | Contact     | -         |
+| Primitive bow | $+1e$    | Short       | Unhandy   |
+| Short sword   | $+1e$    | Contact     | Versatile |
+| Long sword    | $+2e$    | Contact     | Versatile |
+| Hunting rifle | $+3e$    | Short; Long | -         |
 
 Armours act as buffers when you take damage from *Challenges*.
 Subtract the armour modifier from the *Effect* before reducing your *Grit*
@@ -261,7 +261,7 @@ The *Effect* die is an exploding die (i.e. if the result is a $6$, keep rolling 
 The *Effect* you apply is never lower than the *Effect* *Tier* of your approach, regardless of the die outcome.
 Your *Effect* is subtracted from the *Challenge* *Disposition*.
 
-|                         |                                                                                   |
+|                         | Examples                                                                          |
 |:----------------------- | --------------------------------------------------------------------------------- |
 | $-1e$<br>**Bad**        | Improvised tool;<br>Rock, pipe, punch.                                            |
 | $\pm0e$<br>**Mediocre** | Primitive tool;<br>Weak argument;<br>Knife, staff.                                |
