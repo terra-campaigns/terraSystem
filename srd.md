@@ -1,14 +1,24 @@
-# Characters
+# System Reference v0.6.0 {#srd}
+
+#### Taxonomy {-}
+
+- "You" and "Your" are used interchangeably to refer to players and their characters. For disambiguation "Player(s)" is used when referring to the player outside the context of their character.
+- "Challenge" is used to represent anything that is antagonistic to you, be that an NPC, the environment, etc.
+- Meta game concepts, stats and currencies are marked as *italic*.
+- Book references are marked in `code`, they might be accompanied by page ranges.
+
+
+## Characters
 
 1. With the other players, define a cohesive group concept.
-2. Always start with a Name and an *Archetype*.
-3. Roll for *Attributes* and assign *Skills*
+2. Always start with a Name and *Archetype*.
+3. Roll for *Attributes* and assign points.
 4. Roll for *Grit* and *Ego.*
-5. **Optional:** Choose one *Advancement.*
+5. Choose one *Advancement.*
 
 A character sheet is available [here](assets/TerranSheet.pdf).
 
-## Archetypes
+### Archetypes
 
 You are defined by an *Archetype*, which encapsulates your background, concept and role within the narrative.
 Each *Archetype* should offer an immediate grasp of your identity and behaviours.
@@ -27,9 +37,9 @@ It is expected you will evolve beyond these initial *Archetypes* towards unique 
 - **Jester**: Values joy, humor, and light-heartedness.
 - **Caregiver**: Provides nurture, generosity, and compassion.
 
-## Skills & Attributes
+### Attributes
 
-There are $6$ *Skills* that you can use to overcome obstacles.
+There are $6$ *Attributes* that you can use to overcome obstacles.
 
 - **Intuition**: track targets, understand creatures, care, survive.
 - **Reason**: concentrate, think abstractly, build knowledge.
@@ -38,59 +48,71 @@ There are $6$ *Skills* that you can use to overcome obstacles.
 - **Attunement**: get in the flow and tune the arcane or technology.
 - **Influence**: compel obedience, socialise, influence.
 
-Each *Skill* has a rating (from $0d$ to $4d$) that determine how many dice to roll when performing *Risky Actions.*
+Each *Attribute* has a rating (from $0$ to $4$) that determine how many dice to roll when performing *Risky Actions.*
+On the character sheet, their ratings are read horizontally.
 
-*Attributes* are groupings of two *Skills* each.
-Attributes also have ratings (from $0d$ to $2d$) that determine how many dice to roll when facing a *Risky Action* passively (*Saves*).
+*Saves* are groupings of two *Attributes* each.
 
-- **Insight** *Skills*: Intuition, Reason; *Save*: Reflexes
-- **Prowess** *Skills*: Finesse, Exertion; *Save*: Fortitude
-- **Resolve** *Skills*: Attunement, Influence; *Save*: Willpower
+- **Insight/Reflexes** *Save* groups **Intuition** and **Reason** *Attributes*
+- **Prowess/Fortitude** *Save* groups **Finesse** and **Exertion** *Attributes*
+- **Resolve/Willpower** *Save* groups **Attunement** and **Influence** *Attributes*
 
-For each *Attribute* (**Insight**, **Prowess**, and **Resolve**) roll $1d$ and consult the table below to determine how many *Attribute* dice you have to distribute to their *Skills.*
+*Saves* also have ratings (from $0$ to $2$) that determine how many dice to roll in a *Reaction* situation.
+On the character sheet, their ratings are read vertically.
 
-|                  | $1:3$ | $4:5$ | $6$  |
-| :--------------- | :---: | :---: | :--: |
-| *Attribute* Dice | $1d$  | $2d$  | $3d$ |
+#### Determine ratings  {-}
 
-In certain conditions, you might permanently lose *Attribute* dice.
+For each *Save* grouping (**Insight**, **Prowess**, and **Resolve**) roll $1d$ and consult the table below to determine how many rating points you have to distribute for each.
 
-## Grit & Ego
+|               | $1:3$ | $4:5$ | $6$ |
+| :------------ | :---: | :---: | :-: |
+| Rating points |  $1$  |  $2$  | $3$ |
+
+In certain conditions, you might permanently lose ratings, this is discussed in other sections.
+
+#### Example: Scuff's ratings {-}
+
+![](https://i.imgur.com/bnKfumi.png)
+
+
+Scuff has an **Attunement** *Attribute* rating of $3$ (read horizontally).
+They roll $3d$ when performing a Risky Action related to **Attunement**.
+They also have **Influence** $0$ (horizontally), so they roll $0d$ (i.e. no chance if no advantage is found).
+If their **Resolve** is challenged, they may roll a *Reaction* with $1d$, based on their **Resolve/Willpower** *Save* rating (read vertically).
+
+### Grit & Ego
 
 > *"It's about how hard you can get hit and keep moving forward"*
 > (Rocky Balboa)
 
-While *Grit* represents your physical disposition, *Ego* represents your resilience.
+While *Grit* represents your disposition, *Ego* represents your resilience to keep pushing.
+Roll $1d$ to determine your *Grit* and *Ego.*
+Advancements and conditions may change the number of dice you roll.
 
-Roll $1d$ to determine your initial *Grit* maximum and initial *Ego.*
-Advancements and conditions may change these numbers.
+#### Wounds {-}
 
-After a well fed and rested night, you recover $1d$ of *Grit* lost.
-At any moment, you may choose to take a *Condition* and roll $1d$ to reset your *Ego.*
-
-### Wounds
-
-You lose *Grit* when you are physically harmed. 
-When your *Grit* reaches $0$ you become *Mortally Wounded* and will die if harmed.
-Anytime you are hurt, you can choose to gain a *Wound* instead of losing *Grit*.
+You lose *Grit* when you are harmed.
+When your *Grit* reaches $0$ you start marking *Wound* tracks.
 You have $3$ *Wound* tracks: Stressed ($-1d$ **Insight**), Broken ($-1d$ **Prowess**) and Weary ($-1d$ **Resolve**).
+When all three *Wound* tracks are marked, you become *Mortally Wounded*.
 
 While *Mortally Wounded* you cannot gather *Light Die* for your *Risky Actions*.
-You will die in minutes if not attended to.
-
-If you survive a *Mortal Wound*, you develop a *Malaise*.
+You will die instantly if harmed further, or in minutes if not attended to.
+If you survive being *Mortally Wounded*, you develop a *Malaise*.
 Roll $1d$ and consult the table below.
 With the GM, describe it narratively.
 
 |     | *Malaises*                                                                         |
 | :-: | ---------------------------------------------------------------------------------- |
 | $1$ | No *Malaise*.                                                                      |
-| $2$ | $-1d$ **Prowess**, you die if it goes below $0d$.                                  |
-| $3$ | $-1d$ **Insight**, you die if it goes below $0d$.                                  |
-| $4$ | $-1d$ **Resolve**, you die if it goes below $0d$.                                  |
+| $2$ | $-1$ **Prowess**, you die if it goes below $0d$.                                   |
+| $3$ | $-1$ **Insight**, you die if it goes below $0d$.                                   |
+| $4$ | $-1$ **Resolve**, you die if it goes below $0d$.                                   |
 | $5$ | When you re-roll your *Ego,* use $-1d$ from now on. You die if it goes below $0d$. |
 | $6$ | Re-roll your *Grit* with $-1d$ from now on. You die if it goes below $0d$.         |
 
+After a well fed and rested night, you roll and reset your *Grit* ($1d$).
+If you did not rest well you have $-1d$ to roll for *Grit*.
 Each *Wound* track recovers through appropriate care and a week of rest.
 A *Malaise* never recovers.
 
