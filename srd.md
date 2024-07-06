@@ -192,7 +192,7 @@ With the GM you can adapt these or create new ones.
 - **Estranged**: You lose the bond with someone you love or cherish. With the GM, agree the mechanical impact.
 - **Slow**: When you roll, your *Effect* is always applied last.
 
-## Equipment 
+### Equipment 
 
 With the GM define which tags, ranges and *Effect* are appropriate for your weapons.
 Weapons used outside their expected ranges roll with $-1d$.
@@ -200,17 +200,28 @@ Weapons used outside their expected ranges roll with $-1d$.
 The following short list of tags may be expanded with the GM.
 
 - **Versatile**: $+1e$ when held two-handed.
-- **Nimble**: *Effect* is applied first
-- **Slaughter**: *Effect* die explode on $5+$
+- **Nimble**: *Effect* is applied first.
+- **Slaughter**: *Effect* die explode on $5+$.
+- **Improvised**: $-1d$, $-1e$.
+- **Unhandy**: $-1d$ if used at **Contact** or **Reach** ranges.
+
+| Weapon        | Effect   | Ranges      | Tags      | Notes |
+| ------------- | -------- | ----------- | --------- | ----- |
+| Knife         | $\pm 0e$ | Contact     | Nimble    |       |
+| Staff         | $\pm 0e$ | Contact     | -         |       |
+| Primitive bow | $+1e$    | Short       | Unhandy   |       |
+| Short sword   | $+1e$    | Contact     | Versatile |       |
+| Long sword    | $+2e$    | Contact     | Versatile |       |
+| Hunting rifle | $+3e$    | Short; Long | -         |       |
 
 Armours act as buffers when you take damage from *Challenges*.
 Subtract the armour modifier from the *Effect* before reducing your *Grit*
 
 | Armour     | Modifier | Details                                            |
 | ---------- | :------: | -------------------------------------------------- |
-| **Light**  |   $-1$   |                                                    |
-| **Heavy**  |   $-2$   | $-1d$ to run, observe, sneak, swim, etc.           |
-| **Shield** |   $-1$   | Can be sacrificed to completely avoid an *Effect*. |
+| **Light**  |   $-1e$  |                                                    |
+| **Heavy**  |   $-2e$  | $-1d$ to run, observe, sneak, swim, etc.           |
+| **Shield** |   $-1e$  | Can be sacrificed to completely avoid an *Effect*. |
 
 # Rules
 

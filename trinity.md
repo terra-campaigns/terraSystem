@@ -23,13 +23,13 @@ Each **Severity** dimension ($HER$) have a number assigned to them, which define
 
 Other proprieties can also be interpreted from the **Severity** dimensions ($HER$).
 
-| $HER$ | Area           | Party        | Duration   | Range    |
-| ----- | -------------- | ------------ | ---------- | -------- |
-| $0$   | $1$ closet     | $1$ person   | Moments    | Adjacent |
-| $1$   | $1$ room       | $3$ people   | $1$ scene  | Short    |
-| $2$   | $1d$ rooms     | $10$ people  | $1d$ hours | Long     |
-| $3$   | Small building | $30$ people  | $1$ day    | Sniper   |
-| $4$   | Large building | $100$ people | $1$ week   | Extreme  |
+| $HER$ | Area           | Party        | Duration   | Range   |
+| ----- | -------------- | ------------ | ---------- | ------- |
+| $0$   | $1$ closet     | $1$ person   | Moments    | Contact |
+| $1$   | $1$ room       | $3$ people   | $1$ scene  | Short   |
+| $2$   | $1d$ rooms     | $10$ people  | $1d$ hours | Long    |
+| $3$   | Small building | $30$ people  | $1$ day    | Sniper  |
+| $4$   | Large building | $100$ people | $1$ week   | Extreme |
 
 ## Magnitude $M$
 
