@@ -12,3 +12,6 @@ For the Pulp Fantasy genre, Ego can be used as a measure of how far the next cli
 - Short term stress (horror)
 - Mutations
 
+## Examples
+
+- [Degenesis hack](https://efsalvarenga.github.io/degenesis/terra-systems-degenesis.html#terra-systems-degenesis)
