@@ -116,13 +116,36 @@ If you did not rest well you have $-1d$ to roll for *Grit*.
 Each *Wound* track recovers through appropriate care and a week of rest.
 A *Malaise* never recovers.
 
-### Pushing yourself
+#### Pushing yourself {-}
 
 You spend *Ego* when you push beyond yourself in *Risky Actions* or use some character *Advancements.*
 When your *Ego* reaches $0$ you are lost somehow.
 With the GM determine how your last scene goes.
 
-## Advancements
+You may choose to gain **Conditions** to roll and reset your *Ego* ($1d$).
+Consult the highest value of your roll on the table below.
+
+|       |                                                  |
+| :---: | ------------------------------------------------ |
+| $1:3$ | Reset your *Ego* to $1:3$. You gain a condition. |
+| $4:5$ | Reset your *Ego* to $4:5$. You gain a condition. |
+|  $6$  | Reset your *Ego* to $6$. You gain a condition.   |
+
+With the GM, determine the mechanical effects and how to introduce your **Condition** into the narrative.
+
+#### Example: Scuff's scuffs {-}
+
+![](https://i.imgur.com/IYdZoZh.png)
+
+
+Scuff has $1d$ for both *Grit* and *Ego* (usual for early characters).
+They have seen some harm, having lost $3$ *Grit* (from $5$ to $2$) and taken a **Hazed** wound.
+This means that any time they roll related to **Insight** (**Intuition** or **Reason** for *Risky Actions*, or **Evasion** *Reaction*), they take $-1d$.
+
+Scuff also risked their *Ego* a few times, and took a **Condition** to reset it (from 2 to 4).
+Finally, they have gotten a malaise at some point, having reduced their **Exertion** *Attribute* rating because of a weakened lower back.
+
+### Advancements
 
 *Advancements* can have any narrative reasoning you want.
 The list below are examples of a simple framework for their in-game mechanics:
