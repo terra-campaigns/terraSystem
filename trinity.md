@@ -23,13 +23,13 @@ Each **Severity** dimension ($HER$) have a number assigned to them, which define
 
 Other proprieties can also be interpreted from the **Severity** dimensions ($HER$).
 
-| $HER$ | Area           | Party        | Duration   | Range          |
-| ----- | -------------- | ------------ | ---------- | -------------- |
-| $0$   | $1$ closet     | $1$ person   | Moments    | Within reach   |
-| $1$   | $1$ room       | $3$ people   | $1$ scene  | Short distance |
-| $2$   | $1d$ rooms     | $10$ people  | $1d$ hours | Long distance  |
-| $3$   | Small building | $30$ people  | $1$ day    | Far away       |
-| $4$   | Large building | $100$ people | $1$ week   | Remote         |
+| $HER$ | Area           | Party        | Duration   | Range    |
+| ----- | -------------- | ------------ | ---------- | -------- |
+| $0$   | $1$ closet     | $1$ person   | Moments    | Adjacent |
+| $1$   | $1$ room       | $3$ people   | $1$ scene  | Short    |
+| $2$   | $1d$ rooms     | $10$ people  | $1d$ hours | Long     |
+| $3$   | Small building | $30$ people  | $1$ day    | Sniper   |
+| $4$   | Large building | $100$ people | $1$ week   | Extreme  |
 
 ## Magnitude $M$
 
@@ -97,7 +97,7 @@ An approach for $d20$ and $2d6$-based systems is proposed below.
 | Level \| HD     | $M\times 2$                           |                  |
 | Hit Points      | $D$                                   |                  |
 | Modifier (Mod)  | $+2d[2HER]$                           | $+1d[2HER]$      |
-| DC \| TN        | $10 + \text{Mod}$                     | $6 + \text{Mod}$ |
+| DC \| TN        | $10 + \text{Mod}$                     | $7 + \text{Mod}$ |
 | AC              | $10 + \text{Mod} [\text{ best}(H,E)]$ |                  |
 | # Attacks       | $E\times$                             |                  |
 | Physical Damage | $[HE]d6$                              |                  |
