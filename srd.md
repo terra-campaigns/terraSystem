@@ -147,26 +147,36 @@ Finally, they have gotten a malaise at some point, having reduced their **Exerti
 
 ### Advancements
 
-*Advancements* can have any narrative reasoning you want.
-The list below are examples of a simple framework for their in-game mechanics:
+As you become more seasoned, you gain *Advancements*.
+You start the game with $1$ *Advancement*.
+The list below are examples of a simple framework for their in-game mechanics.
 
-- **Eager**: When you reset your *Ego*, roll $+1d$ and keep the highest.
-- **Die Hard**: When you reset your *Grit* maximum, roll $+1d$ and sum all the dice you rolled.
-- **Skill**: Gain $1d$ in a *Skill*. The maximum you can have in all *Skills* together is $10d$.
-- **Specialist**: Choose a specific type of action. When you *Fail* it in a *Risky Actions* you still succeed, with Reduced *Effect*. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
-- **Adept**: You have knowledge in one school of magic. `Spellcasting rules tbd`
-- **Tough**: When unarmored your **Armour** is $1$.
-- **Bodyguard**: You can choose to take damage instead of one of your allies.
-- **Sensory acuity**: You have $+1d$ on noticing things through a chosen sense.
-- **Whirlwind**: In combat, roll a **Prowess** *Skill* and *Dark Dice*. If you are successful, deal one additional instance of *Effect* to a *Challenge* at range.
-- **Fast**: When you roll, your *Effect* is always applied first.
+For every session you play (and survive) you gain $+2$ *Experience*.
+You also gain $+1$ *Experience* for each new *Condition* you develop.
 
-## Conditions
+Whenever it is narratively coherent, you may spend *Experience* equal to $2\times$ your current number of *Advancements* to gain a new one.
 
-At any moment in the game you can re-roll your *Ego* by taking a *Condition*.
-The recovery of your inner strength often comes through confronting, enduring, and adapting to hardship.
-These trials teach you to integrate the traumas that permanently transform your self, strengthening your resilience.
-With the GM, determine the new *Condition* you have, and how to introduce it into the narrative.
+|                 |                                                                                                                                                                                                |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Asceticism      | You do not take $-1d$ when rolling for *Grit* while poorly fed. `DR2 98`                                                                                                                       |
+| Bodyguard       | You can choose to take damage instead of one of your allies.                                                                                                                                   |
+| Brainwave       | Roll **Attunement**. It you *Succeed*, you gain $+1d$ when you try to find a solution to a problem, until the end of the scene. If you *Fail*, you become **Hazed**. `DR2 98`                  |
+| Could be worse  | When **Broken** you do not take the penalty of $-1d$. `DR2 99`                                                                                                                                 |
+| Danger sense    | $+1d$ whenever you use a **Insight/Evasion** *Save*. `DR2 98-99`                                                                                                                               |
+| Developed       | Gain $1$ in an *Attribute*. The maximum you can have in all *Attributes* together is $10$.                                                                                                     |
+| Die Hard        | When you reset your *Grit*, roll $+1d$ and sum all the dice you rolled.                                                                                                                        |
+| Eager           | When you reset your *Ego*, roll $+1d$ and keep the highest.                                                                                                                                    |
+| Elephant skin   | When unarmored your **Armour** is $1$. `DR2 98`                                                                                                                                                |
+| Ether call      | $+1d$ when interacting with other mutants (including combat). You must have at least $5$ mutations to take this *Advancement*. `DR2 98`                                                        |
+| Fast            | When you roll, your *Effect* is always applied first.                                                                                                                                          |
+| Marathon        | $+1d$ when running. `DR2 99`                                                                                                                                                                   |
+| Number cruncher | $+1d$ when using mathematics or logic. `DR2 99`                                                                                                                                                |
+| Sensory acuity  | You have $+1d$ on noticing things through a chosen sense.                                                                                                                                      |
+| Sleek           | $+1d$ whenever you contort yourself to to break free. `DR2 99`                                                                                                                                 |
+| Unyielding      | When **Weary** you do not take the penalty of $-1d$. `DR2 99`                                                                                                                                  |
+| Whirlwind       | In combat, when you are successful, select an additional die as a second hit.                                                                                                                  |
+
+### Conditions
 
 *Conditions* are detrimental mechanically, but not necessarily negative in the narrative.
 The list below can be used as a starting point.
@@ -174,7 +184,6 @@ With the GM you can adapt these or create new ones.
 
 - **Fear-Driven Vigilance**: Fear instills a heightened sense of vigilance, making you more cautious. In situations related to the your fear, you have $-1d$
 - **Obsessive Focus**: Your single-minded pursuit leads to significant personal development and expertise in a specific area, in detriment of others. Gain $+1$ Point in one *Skill* and $-1$ Point in two other *Skills*.
-- **Inept**: For some reason you become inept in a specific type of action. Every time you *Succeed* it in a *Risky Actions* you accomplish with Reduced *Effect*. For a list of specialisations, check [Cepheus SRD's skill list](https://www.orffenspace.com/cepheus-srd/skills.html#available-skills-list).
 - **Moral Reservations**: Your steadfast morality leads to a firm stance on certain issues. Actions that go against your moral code have $-1d$.
 - **Compulsive Honesty**: You vow to always speak the truth.
 - **Kleptomaniac**: You are unable to resist urges to steal items that you generally don't really need.
