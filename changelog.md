@@ -1,5 +1,13 @@
 # Changelog
 
+**v0.6.1**
+
+- New:
+	- Implemented list of skills, and skill sub-system
+- Changed:
+	- Conditions / Ego recover are triggered by Panic events
+	- Started aligning advancements with -WN for conversion of Hostile
+
 **v0.6.0**
 
 - New:

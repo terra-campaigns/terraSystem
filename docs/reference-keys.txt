@@ -2,6 +2,7 @@ srd
 characters
 archetypes
 attributes
+skills
 grit-ego
 advancements
 conditions
