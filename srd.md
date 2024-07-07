@@ -64,9 +64,9 @@ On the character sheet, their ratings are read vertically.
 
 For each *Save* grouping (**Insight**, **Prowess**, and **Resolve**) roll $1d$ and consult the table below to determine how many rating points you have to distribute for each.
 
-|               | $1:3$ | $4:5$ | $6$ |
-| :------------ | :---: | :---: | :-: |
-| Rating points |  $1$  |  $2$  | $3$ |
+|                    | $1:3$ | $4:5$ | $6$ |
+| :----------------- | :---: | :---: | :-: |
+| *Attribute* points |  $1$  |  $2$  | $3$ |
 
 In certain conditions, you might permanently lose ratings, this is discussed in other sections.
 
@@ -79,6 +79,26 @@ Scuff has an **Attunement** *Attribute* rating of $3$ (read horizontally).
 They roll $3d$ when performing a Risky Action related to **Attunement**.
 They also have **Influence** $0$ (horizontally), so they roll $0d$ (i.e. no chance if no advantage is found).
 If their **Resolve** is challenged, they may roll a *Reaction* with $1d$, based on their **Resolve/Willpower** *Save* rating (read vertically).
+
+### Skills
+
+Roll $2d$, and consult the result on the column and row.
+You get one skill of your choice from the group you rolled.
+Roll as many times as you have points.
+
+|       | $1:2$                                                                                                         | $3:4$                                                                                                                                              | $5:6$                                                                                                        |
+| ----- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| $1:2$ | **Administration**<br>Law, Business, Investigation, Trading, Negotiation                                      | **Cultures**<br>Religion, Arts, Alien, Streetwise, Spacers, World (specify), Language (specify)                                                    | **Liaison**<br>Leadership, Persuasion, Connections, Empathy, Deception, Intimidation, Performance, Seduction |
+| $3:4$ | **Athletics**<br>Speed, Acrobatics, Throwing, Strength, Endurance, Zero-G                                     | **Violence**<br>Energy projectiles, Small guns, Primitive projectiles, Long range weapons, Mount gunnery, Bludgeoning, Slashing, Piercing, Unarmed | **Survival**<br>Sneak, Orientation, Forage, Tame, Crafting, Tactics, Vigilance                               |
+| $5:6$ | **Technology**<br>Astronautics, Medical, Computers, Machinery, Explosives, Robotics, Battledress, Electronics | **Vehicles**<br>Aircraft, Civilian land craft, Military land craft, Spacecrafts, Watercraft                                                        | **Sciences**<br>Geology, Ecology, Psychology, History, Medicine, Linguistics, Chemistry, Archaeology         |
+
+#### Determine ratings  {-}
+
+Roll $1d$ and consult the table below to determine how many rating points you have to distribute for each.
+
+|                | $1:3$ | $4:5$ | $6$ |
+| :------------- | :---: | :---: | :-: |
+| *Skill* points |  $4$  |  $5$  | $6$ |
 
 ### Grit & Ego
 
@@ -118,20 +138,22 @@ A *Malaise* never recovers.
 
 #### Pushing yourself {-}
 
-You spend *Ego* when you push beyond yourself in *Risky Actions* or use some character *Advancements.*
+You spend *Ego* when you push beyond yourself in *Risky Actions*.
 When your *Ego* reaches $0$ you are lost somehow.
 With the GM determine how your last scene goes.
 
-You may choose to gain **Conditions** to roll and reset your *Ego* ($1d$).
-Consult the highest value of your roll on the table below.
+Any time you *Fail* in a *Risky Action* you may choose to suffer a **Panic Event**.
+When you do so, roll your Ego die ($1d$) and consult the table below.
 
-|       |                                                  |
-| :---: | ------------------------------------------------ |
-| $1:3$ | Reset your *Ego* to $1:3$. You gain a condition. |
-| $4:5$ | Reset your *Ego* to $4:5$. You gain a condition. |
-|  $6$  | Reset your *Ego* to $6$. You gain a condition.   |
+|       | Outcome                                                                                  |
+| :---: | ---------------------------------------------------------------------------------------- |
+| $1:3$ | Reset your *Ego* to $1:3$. You **Flight**, compelled to leave the scene.                 |
+| $4:5$ | Reset your *Ego* to $4:5$. You **Freeze**, silently or otherwise.                        |
+|  $6$  | Reset your *Ego* to $6$. You **Fight**, obsessed with being successful during the scene. |
 
-With the GM, determine the mechanical effects and how to introduce your **Condition** into the narrative.
+Describe the outcome narrativelly.
+In any case, after the scene ends, you gain a *Condition*.
+With the GM, determine the mechanical effects and how to introduce your *Condition* into the narrative.
 
 #### Example: Scuff's scuffs {-}
 
@@ -156,25 +178,25 @@ You also gain $+1$ *Experience* for each new *Condition* you develop.
 
 Whenever it is narratively coherent, you may spend *Experience* equal to $2\times$ your current number of *Advancements* to gain a new one.
 
-|                 |                                                                                                                                                                                                |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Asceticism      | You do not take $-1d$ when rolling for *Grit* while poorly fed. `DR2 98`                                                                                                                       |
-| Bodyguard       | You can choose to take damage instead of one of your allies.                                                                                                                                   |
-| Brainwave       | Roll **Attunement**. It you *Succeed*, you gain $+1d$ when you try to find a solution to a problem, until the end of the scene. If you *Fail*, you become **Hazed**. `DR2 98`                  |
-| Could be worse  | When **Broken** you do not take the penalty of $-1d$. `DR2 99`                                                                                                                                 |
-| Danger sense    | $+1d$ whenever you use a **Insight/Evasion** *Save*. `DR2 98-99`                                                                                                                               |
-| Developed       | Gain $1$ in an *Attribute*. The maximum you can have in all *Attributes* together is $10$.                                                                                                     |
-| Die Hard        | When you reset your *Grit*, roll $+1d$ and sum all the dice you rolled.                                                                                                                        |
-| Eager           | When you reset your *Ego*, roll $+1d$ and keep the highest.                                                                                                                                    |
-| Elephant skin   | When unarmored your **Armour** is $1$. `DR2 98`                                                                                                                                                |
-| Ether call      | $+1d$ when interacting with other mutants (including combat). You must have at least $5$ mutations to take this *Advancement*. `DR2 98`                                                        |
-| Fast            | When you roll, your *Effect* is always applied first.                                                                                                                                          |
-| Marathon        | $+1d$ when running. `DR2 99`                                                                                                                                                                   |
-| Number cruncher | $+1d$ when using mathematics or logic. `DR2 99`                                                                                                                                                |
-| Sensory acuity  | You have $+1d$ on noticing things through a chosen sense.                                                                                                                                      |
-| Sleek           | $+1d$ whenever you contort yourself to to break free. `DR2 99`                                                                                                                                 |
-| Unyielding      | When **Weary** you do not take the penalty of $-1d$. `DR2 99`                                                                                                                                  |
-| Whirlwind       | In combat, when you are successful, select an additional die as a second hit.                                                                                                                  |
+|                |                                                                                            |
+| -------------- | ------------------------------------------------------------------------------------------ |
+| Asceticism     | You do not take $-1d$ when rolling for *Grit* while poorly fed.                            |
+| Assassin       | $+2d$ when trying to assassinate an unaware rival.                                         |
+| Bodyguard      | You can choose to take damage instead of one of your allies.                               |
+| Could be worse | When **Broken** you do not take the penalty of $-1d$.                                      |
+| Danger sense   | $+1d$ whenever you use a **Insight/Evasion** *Save*.                                       |
+| Developed      | Gain $1$ in an *Attribute*. The maximum you can have in all *Attributes* together is $10$. |
+| Die Hard       | When you reset your *Grit*, roll $+1d$ and sum all the dice you rolled.                    |
+| Dodger         | Unarmed or primitive weapons cannot hit you.                                               |
+| Eager          | When you reset your *Ego*, roll $+1d$ and keep the highest.                                |
+| Fast           | When you roll, your *Effect* is always applied first.                                      |
+| Henchkeeper    | When appropriate, you can acquire non-combatant henchmen in a community.                   |
+| Ironhide       | When unarmoured your **Armour** is $1$.                                                    |
+| Sensory acuity | You have $+1d$ on noticing things through a chosen sense.                                  |
+| Sleek          | $+1d$ whenever you contort yourself to to break free.                                      |
+| Unarmed        | Unarmed attacks are not considered improvised, and are $+1e$                               |
+| Unyielding     | When **Weary** you do not take the penalty of $-1d$.                                       |
+| Whirlwind      | In combat, when you are successful, select an additional die as a second effect.           |
 
 ### Conditions
 
