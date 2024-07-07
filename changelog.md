@@ -1,12 +1,13 @@
 # Changelog
 
-**v0.6.1**
+**v0.6.1a**
 
 - New:
 	- Implemented list of skills, and skill sub-system
 - Changed:
 	- Conditions / Ego recover are triggered by Panic events
 	- Started aligning advancements with -WN for conversion of Hostile
+	- Improved sub system for Effect and applied it to initial list of weapons
 
 **v0.6.0**
 
@@ -28,11 +29,6 @@
 
 **v0.5.3a**
 
-- Fixed changelog sync and publish.
-- Swapped section titles and text fonts.
-
-**v0.5.3**
-
 - New:
 	- Sayonara mechanic.
 	- Magnitude table.
@@ -46,6 +42,8 @@
 	- Reorganised Wounds and Malaises in the same place.
 	- Reference aesthetics in italic implemented for the remaining topics.
 	- Reorganised Effect and Challenge headers.
+	- Swapped section titles and text fonts.
+- Fixed changelog sync and publish.
 
 **v0.5.2**
 
