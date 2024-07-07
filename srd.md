@@ -200,7 +200,7 @@ Whenever it is narratively coherent, you may spend *Experience* equal to $2\time
 | Sensory acuity    | You have $+1d$ on noticing things through a chosen sense.                                  |
 | Sleek             | $+1d$ whenever you contort yourself to to break free.                                      |
 | Spacefarer        | You automatically succeed in piloting *Challenges* up to $3d$.                             |
-| Martial combatant | Unarmed attacks are not considered improvised, and are $+1e$                               |
+| Martial combatant | Unarmed attacks are not considered improvised.                                             |
 | Unyielding        | When **Weary** you do not take the penalty of $-1d$.                                       |
 | Whirlwind         | In melee combat, when you are successful, select an additional die as a second effect.     |
 
@@ -229,18 +229,19 @@ The following short list of tags may be expanded with the GM.
 
 - **Versatile**: $+1e$ when held two-handed.
 - **Nimble**: *Effect* is applied first.
+- **Clumsy**: *Effect* is applied last.
 - **Slaughter**: *Effect* die explode on $5+$.
-- **Improvised**: $-1d$, $-1e$.
-- **Unhandy**: $-1d$ if used at **Contact** or **Reach** ranges.
+- **Precise**: $+1d$
+- **Improvised**: $-1d$.
 
-| Weapon        | Effect   | Ranges      | Tags      |
-| ------------- | -------- | ----------- | --------- |
-| Knife         | $\pm 0e$ | Contact     | Nimble    |
-| Staff         | $\pm 0e$ | Contact     | -         |
-| Primitive bow | $+1e$    | Short       | Unhandy   |
-| Short sword   | $+1e$    | Contact     | Versatile |
-| Long sword    | $+2e$    | Contact     | Versatile |
-| Hunting rifle | $+3e$    | Short; Long | -         |
+| Weapon           | Effect   | Ranges      | Tags      |
+| ---------------- | -------- | ----------- | --------- |
+| Knife            | $-1e$    | Contact     | Nimble    |
+| Staff            | $-1e$    | Contact     | -         |
+| Bow              | $\pm 0e$ | Short       |           |
+| Short sword      | $\pm 0e$ | Contact     | Versatile |
+| Two handed sword | $\pm 0e$ | Contact     | Slaughter |
+| Hunting rifle    | $+1e$    | Short; Long | -         |
 
 Armours act as buffers when you take damage from *Challenges*.
 Subtract the armour modifier from the *Effect* before reducing your *Grit*
@@ -289,13 +290,11 @@ The *Effect* die is an exploding die (i.e. if the result is a $6$, keep rolling 
 The *Effect* you apply is never lower than the *Effect* *Tier* of your approach, regardless of the die outcome.
 Your *Effect* is subtracted from the *Challenge* *Disposition*.
 
-|                         | Examples                                                                          |
-|:----------------------- | --------------------------------------------------------------------------------- |
-| $-1e$<br>**Bad**        | Improvised tool;<br>Rock, pipe, punch.                                            |
-| $\pm0e$<br>**Mediocre** | Primitive tool;<br>Weak argument;<br>Knife, staff.                                |
-| $+1e$<br>**Good**       | Fit for purpose tool;<br>Good argument; <br>Revolver, one-handed sword.           |
-| $+2e$<br>**Better**     | Expert grade tool;<br>Strong rationale;<br>Autofire pistol, SMG, two-handed sword |
-| $+3e$<br>**Best**       | Tech augmented expert grade tool;<br>Rifle, shotgun, large axe and bastard sword  |
+|                      | Examples                                                               |
+| :------------------- | ---------------------------------------------------------------------- |
+| $-1e$<br>**Minor**   | Primitive tool<br>Weak argument or approach<br>Small weapons           |
+| $\pm 0e$<br>**Base** | Fit for purpose tool;<br>Good argument or approach; <br>Medium weapons |
+| $+1e$<br>**Major**   | Expert grade tool<br>Strong rationale or approach<br>Large weapons     |
 
 #### Challenges {-}
 
@@ -343,5 +342,5 @@ At any moment you can decide it is your last scene.
 When you do that, re-roll your *Ego* and *Grit*, and keep the highest values.
 For this scene, you only expend *Ego* if you roll a $1$.
 By the end of the scene, you have to figure out how you depart (death, madness, mission, etc.).
-You can create a new character with half (rounded up) the number of *Advances* the previous character had.
+You can create a new character with half (rounded up) the number of *Advancements* the previous character had.
 
