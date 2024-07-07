@@ -91,6 +91,9 @@ Roll as many times as you have points.
 | $1:2$ | **Administration**<br>Law, Business, Investigation, Trading, Negotiation                                      | **Cultures**<br>Religion, Arts, Alien, Streetwise, Spacers, World (specify), Language (specify)                                                    | **Liaison**<br>Leadership, Persuasion, Connections, Empathy, Deception, Intimidation, Performance, Seduction |
 | $3:4$ | **Athletics**<br>Speed, Acrobatics, Throwing, Strength, Endurance, Zero-G                                     | **Violence**<br>Energy projectiles, Small guns, Primitive projectiles, Long range weapons, Mount gunnery, Bludgeoning, Slashing, Piercing, Unarmed | **Survival**<br>Sneak, Orientation, Forage, Tame, Crafting, Tactics, Vigilance                               |
 | $5:6$ | **Technology**<br>Astronautics, Medical, Computers, Machinery, Explosives, Robotics, Battledress, Electronics | **Vehicles**<br>Aircraft, Civilian land craft, Military land craft, Spacecrafts, Watercraft                                                        | **Sciences**<br>Geology, Ecology, Psychology, History, Medicine, Linguistics, Chemistry, Archaeology         |
+It is assumed you are always honing your skills and learning new ones.
+It takes 2 years and material costs to develop a new skill while you take your normal day-to-day activities.
+
 
 #### Determine ratings  {-}
 
@@ -178,25 +181,28 @@ You also gain $+1$ *Experience* for each new *Condition* you develop.
 
 Whenever it is narratively coherent, you may spend *Experience* equal to $2\times$ your current number of *Advancements* to gain a new one.
 
-|                |                                                                                            |
-| -------------- | ------------------------------------------------------------------------------------------ |
-| Asceticism     | You do not take $-1d$ when rolling for *Grit* while poorly fed.                            |
-| Assassin       | $+2d$ when trying to assassinate an unaware rival.                                         |
-| Bodyguard      | You can choose to take damage instead of one of your allies.                               |
-| Could be worse | When **Broken** you do not take the penalty of $-1d$.                                      |
-| Danger sense   | $+1d$ whenever you use a **Insight/Evasion** *Save*.                                       |
-| Developed      | Gain $1$ in an *Attribute*. The maximum you can have in all *Attributes* together is $10$. |
-| Die Hard       | When you reset your *Grit*, roll $+1d$ and sum all the dice you rolled.                    |
-| Dodger         | Unarmed or primitive weapons cannot hit you.                                               |
-| Eager          | When you reset your *Ego*, roll $+1d$ and keep the highest.                                |
-| Fast           | When you roll, your *Effect* is always applied first.                                      |
-| Henchkeeper    | When appropriate, you can acquire non-combatant henchmen in a community.                   |
-| Ironhide       | When unarmoured your **Armour** is $1$.                                                    |
-| Sensory acuity | You have $+1d$ on noticing things through a chosen sense.                                  |
-| Sleek          | $+1d$ whenever you contort yourself to to break free.                                      |
-| Unarmed        | Unarmed attacks are not considered improvised, and are $+1e$                               |
-| Unyielding     | When **Weary** you do not take the penalty of $-1d$.                                       |
-| Whirlwind      | In combat, when you are successful, select an additional die as a second effect.           |
+|                   |                                                                                            |
+| ----------------- | ------------------------------------------------------------------------------------------ |
+| Asceticism        | You do not take $-1d$ when rolling for *Grit* while poorly fed.                            |
+| Assassin          | $+2d$ when trying to assassinate an unaware rival.                                         |
+| Bodyguard         | You can choose to take damage instead of one of your allies.                               |
+| Could be worse    | When **Broken** you do not take the penalty of $-1d$.                                      |
+| Danger sense      | $+1d$ whenever you use a **Insight/Evasion** *Save*.                                       |
+| Developed         | Gain $1$ in an *Attribute*. The maximum you can have in all *Attributes* together is $10$. |
+| Die Hard          | When you reset your *Grit*, roll $+1d$ and sum all the dice you rolled.                    |
+| Dodger            | Unarmed or primitive weapons cannot hit you.                                               |
+| Eager             | When you reset your *Ego*, roll $+1d$ and keep the highest.                                |
+| Expert            | You have $3$ additional skill points. This is only available during character creation.    |
+| Fast              | When you roll, your *Effect* is always applied first.                                      |
+| Healer            | You can automatically stabilise a *Mortally Wounded* ally.                                 |
+| Henchkeeper       | You automatically succeed acquiring non-combatant henchmen in a community.                 |
+| Ironhide          | When unarmoured, your **Armour** is $1$.                                                   |
+| Sensory acuity    | You have $+1d$ on noticing things through a chosen sense.                                  |
+| Sleek             | $+1d$ whenever you contort yourself to to break free.                                      |
+| Spacefarer        | You automatically succeed in piloting *Challenges* up to $3d$.                             |
+| Martial combatant | Unarmed attacks are not considered improvised, and are $+1e$                               |
+| Unyielding        | When **Weary** you do not take the penalty of $-1d$.                                       |
+| Whirlwind         | In melee combat, when you are successful, select an additional die as a second effect.     |
 
 ### Conditions
 
