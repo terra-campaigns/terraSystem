@@ -7,10 +7,14 @@
 - Changed:
 	- Conditions / Ego recover are triggered by Panic events
 	- Started aligning advancements with -WN for conversion of Hostile
+	- Changed archetypes based on CWN/SWN, they influence skill groups
+	- Either use skills or add an attribute
+	- Starting to expand new approach to Challenges
 	- Improved sub system for Effect and applied it to initial list of weapons
 
 **v0.6.0**
 
+- Merged back changes implemented on Degenesis game.
 - New:
 	- Design principles are made explicit in the appendix
 	- Some examples are added
@@ -44,6 +48,7 @@
 	- Reorganised Effect and Challenge headers.
 	- Swapped section titles and text fonts.
 - Fixed changelog sync and publish.
+- Base version for Degenesis campaign.
 
 **v0.5.2**
 
