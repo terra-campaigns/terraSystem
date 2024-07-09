@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Section 1 System Reference v0.6.1 | Terra System</title>
+  <title>Section 1 System Reference v0.6.1b | Terra System</title>
   <meta name="description" content="This is a minimal TTRPG engine." />
   <meta name="generator" content="bookdown 0.38 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Section 1 System Reference v0.6.1 | Terra System" />
+  <meta property="og:title" content="Section 1 System Reference v0.6.1b | Terra System" />
   <meta property="og:type" content="book" />
   <meta property="og:image" content="https://efsalvarenga.github.io/terraSystem/imgs/TerranEngineCover.png" />
   <meta property="og:description" content="This is a minimal TTRPG engine." />
   <meta name="github-repo" content="efsalvarenga/terraSystem" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Section 1 System Reference v0.6.1 | Terra System" />
+  <meta name="twitter:title" content="Section 1 System Reference v0.6.1b | Terra System" />
   
   <meta name="twitter:description" content="This is a minimal TTRPG engine." />
   <meta name="twitter:image" content="https://efsalvarenga.github.io/terraSystem/imgs/TerranEngineCover.png" />
@@ -75,7 +75,7 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
-<li class="chapter" data-level="1" data-path="srd.html"><a href="srd.html"><i class="fa fa-check"></i><b>1</b> System Reference v0.6.1</a>
+<li class="chapter" data-level="1" data-path="srd.html"><a href="srd.html"><i class="fa fa-check"></i><b>1</b> System Reference v0.6.1b</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="srd.html"><a href="srd.html#characters"><i class="fa fa-check"></i><b>1.1</b> Characters</a>
 <ul>
@@ -90,8 +90,9 @@
 <li class="chapter" data-level="1.2" data-path="srd.html"><a href="srd.html#rules"><i class="fa fa-check"></i><b>1.2</b> Rules</a>
 <ul>
 <li class="chapter" data-level="1.2.1" data-path="srd.html"><a href="srd.html#risky-actions"><i class="fa fa-check"></i><b>1.2.1</b> Risky Actions</a></li>
-<li class="chapter" data-level="1.2.2" data-path="srd.html"><a href="srd.html#fortune-die"><i class="fa fa-check"></i><b>1.2.2</b> Fortune die</a></li>
-<li class="chapter" data-level="1.2.3" data-path="srd.html"><a href="srd.html#sayonara"><i class="fa fa-check"></i><b>1.2.3</b> Sayonara</a></li>
+<li class="chapter" data-level="1.2.2" data-path="srd.html"><a href="srd.html#challenges"><i class="fa fa-check"></i><b>1.2.2</b> Challenges</a></li>
+<li class="chapter" data-level="1.2.3" data-path="srd.html"><a href="srd.html#fortune-die"><i class="fa fa-check"></i><b>1.2.3</b> Fortune die</a></li>
+<li class="chapter" data-level="1.2.4" data-path="srd.html"><a href="srd.html#sayonara"><i class="fa fa-check"></i><b>1.2.4</b> Sayonara</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="making-a-game.html"><a href="making-a-game.html"><i class="fa fa-check"></i><b>2</b> Making a Game</a>
@@ -127,7 +128,7 @@
 
             <section class="normal" id="section-">
 <div id="srd" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Section 1</span> System Reference v0.6.1<a href="srd.html#srd" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<h1><span class="header-section-number">Section 1</span> System Reference v0.6.1b<a href="srd.html#srd" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="taxonomy" class="section level4 unnumbered hasAnchor">
 <h4>Taxonomy<a href="srd.html#taxonomy" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
@@ -143,29 +144,123 @@
 <li>With the other players, define a cohesive group concept.</li>
 <li>Always start with a Name and <em>Archetype</em>.</li>
 <li>Roll for <em>Attributes</em> and assign points.</li>
+<li>(Optional) Roll for and choose <em>Skills</em>.</li>
 <li>Roll for <em>Grit</em> and <em>Ego.</em></li>
 <li>Choose one <em>Advancement.</em></li>
 </ol>
-<p>A character sheet is available <a href="assets/TerranSheet.pdf">here</a>.</p>
+<p>A text version of the character sheet is available <a href="assets/TerranSheet.txt">here</a>.
+An artistic version is available <a href="assets/TerranSheet.pdf">here</a>.</p>
 <div id="archetypes" class="section level3 hasAnchor" number="1.1.1">
 <h3><span class="header-section-number">1.1.1</span> Archetypes<a href="srd.html#archetypes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>You are defined by an <em>Archetype</em>, which encapsulates your background, concept and role within the narrative.
 Each <em>Archetype</em> should offer an immediate grasp of your identity and behaviours.
 It is expected you will evolve beyond these initial <em>Archetypes</em> towards unique narratives.</p>
-<ul>
-<li><strong>Hero</strong>: Embodies courage and strength, often the protagonist fighting against the odds.</li>
-<li><strong>Mentor</strong>: Provides guidance and wisdom, helping the hero on their journey.</li>
-<li><strong>Everyman</strong>: Represents the common man, relatability and realism.</li>
-<li><strong>Innocent</strong>: Embodies purity, optimism, and faith.</li>
-<li><strong>Ruler</strong>: Exudes control, responsibility, and sovereignty.</li>
-<li><strong>Sage</strong>: Seeks truth, knowledge, and wisdom.</li>
-<li><strong>Explorer</strong>: Loves discovering new worlds, autonomy, and the freedom to find out who they are through exploration.</li>
-<li><strong>Outlaw</strong>: Represents rebellion, breaking the rules, and fighting against the status quo.</li>
-<li><strong>Magician</strong>: Transforms reality, embodies vision and imagination.</li>
-<li><strong>Lover</strong>: Pursues connection, romance, and passion.</li>
-<li><strong>Jester</strong>: Values joy, humor, and light-heartedness.</li>
-<li><strong>Caregiver</strong>: Provides nurture, generosity, and compassion.</li>
-</ul>
+<table>
+<colgroup>
+<col width="18%" />
+<col width="46%" />
+<col width="34%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Archetype</th>
+<th align="left">Description</th>
+<th align="left">Skill Groups (Optional)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Clergy</strong></td>
+<td align="left">Spiritual leaders and advisors</td>
+<td align="left">Cultures, Administration</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Bureaucrat</strong></td>
+<td align="left">Administrators and office workers</td>
+<td align="left">Liaison, Administration</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Trainer</strong></td>
+<td align="left">Coaches and fitness instructors</td>
+<td align="left">Athletics, Administration</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Agent</strong></td>
+<td align="left">Covert operatives and enforcers</td>
+<td align="left">Violence, Administration</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Coder</strong></td>
+<td align="left">Programmers and software developers</td>
+<td align="left">Technology, Administration</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Artist</strong></td>
+<td align="left">Creators of art and culture</td>
+<td align="left">Liaison, Cultures</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Criminal</strong></td>
+<td align="left">Illicit operatives and thieves</td>
+<td align="left">Survival, Cultures</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Dilettante</strong></td>
+<td align="left">Jack-of-all-trades and adventurers</td>
+<td align="left">Athletics, Liaison</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Protector</strong></td>
+<td align="left">Bodyguards and security personnel</td>
+<td align="left">Violence, Liaison</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Disciple</strong></td>
+<td align="left">Devoted followers and apprentices</td>
+<td align="left">Survival, Liaison</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Fixer</strong></td>
+<td align="left">Repair experts and mediators</td>
+<td align="left">Technology, Liaison</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Academic</strong></td>
+<td align="left">Scholars and researchers</td>
+<td align="left">Sciences, Liaison</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Spy</strong></td>
+<td align="left">Undercover agents and infiltrators</td>
+<td align="left">Survival, Athletics</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Soldier</strong></td>
+<td align="left">Survivalists and combat experts</td>
+<td align="left">Survival, Violence</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Spacer</strong></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Traveller</strong></td>
+<td align="left">Explorers and navigators</td>
+<td align="left">Vehicles, Survival</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Mechanic</strong></td>
+<td align="left">Engineers and machine operators</td>
+<td align="left">Vehicles, Technology</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Scientist</strong></td>
+<td align="left">Researchers and innovators</td>
+<td align="left">Sciences, Technology</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="attributes" class="section level3 hasAnchor" number="1.1.2">
 <h3><span class="header-section-number">1.1.2</span> Attributes<a href="srd.html#attributes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -178,7 +273,7 @@ It is expected you will evolve beyond these initial <em>Archetypes</em> towards 
 <li><strong>Attunement</strong>: get in the flow and tune the arcane or technology.</li>
 <li><strong>Influence</strong>: compel obedience, socialise, influence.</li>
 </ul>
-<p>Each <em>Attribute</em> has a rating (from <span class="math inline">\(0\)</span> to <span class="math inline">\(4\)</span>) that determine how many dice to roll when performing <em>Risky Actions.</em>
+<p>Each <em>Attribute</em> has a rating (from <span class="math inline">\(0\)</span> to <span class="math inline">\(4\)</span>) that determine how many <strong>Light Dice</strong> to roll when performing <em>Risky Actions.</em>
 On the character sheet, their ratings are read horizontally.</p>
 <p><em>Saves</em> are groupings of two <em>Attributes</em> each.</p>
 <ul>
@@ -188,9 +283,9 @@ On the character sheet, their ratings are read horizontally.</p>
 </ul>
 <p><em>Saves</em> also have ratings (from <span class="math inline">\(0\)</span> to <span class="math inline">\(2\)</span>) that determine how many dice to roll in a <em>Reaction</em> situation.
 On the character sheet, their ratings are read vertically.</p>
-<div id="determine-ratings" class="section level4 unnumbered hasAnchor">
-<h4>Determine ratings<a href="srd.html#determine-ratings" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>For each <em>Save</em> grouping (<strong>Insight</strong>, <strong>Prowess</strong>, and <strong>Resolve</strong>) roll <span class="math inline">\(1d\)</span> and consult the table below to determine how many rating points you have to distribute for each.</p>
+<div id="determine-attributes" class="section level4 unnumbered hasAnchor">
+<h4>Determine Attributes<a href="srd.html#determine-attributes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>For each <em>Save</em> grouping (<strong>Insight</strong>, <strong>Prowess</strong>, and <strong>Resolve</strong>) roll <span class="math inline">\(1d\)</span> and consult the table below to determine how many <em>Attribute</em> points you have to distribute for each.</p>
 <table>
 <thead>
 <tr class="header">
@@ -209,10 +304,11 @@ On the character sheet, their ratings are read vertically.</p>
 </tr>
 </tbody>
 </table>
-<p>In certain conditions, you might permanently lose ratings, this is discussed in other sections.</p>
+<p>If you are not using <em>Skills</em> in your game, choose an <em>Attribute</em> and assign it an additional point.</p>
+<p>In certain conditions, you might permanently lose <em>Attribute</em> points, this is discussed in other sections.</p>
 </div>
-<div id="example-scuffs-ratings" class="section level4 unnumbered hasAnchor">
-<h4>Example: Scuff’s ratings<a href="srd.html#example-scuffs-ratings" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="example-scuffs-attributes" class="section level4 unnumbered hasAnchor">
+<h4>Example: Scuff’s Attributes<a href="srd.html#example-scuffs-attributes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><img src="https://i.imgur.com/bnKfumi.png" /></p>
 <p>Scuff has an <strong>Attunement</strong> <em>Attribute</em> rating of <span class="math inline">\(3\)</span> (read horizontally).
 They roll <span class="math inline">\(3d\)</span> when performing a Risky Action related to <strong>Attunement</strong>.
@@ -222,50 +318,31 @@ If their <strong>Resolve</strong> is challenged, they may roll a <em>Reaction</e
 </div>
 <div id="skills" class="section level3 hasAnchor" number="1.1.3">
 <h3><span class="header-section-number">1.1.3</span> Skills<a href="srd.html#skills" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Roll <span class="math inline">\(2d\)</span>, and consult the result on the column and row.
-You get one skill of your choice from the group you rolled.
-Roll as many times as you have points.</p>
-<table>
-<colgroup>
-<col width="1%" />
-<col width="29%" />
-<col width="39%" />
-<col width="29%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th><span class="math inline">\(1:2\)</span></th>
-<th><span class="math inline">\(3:4\)</span></th>
-<th><span class="math inline">\(5:6\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(1:2\)</span></td>
-<td><strong>Administration</strong><br>Law, Business, Investigation, Trading, Negotiation</td>
-<td><strong>Cultures</strong><br>Religion, Arts, Alien, Streetwise, Spacers, World (specify), Language (specify)</td>
-<td><strong>Liaison</strong><br>Leadership, Persuasion, Connections, Empathy, Deception, Intimidation, Performance, Seduction</td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(3:4\)</span></td>
-<td><strong>Athletics</strong><br>Speed, Acrobatics, Throwing, Strength, Endurance, Zero-G</td>
-<td><strong>Violence</strong><br>Energy projectiles, Small guns, Primitive projectiles, Long range weapons, Mount gunnery, Bludgeoning, Slashing, Piercing, Unarmed</td>
-<td><strong>Survival</strong><br>Sneak, Orientation, Forage, Tame, Crafting, Tactics, Vigilance</td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(5:6\)</span></td>
-<td><strong>Technology</strong><br>Astronautics, Medical, Computers, Machinery, Explosives, Robotics, Battledress, Electronics</td>
-<td><strong>Vehicles</strong><br>Aircraft, Civilian land craft, Military land craft, Spacecrafts, Watercraft</td>
-<td><strong>Sciences</strong><br>Geology, Ecology, Psychology, History, Medicine, Linguistics, Chemistry, Archaeology</td>
-</tr>
-</tbody>
-</table>
-<p>It is assumed you are always honing your skills and learning new ones.
-It takes 2 years and material costs to develop a new skill while you take your normal day-to-day activities.</p>
-<div id="determine-ratings-1" class="section level4 unnumbered hasAnchor">
-<h4>Determine ratings<a href="srd.html#determine-ratings-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Roll <span class="math inline">\(1d\)</span> and consult the table below to determine how many rating points you have to distribute for each.</p>
+<p>Using <em>Skills</em> is optional.
+You can assign an additional <em>Attribute</em> point if you choose to not use <em>Skills</em> in your game.</p>
+<p><em>Skills</em> pertain to <em>Skill</em> groups.
+The list below contain example <em>Skills</em> per group.
+With the GM you can adapt these or create new ones.</p>
+<ul>
+<li><strong>Administration</strong>: Law, Business, Investigation, Trading, Negotiation</li>
+<li><strong>Cultures</strong>: Religion, Arts, Alien, Streetwise, Spacers, World (specify), Language (specify)</li>
+<li><strong>Liaison</strong>: Leadership, Persuasion, Connections, Empathy, Deception, Intimidation, Performance, Seduction</li>
+<li><strong>Athletics</strong>: Speed, Acrobatics, Throwing, Strength, Endurance, Zero-G</li>
+<li><strong>Violence</strong>: Energy projectiles, Small guns, Primitive projectiles, Long range weapons, Mount gunnery, Bludgeoning, Slashing, Piercing, Unarmed</li>
+<li><strong>Survival</strong>: Sneak, Orientation, Forage, Tame, Crafting, Tactics, Vigilance</li>
+<li><strong>Technology</strong>: Astronautics, Medical, Computers, Machinery, Explosives, Robotics, Battledress, Electronics</li>
+<li><strong>Vehicles</strong>: Aircraft, Civilian land craft, Military land craft, Spacecrafts, Watercraft</li>
+<li><strong>Sciences</strong>: Geology, Ecology, Psychology, History, Medicine, Linguistics, Chemistry, Archaeology</li>
+</ul>
+<p>Every time a <em>Skill</em> is relevant for a <em>Risky Action</em>, you roll an extra <strong>Light Die</strong>.
+It is assumed you are always honing your <em>Skills</em> and learning new ones.
+It takes 2 years and material costs to develop a new <em>Skill</em> while you take your normal day-to-day activities.</p>
+<div id="determine-skills" class="section level4 unnumbered hasAnchor">
+<h4>Determine Skills<a href="srd.html#determine-skills" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Your <em>Archetype</em> defines <span class="math inline">\(2\)</span> <em>Skill</em> groups.
+Choose <span class="math inline">\(3\)</span> <em>Skills</em> from them.
+Roll <span class="math inline">\(1d\)</span> and consult the table below to determine how many additional <em>Skills</em> you have.
+You can choose them from any group.</p>
 <table>
 <thead>
 <tr class="header">
@@ -277,10 +354,10 @@ It takes 2 years and material costs to develop a new skill while you take your n
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><em>Skill</em> points</td>
-<td align="center"><span class="math inline">\(4\)</span></td>
-<td align="center"><span class="math inline">\(5\)</span></td>
-<td align="center"><span class="math inline">\(6\)</span></td>
+<td align="left">Additional <em>Skills</em></td>
+<td align="center"><span class="math inline">\(1\)</span></td>
+<td align="center"><span class="math inline">\(2\)</span></td>
+<td align="center"><span class="math inline">\(3\)</span></td>
 </tr>
 </tbody>
 </table>
@@ -662,7 +739,9 @@ Then gather 6-sided dice.</p>
 </tr>
 </tbody>
 </table>
-<p>Evaluate <em>Effects</em> as appropriate, if the <em>Risky Action</em> is part of a <em>Challenge</em>.</p>
+</div>
+<div id="challenges" class="section level3 hasAnchor" number="1.2.2">
+<h3><span class="header-section-number">1.2.2</span> Challenges<a href="srd.html#challenges" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="effects" class="section level4 unnumbered hasAnchor">
 <h4>Effects<a href="srd.html#effects" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><em>Effects</em> determines the quantitative result of your <em>Risky Actions</em> towards overcoming <em>Challenges</em>.
@@ -675,7 +754,7 @@ Examples of <em>Effects</em> are:</p>
 </ul>
 <p>When you roll your <em>Risky Actions</em>, choose one die to be your <em>Effect</em> (generally the second highest, if the highest was used as <em>Precision</em>).
 The <em>Effect</em> die is an exploding die (i.e. if the result is a <span class="math inline">\(6\)</span>, keep rolling and accumulating the result).
-The <em>Effect</em> you apply is never lower than the <em>Effect</em> <em>Tier</em> of your approach, regardless of the die outcome.
+The <em>Effect</em> is modified by the its Tier.
 Your <em>Effect</em> is subtracted from the <em>Challenge</em> <em>Disposition</em>.</p>
 <table>
 <colgroup>
@@ -684,7 +763,7 @@ Your <em>Effect</em> is subtracted from the <em>Challenge</em> <em>Disposition</
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left"></th>
+<th align="left">Tier</th>
 <th>Examples</th>
 </tr>
 </thead>
@@ -704,8 +783,8 @@ Your <em>Effect</em> is subtracted from the <em>Challenge</em> <em>Disposition</
 </tbody>
 </table>
 </div>
-<div id="challenges" class="section level4 unnumbered hasAnchor">
-<h4>Challenges<a href="srd.html#challenges" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="challenges-1" class="section level4 unnumbered hasAnchor">
+<h4>Challenges<a href="srd.html#challenges-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Sometimes, multiple actions are required to overcome <em>Challenges</em>.
 Examples of <em>Challenges</em> are</p>
 <ul>
@@ -787,15 +866,15 @@ A bulky rival might be a Dangerous <em>Challenge</em> to fight against, but a Tr
 Subtract the armour rating from the <em>Effect</em>, and then reduce the remainder from your <em>Grit</em>.</p>
 </div>
 </div>
-<div id="fortune-die" class="section level3 hasAnchor" number="1.2.2">
-<h3><span class="header-section-number">1.2.2</span> Fortune die<a href="srd.html#fortune-die" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="fortune-die" class="section level3 hasAnchor" number="1.2.3">
+<h3><span class="header-section-number">1.2.3</span> Fortune die<a href="srd.html#fortune-die" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>When the GM wants to leave some decision to the dice, determine the chances and roll <span class="math inline">\(1d\)</span>.</p>
 </div>
-<div id="sayonara" class="section level3 hasAnchor" number="1.2.3">
-<h3><span class="header-section-number">1.2.3</span> Sayonara<a href="srd.html#sayonara" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="sayonara" class="section level3 hasAnchor" number="1.2.4">
+<h3><span class="header-section-number">1.2.4</span> Sayonara<a href="srd.html#sayonara" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>At any moment you can decide it is your last scene.
 When you do that, re-roll your <em>Ego</em> and <em>Grit</em>, and keep the highest values.
-For this scene, you only expend <em>Ego</em> if you roll a <span class="math inline">\(1\)</span>.
+For this scene, you only expend <em>Ego</em> if you roll a <span class="math inline">\(1\)</span> on <strong>Dark Dice</strong>.
 By the end of the scene, you have to figure out how you depart (death, madness, mission, etc.).
 You can create a new character with half (rounded up) the number of <em>Advancements</em> the previous character had.</p>
 

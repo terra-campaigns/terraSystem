@@ -9,6 +9,7 @@ conditions
 equipment
 rules
 risky-actions
+challenges
 fortune-die
 sayonara
 making-a-game

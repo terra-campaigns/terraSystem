@@ -1,4 +1,4 @@
-# System Reference v0.6.1 {#srd}
+# System Reference v0.6.1b {#srd}
 
 #### Taxonomy {-}
 
@@ -13,10 +13,13 @@
 1. With the other players, define a cohesive group concept.
 2. Always start with a Name and *Archetype*.
 3. Roll for *Attributes* and assign points.
-4. Roll for *Grit* and *Ego.*
-5. Choose one *Advancement.*
+4. (Optional) Roll for and choose *Skills*.
+5. Roll for *Grit* and *Ego.*
+6. Choose one *Advancement.*
 
-A character sheet is available [here](assets/TerranSheet.pdf).
+A text version of the character sheet is available [here](assets/TerranSheet.txt).
+An artistic version is available [here](assets/TerranSheet.pdf).
+
 
 ### Archetypes
 
@@ -24,18 +27,26 @@ You are defined by an *Archetype*, which encapsulates your background, concept a
 Each *Archetype* should offer an immediate grasp of your identity and behaviours.
 It is expected you will evolve beyond these initial *Archetypes* towards unique narratives.
 
-- **Hero**: Embodies courage and strength, often the protagonist fighting against the odds.
-- **Mentor**: Provides guidance and wisdom, helping the hero on their journey.
-- **Everyman**: Represents the common man, relatability and realism.
-- **Innocent**: Embodies purity, optimism, and faith.
-- **Ruler**: Exudes control, responsibility, and sovereignty.
-- **Sage**: Seeks truth, knowledge, and wisdom.
-- **Explorer**: Loves discovering new worlds, autonomy, and the freedom to find out who they are through exploration.
-- **Outlaw**: Represents rebellion, breaking the rules, and fighting against the status quo.
-- **Magician**: Transforms reality, embodies vision and imagination.
-- **Lover**: Pursues connection, romance, and passion.
-- **Jester**: Values joy, humor, and light-heartedness.
-- **Caregiver**: Provides nurture, generosity, and compassion.
+| Archetype      | Description                         | Skill Groups (Optional)    |
+| :------------- | :---------------------------------- | :------------------------- |
+| **Clergy**     | Spiritual leaders and advisors      | Cultures, Administration   |
+| **Bureaucrat** | Administrators and office workers   | Liaison, Administration    |
+| **Trainer**    | Coaches and fitness instructors     | Athletics, Administration  |
+| **Agent**      | Covert operatives and enforcers     | Violence, Administration   |
+| **Coder**      | Programmers and software developers | Technology, Administration |
+| **Artist**     | Creators of art and culture         | Liaison, Cultures          |
+| **Criminal**   | Illicit operatives and thieves      | Survival, Cultures         |
+| **Dilettante** | Jack-of-all-trades and adventurers  | Athletics, Liaison         |
+| **Protector**  | Bodyguards and security personnel   | Violence, Liaison          |
+| **Disciple**   | Devoted followers and apprentices   | Survival, Liaison          |
+| **Fixer**      | Repair experts and mediators        | Technology, Liaison        |
+| **Academic**   | Scholars and researchers            | Sciences, Liaison          |
+| **Spy**        | Undercover agents and infiltrators  | Survival, Athletics        |
+| **Soldier**    | Survivalists and combat experts     | Survival, Violence         |
+| **Spacer**     |                                     |                            |
+| **Traveller**  | Explorers and navigators            | Vehicles, Survival         |
+| **Mechanic**   | Engineers and machine operators     | Vehicles, Technology       |
+| **Scientist**  | Researchers and innovators          | Sciences, Technology       |
 
 ### Attributes
 
@@ -48,7 +59,7 @@ There are $6$ *Attributes* that you can use to overcome obstacles.
 - **Attunement**: get in the flow and tune the arcane or technology.
 - **Influence**: compel obedience, socialise, influence.
 
-Each *Attribute* has a rating (from $0$ to $4$) that determine how many dice to roll when performing *Risky Actions.*
+Each *Attribute* has a rating (from $0$ to $4$) that determine how many **Light Dice** to roll when performing *Risky Actions.*
 On the character sheet, their ratings are read horizontally.
 
 *Saves* are groupings of two *Attributes* each.
@@ -60,17 +71,19 @@ On the character sheet, their ratings are read horizontally.
 *Saves* also have ratings (from $0$ to $2$) that determine how many dice to roll in a *Reaction* situation.
 On the character sheet, their ratings are read vertically.
 
-#### Determine ratings  {-}
+#### Determine Attributes  {-}
 
-For each *Save* grouping (**Insight**, **Prowess**, and **Resolve**) roll $1d$ and consult the table below to determine how many rating points you have to distribute for each.
+For each *Save* grouping (**Insight**, **Prowess**, and **Resolve**) roll $1d$ and consult the table below to determine how many *Attribute* points you have to distribute for each.
 
 |                    | $1:3$ | $4:5$ | $6$ |
 | :----------------- | :---: | :---: | :-: |
 | *Attribute* points |  $1$  |  $2$  | $3$ |
 
-In certain conditions, you might permanently lose ratings, this is discussed in other sections.
+If you are not using *Skills* in your game, choose an *Attribute* and assign it an additional point.
 
-#### Example: Scuff's ratings {-}
+In certain conditions, you might permanently lose *Attribute* points, this is discussed in other sections.
+
+#### Example: Scuff's Attributes {-}
 
 ![](https://i.imgur.com/bnKfumi.png)
 
@@ -82,26 +95,37 @@ If their **Resolve** is challenged, they may roll a *Reaction* with $1d$, based 
 
 ### Skills
 
-Roll $2d$, and consult the result on the column and row.
-You get one skill of your choice from the group you rolled.
-Roll as many times as you have points.
+Using *Skills* is optional.
+You can assign an additional *Attribute* point if you choose to not use *Skills* in your game.
 
-|       | $1:2$                                                                                                         | $3:4$                                                                                                                                              | $5:6$                                                                                                        |
-| ----- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| $1:2$ | **Administration**<br>Law, Business, Investigation, Trading, Negotiation                                      | **Cultures**<br>Religion, Arts, Alien, Streetwise, Spacers, World (specify), Language (specify)                                                    | **Liaison**<br>Leadership, Persuasion, Connections, Empathy, Deception, Intimidation, Performance, Seduction |
-| $3:4$ | **Athletics**<br>Speed, Acrobatics, Throwing, Strength, Endurance, Zero-G                                     | **Violence**<br>Energy projectiles, Small guns, Primitive projectiles, Long range weapons, Mount gunnery, Bludgeoning, Slashing, Piercing, Unarmed | **Survival**<br>Sneak, Orientation, Forage, Tame, Crafting, Tactics, Vigilance                               |
-| $5:6$ | **Technology**<br>Astronautics, Medical, Computers, Machinery, Explosives, Robotics, Battledress, Electronics | **Vehicles**<br>Aircraft, Civilian land craft, Military land craft, Spacecrafts, Watercraft                                                        | **Sciences**<br>Geology, Ecology, Psychology, History, Medicine, Linguistics, Chemistry, Archaeology         |
-It is assumed you are always honing your skills and learning new ones.
-It takes 2 years and material costs to develop a new skill while you take your normal day-to-day activities.
+*Skills* pertain to *Skill* groups.
+The list below contain example *Skills* per group.
+With the GM you can adapt these or create new ones.
 
+- **Administration**: Law, Business, Investigation, Trading, Negotiation
+- **Cultures**: Religion, Arts, Alien, Streetwise, Spacers, World (specify), Language (specify)
+- **Liaison**: Leadership, Persuasion, Connections, Empathy, Deception, Intimidation, Performance, Seduction
+- **Athletics**: Speed, Acrobatics, Throwing, Strength, Endurance, Zero-G
+- **Violence**: Energy projectiles, Small guns, Primitive projectiles, Long range weapons, Mount gunnery, Bludgeoning, Slashing, Piercing, Unarmed
+- **Survival**: Sneak, Orientation, Forage, Tame, Crafting, Tactics, Vigilance
+- **Technology**: Astronautics, Medical, Computers, Machinery, Explosives, Robotics, Battledress, Electronics
+- **Vehicles**: Aircraft, Civilian land craft, Military land craft, Spacecrafts, Watercraft
+- **Sciences**: Geology, Ecology, Psychology, History, Medicine, Linguistics, Chemistry, Archaeology
 
-#### Determine ratings  {-}
+Every time a *Skill* is relevant for a *Risky Action*, you roll an extra **Light Die**.
+It is assumed you are always honing your *Skills* and learning new ones.
+It takes 2 years and material costs to develop a new *Skill* while you take your normal day-to-day activities.
 
-Roll $1d$ and consult the table below to determine how many rating points you have to distribute for each.
+#### Determine Skills  {-}
 
-|                | $1:3$ | $4:5$ | $6$ |
-| :------------- | :---: | :---: | :-: |
-| *Skill* points |  $4$  |  $5$  | $6$ |
+Your *Archetype* defines $2$ *Skill* groups.
+Choose $3$ *Skills* from them.
+Roll $1d$ and consult the table below to determine how many additional *Skills* you have.
+You can choose them from any group.
+
+|                     | $1:3$ | $4:5$ | $6$ |
+| :------------------ | :---: | :---: | :-: |
+| Additional *Skills* |  $1$  |  $2$  | $3$ |
 
 ### Grit & Ego
 
@@ -273,7 +297,7 @@ Roll the dice and choose one die to be your *Precision* (generally the highest, 
 | $4:5$ | You *Succeed*, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
 |  $6$  | You *Succeed*. With the GM describe what happens.                                                                                                           |
 
-Evaluate *Effects* as appropriate, if the *Risky Action* is part of a *Challenge*.
+### Challenges
 
 #### Effects {-}
 
@@ -287,10 +311,10 @@ Examples of *Effects* are:
 
 When you roll your *Risky Actions*, choose one die to be your *Effect* (generally the second highest, if the highest was used as *Precision*).
 The *Effect* die is an exploding die (i.e. if the result is a $6$, keep rolling and accumulating the result).
-The *Effect* you apply is never lower than the *Effect* *Tier* of your approach, regardless of the die outcome.
+The *Effect* is modified by the its Tier.
 Your *Effect* is subtracted from the *Challenge* *Disposition*.
 
-|                      | Examples                                                               |
+| Tier                 | Examples                                                               |
 | :------------------- | ---------------------------------------------------------------------- |
 | $-1e$<br>**Minor**   | Primitive tool<br>Weak argument or approach<br>Small weapons           |
 | $\pm 0e$<br>**Base** | Fit for purpose tool;<br>Good argument or approach; <br>Medium weapons |
@@ -340,7 +364,7 @@ When the GM wants to leave some decision to the dice, determine the chances and 
 
 At any moment you can decide it is your last scene.
 When you do that, re-roll your *Ego* and *Grit*, and keep the highest values.
-For this scene, you only expend *Ego* if you roll a $1$.
+For this scene, you only expend *Ego* if you roll a $1$ on **Dark Dice**.
 By the end of the scene, you have to figure out how you depart (death, madness, mission, etc.).
 You can create a new character with half (rounded up) the number of *Advancements* the previous character had.
 
