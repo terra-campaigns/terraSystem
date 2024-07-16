@@ -1,63 +1,59 @@
-### Challenges
 
-Evaluate *Effects* as appropriate, if the *Risky Action* is part of a *Challenge*.
+- Announce trouble
+- Reveal an unwelcome truth
+- Ask a provocative question
+- Put someone in a spot, worsen a position or stress someone
+- Use up their resources
+- Remove a safety net, sense or connection
+- Hurt someone
+- Separate them
+- Capture someone
+- Turn their move back on them 
+- Demonstrate a downside
+- Expose a secret
+- Offer an opportunity with a tough choice
+- Tell them the consequences
+- Advance a countdown, progress a new challenge
+- Increase risk
+- Exploit someone's flaw
+- Change the environment 
+- Provide a choice of paths
+- Bar the way, force them to go backward
+- Hint at more than meets the eye
+- Present a discovery
+- Point to a looming danger
+- Introduce person, danger or faction 
+- Offer riches at a price
 
-#### Effects {-}
+Add list from Kult & Ironsworn/Starforged.
 
-*Effects* determines the quantitative result of your *Risky Actions* towards overcoming *Challenges*.
-Examples of *Effects* are:
+Player moves: make a mix of World Full of Nightmares and Kult
 
-- Damage given,
-- Convincing done,
-- Distance covered,
-- Weakness learned.
 
-When you roll your *Risky Actions*, choose one die to be your *Effect* (generally the second highest, if the highest was used as *Precision*).
-The *Effect* die is an exploding die (i.e. if the result is a $6$, keep rolling and accumulating the result).
-The *Effect* is modified by the its Tier.
-Your *Effect* is subtracted from the *Challenge* *Disposition*.
 
-| Tier                 | Examples                                                               |
-| :------------------- | ---------------------------------------------------------------------- |
-| $-1e$<br>**Minor**   | Primitive tool<br>Weak argument or approach<br>Small weapons           |
-| $\pm 0e$<br>**Base** | Fit for purpose tool;<br>Good argument or approach; <br>Medium weapons |
-| $+1e$<br>**Major**   | Expert grade tool<br>Strong rationale or approach<br>Large weapons     |
+You use the GM Move “Tell them the requirements or consequences and ask.”
 
-#### Challenges {-}
+* “Here’s the problem: we’re talking about a magical all seeing source. There is no underlying supernatural skill you possess, no item in your inventory, no tool at your disposal, etc. to overcome this fictionally potent opposition. There just flat out is no dice roll that can be made here to sneak through the all seeing magical eye. If you want to just “sneak in,” we’ll cut scene to you just instantly being confronted- no roll at all. Make sense? Obviously, it would be boring as hell to not make use of your Rogue-ness and I wouldn’t be living up to my GM Framework if I left you high and dry after remaining honest to the fiction. Obviously, you could try *not* sneaking in or any other number of approaches we could discuss. But if you’re dead set on sneaking in: you’ll need way more fictional positioning. I can think of some ideas, but I’m open to any thoughts that you have as well for how you can gain the fictional positioning and permissions to counter this all seeing eye.”
 
-Sometimes, multiple actions are required to overcome *Challenges*.
-Examples of *Challenges* are
+Bam. That’s how you do it. You tell the player that in order to live up to your GM Framework and to be a fan: you need to challenge them with fitting problems. They can’t just walk through everything or roll the dice to solve everything. In some cases: they lack the permissions to trigger a mechanic. So tell them that upfront. *From there*, **DO NOT** leave them high and dry. ***DO NOT*** just say “Nope. Can’t do that” and move on. Elaborate! Tell them *why* it’s impossible and if there’s a way to make it possible or otherwise make a compromise (“So there’s nothing that can counteract this all seeing eye. There’s no magic cloak or potion. You need to destroy it. Which means you need to learn about it. Obviously you’re a rogue and sneaking is your shtick- so perhaps we can find a way for you to sneak around and learn a clue about the eye’s weakness, eh?”)
 
-- fighting an enemy,
-- duelling rhetorically,
-- negotiating an environment,
-- crawling a location,
-- journeying.
+PbtA games are all about the Conversation about Fiction which lead to mechanics. When something is fictionally insurmountable: converse about it!
 
-*Challenges* have a descriptive **Name**.
-*Challenges* are divided in **Tiers**, which define how much *Effect* they take to be overcame (**Disposition**), and how many *Effect* dice they use (**Severity**).
+This logic *also* holds true for when something is possible, but suboptimal or you want to show how having greater fictional positioning could help you out. For example, in a game like Avatar Legends- let’s say a Waterbender wants to ambush a group of Fire Nation soldiers. You might say:
 
-|                 | Tier           | Examples                                                             |
-| --------------- | :------------- | -------------------------------------------------------------------- |
-| **Trivial**     | $5$<br>$d/2$   | Unskilled adversaries, low height climb, known journey               |
-| **Dangerous**   | $10$<br>$1d$   | Skilled adversaries, small predator, large prey, troublesome journey |
-| **Serious**     | $20$<br>$2d$   | Expert adversaries, large predator, traverse fire or acid            |
-| **Formidable**  | $30$<br>$3d$   | Human prime, apex predator, climbing the Everest                     |
-| **Exceptional** | $40+$<br>$4d+$ | Transhuman, often fatal environments, heroic journeys                |
+* “Okay, so you’re a waterbender and we can say there’s a convenient source of water to freeze people, right? We know your Style is all about icy imprisonment and you’ve picked up a Technique or two to demonstrate that. So it’s obviously Rely on Skills and Training- not Push Your Luck. *Here’s the thing*… they have scale over you here. There’s lots of them and only one of you. Even on a 10+, you’re only freezing some- not all. We’ll say half to keep things easy. You don’t have the positioning to get more.”
 
-Some challenges might be multifaceted.
-A bulky rival might be a Dangerous *Challenge* to fight against, but a Trivial *Challenge* to be convinced to ignore you.
+But if there was another waterbending PC/ NPC (or two), **then** you could say…
 
-When *Challenge Effects* are applied to you narratively, use the table.
+* “Ah, but with a team effort- even without any mechanical input? Yeah, you have more than enough positioning to lead the charge and get them all in one go.”
 
-|       | Consequence                    |
-| :---: | ------------------------------ |
-| $1:3$ | Something annoying happens.    |
-| $4:5$ | Something troublesome happens. |
-|  $6$  | Something devastating happens. |
+And the same can be said for when you need to establish different consequences for different approaches:
 
-When *Challenge* *Effects* are applied to you as damage your *Grit* might be reduced.
-Subtract the armour rating from the *Effect*, and then reduce the remainder from your *Grit*.
+* “Hmm, well if *you*- Bullseye our bow and arrow wielding Beacon- try to Directly Engage with Madame Andromeda, I can tell you even if you roll a 10+ to get the Quartz Crystal from her… you’ll be in grave danger and may need to Unleash to get away. And if you roll a 6-? It’s gonna be *baaad*. Like at least one really bad thing and also Take a Powerful Blow for certain. But if Luna- our Mythic Speed empowered Legacy- pulled this off? Yeah, a Hit to take the Crystal would grab it and she’d speed away in no time… and a 6- wouldn’t look bad either. Maybe a Condition. Or something lesser, honestly. There ain’t much Andromeda can do to you other than slow you down.”
+
+*And*, lastly, the same can be said for when it’s not impossible- but no other Move applies and you just have to lay down a way forward:
+
+* “Okay, so your Mentor is knocked out and, Pantomime- our body shifting Protege, you’re in control of the Morph-Jet now. You haven’t the slightest bit of fictional positioning to really *fly* this thing. You can set autopilot and get back home, of course. Problem is: surface to air missiles are locking on and you haven’t the faintest clue how to really dodge this stuff- not the kind of tech which comes from AEGIS, ya know? There’s no player facing move to cover this. You’re not unleashing any powers or anything else. *Maybe* you’re defending the jet and yourselves… but with what? Sub-par jet flying skills? So here’s what I’ll say, I’ll give you a hard choice: let the jet take the hit and be a long time to repair *or* take the yoke, hope for the best and you’ll dodge the missiles out of pure luck… but they’ll smash into a priceless monument and the world will be pissed at you and your Mentor. Thoughts?”
 
 
 
@@ -65,20 +61,6 @@ Subtract the armour rating from the *Effect*, and then reduce the remainder from
 
 
 
-
-
-
-
-
-
-*Trinity* is an expanded approach to *Challenges* for the **Terran Engine**.
-
-Like *Challenges*, a *Trinity* have descriptive **Names** and numeric **Disposition** and **Severity**.
-Unlike Challenges, a *Trinity*'s **Severity** has three dimensions, namely $HER$.
-
-- $H$ represents hardiness, force, size and/or resistance. Higher $H$ inflicts more physical harm and lasts longer.
-- $E$ represents excellence, cunning, swiftness and/or wits. Higher $E$ inflicts harm more frequently, silently or from further distance.
-- $R$ represents resolve, attunement, wealth, and/or resources. Higher $R$ have more ample consequences and are resolute.
 
 ## Severity $HER$
 
