@@ -253,7 +253,7 @@ For ranges, use what is narratively appropriate.
 | :--------------------: | --------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------ |
 |         $-1d$          | **Improvised**                                            | Unarmed                                    | Throwing **Objects**                             |
 |         $-1e$          | **Inefective**<br>Minor *Effect*                          | Small **Primitive**                        |                                                  |
-|     $\textemdash$      | **Base**<br>No modifications                              | Medium **Primitive**<br>Small **Advanced** | **Bow** & arrow<br>(Laser) **Pistol** / Revolver |
+|                        | **Base**<br>No modifications                              | Medium **Primitive**<br>Small **Advanced** | **Bow** & arrow<br>(Laser) **Pistol** / Revolver |
 |          $s+$          | **Slaughter**<br>*Effect* die explodes $5+$               | Large **Primitive**<br>Medium **Advanced** | (Semi) Auto Pistol<br>**SMG**                    |
 |         $+1e$          | **Effective**<br>Major *Effect*                           | Large **Primitive**                        | Laser / Hunting **Rifle**                        |
 |     $+1e$<br>$s+$      | **Effective** &<br>**Slaughter**                          |                                            | **Grenade**<br>**Shotgun**<br>**Military** Rifle |
