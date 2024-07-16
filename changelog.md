@@ -1,9 +1,10 @@
 # Changelog
 
-**v0.6.1a**
+**v0.6.1c**
 
 - New:
 	- Implemented list of skills, and skill sub-system
+	- Added character sheet in txt file
 - Changed:
 	- Conditions / Ego recover are triggered by Panic events
 	- Started aligning advancements with -WN for conversion of Hostile
@@ -11,6 +12,13 @@
 	- Either use skills or add an attribute
 	- Starting to expand new approach to Challenges
 	- Improved sub system for Effect and applied it to initial list of weapons
+	- Advancements: Dodger to *human* unarmed
+	- Simplified weapon tags
+	- Extended the weapons list based on new tags
+	- Reorganised Challenges chapter
+	- Reviewed challenge disposition and implemented Challenge morale
+- Text and aesthetics:
+	- Improvements on Taxonomy.
 
 **v0.6.0**
 
