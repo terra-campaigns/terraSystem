@@ -2,9 +2,9 @@
 
 #### Taxonomy {-}
 
-- "You" and "Your" are used interchangeably to refer to players and their characters. For disambiguation "Player(s)" is used when referring to the player outside the context of their character.
+- "You"/"Your" are used to refer to players and their characters, interchangeably.
 - "Challenge" is used to represent anything that is antagonistic to you, be that an NPC, the environment, etc.
-- Meta game concepts, stats and currencies are marked as *italic*.
+- Meta game concepts, stats and currencies are marked in *italic*.
 - Book references are marked in `code`, they might be accompanied by page ranges.
 
 
@@ -214,7 +214,7 @@ Whenever it is narratively coherent, you may spend *Experience* equal to $2\time
 | Danger sense      | $+1d$ whenever you use a **Insight/Evasion** *Save*.                                       |
 | Developed         | Gain $1$ in an *Attribute*. The maximum you can have in all *Attributes* together is $10$. |
 | Die Hard          | When you reset your *Grit*, roll $+1d$ and sum all the dice you rolled.                    |
-| Dodger            | Unarmed or primitive weapons cannot hit you.                                               |
+| Dodger            | Human unarmed or primitive weapons cannot hit you.                                         |
 | Eager             | When you reset your *Ego*, roll $+1d$ and keep the highest.                                |
 | Expert            | You have $3$ additional skill points. This is only available during character creation.    |
 | Fast              | When you roll, your *Effect* is always applied first.                                      |
@@ -246,26 +246,21 @@ With the GM you can adapt these or create new ones.
 
 ### Equipment 
 
-With the GM define which tags, ranges and *Effect* are appropriate for your weapons.
-Weapons used outside their expected ranges roll with $-1d$.
+The following list of tags and example weapons may be expanded with the GM.
+For ranges, use what is narratively appropriate.
 
-The following short list of tags may be expanded with the GM.
-
-- **Versatile**: $+1e$ when held two-handed.
-- **Nimble**: *Effect* is applied first.
-- **Clumsy**: *Effect* is applied last.
-- **Slaughter**: *Effect* die explode on $5+$.
-- **Precise**: $+1d$
-- **Improvised**: $-1d$.
-
-| Weapon           | Effect   | Ranges      | Tags      |
-| ---------------- | -------- | ----------- | --------- |
-| Knife            | $-1e$    | Contact     | Nimble    |
-| Staff            | $-1e$    | Contact     | -         |
-| Bow              | $\pm 0e$ | Short       |           |
-| Short sword      | $\pm 0e$ | Contact     | Versatile |
-| Two handed sword | $\pm 0e$ | Contact     | Slaughter |
-| Hunting rifle    | $+1e$    | Short; Long | -         |
+|                        | Tag                                                       | Melee Examples                             | Ranged Examples                                  |
+| :--------------------: | --------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------ |
+|         $-1d$          | **Improvised**                                            | Unarmed                                    | Throwing **Objects**                             |
+|         $-1e$          | **Inefective**<br>Minor *Effect*                          | Small **Primitive**                        |                                                  |
+|     $\textemdash$      | **Base**<br>No modifications                              | Medium **Primitive**<br>Small **Advanced** | **Bow** & arrow<br>(Laser) **Pistol** / Revolver |
+|          $s+$          | **Slaughter**<br>*Effect* die explodes $5+$               | Large **Primitive**<br>Medium **Advanced** | (Semi) Auto Pistol<br>**SMG**                    |
+|         $+1e$          | **Effective**<br>Major *Effect*                           | Large **Primitive**                        | Laser / Hunting **Rifle**                        |
+|     $+1e$<br>$s+$      | **Effective** &<br>**Slaughter**                          |                                            | **Grenade**<br>**Shotgun**<br>**Military** Rifle |
+|         $+1d$          | **Heavy Firepower**<br>Add a *Light Die*                  |                                            | **Sniper** / Plasma Rifle                        |
+|     $+1d$<br>$s+$      | **Heavy Firepower** &<br>**Slaugther**                    |                                            | **HMG**                                          |
+|     $+1d$<br>$+1e$     | **Heavy Firepower** &<br>**Effective**                    |                                            | **Mounted** HMG                                  |
+| $+1d$<br>$+1e$<br>$s+$ | **Heavy Firepower** &<br>**Effective** &<br>**Slaughter** |                                            | **Anti-vehicle** Weapons<br>**Rocket** Laucher   |
 
 Armours act as buffers when you take damage from *Challenges*.
 Subtract the armour modifier from the *Effect* before reducing your *Grit*
@@ -299,6 +294,15 @@ Roll the dice and choose one die to be your *Precision* (generally the highest, 
 
 ### Challenges
 
+Sometimes, multiple actions are required to overcome *Challenges*.
+Examples of *Challenges* are
+
+- fighting an enemy,
+- duelling rhetorically,
+- negotiating an environment,
+- crawling a location,
+- journeying.
+
 #### Effects {-}
 
 *Effects* determines the quantitative result of your *Risky Actions* towards overcoming *Challenges*.
@@ -311,36 +315,25 @@ Examples of *Effects* are:
 
 When you roll your *Risky Actions*, choose one die to be your *Effect* (generally the second highest, if the highest was used as *Precision*).
 The *Effect* die is an exploding die (i.e. if the result is a $6$, keep rolling and accumulating the result).
-The *Effect* is modified by the its Tier.
-Your *Effect* is subtracted from the *Challenge* *Disposition*.
+The *Effect* is modified depending on the approach you take.
+Your *Effect* is subtracted from the *Challenge* **Disposition**.
 
-| Tier                 | Examples                                                               |
+|                      | Approaches                                                             |
 | :------------------- | ---------------------------------------------------------------------- |
 | $-1e$<br>**Minor**   | Primitive tool<br>Weak argument or approach<br>Small weapons           |
 | $\pm 0e$<br>**Base** | Fit for purpose tool;<br>Good argument or approach; <br>Medium weapons |
 | $+1e$<br>**Major**   | Expert grade tool<br>Strong rationale or approach<br>Large weapons     |
+#### Tiers {-}
 
-#### Challenges {-}
-
-Sometimes, multiple actions are required to overcome *Challenges*.
-Examples of *Challenges* are
-
-- fighting an enemy,
-- duelling rhetorically,
-- negotiating an environment,
-- crawling a location,
-- journeying.
-
-*Challenges* have a descriptive **Name**.
 *Challenges* are divided in **Tiers**, which define how much *Effect* they take to be overcame (**Disposition**), and how many *Effect* dice they use (**Severity**).
 
 |                 | Tier           | Examples                                                             |
 | --------------- | :------------- | -------------------------------------------------------------------- |
-| **Trivial**     | $5$<br>$d/2$   | Unskilled adversaries, low height climb, known journey               |
-| **Dangerous**   | $10$<br>$1d$   | Skilled adversaries, small predator, large prey, troublesome journey |
-| **Serious**     | $20$<br>$2d$   | Expert adversaries, large predator, traverse fire or acid            |
-| **Formidable**  | $30$<br>$3d$   | Human prime, apex predator, climbing the Everest                     |
-| **Exceptional** | $40+$<br>$4d+$ | Transhuman, often fatal environments, heroic journeys                |
+| **Trivial**     | $1$<br>$d/2$   | Unskilled adversaries, low height climb, known journey               |
+| **Dangerous**   | $5$<br>$1d$    | Skilled adversaries, small predator, large prey, troublesome journey |
+| **Serious**     | $10$<br>$2d$   | Expert adversaries, large predator, traverse fire or acid            |
+| **Formidable**  | $15$<br>$3d$   | Human prime, apex predator, climbing the Everest                     |
+| **Exceptional** | $20+$<br>$4d+$ | Transhuman, often fatal environments, heroic journeys                |
 
 Some challenges might be multifaceted.
 A bulky rival might be a Dangerous *Challenge* to fight against, but a Trivial *Challenge* to be convinced to ignore you.
@@ -355,6 +348,16 @@ When *Challenge Effects* are applied to you narratively, use the table.
 
 When *Challenge* *Effects* are applied to you as damage your *Grit* might be reduced.
 Subtract the armour rating from the *Effect*, and then reduce the remainder from your *Grit*.
+
+When you reduce a *Challenge*'s **Disposition** to $0$, you have defeated it for now.
+If the *Challenge* is sentient, and has a choice, the GM might roll its **Severity** dice and consult the table below (**Morale)**.
+
+|       | Morale                                                                                   |
+| :---: | ---------------------------------------------------------------------------------------- |
+| $1:3$ | They give up.                                                                            |
+| $4:5$ | They push through, with a lower **Tier**. Reset its **Disposition** to the new **Tier**. |
+|  $6$  | They continue with the original **Tier**. Reset its **Disposition**.                     |
+If a *Challenge* is subdued again, it becomes completely destroyed.
 
 ### Fortune die
 
