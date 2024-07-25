@@ -1,4 +1,4 @@
-# System Reference v0.6.1c {#srd}
+# System Reference v0.6.1d {#srd}
 
 #### Taxonomy {-}
 
@@ -16,6 +16,7 @@
 4. (Optional) Roll for and choose *Skills*.
 5. Roll for *Grit* and *Ego.*
 6. Choose one *Advancement.*
+7. Choose a trinket, choose a patch, make an image.
 
 A text version of the character sheet is available [here](assets/TerranSheet.txt).
 An artistic version is available [here](assets/TerranSheet.pdf).
@@ -64,9 +65,9 @@ On the character sheet, their ratings are read horizontally.
 
 *Saves* are groupings of two *Attributes* each.
 
-- **Insight/Reflexes** *Save* groups **Intuition** and **Reason** *Attributes*
-- **Prowess/Fortitude** *Save* groups **Finesse** and **Exertion** *Attributes*
-- **Resolve/Willpower** *Save* groups **Attunement** and **Influence** *Attributes*
+- **Evasion** groups **Intuition** and **Reason**.
+- **Fortitude** groups **Finesse** and **Exertion**.
+- **Resolve** groups **Attunement** and **Influence**
 
 *Saves* also have ratings (from $0$ to $2$) that determine how many dice to roll in a *Reaction* situation.
 On the character sheet, their ratings are read vertically.
@@ -119,7 +120,7 @@ It takes 2 years and material costs to develop a new *Skill* while you take your
 #### Determine Skills  {-}
 
 Your *Archetype* defines $2$ *Skill* groups.
-Choose $3$ *Skills* from them.
+Choose one *Skill* from each.
 Roll $1d$ and consult the table below to determine how many additional *Skills* you have.
 You can choose them from any group.
 
@@ -136,11 +137,11 @@ While *Grit* represents your disposition, *Ego* represents your resilience to ke
 Roll $1d$ to determine your *Grit* and *Ego.*
 Advancements and conditions may change the number of dice you roll.
 
-#### Wounds {-}
+#### Trauma {-}
 
 You lose *Grit* when you are harmed.
-When your *Grit* reaches $0$ you start marking *Wound* tracks.
-You have $3$ *Wound* tracks: Stressed ($-1d$ **Insight**), Broken ($-1d$ **Prowess**) and Weary ($-1d$ **Resolve**).
+When your *Grit* reaches $0$ you start marking *Trauma* tracks.
+You have $3$ *Trauma* tracks: Stressed ($-1d$ **Insight**), Broken ($-1d$ **Prowess**) and Weary ($-1d$ **Resolve**).
 When all three *Wound* tracks are marked, you become *Mortally Wounded*.
 
 While *Mortally Wounded* you cannot gather *Light Die* for your *Risky Actions*.
@@ -216,7 +217,7 @@ Whenever it is narratively coherent, you may spend *Experience* equal to $2\time
 | Die Hard          | When you reset your *Grit*, roll $+1d$ and sum all the dice you rolled.                    |
 | Dodger            | Human unarmed or primitive weapons cannot hit you.                                         |
 | Eager             | When you reset your *Ego*, roll $+1d$ and keep the highest.                                |
-| Expert            | You have $3$ additional skill points. This is only available during character creation.    |
+| Expert            | You have $2$ additional skill points. This is only available during character creation.    |
 | Fast              | When you roll, your *Effect* is always applied first.                                      |
 | Healer            | You can automatically stabilise a *Mortally Wounded* ally.                                 |
 | Henchkeeper       | You automatically succeed acquiring non-combatant henchmen in a community.                 |
@@ -246,21 +247,32 @@ With the GM you can adapt these or create new ones.
 
 ### Equipment 
 
-The following list of tags and example weapons may be expanded with the GM.
+The following is a list of equipment tags. 
+
+|  Tag  | Description                                       |
+| :---: | ------------------------------------------------- |
+| $-1d$ | **Improvised**                                    |
+| $-1e$ | **Inefective**: Disadvataged *Effect* is applied. |
+|       | **Base**: No modifications.                       |
+| $s+$  | **Slaughter**: *Effect* die explodes $5+$.        |
+| $+1e$ | **Effective**: Advantaged *Effect* is applied.    |
+| $+1d$ | **Heavy Firepower**: Add a *Light Die*.           |
+
+The table below contains example weapons, and may be expanded with the GM.
 For ranges, use what is narratively appropriate.
 
-|                        | Tag                                                       | Melee Examples                             | Ranged Examples                                  |
-| :--------------------: | --------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------ |
-|         $-1d$          | **Improvised**                                            | Unarmed                                    | Throwing **Objects**                             |
-|         $-1e$          | **Inefective**<br>Minor *Effect*                          | Small **Primitive**                        |                                                  |
-|                        | **Base**<br>No modifications                              | Medium **Primitive**<br>Small **Advanced** | **Bow** & arrow<br>(Laser) **Pistol** / Revolver |
-|          $s+$          | **Slaughter**<br>*Effect* die explodes $5+$               | Large **Primitive**<br>Medium **Advanced** | (Semi) Auto Pistol<br>**SMG**                    |
-|         $+1e$          | **Effective**<br>Major *Effect*                           | Large **Primitive**                        | Laser / Hunting **Rifle**                        |
-|     $+1e$<br>$s+$      | **Effective** &<br>**Slaughter**                          |                                            | **Grenade**<br>**Shotgun**<br>**Military** Rifle |
-|         $+1d$          | **Heavy Firepower**<br>Add a *Light Die*                  |                                            | **Sniper** / Plasma Rifle                        |
-|     $+1d$<br>$s+$      | **Heavy Firepower** &<br>**Slaugther**                    |                                            | **HMG**                                          |
-|     $+1d$<br>$+1e$     | **Heavy Firepower** &<br>**Effective**                    |                                            | **Mounted** HMG                                  |
-| $+1d$<br>$+1e$<br>$s+$ | **Heavy Firepower** &<br>**Effective** &<br>**Slaughter** |                                            | **Anti-vehicle** Weapons<br>**Rocket** Laucher   |
+|          Tags          | Melee Examples                             | Ranged Examples                                  |
+| :--------------------: | ------------------------------------------ | ------------------------------------------------ |
+|         $-1d$          | Unarmed                                    | Throwing **Objects**                             |
+|         $-1e$          | Small **Primitive**                        |                                                  |
+|                        | Medium **Primitive**<br>Small **Advanced** | **Bow** & arrow<br>(Laser) **Pistol** / Revolver |
+|          $s+$          | Large **Primitive**<br>Medium **Advanced** | (Semi) Auto Pistol<br>**SMG**                    |
+|         $+1e$          | Large **Primitive**                        | Laser / Hunting **Rifle**                        |
+|     $+1e$<br>$s+$      |                                            | **Grenade**<br>**Shotgun**<br>**Military** Rifle |
+|         $+1d$          |                                            | **Sniper** / Plasma Rifle                        |
+|     $+1d$<br>$s+$      |                                            | **HMG**                                          |
+|     $+1d$<br>$+1e$     |                                            | **Mounted** HMG                                  |
+| $+1d$<br>$+1e$<br>$s+$ |                                            | **Anti-vehicle** Weapons<br>**Rocket** Laucher   |
 
 Armours act as buffers when you take damage from *Challenges*.
 Subtract the armour modifier from the *Effect* before reducing your *Grit*
@@ -279,17 +291,17 @@ When you are trying your chances at a *Risky Action*, say what you intend to do.
 With the GM determine your appropriate *Attribute* or *Save*.
 Then gather 6-sided dice.
 
-|                                | Dice Pool                                                                                                                                                                                                                                                                                                   |
-| :----------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](imgs/dice-light-6-sml.png) | Take a number of **Light Dice** equal to your applicable *Attribute* or *Save*. Add $1d$ if you have an appropriate *Skill*. If you are in an advantageous or precarious position, or if your *Advancements* are relevant, you may have $\pm d$. You must always roll between $0d$ and $4d$ **Light Dice**. |
-| ![](imgs/dice-dark-6-sml.png)  | Take as many **Dark Dice** as you wish to risk *Ego* for pushing yourself for a success. For each **Dark Die** that rolls equal or lower than your current *Ego*, decrease your *Ego* in one.                                                                                                               |
+|                                | Dice Pool                                                                                                                                                                                                                                             |
+| :----------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](imgs/dice-light-6-sml.png) | Take a number of **Light Dice** equal to your applicable *Attribute* or *Save*. Add $1d$ if you have an appropriate *Skill*. Relevant *Advancements* / *Conditions* may give you $\pm 1d$. You must always roll between $0d$ and $4d$ **Light Dice**. |
+| ![](imgs/dice-dark-6-sml.png)  | Take as many **Dark Dice** as you wish to risk *Ego* for pushing yourself for a success. For each **Dark Die** that rolls equal or lower than your current *Ego*, decrease your *Ego* in one.                                                         |
 
 Roll the dice and choose one die to be your *Precision* (generally the highest, but you might choose differently if you wish) and consult the table.
 
 |       | Outcome                                                                                                                                                     |
 | :---: | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $1:3$ | You *Fail*, and things get worse. With the GM describe the consequences. The GM may also allow you to succeed, but things will get worse in some other way. |
-| $4:5$ | You *Succeed*, but there’s some consequences. With the GM describe the complication and how you succeed.                                                    |
+| $4:5$ | You *Succeed*, but there’s some consequences. If applying *Effects*, they are halved. With the GM describe the complication and how you succeed.            |
 |  $6$  | You *Succeed*. With the GM describe what happens.                                                                                                           |
 
 ### Challenges
@@ -318,11 +330,11 @@ The *Effect* die is an exploding die (i.e. if the result is a $6$, keep rolling 
 The *Effect* is modified depending on the approach you take.
 Your *Effect* is subtracted from the *Challenge* **Disposition**.
 
-|                      | Approaches                                                             |
-| :------------------- | ---------------------------------------------------------------------- |
-| $-1e$<br>**Minor**   | Primitive tool<br>Weak argument or approach<br>Small weapons           |
-| $\pm 0e$<br>**Base** | Fit for purpose tool;<br>Good argument or approach; <br>Medium weapons |
-| $+1e$<br>**Major**   | Expert grade tool<br>Strong rationale or approach<br>Large weapons     |
+|                            | Approaches                                                 |
+| :------------------------- | ---------------------------------------------------------- |
+| $-1e$<br>**Disadvantaged** | Primitive tool<br>Weak argument<br>Small weapons           |
+| $\pm 0e$<br>**Baseline**   | Fit for purpose tool;<br>Good argument; <br>Medium weapons |
+| $+1e$<br>**Advantaged**    | Expert grade tool<br>Strong rationale<br>Large weapons     |
 #### Tiers {-}
 
 *Challenges* are divided in **Tiers**, which define how much *Effect* they take to be overcame (**Disposition**), and how many *Effect* dice they use (**Severity**).
@@ -340,24 +352,55 @@ A bulky rival might be a Dangerous *Challenge* to fight against, but a Trivial *
 
 When *Challenge Effects* are applied to you narratively, use the table.
 
-|       | Consequence                    |
-| :---: | ------------------------------ |
-| $1:3$ | Something annoying happens.    |
-| $4:5$ | Something troublesome happens. |
-|  $6$  | Something devastating happens. |
+|       | Consequence                                                   |
+| :---: | ------------------------------------------------------------- |
+| $1:3$ | Something annoying happens. An uncertain encounter.           |
+| $4:5$ | Something troublesome happens. An unfriendly encounter.       |
+| $6+$  | Something devastating happens. A hostile encounter.           |
+| $12+$ | $6+$ and immediately harmful. A hostile and violent encounter |
 
 When *Challenge* *Effects* are applied to you as damage your *Grit* might be reduced.
 Subtract the armour rating from the *Effect*, and then reduce the remainder from your *Grit*.
 
 When you reduce a *Challenge*'s **Disposition** to $0$, you have defeated it for now.
-If the *Challenge* is sentient, and has a choice, the GM might roll its **Severity** dice and consult the table below (**Morale)**.
+If the *Challenge* is sentient, and has a choice, the GM might roll its **Severity** dice and consult the **Morale** table below.
 
 |       | Morale                                                                                   |
 | :---: | ---------------------------------------------------------------------------------------- |
 | $1:3$ | They give up.                                                                            |
 | $4:5$ | They push through, with a lower **Tier**. Reset its **Disposition** to the new **Tier**. |
-|  $6$  | They continue with the original **Tier**. Reset its **Disposition**.                     |
-If a *Challenge* is subdued again, it becomes completely destroyed.
+| $6+$  | They continue with the original **Tier**. Reset its **Disposition**.                     |
+
+#### Consequences {-}
+
+The following is a non-exhaustive list of consequences.
+
+- Advance trouble
+- Reveal an unwelcome truth
+- Ask a provocative question
+- Put someone on a spot, worsen position or stress
+- Use up their resources
+- Remove a safety net, cut supply or connection
+- Remove a sense
+- Hurt someone, directly or collateral
+- Separate them
+- Capture someone
+- Turn their action back on them
+- Demonstrate a downside
+- Expose a secret
+- Offer an opportunity (with a tough choice)
+- Tell them the consequences (e.g. create a witness)
+- Advance a countdown, progress a new challenge
+- Increase risk (roll morale)
+- Exploit someone's flaw
+- Change the environment
+- Provide a choice of paths
+- Bar the way, make them go backward
+- Hint at more than meets the eye
+- Present a discovery
+- Point to a looming danger
+- Introduce person, faction, danger
+- Offer riches at a price
 
 ### Fortune die
 
