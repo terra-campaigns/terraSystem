@@ -161,7 +161,7 @@ With the GM, describe it narratively.
 
 After a well fed and rested night, you roll and reset your *Grit* ($1d$).
 If you did not rest well you have $-1d$ to roll for *Grit*.
-Each *Wound* track recovers through appropriate care and a week of rest.
+Each *Wound* track recovers through appropriate care and a week's rest.
 A *Malaise* never recovers.
 
 #### Pushing yourself {-}
@@ -303,6 +303,9 @@ Roll the dice and choose one die to be your *Precision* (generally the highest, 
 | $1:3$ | You *Fail*, and things get worse. With the GM describe the consequences. The GM may also allow you to succeed, but things will get worse in some other way. |
 | $4:5$ | You *Succeed*, but there’s some consequences. If applying *Effects*, they are halved. With the GM describe the complication and how you succeed.            |
 |  $6$  | You *Succeed*. With the GM describe what happens.                                                                                                           |
+
+*Risky Actions* may be used when you are working on something time consuming.
+This favours pacing of the game.
 
 ### Challenges
 
