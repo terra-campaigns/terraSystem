@@ -1,6 +1,6 @@
 # Changelog
 
-**v0.6.1c**
+**v0.6.1d**
 
 - New:
 	- Implemented list of skills, and skill sub-system
