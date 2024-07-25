@@ -109,3 +109,39 @@ Because terran Engine has push rolls but no devils bargains, E(d) = 1 is good. E
 
 For non-skill games, roll 2d and get highest based on table.
 
+Travel 
+
+Average 1-2 checks per day on an easy trip 1d (5)
+Average 3 checks per day on a 2d trip (10)
+
+6 and challenge is overcome: you arrive and the situation favours you. If not overcome you find a wonderous, friendly waypoint
+4-5 and challenge is over one: you arrive and the situation is peril. If not, you have an encounter.
+3- peril
+
+
+A 40 km (24 miles) hex is a unit for exploration. One check is done per day, rotating between players. Maybe it should be 50?
+
+Each travel has a challenge. Each dungeon site also has a challenge. Size and time travelled is relevant.
+
+Supply is a party tracker. You can choose to sacrifice supply to reduce the effect a challenge rolls. You can also sacrifice your own effect against a challenge disposition to resupply. On a travel, supply is food and survival equipment. On a dungeon it is light and your general silence.
+
+Supply never goes beyond 6. One can re supply during a journey, or before, by rolling. A 6, you resupply to your effect. On a 4-5 you resupply half of your effect or find something perilous. On a 3- there is no supply.
+
+
+Supply eh o Grit do grupo em exploration. Wealth eh o Grit do grupo, em comunidades. Eles podem usar pra absorver Challenge effects que não são de dano.
+
+Recuperar Traumas são challenges. 3 traumas eh um challenge 3d (com morale checks).
+
+Resupply & gain wealth: roll and effect recovers them. Loot?
+
+Heat is another currency.
+
+Party clocks:
+
+- Resources (or supply and wealth separate)
+- Heat
+
+Resources can also be rolled as standalone dice of fate check. If result is eq or higher, reduce resources.
+
+
+Challenge characteristics: resolute, belligerent, savvy
