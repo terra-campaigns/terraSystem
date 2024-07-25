@@ -18,16 +18,17 @@ This work is also inspired in several other games for it's sub-systems. Namely:
 
 # Design Principles
 
-Terran Engine's mechanics were designed as they are with the following set of principles in mind.
+Terra System's mechanics were designed as they are with the following set of principles in mind.
 
-- Collaborative narrative between GM and Players.
+- Collaborative narrative between GM and Players, with story meta currency (*Ego*). The meta currency is generic enough to be adapted for different game themes (e.g. panic, mutation, corruption).
 - Unified mechanics for all kinds of actions: combat, travel or persuasion are executed similarly, for example.
 - Partial successes.
-- Gambling: *Ego* usage, *Ego* recovery, *Grit* avoidance with ailments.
-- Simple statblocks for Challenges: enemies, journeys, etc.
+- Gambling: *Ego* usage and recovery
+- Simple statblocks for *Challenges*: enemies, journeys, etc.
 - Double duty rolls: one single roll defines precision, effect and presence of any consequence of an action.
 - Character development mechanics includes positive and negative aspects.
 - Players can decide how fast they ride their characters, but faster progression comes with a cost.
-- Character survivability includes body and mental resistance.
+- Character survivability includes body and mental aspects.
 - Black swan effects are possible (e.g. a hobbit might just kill a dragon in one single blow).
 - No difficulty class setting, but different levels of consequence of failures - that are explicit.
+- Optional skills, if game of interests would benefit from detailed character's expertises.
