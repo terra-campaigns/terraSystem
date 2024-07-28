@@ -13,10 +13,10 @@
 1. With the other players, define a cohesive group concept.
 2. Always start with a Name and *Archetype*.
 3. Roll for *Attributes* and assign points.
-4. (Optional) Roll for and choose *Skills*.
-5. Roll for *Grit* and *Ego.*
-6. Choose one *Advancement.*
-7. Choose a trinket, choose a patch, make an image.
+3. (Optional) Roll for and choose *Skills*.
+4. Roll for *Grit* and *Ego.*
+5. Choose one *Advancement.*
+6. Choose a trinket, choose a patch, make an image.
 
 A text version of the character sheet is available [here](assets/TerranSheet.txt).
 An artistic version is available [here](assets/TerranSheet.pdf).
@@ -249,25 +249,25 @@ With the GM you can adapt these or create new ones.
 
 The following is a list of equipment tags. 
 
-|  Tag  | Description                                       |
-| :---: | ------------------------------------------------- |
-| $-1d$ | **Improvised**                                    |
-| $-1e$ | **Inefective**: Disadvataged *Effect* is applied. |
-|       | **Base**: No modifications.                       |
-| $s+$  | **Slaughter**: *Effect* die explodes $5+$.        |
-| $+1e$ | **Effective**: Advantaged *Effect* is applied.    |
-| $+1d$ | **Heavy Firepower**: Add a *Light Die*.           |
+|     Tag     | Description                                       |
+| :---------: | ------------------------------------------------- |
+|    $-1d$    | **Improvised**                                    |
+|    $-1e$    | **Inefective**: Disadvataged *Effect* is applied. |
+| $\emptyset$ | **Base**: No modifications.                       |
+|    $s+$     | **Slaughter**: *Effect* die explodes $5+$.        |
+|    $+1e$    | **Effective**: Advantaged *Effect* is applied.    |
+|    $+1d$    | **Heavy Firepower**: Add a *Light Die*.           |
 
 The table below contains example weapons, and may be expanded with the GM.
 For ranges, use what is narratively appropriate.
 
 |          Tags          | Melee Examples                             | Ranged Examples                                  |
 | :--------------------: | ------------------------------------------ | ------------------------------------------------ |
-|         $-1d$          | Unarmed                                    | Throwing **Objects**                             |
+|         $-1d$          | **Unarmed**                                | Throwing **Objects**                             |
 |         $-1e$          | Small **Primitive**                        |                                                  |
-|                        | Medium **Primitive**<br>Small **Advanced** | **Bow** & arrow<br>(Laser) **Pistol** / Revolver |
+|      $\emptyset$       | Medium **Primitive**<br>Small **Advanced** | **Bow** & arrow<br>(Laser) **Pistol** / Revolver |
 |          $s+$          | Large **Primitive**<br>Medium **Advanced** | (Semi) Auto Pistol<br>**SMG**                    |
-|         $+1e$          | Large **Primitive**                        | Laser / Hunting **Rifle**                        |
+|         $+1e$          | Large **Advanced**                         | Laser / Hunting **Rifle**                        |
 |     $+1e$<br>$s+$      |                                            | **Grenade**<br>**Shotgun**<br>**Military** Rifle |
 |         $+1d$          |                                            | **Sniper** / Plasma Rifle                        |
 |     $+1d$<br>$s+$      |                                            | **HMG**                                          |
@@ -340,7 +340,7 @@ Your *Effect* is subtracted from the *Challenge* **Disposition**.
 | $+1e$<br>**Advantaged**    | Expert grade tool<br>Strong rationale<br>Large weapons     |
 #### Tiers {-}
 
-*Challenges* are divided in **Tiers**, which define how much *Effect* they take to be overcame (**Disposition**), and how many *Effect* dice they use (**Severity**).
+*Challenges* are divided in **Tiers**, which define how much *Effect* they take to be overcame (**Disposition**), and how many *Effect* dice they use (**Dice**).
 
 |                 | Tier           | Examples                                                             |
 | --------------- | :------------- | -------------------------------------------------------------------- |
@@ -366,13 +366,13 @@ When *Challenge* *Effects* are applied to you as damage your *Grit* might be red
 Subtract the armour rating from the *Effect*, and then reduce the remainder from your *Grit*.
 
 When you reduce a *Challenge*'s **Disposition** to $0$, you have defeated it for now.
-If the *Challenge* is sentient, and has a choice, the GM might roll its **Severity** dice and consult the **Morale** table below.
+If the *Challenge* is sentient, and has a choice, the GM might roll its **Dice** and consult the **Morale** table below.
 
-|       | Morale                                                                                   |
-| :---: | ---------------------------------------------------------------------------------------- |
-| $1:3$ | They give up.                                                                            |
-| $4:5$ | They push through, with a lower **Tier**. Reset its **Disposition** to the new **Tier**. |
-| $6+$  | They continue with the original **Tier**. Reset its **Disposition**.                     |
+|       | Morale                                                                                                |
+| :---: | ----------------------------------------------------------------------------------------------------- |
+| $1:3$ | They give up.                                                                                         |
+| $4:5$ | They push through, with a lower **Tier**. Reset its **Disposition** and **Dice** to the new **Tier**. |
+| $6+$  | They continue with the original **Tier**. Reset its **Disposition**.                                  |
 
 #### Consequences {-}
 
@@ -412,8 +412,7 @@ When the GM wants to leave some decision to the dice, determine the chances and 
 ### Sayonara
 
 At any moment you can decide it is your last scene.
-When you do that, re-roll your *Ego* and *Grit*, and keep the highest values.
+When you do that, choose a song and then re-roll your *Ego* and *Grit*, keeping the highest values.
 For this scene, you only expend *Ego* if you roll a $1$ on **Dark Dice**.
 By the end of the scene, you have to figure out how you depart (death, madness, mission, etc.).
 You can create a new character with half (rounded up) the number of *Advancements* the previous character had.
-
