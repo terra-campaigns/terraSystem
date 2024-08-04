@@ -21,7 +21,7 @@ The suggested approach is adapted from the [Lazy GM SRD](https://slyflourish.com
 
 |                                                                                                                                                      |                                           |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| **Start** (4l/3)<br>*In Media Res* - roll early on<br>Sets the stage for the session                                                                 | **Pre Game**                              |
+| **Start** (4l/3)<br>*In Media Res* - roll early on<br>Sets the stage for the session                                                                 | **Pre Game**<br>Summary<br>Reminders      |
 | **Scenes** (6l/5)<br>Potential - will likely not happen<br>Outcome of faction turn, world reacting, possible encounters, wonder, bonding and rewards | **Aspects**<br>Sensorial                  |
 | **Locations** (9l/7)<br>Evocative name, background, sensory aspects and theatrical cues                                                              | **Aspects**<br>Sensorial<br>Theatrical    |
 | **People** (9l/7)<br>Memorable name, background, sensory aspects and theatrical cues                                                                 | **Aspects**<br>Sensorial<br>Theatrical    |

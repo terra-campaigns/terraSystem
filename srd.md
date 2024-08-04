@@ -171,7 +171,7 @@ When your *Ego* reaches $0$ you are lost somehow.
 With the GM determine how your last scene goes.
 
 Any time you *Fail* in a *Risky Action* you may choose to suffer a **Panic Event**.
-When you do so, roll your Ego die ($1d$) and consult the table below.
+When you do so, roll your *Ego* die ($1d$) and consult the table below.
 
 |       | Outcome                                                                                  |
 | :---: | ---------------------------------------------------------------------------------------- |
