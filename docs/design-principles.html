@@ -75,7 +75,7 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
-<li class="chapter" data-level="1" data-path="srd.html"><a href="srd.html"><i class="fa fa-check"></i><b>1</b> System Reference v0.6.1c</a>
+<li class="chapter" data-level="1" data-path="srd.html"><a href="srd.html"><i class="fa fa-check"></i><b>1</b> System Reference v0.6.2</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="srd.html"><a href="srd.html#characters"><i class="fa fa-check"></i><b>1.1</b> Characters</a>
 <ul>
@@ -103,7 +103,10 @@
 <li class="appendix"><span><b>Appendix</b></span></li>
 <li class="chapter" data-level="A" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i><b>A</b> Copyright</a>
 <ul>
-<li class="chapter" data-level="A.1" data-path="copyright.html"><a href="copyright.html#credit-due"><i class="fa fa-check"></i><b>A.1</b> Credit Due</a></li>
+<li class="chapter" data-level="A.1" data-path="copyright.html"><a href="copyright.html#forged-in-the-dark"><i class="fa fa-check"></i><b>A.1</b> Forged in the Dark</a></li>
+<li class="chapter" data-level="A.2" data-path="copyright.html"><a href="copyright.html#ironsworn"><i class="fa fa-check"></i><b>A.2</b> Ironsworn</a></li>
+<li class="chapter" data-level="A.3" data-path="copyright.html"><a href="copyright.html#lazy-gm"><i class="fa fa-check"></i><b>A.3</b> Lazy GM</a></li>
+<li class="chapter" data-level="A.4" data-path="copyright.html"><a href="copyright.html#other-credit-due"><i class="fa fa-check"></i><b>A.4</b> Other Credit Due</a></li>
 </ul></li>
 <li class="chapter" data-level="B" data-path="design-principles.html"><a href="design-principles.html"><i class="fa fa-check"></i><b>B</b> Design Principles</a></li>
 <li class="chapter" data-level="C" data-path="changelog.html"><a href="changelog.html"><i class="fa fa-check"></i><b>C</b> Changelog</a></li>
@@ -129,19 +132,26 @@
             <section class="normal" id="section-">
 <div id="design-principles" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">B</span> Design Principles<a href="design-principles.html#design-principles" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Terran Engine’s mechanics were designed as they are with the following set of principles in mind.</p>
+<p>Terra System’s mechanics were designed as they are with the following set of principles in mind.</p>
 <ul>
-<li>Collaborative narrative between GM and Players.</li>
+<li>Collaborative narrative between GM and Players, with story meta currency (<em>Ego</em>). The meta currency is generic enough to be adapted for different game themes (e.g. panic, mutation, corruption).</li>
 <li>Unified mechanics for all kinds of actions: combat, travel or persuasion are executed similarly, for example.</li>
 <li>Partial successes.</li>
-<li>Gambling: <em>Ego</em> usage, <em>Ego</em> recovery, <em>Grit</em> avoidance with ailments.</li>
-<li>Simple statblocks for Challenges: enemies, journeys, etc.</li>
+<li>Gambling: <em>Ego</em> usage and recovery</li>
+<li>Simple statblocks for <em>Challenges</em>: enemies, journeys, etc.</li>
 <li>Double duty rolls: one single roll defines precision, effect and presence of any consequence of an action.</li>
 <li>Character development mechanics includes positive and negative aspects.</li>
 <li>Players can decide how fast they ride their characters, but faster progression comes with a cost.</li>
-<li>Character survivability includes body and mental resistance.</li>
+<li>Character survivability includes body and mental aspects.</li>
 <li>Black swan effects are possible (e.g. a hobbit might just kill a dragon in one single blow).</li>
 <li>No difficulty class setting, but different levels of consequence of failures - that are explicit.</li>
+<li>Optional skills, if game of interests would benefit from detailed character’s expertises.</li>
+</ul>
+<p>Issues that I’ve found with developing the <strong>Terra System</strong>.</p>
+<ul>
+<li>Crawls (hex, point, dungeon) are abstracted and bi-parted, whereas when something nice happens (through a success), the mechanics are different than when something bad happens. This goes against my map-based exploration preference, and fixing it adds abstraction on top of structure - which is not great.</li>
+<li>Spellcasting is still a hassle to design for.</li>
+<li>Vehicle combat (and domain-like play) will require a different subsystem.</li>
 </ul>
 
 </div>
