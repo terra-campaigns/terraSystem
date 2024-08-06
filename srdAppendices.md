@@ -42,3 +42,9 @@ Terra System's mechanics were designed as they are with the following set of pri
 - Black swan effects are possible (e.g. a hobbit might just kill a dragon in one single blow).
 - No difficulty class setting, but different levels of consequence of failures - that are explicit.
 - Optional skills, if game of interests would benefit from detailed character's expertises.
+
+Issues that I've found with developing the **Terra System**.
+
+- Crawls (hex, point, dungeon) are abstracted and bi-parted, whereas when something nice happens (through a success), the mechanics are different than when something bad happens. This goes against my map-based exploration preference, and fixing it adds abstraction on top of structure - which is not great.
+- Spellcasting is still a hassle to design for.
+- Vehicle combat (and domain-like play) will require a different subsystem.
