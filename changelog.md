@@ -2,7 +2,23 @@
 
 **v0.6.2**
 
-
+- New:
+	- Added list of consequences to inspire the GM (PbtA moves)
+	- Started to define a GM section, which reached conclusions: see below
+- Changed:
+	- Reduced in 1 the number of skills (also for expert)
+	- Renamed wounds to Trauma
+	- For weapons, separated tags table from weapons examples
+	- Moved +/- 1d as advantage to Effect
+	- Changed text on consequence to align the execution of pace and * crawl moves
+	- Risky actions are also applied in time consuming actions
+	- Adjusted to all copyrights used
+- Text and aesthetics:
+	- Simplified text around saves
+	- Several text improvements
+- **Conclusions**:
+	- Reached a conclusion that the current framework of Terra is not fit for purpose.
+	- v0.6x will continue to be maintained for the ongoing games, but development will be diverted to [TerraOdd](https://terra-campaigns.github.io/terraOdd/)
 
 **v0.6.1c**
 

@@ -16,6 +16,9 @@ making-a-game
 ego-in-pulp-fantasy
 examples
 copyright
-credit-due
+forged-in-the-dark
+ironsworn
+lazy-gm
+other-credit-due
 design-principles
 changelog
